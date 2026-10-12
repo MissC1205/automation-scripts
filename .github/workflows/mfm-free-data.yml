@@ -31,6 +31,10 @@ jobs:
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: python mfm-data/mfm_api_football.py --out mfm_data --date $(TZ=Asia/Shanghai date +%F)
+      - name: Collect API-Football team form
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python mfm-data/mfm_api_teams.py --dir mfm_data --date $(TZ=Asia/Shanghai date +%F) --max-teams 20
       - name: Upload audit artifacts
         if: always()
         uses: actions/upload-artifact@v4
