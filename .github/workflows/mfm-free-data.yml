@@ -27,6 +27,10 @@ jobs:
       - name: Collect completed historical matches and team form
         if: success()
         run: python mfm-data/mfm_history.py --date $(TZ=Asia/Shanghai date +%F) --dir mfm_data --days 21
+      - name: Probe API-Football with repository secret
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python mfm-data/mfm_api_football.py --out mfm_data --date $(TZ=Asia/Shanghai date +%F)
       - name: Upload audit artifacts
         if: always()
         uses: actions/upload-artifact@v4
