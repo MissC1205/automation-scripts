@@ -36,6 +36,8 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         if: ${{ false }} # Disabled: API-Football Free rejects current-season team history
         run: python mfm-data/mfm_api_teams.py --dir mfm_data --date $(TZ=Asia/Shanghai date +%F) --max-teams 20
+      - name: Collect public-domain OpenFootball history
+        run: python mfm-data/mfm_openfootball.py --dir mfm_data --date $(TZ=Asia/Shanghai date +%F)
       - name: Upload audit artifacts
         if: always()
         uses: actions/upload-artifact@v4
