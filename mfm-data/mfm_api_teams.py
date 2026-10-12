@@ -26,14 +26,14 @@ def main():
  results=[];errors=[]
  for t in selected:
   try:
-   raw=get("/fixtures",{"team":t["id"],"last":10},key)
+   raw=get("/fixtures",{"team":t["id"],"season":t["season"]},key)
    completed=[]
    for ev in raw:
     f=ev.get("fixture",{});teams=ev.get("teams",{});goals=ev.get("goals",{})
     if f.get("status",{}).get("short") not in FINISHED or not f.get("date","")[:10]<a.date:continue
     if goals.get("home") is None or goals.get("away") is None:continue
     completed.append({"id":f.get("id"),"date":f.get("date"),"home":teams.get("home",{}).get("name"),"away":teams.get("away",{}).get("name"),"home_id":teams.get("home",{}).get("id"),"away_id":teams.get("away",{}).get("id"),"home_goals":goals["home"],"away_goals":goals["away"],"competition":ev.get("league",{}).get("name")})
-   completed=completed[:10]
+   completed=sorted(completed,key=lambda m:m["date"],reverse=True)[:10]
    home=[m for m in completed if m["home_id"]==t["id"]];away=[m for m in completed if m["away_id"]==t["id"]]
    def summary(matches):
     return {"games":len(matches),"gf":sum(m["home_goals"] if m["home_id"]==t["id"] else m["away_goals"] for m in matches),"ga":sum(m["away_goals"] if m["home_id"]==t["id"] else m["home_goals"] for m in matches)}
