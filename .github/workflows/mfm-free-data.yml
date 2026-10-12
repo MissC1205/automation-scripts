@@ -34,6 +34,7 @@ jobs:
       - name: Collect API-Football team form
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        if: ${{ false }} # Disabled: API-Football Free rejects current-season team history
         run: python mfm-data/mfm_api_teams.py --dir mfm_data --date $(TZ=Asia/Shanghai date +%F) --max-teams 20
       - name: Upload audit artifacts
         if: always()
