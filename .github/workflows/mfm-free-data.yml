@@ -1,6 +1,11 @@
 name: MFM Free Soccer Data Probe
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'mfm-data/**'
+      - '.github/workflows/mfm-free-data.yml'
   schedule:
     - cron: '17 2,10,18 * * *'
 permissions:
