@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Collect source-stamped ESPN events
-        run: python mfm-data/mfm_espn.py --out mfm_data --leagues eng.1,ita.1,esp.1,ger.1,fra.1,por.1,bra.1,swe.1,nor.1,fin.1,fra.2,afc.champions.league
+        run: python mfm-data/mfm_espn.py --out mfm_data --leagues eng.1,ita.1,esp.1,ger.1,fra.1,por.1,bra.1,swe.1,nor.1,fin.1,fra.2,afc.champions
       - name: Upload audit artifacts
         if: always()
         uses: actions/upload-artifact@v4
