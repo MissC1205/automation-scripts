@@ -95,7 +95,7 @@ def run():
         out["chunk_candidates_total"]=len(selected)
         out["first_candidates"]=[x[0] for x in selected[:90]]
         # Small, bounded public asset inspection; no bulk crawling.
-        for name,hashcode in selected[35:70]:
+        for name,hashcode in selected[70:105]:
             url=ROOT+"/static/js/"+urllib.parse.quote(name,safe="~")+"."+hashcode+".js"
             item={"name":name,"url":url}
             try:
