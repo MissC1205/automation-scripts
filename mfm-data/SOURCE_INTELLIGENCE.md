@@ -66,3 +66,12 @@ This registry documents rules and discoveries. It does not claim the candidate f
 - Look-ahead policy: snapshots retrieved after kickoff for 001–004 cannot be marked as having been collected before kickoff even if rows claim older `updateTime` values. Store both independent retrieval time and source-reported historical event time. These are not immutable pre-match model outputs.
 - 2026-10-14 MFM API-Football quota fix: core workflow push paths narrowed to core collector scripts; Caidao exploratory edits should not retrigger full football API collection.
 - Status: Caidao historical SPF public-read access verified; terms/licensing and field-level accuracy not established; official bookmaker feed remains HTTP 567 in GitHub. No independent calibrated match-probability engine or EV proof.
+
+
+## 2026-10-14 18:23 Beijing — verified metric extraction and market limits
+
+- Updated daily coverage `mfm-data/caidao-coverage/2026-10-14-182334.json` now preserves (for all 14 matches) bounded third-party `matchFeatureStr` raw dictionaries: `last`, `goalAvg`, `lossGoalAvg`, `eachHomeAway`, `sameHomeAway`, `eachSameHomeAway`. Data remains provider-reported and has not been cross-validated or independently calibrated.
+- Source fields for 008: home/away ten-match goals 2.1 / 2.4 and goals conceded 1.0 / 0.9; for 011: 2.6 / 2.0 and 0.9 / 1.2. They match the previously supplied Caidao screenshots.
+- Corrected source-history collection-stage gate: the 18:18 follow-up `mfm-data/caidao-history/2026-10-14/20261014T181844+0800.json` has 14/14 internal fixture matches, 79 well-formed SPF history rows; **only 10 matches had snapshots actually collected before kickoff**. This is not proof of a calibrated forecast.
+- Frontend code for the SP change page (public JavaScript) passes `{matchInfo:matchInfoCode}` to `getJcOddsDetail`. The source handles `wf=spf` and `wf=rqspf` presentation, but a test request for `wf=rqspf` still returns SPF because the extra argument is ignored by this endpoint. No verified match-level integer-handicap odds time series as of this audit. See `mfm-data/source-diagnostics/20261014T182428+0800_caidao_spchange_code.json`.
+- Concurrency fix: Caidao source and daily workflows now rebase unique audit file commits before push; MFM core API-Football workflow no longer triggers on Caidao-only script changes. No recurring Caidao history schedule has been activated.
