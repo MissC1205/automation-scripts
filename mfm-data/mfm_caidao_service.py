@@ -197,6 +197,13 @@ def evaluate_match(row,sale_date,now,transport=fetch):
     result["data_quality"]["history_as_of"]=hist.get("latest_source_updated_at_bj")
     result["data_quality"]["true_prematch_snapshot"]=(
         result["collection_phase"]=="PRE_KICKOFF" and approved)
+    current=result["source_market"]["spf"]
+    latest=hist.get("history",[])[-1] if hist.get("history") else None
+    if current and isinstance(latest,dict):
+        is_same=all(abs(current[k]-latest[k])<=0.011 for k in ("home","draw","away"))
+        result["data_quality"]["current_sp_vs_latest_history"]="MATCH" if is_same else "DIFFERENT_SNAPSHOT_OR_PROVIDER_LAG"
+    else:
+        result["data_quality"]["current_sp_vs_latest_history"]="UNTESTED"
     result["data_quality"]["market_officially_verified"]=False
     result["data_quality"]["probability_model_calibrated"]=False
     # Never allow vendor model probability as evidence for independent output.
@@ -251,6 +258,8 @@ def collect(sale_date,now=None,transport=fetch,pause=time.sleep):
       "detail_objects":sum(m["detail"].get("status")=="SOURCE_DETAIL_AVAILABLE" for m in rows),
       "historical_spf_matches_verified":sum(m["spf_history"].get("verified_for_model_use",False) for m in rows),
       "historical_spf_rows":sum(m["spf_history"].get("history_count",0) for m in rows),
+      "current_spf_matches_latest_history":sum(m["data_quality"].get("current_sp_vs_latest_history")=="MATCH" for m in rows),
+      "current_spf_divergence_or_lag":sum(m["data_quality"].get("current_sp_vs_latest_history")=="DIFFERENT_SNAPSHOT_OR_PROVIDER_LAG" for m in rows),
       "captured_before_kickoff":sum(m["collection_phase"]=="PRE_KICKOFF" for m in rows),
       "captured_after_kickoff":sum(m["collection_phase"]=="POST_KICKOFF" for m in rows),
       "prematch_verified_history_snapshots":sum(m["data_quality"].get("true_prematch_snapshot",False) for m in rows),
@@ -289,6 +298,42 @@ def persist(report,out_root):
     archive.write_text(raw,encoding="utf-8")
     (target/"latest.json").write_text(raw,encoding="utf-8")
     (root/"latest.json").write_text(raw,encoding="utf-8")
+    # Hard separation: evidence-only football features are exported without odds.
+    # The independent prediction stage must freeze its result before reading
+    # the market-only view. This collector itself never produces a forecast.
+    football_only={
+        "sale_date_bj":sale,
+        "source":"Caidao third-party reported football form; independent validation incomplete",
+        "created_at_bj":report["collection_finished_at_bj"],
+        "contains_odds_or_vendor_probabilities":False,
+        "calibrated_prediction_generated":False,
+        "matches":[{
+            "match_id":m["match_id"],"jc_number":m["jc_number"],
+            "home":m["home"],"away":m["away"],
+            "kickoff_bj":m["kickoff_bj"],
+            "collection_phase":m["collection_phase"],
+            "form_data":m["model_features"].get("usable_as_third_party_research_inputs",{}),
+            "historical_head_to_head_count":m["detail"].get("h2h_record_count"),
+            "injury_information_present_unverified":m["detail"].get("injury_data_presence_only_not_absence_verification",False),
+            "missing_primary_source_verification":True
+        } for m in report["matches"]]
+    }
+    market_only={
+        "sale_date_bj":sale,"collected_at_bj":report["collection_finished_at_bj"],
+        "source":"Caidao THIRD_PARTY_NOT_OFFICIAL",
+        "to_be_read_after_freezing_independent_forecast":True,
+        "matches":[{
+            "match_id":m["match_id"],"jc_number":m["jc_number"],
+            "collection_phase":m["collection_phase"],
+            "market":m["source_market"],
+            "spf_history":m["spf_history"],
+            "sp_current_vs_history":m["data_quality"].get("current_sp_vs_latest_history")
+        } for m in report["matches"]]
+    }
+    (target/"football-only.json").write_text(json.dumps(football_only,ensure_ascii=False,indent=2),encoding="utf-8")
+    (root/"latest-football-only.json").write_text(json.dumps(football_only,ensure_ascii=False,indent=2),encoding="utf-8")
+    (target/"market-only.json").write_text(json.dumps(market_only,ensure_ascii=False,indent=2),encoding="utf-8")
+    (root/"latest-market-only.json").write_text(json.dumps(market_only,ensure_ascii=False,indent=2),encoding="utf-8")
     digest={
         "date":sale,"collected_at_bj":report["collection_finished_at_bj"],
         "last_snapshot_path":str(archive),
