@@ -87,7 +87,7 @@ jobs:
         run: |
           python - <<'PY'
           import json, pathlib, sys
-          f = pathlib.Path('mfm-data/caidao-live/latest-summary.json')
+          f = pathlib.Path('mfm-data/caidao-live/last-run.json')
           if not f.exists():
               print('COLLECTION_FAILED: no summary generated')
               sys.exit(2)
