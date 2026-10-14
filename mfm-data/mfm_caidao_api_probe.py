@@ -20,6 +20,8 @@ PATHS = [
     "/api/web/game/getSpfzstdetail",
     "/api/web/game/getRqSpfzstdetail",
     "/api/web/game/getJcZstDetail",
+    "/api/web/game/footballQuery",
+    "/api/web/game/footballLiveQuery",
 ]
 def probe():
     out = {"retrieved_at_bj": dt.datetime.now(TZ).isoformat(),
@@ -55,6 +57,17 @@ def probe():
                         info["public_error_message"] = message[:110]
                     data = payload.get("data")
                     info["data_kind"] = type(data).__name__
+                    if isinstance(data, str):
+                        info["data_string_length"] = len(data)
+                        try:
+                            inner = json.loads(data)
+                            info["data_string_json_kind"] = type(inner).__name__
+                            if isinstance(inner, list):
+                                info["data_string_json_row_count"] = len(inner)
+                            elif isinstance(inner, dict):
+                                info["data_string_json_keys_only"] = sorted(inner)[:30]
+                        except (ValueError, TypeError):
+                            pass
                     if isinstance(data, list):
                         info["data_row_count"] = len(data)
                         if data and isinstance(data[0], dict):
