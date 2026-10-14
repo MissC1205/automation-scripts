@@ -41,22 +41,39 @@ jobs:
           python -m unittest discover -s mfm-data -p 'test_mfm_caidao_service.py' -v
       - name: Fetch today or requested sale-day public datasets
         run: python mfm-data/mfm_caidao_service.py
-      - name: Commit archival snapshots with conflict handling
+      - name: Archive snapshots safely despite other repository writers
         if: always()
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add mfm-data/caidao-live/ || true
-          if ! git diff --cached --quiet; then
-            git commit -m "data(mfm): audited Caidao daily snapshot"
-            for attempt in 1 2 3 4; do
-              git fetch origin main
-              git rebase origin/main || exit 1
-              if git push origin HEAD:main; then exit 0; fi
-              sleep 3
-            done
-            exit 1
+          if [ ! -d mfm-data/caidao-live ]; then
+            echo "No freshly generated data to archive"
+            exit 0
           fi
+          fresh_dir="$(mktemp -d)"
+          mkdir -p "$fresh_dir/data"
+          cp -a mfm-data/caidao-live/. "$fresh_dir/data/"
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            # Safe: this is an ephemeral GitHub Actions checkout.
+            git reset --hard origin/main
+            mkdir -p mfm-data/caidao-live
+            cp -a "$fresh_dir/data/." mfm-data/caidao-live/
+            git add mfm-data/caidao-live/
+            if git diff --cached --quiet; then
+              echo "No new data to save"
+              exit 0
+            fi
+            git commit -m "data(mfm): audited Caidao daily snapshot"
+            if git push origin HEAD:main; then
+              echo "Source-stamped snapshot committed"
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "Source fetched but branch update blocked. Use backup artifact."
+          exit 1
       - name: Upload independent artifact backup
         if: always()
         uses: actions/upload-artifact@v4
