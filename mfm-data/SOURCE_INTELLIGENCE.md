@@ -37,3 +37,10 @@
 For every match: identity check, data coverage by field, source timestamps, last 5/10 completed games, home/away splits, xG if validated, injuries/lineups if verified, official SP/handicap if available, odds movement if sourced, market-specific probabilities and confidence, reasons and counterevidence, PASS if insufficient, and next-day outcome/CLV/calibration review.
 
 This registry documents rules and discoveries. It does not claim the candidate feeds are connected or the probability models implemented.
+
+## 2026-10-14 live probes (verified by GitHub Actions)
+
+- Official fixed-odds calculator: the prior MFM probe omitted required `channel=c` and `poolCode=had,hhad,crs,ttg,hafu`. Request and market-row validation were corrected and four offline tests passed. GitHub run https://github.com/MissC1205/automation-scripts/actions/runs/38540103655 succeeded as a workflow, but its persisted real HTTP response was **567**, and **zero verified official SP rows** were collected. Do NOT describe this as official odds coverage.
+- Caidao (采道) public H5, `http://zk.bjjckx.com/`: GitHub runner DNS resolves to 121.89.172.252, HTTP landing and two JavaScript bundles returned 200; HTTPS connection was refused. Evidence: `mfm-data/source-diagnostics/20261014T171120+0800_caidao.json`.
+- Read-only API methods extracted directly from the served public H5 JS: `POST /api/web/game/getLeagueMatchList`, `getWorldCupOddsList`, `getSpfzstdetail`, `getRqSpfzstdetail`, and `getJcZstDetail`. The first two returned HTTP 200/business status 200 to empty-parameter probes; the remaining three returned HTTP 200/business status 400. Evidence: `mfm-data/source-diagnostics/20261014T171808+0800_caidao_api.json`. **No match-level data, SP history, or odds rows have yet been proven accessible.** No login, CAPTCHA, token, or access control was bypassed.
+- Source decision: Caidao is a verified **public H5/API reachability candidate**, not a validated odds provider or licensed data feed. Next validation requires an authorized, read-only match-ID parameter contract, rows for 008/011 cross-checked against time-stamped screenshots, and usage-rights review.
