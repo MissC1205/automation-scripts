@@ -1,0 +1,607 @@
+{
+  "captured_at_bj": "2026-10-14T17:24:34.404235+08:00",
+  "source": "http://zk.bjjckx.com/",
+  "read_only_public_assets": true,
+  "no_unverified_endpoint_calls": true,
+  "bundle_results": [
+    {
+      "url": "http://zk.bjjckx.com/static/js/chunk-vendors.233196f7.js",
+      "bytes": 1324850,
+      "truncated": false,
+      "api_path_literals": [
+        "/api/js?",
+        "/api/js?v=2.exp&",
+        "/api/system/theme."
+      ],
+      "http_hosts": [
+        "a",
+        "api.bspapp.com",
+        "api.next.bspapp.com",
+        "apis.map.qq.com",
+        "doc.dcloud.net.cn",
+        "feross.org",
+        "github.com",
+        "hac1.dcloud.net.cn",
+        "has1.dcloud.net.cn",
+        "map.qq.com",
+        "maps.googleapis.com",
+        "npms.io",
+        "uniapp.dcloud.net.cn",
+        "unpkg.com",
+        "uri.amap.com",
+        "webapi.amap.com",
+        "www.apache.org",
+        "www.google.com",
+        "www.googleapis.com",
+        "www.w3.org",
+        "x"
+      ],
+      "selected_js_contexts": [
+        {
+          "marker": "baseURL",
+          "offset": 166358,
+          "fragment": "[e]=t[e])})),n};t.default=function(e){return new Promise((function(t,n){var r,s=(0,o.default)((0,u.default)(e.baseURL,e.url),e.params,e.paramsSerializer),l={url:s,header:e.header,complete:function(r){e.fullPath=s,r.config=e,r.rawData=r.data;try{var i=!1,o=(0,a.default)(e.force"
+        },
+        {
+          "marker": "baseURL",
+          "offset": 238475,
+          "fragment": "heme=\"\",c.username=\"\",c.[REDACTED_SENSITIVE_KEY_CONTEXT],c.host=null,c.port=null,c.path=[],c.query=null,c.fragment=null,c.cannotBeABaseURL=!1,e=B(e,ee,\"\"),e=B(e,te,\"$1\")),e=B(e,ne,\"\"),i=v(e);while(f<=i.length){switch(a=i[f],s){case pe:if(!a||!L(V,a)){if(t)return\"Invalid scheme\";s=be;continue}l+=z("
+        },
+        {
+          "marker": "baseURL",
+          "offset": 239110,
+          "fragment": "scheme?s=Pe:c.isSpecial()&&n&&n.scheme===c.scheme?s=ge:c.isSpecial()?s=we:\"/\"===i[f+1]?(s=ye,f++):(c.cannotBeABaseURL=!0,D(c.path,\"\"),s=Ee)}break;case be:if(!n||n.cannotBeABaseURL&&\"#\"!==a)return\"Invalid scheme\";if(n.cannotBeABaseURL&&\"#\"===a){c.scheme=n.scheme,c.path=b(n.path"
+        },
+        {
+          "marker": "baseURL",
+          "offset": 239172,
+          "fragment": "cial()?s=we:\"/\"===i[f+1]?(s=ye,f++):(c.cannotBeABaseURL=!0,D(c.path,\"\"),s=Ee)}break;case be:if(!n||n.cannotBeABaseURL&&\"#\"!==a)return\"Invalid scheme\";if(n.cannotBeABaseURL&&\"#\"===a){c.scheme=n.scheme,c.path=b(n.path),c.query=n.query,c.fragment=\"\",c.cannotBeABaseURL=!0,s=Le;bre"
+        },
+        {
+          "marker": "request.get",
+          "offset": 368393,
+          "fragment": "nction e(){return(0,s.default)().wrap((function(e){while(1)switch(e.prev=e.next){case 0:return e.next=2,this._request.getAccess[REDACTED_SENSITIVE_KEY_CONTEXT];case 2:return e.t0=e.sent.access[REDACTED_SENSITIVE_KEY_CONTEXT],e.t1=this.config.env,e.abrupt(\"return\",{access[REDACTED_SENSITIVE_KEY_CONTE"
+        }
+      ],
+      "base_url_literals_unverified": [],
+      "read_endpoint_callsite_contexts": []
+    },
+    {
+      "url": "http://zk.bjjckx.com/static/js/index.e98df7de.js",
+      "bytes": 669863,
+      "truncated": false,
+      "api_path_literals": [
+        "/api/activity",
+        "/api/activity/activity/getActivityDetails",
+        "/api/activity/activity/getActivityList",
+        "/api/analystuser",
+        "/api/analystuser/analysisGrade/getUseUpRemindFlag",
+        "/api/analystuser/analyst/getAnalystCount",
+        "/api/analystuser/analyst/getAnalystList",
+        "/api/analystuser/userLevel/getAllLevelSet",
+        "/api/analystuser/userLevel/getRecordDetail",
+        "/api/analystuser/userLevel/getUserLevelInfo",
+        "/api/analystuser/userLevel/getUserLevelInfoNew",
+        "/api/insight",
+        "/api/insight/review/getReviewList",
+        "/api/insight/review/reviewRecords",
+        "/api/insight/template/randomTemplate",
+        "/api/internal/analysis-publish-mail/config",
+        "/api/shopUser",
+        "/api/shopUser/index/selectShopGoods",
+        "/api/shopUser/index/selectShopGoodsDetail",
+        "/api/shopUser/order/getUserAddress",
+        "/api/shopUser/order/getpayMoneyRet",
+        "/api/shopUser/order/queryOrderReturnlist",
+        "/api/shopUser/order/queryShopOrderItem",
+        "/api/shopUser/order/queryWaitReceiveOrderDetail",
+        "/api/storeuser",
+        "/api/storeuser/moment/uploadImage",
+        "/api/storeuser/store/getCurrentPower",
+        "/api/storeuser/store/getStoreHome",
+        "/api/storeuser/store/getStoreList",
+        "/api/storeuser/storeBill/selectDayStoreBill",
+        "/api/storeuser/storeBill/selectMonthStoreBill",
+        "/api/storeuser/storeCustomer/getStoreCustomer",
+        "/api/system",
+        "/api/system/selfMedia/getDigitalWorkList",
+        "/api/system/selfMedia/getMediaDetail",
+        "/api/system/selfMedia/getMediaList",
+        "/api/system/selfMedia/getPurchasedMediaList",
+        "/api/system/selfMediaDigitalHuman/getDigitalHumanList",
+        "/api/system/selfMediaDigitalHuman/getUploadProgress",
+        "/api/system/selfMediaProduct/getComputingPowerDetail",
+        "/api/system/selfMediaProduct/getMediaOrderStatus",
+        "/api/system/selfMediaProduct/getMediaProductList",
+        "/api/system/selfMediaProduct/getMediaProductStatusList",
+        "/api/system/selfMediaProduct/getPurchasedProduct",
+        "/api/web/conversation",
+        "/api/web/conversation/queryNotice",
+        "/api/web/conversation/selectForumList",
+        "/api/web/course",
+        "/api/web/course/selectMarketingVideoList",
+        "/api/web/game",
+        "/api/web/game/footballLiveQuery",
+        "/api/web/game/footballQuery",
+        "/api/web/game/getDigitalTargetbang",
+        "/api/web/game/getInsightTargetbangfirst",
+        "/api/web/game/getTargetbangfirst",
+        "/api/web/game/getUserTargetbang",
+        "/api/web/game/matchDecipher/dateDetail",
+        "/api/web/game/matchDecipher/dateList",
+        "/api/web/game/matchDecipher/list",
+        "/api/web/index",
+        "/api/web/index/getActivityInviteDetail",
+        "/api/web/index/getBanner",
+        "/api/web/index/getPosterDetail",
+        "/api/web/index/getRealPosterDetail",
+        "/api/web/index/queryInfo",
+        "/api/web/index/queryPaperwork",
+        "/api/web/index/queryShortVideoListByType",
+        "/api/web/index/queryUserflag",
+        "/api/web/notice",
+        "/api/web/pay",
+        "/api/web/pay/getTipsList",
+        "/api/web/pay/queryAIMatchAssistantProduct",
+        "/api/web/pay/userOrderMedia",
+        "/api/web/traincamp",
+        "/api/web/traincamp/queryTraincampOrder",
+        "/api/web/user",
+        "/api/web/user/QueryAnalystInsightBase",
+        "/api/web/user/QueryAnalystInsightOnSale",
+        "/api/web/user/QueryUserAnalysis",
+        "/api/web/user/checkShareWhite",
+        "/api/web/user/getAttentionList",
+        "/api/web/user/getFansList",
+        "/api/web/user/getUserAnalysisRemind",
+        "/api/web/user/getVisitorsList",
+        "/api/web/user/queryUserDigital",
+        "/api/web/user/updateAnalysisRemind",
+        "/api/web/userActionRecord/add"
+      ],
+      "http_hosts": [
+        "animate.style",
+        "apps.apple.com",
+        "ext.dcloud.net.cn",
+        "github.com",
+        "kylebing.blog.csdn.net",
+        "opensource.org",
+        "video.bjjckx.com",
+        "www.bjjckx.com",
+        "zk.bjjckx.com"
+      ],
+      "selected_js_contexts": [
+        {
+          "marker": "/api/web/game",
+          "offset": 55607,
+          "fragment": "ject.defineProperty(a,\"__esModule\",{value:!0}),a.default=void 0,t(\"c223\");var n=i(t(\"f7a8\")),o=(i(t(\"f1d5\")),\"/api/web/game\"),r={getWorldCupSchedule:function(e,a){return n.default.post(o+\"/getLeagueMatchList\",e,a)},getWorldCupOddsList:function(e,a){return n.default.post(o+\"/getWorld"
+        },
+        {
+          "marker": "/api/web/game",
+          "offset": 529783,
+          "fragment": "er/index/selectShopGoodsDetail\",\"/api/storeuser/storeBill/selectDayStoreBill\",\"/api/web/index/queryUserflag\",\"/api/web/game/footballLiveQuery\",\"/api/shopUser/order/getUserAddress\",\"/api/shopUser/order/queryShopOrderItem\",\"/api/shopUser/order/queryOrderReturnlist\",\"/api/shopUser/inde"
+        },
+        {
+          "marker": "/api/web/game",
+          "offset": 531881,
+          "fragment": "evel/getAllLevelSet\",\"/api/analystuser/analysisGrade/getUseUpRemindFlag\",\"/api/storeuser/store/getStoreHome\",\"/api/web/game/getUserTargetbang\",\"/api/web/game/getInsightTargetbangfirst\",\"/api/web/game/getTargetbangfirst\",\"/api/web/game/getDigitalTargetbang\",\"/api/web/user/QueryAnalys"
+        },
+        {
+          "marker": "/api/web/game",
+          "offset": 531915,
+          "fragment": "user/analysisGrade/getUseUpRemindFlag\",\"/api/storeuser/store/getStoreHome\",\"/api/web/game/getUserTargetbang\",\"/api/web/game/getInsightTargetbangfirst\",\"/api/web/game/getTargetbangfirst\",\"/api/web/game/getDigitalTargetbang\",\"/api/web/user/QueryAnalystInsightOnSale\",\"/api/web/index/ge"
+        },
+        {
+          "marker": "baseURL",
+          "offset": 62271,
+          "fragment": "d 0===s?\"0\":s,l=e.conversationId,p=void 0===l?\"\":l,g=e.payType,u=void 0===g?\"\":g,d=\"\".concat(n.default.config.baseURL).concat(o,\"/aiMatchAnalysis\")+\"?matchInfo=\".concat(a)+\"&question=\".concat(encodeURIComponent(t))+\"&deep=\".concat(r)+\"&type=\".concat(c);return p&&(d+=\"&conversa"
+        },
+        {
+          "marker": "baseURL",
+          "offset": 66109,
+          "fragment": "e.mode,i=e.id,n=e.showToast,o=void 0===n||n;this.shareLink=\"长按复制，打开采道 APP，查看我分享的短视频 \".concat(this.$globalData.baseUrl,\"/#/pages/share-video/share-video?mode=\").concat(t,\"&id=\").concat(i,\" 或点击链接直接查看哦~\"),this.s_setSelfLink(this.shareLink),uni.setClipboardData({data:this.shareLin"
+        },
+        {
+          "marker": "baseURL",
+          "offset": 480682,
+          "fragment": "r.default.prototype.$tools=m.default,r.default.prototype.$download=l.default,r.default.prototype.$globalData={baseUrl:f.BASE_URL,tarbarPathMap:f.TARBAR_PATH_MAP},r.default.prototype.$list=c.default,r.default.filter(\"like\",y.default.like),r.default.filter(\"fixTime\",y.default.fi"
+        },
+        {
+          "marker": "baseURL",
+          "offset": 634526,
+          "fragment": "){\"use strict\";t(\"6a54\"),Object.defineProperty(a,\"__esModule\",{value:!0}),a.default=void 0;var i=t(\"cb9c\"),n={baseURL:i.BASE_URL,header:{\"Content-Type\":\"application/x-www-form-urlencoded; charset=UTF-8\"},method:\"GET\",dataType:\"json\",paramsSerializer:null,responseType:\"text\",cu"
+        },
+        {
+          "marker": "football-detail",
+          "offset": 15858,
+          "fragment": "age-read-open-award-info-open-award-detail-basketball-detail\",\"package-read-open-award-info-open-award-detail-football-detail\":\"package-read-open-award-info-open-award-detail-football-detail\",\"package-shopkeeper-customer-manage-customer-info-customer-info\":\"package-shopkeeper-customer"
+        },
+        {
+          "marker": "football-detail",
+          "offset": 15923,
+          "fragment": "ckage-read-open-award-info-open-award-detail-football-detail\":\"package-read-open-award-info-open-award-detail-football-detail\",\"package-shopkeeper-customer-manage-customer-info-customer-info\":\"package-shopkeeper-customer-manage-customer-info-customer-info\",\"package-shopkeeper-order-re"
+        },
+        {
+          "marker": "football-detail",
+          "offset": 32116,
+          "fragment": "ork-player\":\"package-selfMedia-digital-work-player-digital-work-player\",\"package-analysis-match-live-football-football-detail-football-detail\":\"package-analysis-match-live-football-football-detail-football-detail\",\"package-mall-search-goods-search-goods\":\"package-mall-search-goods-sea"
+        },
+        {
+          "marker": "football-detail",
+          "offset": 32132,
+          "fragment": "kage-selfMedia-digital-work-player-digital-work-player\",\"package-analysis-match-live-football-football-detail-football-detail\":\"package-analysis-match-live-football-football-detail-football-detail\",\"package-mall-search-goods-search-goods\":\"package-mall-search-goods-search-goods\",\"page"
+        }
+      ],
+      "game_service_methods_unverified": [
+        {
+          "method_name": "getWorldCupSchedule",
+          "http_path": "/api/web/game/getLeagueMatchList"
+        },
+        {
+          "method_name": "getWorldCupOddsList",
+          "http_path": "/api/web/game/getWorldCupOddsList"
+        },
+        {
+          "method_name": "pizeOptimizationChampion",
+          "http_path": "/api/web/game/pizeOptimizationChampion"
+        },
+        {
+          "method_name": "deleteInsight",
+          "http_path": "/api/web/game/deleteInsight"
+        },
+        {
+          "method_name": "updateInsightContent",
+          "http_path": "/api/web/game/updateInsightContent"
+        },
+        {
+          "method_name": "getInsightMatchInfos",
+          "http_path": "/api/web/game/queryTodayInsightMatches"
+        },
+        {
+          "method_name": "getInsightTargetbangfirst",
+          "http_path": "/api/web/game/getInsightTargetbangfirst"
+        },
+        {
+          "method_name": "getTargetbangfirst",
+          "http_path": "/api/web/game/getTargetbangfirst"
+        },
+        {
+          "method_name": "getDigitalTargetbang2",
+          "http_path": "/api/web/game/getDigitalTargetbang"
+        },
+        {
+          "method_name": "getUserTargetbang2",
+          "http_path": "/api/web/game/getUserTargetbang"
+        },
+        {
+          "method_name": "getUserDigitalTargetbang2",
+          "http_path": "/api/web/game/getUserDigitalTargetbang"
+        },
+        {
+          "method_name": "precheckInsightPublish",
+          "http_path": "/api/web/game/precheckInsightPublish"
+        },
+        {
+          "method_name": "getTargetbang",
+          "http_path": "/api/web/game/getTargetbang"
+        },
+        {
+          "method_name": "getTodayAnaArr",
+          "http_path": "/api/web/game/getTargetbangfirst"
+        },
+        {
+          "method_name": "getDigitalTargetbang",
+          "http_path": "/api/web/game/getDigitalTargetbang"
+        },
+        {
+          "method_name": "getUserTargetbang",
+          "http_path": "/api/web/game/getUserTargetbang"
+        },
+        {
+          "method_name": "getUserDigitalTargetbang",
+          "http_path": "/api/web/game/getUserDigitalTargetbang"
+        },
+        {
+          "method_name": "getAnalysisById",
+          "http_path": "/api/web/game/getAnalysisById"
+        },
+        {
+          "method_name": "getDigitalAnalysisById",
+          "http_path": "/api/web/game/getDigitalAnalysisById"
+        },
+        {
+          "method_name": "removeAnalysisDigital",
+          "http_path": "/api/web/game/removeAnalysisDigital"
+        },
+        {
+          "method_name": "removeAnalysis",
+          "http_path": "/api/web/game/removeAnalysis"
+        },
+        {
+          "method_name": "issueAnalysis",
+          "http_path": "/api/web/game/issueAnalysis"
+        },
+        {
+          "method_name": "QueryTemplates",
+          "http_path": "/api/web/game/QueryTemplates"
+        },
+        {
+          "method_name": "QueryTemplateById",
+          "http_path": "/api/web/game/QueryTemplateById"
+        },
+        {
+          "method_name": "issueAnalysiszq",
+          "http_path": "/api/web/game/issueAnalysiszq"
+        },
+        {
+          "method_name": "issueAnalysisDigital",
+          "http_path": "/api/web/game/issueAnalysisDigital"
+        },
+        {
+          "method_name": "addAnalysis",
+          "http_path": "/api/web/game/addAnalysis"
+        },
+        {
+          "method_name": "addAnalysisDigital",
+          "http_path": "/api/web/game/addAnalysisDigital"
+        },
+        {
+          "method_name": "addAnalysisContents",
+          "http_path": "/api/web/game/addAnalysisContents"
+        },
+        {
+          "method_name": "getFxSummaryHb",
+          "http_path": "/api/web/game/getFxSummaryHb"
+        },
+        {
+          "method_name": "updateAnalysisRecord",
+          "http_path": "/api/web/game/updateAnalysisRecord"
+        },
+        {
+          "method_name": "updateAnalysiszq",
+          "http_path": "/api/web/game/updateAnalysiszq"
+        },
+        {
+          "method_name": "updateDigitalAnalysisRecord",
+          "http_path": "/api/web/game/updateDigitalAnalysisRecord"
+        },
+        {
+          "method_name": "getJcZstDetail",
+          "http_path": "/api/web/game/getJcZstDetail"
+        },
+        {
+          "method_name": "getdgzst",
+          "http_path": "/api/web/game/getdgzst"
+        },
+        {
+          "method_name": "getzjqzstlist",
+          "http_path": "/api/web/game/getzjqzstlist"
+        },
+        {
+          "method_name": "getlqzstlist",
+          "http_path": "/api/web/game/getlqzstlist"
+        },
+        {
+          "method_name": "getzjqzstdetail",
+          "http_path": "/api/web/game/getzjqzstdetail"
+        },
+        {
+          "method_name": "getDigitalAwardList",
+          "http_path": "/api/web/game/getDigitalAwardList"
+        },
+        {
+          "method_name": "getBqczstdetail",
+          "http_path": "/api/web/game/getBqczstdetail"
+        },
+        {
+          "method_name": "getLqDgzstdetail",
+          "http_path": "/api/web/game/getLqDgzstdetail"
+        },
+        {
+          "method_name": "getLqSgzstdetail",
+          "http_path": "/api/web/game/getLqSgzstdetail"
+        },
+        {
+          "method_name": "getLqSfzstdetail",
+          "http_path": "/api/web/game/getLqSfzstdetail"
+        },
+        {
+          "method_name": "getRqSpfzstdetail",
+          "http_path": "/api/web/game/getRqSpfzstdetail"
+        },
+        {
+          "method_name": "getSpfzstdetail",
+          "http_path": "/api/web/game/getSpfzstdetail"
+        },
+        {
+          "method_name": "getSgzstdetail",
+          "http_path": "/api/web/game/getSgzstdetail"
+        },
+        {
+          "method_name": "getTraditionSellIssue",
+          "http_path": "/api/web/game/getTraditionSellIssue"
+        },
+        {
+          "method_name": "getTraditionSellDetail",
+          "http_path": "/api/web/game/getTraditionSellDetail"
+        },
+        {
+          "method_name": "CalcTraditionMoney",
+          "http_path": "/api/web/game/CalcTraditionMoney"
+        },
+        {
+          "method_name": "getbigycStatistics",
+          "http_path": "/api/web/game/getbigycStatistics"
+        },
+        {
+          "method_name": "getbigycdata",
+          "http_path": "/api/web/game/getbigycdata"
+        },
+        {
+          "method_name": "gettjdetail",
+          "http_path": "/api/web/game/gettjdetail"
+        },
+        {
+          "method_name": "gettjlist",
+          "http_path": "/api/web/game/gettjlist"
+        },
+        {
+          "method_name": "getDigitalForcast",
+          "http_path": "/api/web/game/getDigitalForcast"
+        },
+        {
+          "method_name": "getAppVersion",
+          "http_path": "/api/web/game/getAppVersion"
+        },
+        {
+          "method_name": "getDigitalForcastHistory",
+          "http_path": "/api/web/game/getDigitalForcastHistory"
+        },
+        {
+          "method_name": "winningAnnouncement",
+          "http_path": "/api/web/game/winningAnnouncement"
+        },
+        {
+          "method_name": "winningAnnouncementList",
+          "http_path": "/api/web/game/winningAnnouncementList"
+        },
+        {
+          "method_name": "getzqsgdata",
+          "http_path": "/api/web/game/getzqsgdata"
+        },
+        {
+          "method_name": "getlqsgdata",
+          "http_path": "/api/web/game/getlqsgdata"
+        },
+        {
+          "method_name": "getDigitalDrawDetail",
+          "http_path": "/api/web/game/getDigitalDrawDetail"
+        },
+        {
+          "method_name": "getTraditionDrawDetail",
+          "http_path": "/api/web/game/getTraditionDrawDetail"
+        },
+        {
+          "method_name": "getScoresLive",
+          "http_path": "/api/web/game/footballQuery"
+        },
+        {
+          "method_name": "searchAttentionMatch",
+          "http_path": "/api/web/game/searchAttentionMatch"
+        },
+        {
+          "method_name": "setAttentionMatch",
+          "http_path": "/api/web/game/setAttentionMatch"
+        },
+        {
+          "method_name": "footballLiveQuery",
+          "http_path": "/api/web/game/footballLiveQuery"
+        },
+        {
+          "method_name": "getMatchInfoanalysis",
+          "http_path": "/api/web/game/getMatchInfoanalysis"
+        },
+        {
+          "method_name": "getMatchAllData",
+          "http_path": "/api/web/game/getMatchAllData"
+        },
+        {
+          "method_name": "QueryJczqMatch",
+          "http_path": "/api/web/game/QueryJczqMatch"
+        },
+        {
+          "method_name": "getJcDetail",
+          "http_path": "/api/web/game/getJcDetail"
+        },
+        {
+          "method_name": "CalcBetTicketMoney",
+          "http_path": "/api/web/game/CalcBetTicketMoney"
+        },
+        {
+          "method_name": "pizeOptimization",
+          "http_path": "/api/web/game/pizeOptimization"
+        },
+        {
+          "method_name": "splitOrder",
+          "http_path": "/api/web/game/splitOrder"
+        },
+        {
+          "method_name": "getJcOddsDetail",
+          "http_path": "/api/web/game/getJcOddsDetail"
+        },
+        {
+          "method_name": "getSplitTicket",
+          "http_path": "/api/web/game/splitTicket"
+        },
+        {
+          "method_name": "saveTicket",
+          "http_path": "/api/web/game/saveTicket"
+        },
+        {
+          "method_name": "saveTicketNotOptimize",
+          "http_path": "/api/web/game/saveTicketNotOptimize"
+        },
+        {
+          "method_name": "getTicketList",
+          "http_path": "/api/web/game/getTicketList"
+        },
+        {
+          "method_name": "getTicketDetail",
+          "http_path": "/api/web/game/getTicketDetail"
+        },
+        {
+          "method_name": "getHaomaBybirthday",
+          "http_path": "/api/web/game/getHaomaBybirthday"
+        }
+      ],
+      "base_url_literals_unverified": [],
+      "read_endpoint_callsite_contexts": [
+        {
+          "name": "getSpfzstdetail",
+          "offset": 59187,
+          "context": "lt.post(o+\"/getLqSgzstdetail\",e)},getLqSfzstdetail:function(e){return n.default.post(o+\"/getLqSfzstdetail\",e)},getRqSpfzstdetail:function(e){return n.default.post(o+\"/getRqSpfzstdetail\",e)},getSpfzstdetail:function(e,a){return n.default.post(o+\"/getSpfzstdetail\",e,a)},getSgzstdetail:function(e){return n.default.post(o+\"/getSgzstdetail\",e)},getTraditionSellIssue:function(e){return n.default.get(o+\""
+        },
+        {
+          "name": "getSpfzstdetail",
+          "offset": 59243,
+          "context": "ion(e){return n.default.post(o+\"/getLqSfzstdetail\",e)},getRqSpfzstdetail:function(e){return n.default.post(o+\"/getRqSpfzstdetail\",e)},getSpfzstdetail:function(e,a){return n.default.post(o+\"/getSpfzstdetail\",e,a)},getSgzstdetail:function(e){return n.default.post(o+\"/getSgzstdetail\",e)},getTraditionSellIssue:function(e){return n.default.get(o+\"/getTraditionSellIssue\",e)},getTraditionSellDetail:funct"
+        },
+        {
+          "name": "getRqSpfzstdetail",
+          "offset": 59108,
+          "context": "ault.post(o+\"/getLqDgzstdetail\",e)},getLqSgzstdetail:function(e){return n.default.post(o+\"/getLqSgzstdetail\",e)},getLqSfzstdetail:function(e){return n.default.post(o+\"/getLqSfzstdetail\",e)},getRqSpfzstdetail:function(e){return n.default.post(o+\"/getRqSpfzstdetail\",e)},getSpfzstdetail:function(e,a){return n.default.post(o+\"/getSpfzstdetail\",e,a)},getSgzstdetail:function(e){return n.default.post(o+\""
+        },
+        {
+          "name": "getRqSpfzstdetail",
+          "offset": 59164,
+          "context": "ction(e){return n.default.post(o+\"/getLqSgzstdetail\",e)},getLqSfzstdetail:function(e){return n.default.post(o+\"/getLqSfzstdetail\",e)},getRqSpfzstdetail:function(e){return n.default.post(o+\"/getRqSpfzstdetail\",e)},getSpfzstdetail:function(e,a){return n.default.post(o+\"/getSpfzstdetail\",e,a)},getSgzstdetail:function(e){return n.default.post(o+\"/getSgzstdetail\",e)},getTraditionSellIssue:function(e){r"
+        },
+        {
+          "name": "getJcZstDetail",
+          "offset": 58372,
+          "context": "\",e)},updateAnalysiszq:function(e,a){return n.default.post(o+\"/updateAnalysiszq\",e,a)},updateDigitalAnalysisRecord:function(e,a){return n.default.post(o+\"/updateDigitalAnalysisRecord\",e,a)},getJcZstDetail:function(e){return n.default.post(o+\"/getJcZstDetail\",e)},getdgzst:function(e){return n.default.get(o+\"/getdgzst\",e)},getzjqzstlist:function(e){return n.default.get(o+\"/getzjqzstlist\",e)},getlqzs"
+        },
+        {
+          "name": "getJcZstDetail",
+          "offset": 58425,
+          "context": ".post(o+\"/updateAnalysiszq\",e,a)},updateDigitalAnalysisRecord:function(e,a){return n.default.post(o+\"/updateDigitalAnalysisRecord\",e,a)},getJcZstDetail:function(e){return n.default.post(o+\"/getJcZstDetail\",e)},getdgzst:function(e){return n.default.get(o+\"/getdgzst\",e)},getzjqzstlist:function(e){return n.default.get(o+\"/getzjqzstlist\",e)},getlqzstlist:function(e){return n.default.post(o+\"/getlqzstl"
+        },
+        {
+          "name": "getLeagueMatchList",
+          "offset": 55686,
+          "context": "bject.defineProperty(a,\"__esModule\",{value:!0}),a.default=void 0,t(\"c223\");var n=i(t(\"f7a8\")),o=(i(t(\"f1d5\")),\"/api/web/game\"),r={getWorldCupSchedule:function(e,a){return n.default.post(o+\"/getLeagueMatchList\",e,a)},getWorldCupOddsList:function(e,a){return n.default.post(o+\"/getWorldCupOddsList\",e,a)},pizeOptimizationChampion:function(e,a){return n.default.post(o+\"/pizeOptimizationChampion\",e,a)},"
+        },
+        {
+          "name": "getWorldCupOddsList",
+          "offset": 55712,
+          "context": "esModule\",{value:!0}),a.default=void 0,t(\"c223\");var n=i(t(\"f7a8\")),o=(i(t(\"f1d5\")),\"/api/web/game\"),r={getWorldCupSchedule:function(e,a){return n.default.post(o+\"/getLeagueMatchList\",e,a)},getWorldCupOddsList:function(e,a){return n.default.post(o+\"/getWorldCupOddsList\",e,a)},pizeOptimizationChampion:function(e,a){return n.default.post(o+\"/pizeOptimizationChampion\",e,a)},deleteInsight:function(e,a"
+        },
+        {
+          "name": "getWorldCupOddsList",
+          "offset": 55772,
+          "context": "f7a8\")),o=(i(t(\"f1d5\")),\"/api/web/game\"),r={getWorldCupSchedule:function(e,a){return n.default.post(o+\"/getLeagueMatchList\",e,a)},getWorldCupOddsList:function(e,a){return n.default.post(o+\"/getWorldCupOddsList\",e,a)},pizeOptimizationChampion:function(e,a){return n.default.post(o+\"/pizeOptimizationChampion\",e,a)},deleteInsight:function(e,a){return n.default.post(o+\"/deleteInsight\",e,a)},updateInsig"
+        }
+      ]
+    }
+  ]
+}
