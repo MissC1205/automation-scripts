@@ -6,6 +6,7 @@ on:
     paths:
       - 'mfm-data/mfm_caidao_probe.py'
       - 'mfm-data/mfm_caidao_js_audit.py'
+      - 'mfm-data/mfm_caidao_api_probe.py'
       - '.github/workflows/mfm-caidao-public.yml'
 permissions:
   contents: write
@@ -22,6 +23,8 @@ jobs:
         run: python mfm-data/mfm_caidao_probe.py
       - name: Inspect public JavaScript for API paths
         run: python mfm-data/mfm_caidao_js_audit.py
+      - name: Probe known public data-read API paths
+        run: python mfm-data/mfm_caidao_api_probe.py
       - name: Commit diagnostic snapshot
         run: |
           git config user.name "github-actions[bot]"
