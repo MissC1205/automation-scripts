@@ -16,7 +16,8 @@ from zoneinfo import ZoneInfo
 
 TZ=ZoneInfo("Asia/Shanghai")
 ROOT="http://zk.bjjckx.com"
-DATE="2026-10-14"
+DATE=dt.datetime.now(TZ).date().isoformat()
+MATCH_ID_PREFIX="F"+DATE.replace("-","")
 MARKETS=("spfOdds","rqspfOdds","concedeNum","bfOdds","zjqOdds","bqcOdds")
 STRUCTURES=("historyDataStr","matchFeatureStr","injurySuspensionStr",
             "okMatchDataStr","poissonDistributionStr","matchTableStr",
@@ -90,7 +91,7 @@ def main():
             payload=call("/api/web/game/footballQuery",{"type":typ})
             body=payload.get("body") if isinstance(payload,dict) else None
             body=body if isinstance(body,list) else []
-            filtered=[a for a in body if isinstance(a,dict) and str(a.get("matchInfo","")).startswith("F20261014")]
+            filtered=[a for a in body if isinstance(a,dict) and str(a.get("matchInfo","")).startswith(MATCH_ID_PREFIX)]
             result["coverage"]["type_"+str(typ)]={"api_status":payload.get("status"),"total_rows":len(body),"today_rows":len(filtered)}
             raw.extend(filtered)
         except (OSError,ValueError) as ex:
