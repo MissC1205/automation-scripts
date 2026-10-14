@@ -160,6 +160,9 @@ def collect(date,now=None):
         try:
             response=get_json("/api/web/game/getJcOddsDetail",{"matchInfo":fid},"POST")
             record["sp_history"]=parse_history(response,fixture,dt.datetime.now(TZ))
+            record["pre_kickoff_snapshot_verified"]=(
+                record["collection_phase"]=="BEFORE_KICKOFF"
+                and record["sp_history"]["verified_for_model_use"])
         except urllib.error.HTTPError as ex:
             record["sp_history"]={"http_status":ex.code,"error":"HTTPError"}
             if ex.code in (401,403,429,567):
@@ -174,6 +177,7 @@ def collect(date,now=None):
         "matches_checked":len(report["matches"]),
         "matches_with_any_history":sum(m.get("sp_history",{}).get("history_count",0)>0 for m in report["matches"]),
         "matches_with_verified_spf_history":sum(m.get("sp_history",{}).get("verified_for_model_use",False) for m in report["matches"]),
+        "prematch_snapshots_eligible":sum(m.get("pre_kickoff_snapshot_verified",False) for m in report["matches"]),
         "total_valid_history_rows":sum(m.get("sp_history",{}).get("history_count",0) for m in report["matches"]),
         "before_kickoff_at_collection":sum(m.get("collection_phase")=="BEFORE_KICKOFF" for m in report["matches"]),
         "after_kickoff_at_collection":sum(m.get("collection_phase")=="AFTER_KICKOFF" for m in report["matches"]),
