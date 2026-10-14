@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'mfm-data/**'
+      - 'mfm-data/*.py'
       - '.github/workflows/mfm-free-data.yml'
   schedule:
     - cron: '17 2,10,18 * * *'
@@ -46,6 +46,6 @@ jobs:
           name: mfm-source-audit-${{ github.run_id }}
           path: mfm_data/
           if-no-files-found: warn
-          retention-days: 14
+          retention-days: 45
 
 # API-Football secret verification trigger 2026-10-12
