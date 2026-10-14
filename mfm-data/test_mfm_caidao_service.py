@@ -82,6 +82,12 @@ class CaidaoServiceTests(unittest.TestCase):
             self.assertTrue((path.parent/"latest.json").exists())
             self.assertTrue((path.parent/"summary.json").exists())
             self.assertTrue((pathlib.Path(temp)/"latest-summary.json").exists())
+            self.assertTrue((pathlib.Path(temp)/"latest-football-only.json").exists())
+            self.assertTrue((pathlib.Path(temp)/"latest-market-only.json").exists())
+            football=(pathlib.Path(temp)/"latest-football-only.json").read_text()
+            self.assertNotIn('spfOdds',football)
+            self.assertNotIn('oddsDetails',football)
+            self.assertNotIn('poissonDistributionStr',football)
     def test_missing_data_marks_partial(self):
         def no_detail(path,params,method="GET"):
             if path.endswith("getMatchAllData"):
