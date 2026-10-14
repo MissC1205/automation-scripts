@@ -85,6 +85,26 @@ def run():
                                  "[REDACTED]", seg)
                     callsites.append({"name":name, "offset":m.start(), "context":seg[:400]})
             row["read_endpoint_callsite_contexts"] = callsites[:35]
+            # Inspect webpack lazy-page chunk metadata to locate the public
+            # page scripts that call the game methods with match parameters.
+            page_markers = (
+                "package-analysis-match-live-football-football-detail-football-detail",
+                "package-read-open-award-info-open-award-detail-football-detail",
+                "package-analysis-match-ana",
+                "sp-history", "sp-history-detail",
+                "webpackJsonp", "static/js/",
+            )
+            page_contexts = []
+            for marker in page_markers:
+                for m in list(re.finditer(re.escape(marker), js, flags=re.IGNORECASE))[:3]:
+                    page_contexts.append({
+                        "marker": marker, "offset": m.start(),
+                        "context": js[max(0,m.start()-170):m.end()+300][:550]
+                    })
+            row["lazy_chunk_contexts"] = page_contexts[:24]
+            row["static_js_path_literals"] = sorted(set(re.findall(
+                r'[/A-Za-z0-9_.-]{3,150}\.js\b', js
+            )))[:120]
         except (OSError, ValueError) as e:
             row["error_type"] = type(e).__name__
             row["error"] = str(e)[:180]
