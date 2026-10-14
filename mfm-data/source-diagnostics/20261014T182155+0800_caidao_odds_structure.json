@@ -1,0 +1,481 @@
+{
+  "time_bj": "2026-10-14T18:21:05.363452+08:00",
+  "purpose": "public market response shape and observed front-end call sites",
+  "odds": {
+    "tested_matches": [
+      "008",
+      "011"
+    ],
+    "requests": [
+      {
+        "match": "008",
+        "matchInfo": "F20261014008",
+        "endpoint": "getJcOddsDetail",
+        "response_bytes": 534,
+        "status": 200,
+        "message": "成功",
+        "result_shape": {
+          "type": "dict",
+          "keys": [
+            "concedeNum",
+            "guestTeam",
+            "hostTeam",
+            "matchName",
+            "matchNum",
+            "oddsDetails",
+            "wf"
+          ],
+          "subfields": {
+            "oddsDetails": {
+              "type": "list",
+              "count": 4,
+              "first_item_shape": {
+                "type": "dict",
+                "keys": [
+                  "num",
+                  "odds",
+                  "oddsflag",
+                  "updateTime"
+                ]
+              }
+            }
+          }
+        },
+        "market_type_source": "spf",
+        "integer_handicap_source": "+1",
+        "public_history_entries": [
+          {
+            "updateTime": "2026-10-14 18:14:23",
+            "odds": "3.45|3.92|1.71",
+            "oddsflag": "1|1|-1",
+            "num": ""
+          },
+          {
+            "updateTime": "2026-10-14 17:10:05",
+            "odds": "3.40|3.88|1.73",
+            "oddsflag": "1|1|-1",
+            "num": ""
+          },
+          {
+            "updateTime": "2026-10-14 13:26:59",
+            "odds": "3.35|3.85|1.75",
+            "oddsflag": "-1|-1|1",
+            "num": ""
+          },
+          {
+            "updateTime": "2026-10-13 09:41:32",
+            "odds": "3.47|3.95|1.70",
+            "oddsflag": "0|0|0",
+            "num": ""
+          }
+        ],
+        "data_shape": {
+          "type": "NoneType"
+        }
+      },
+      {
+        "match": "011",
+        "matchInfo": "F20261014011",
+        "endpoint": "getJcOddsDetail",
+        "response_bytes": 809,
+        "status": 200,
+        "message": "成功",
+        "result_shape": {
+          "type": "dict",
+          "keys": [
+            "concedeNum",
+            "guestTeam",
+            "hostTeam",
+            "matchName",
+            "matchNum",
+            "oddsDetails",
+            "wf"
+          ],
+          "subfields": {
+            "oddsDetails": {
+              "type": "list",
+              "count": 7,
+              "first_item_shape": {
+                "type": "dict",
+                "keys": [
+                  "num",
+                  "odds",
+                  "oddsflag",
+                  "updateTime"
+                ]
+              }
+            }
+          }
+        },
+        "market_type_source": "spf",
+        "integer_handicap_source": "-1",
+        "public_history_entries": [
+          {
+            "updateTime": "2026-10-14 17:49:22",
+            "odds": "1.83|3.80|3.13",
+            "oddsflag": "-1|1|1",
+            "num": ""
+          },
+          {
+            "updateTime": "2026-10-14 14:16:05",
+            "odds": "1.88|3.75|3.02",
+            "oddsflag": "-1|1|1",
+            "num": ""
+          },
+          {
+            "updateTime": "2026-10-14 12:48:20",
+            "odds": "1.93|3.70|2.94",
+            "oddsflag": "-1|1|1",
+            "num": ""
+          },
+          {
+            "updateTime": "2026-10-14 12:24:39",
+            "odds": "1.98|3.65|2.85",
+            "oddsflag": "-1|0|1",
+            "num": ""
+          },
+          {
+            "updateTime": "2026-10-14 11:10:16",
+            "odds": "2.02|3.65|2.78",
+            "oddsflag": "-1|0|1",
+            "num": ""
+          },
+          {
+            "updateTime": "2026-10-13 18:17:22",
+            "odds": "2.06|3.65|2.70",
+            "oddsflag": "-1|1|1",
+            "num": ""
+          },
+          {
+            "updateTime": "2026-10-13 09:41:32",
+            "odds": "2.11|3.60|2.65",
+            "oddsflag": "0|0|0",
+            "num": ""
+          }
+        ],
+        "data_shape": {
+          "type": "NoneType"
+        }
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "name": "package-shopkeeper-order-records-analysis-list-analysis-list",
+      "url": "http://zk.bjjckx.com/static/js/package-shopkeeper-order-records-analysis-list-analysis-list.16f785c9.js",
+      "bytes": 28299,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-publish-analysis-szc-selector-pl3-fc3d-pl3-fc3d",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-publish-analysis-szc-selector-pl3-fc3d-pl3-fc3d.3f0d823b.js",
+      "bytes": 43812,
+      "references": {}
+    },
+    {
+      "name": "package-read-read-lottery-read-lottery-detail-read-lottery-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-read-read-lottery-read-lottery-detail-read-lottery-detail.992fd1b3.js",
+      "bytes": 149613,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-publish-analysis-publish-preview-publish-preview",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-publish-analysis-publish-preview-publish-preview.28df08ff.js",
+      "bytes": 31937,
+      "references": {}
+    },
+    {
+      "name": "package-selectLottery-interesting-game-birthday-game-birthday-game",
+      "url": "http://zk.bjjckx.com/static/js/package-selectLottery-interesting-game-birthday-game-birthday-game.041f0f1a.js",
+      "bytes": 36381,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-print-game-stake-print",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-print-game-stake-print.da7d6061.js",
+      "bytes": 20094,
+      "references": {}
+    },
+    {
+      "name": "package-selectLottery-szc-select-szc-select-index-szc-select-index",
+      "url": "http://zk.bjjckx.com/static/js/package-selectLottery-szc-select-szc-select-index-szc-select-index.b9193009.js",
+      "bytes": 74497,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-publish-analysis-analysis-comment-analysis-comment",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-publish-analysis-analysis-comment-analysis-comment.52fc867c.js",
+      "bytes": 15620,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-poster-game-stake-poster",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-poster-game-stake-poster.3f4ae1ca.js",
+      "bytes": 89236,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-ticket-game-stake-ticket",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-ticket-game-stake-ticket.f50d6920.js",
+      "bytes": 18315,
+      "references": {}
+    },
+    {
+      "name": "package-selectLottery-szc-select-szc-select-poster-szc-select-poster",
+      "url": "http://zk.bjjckx.com/static/js/package-selectLottery-szc-select-szc-select-poster-szc-select-poster.6a16b6de.js",
+      "bytes": 31970,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-select-game-stake-select",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-select-game-stake-select.6780e9e9.js",
+      "bytes": 669844,
+      "references": {
+        "getJcDetail": [
+          "etMatchInfoDetail:function(){var t=this;return(0,o.default)((0,n.default)().mark((function a(){var e,i,o;return(0,n.default)().wrap((function(a){while(1)switch(a.prev=a.next){case 0:return a.prev=0,a.next=3,t.$http.game.getJcDetail({matchInfo:t.matchData.matchInfo},{custom:{isShowLoading:!0}});case 3:e=a.sent,i=e.data,200===i.status&&(t.matchInfoData=i.result,1===t.analysisType&&(o=t.matchInfoData.firstsp.split(\"|\"),o.splice(1,0,t.matchInfoData.rnum),t.matchInfoData.firstsp=o.join(\"|\")),t.$emit(\"toFreshCompose\",t.composeFreshNum+1)),a.next=14;break;case 8"
+        ]
+      }
+    },
+    {
+      "name": "package-selectLottery-szc-select-szc-select-detail-szc-select-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-selectLottery-szc-select-szc-select-detail-szc-select-detail.745f64f5.js",
+      "bytes": 118212,
+      "references": {}
+    },
+    {
+      "name": "package-selectLottery-ctzq-ctzq-selected-detail-ctzq-selected-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-selectLottery-ctzq-ctzq-selected-detail-ctzq-selected-detail.a06dd626.js",
+      "bytes": 24273,
+      "references": {}
+    },
+    {
+      "name": "package-selectLottery-interesting-game-car-number-game-car-number-game",
+      "url": "http://zk.bjjckx.com/static/js/package-selectLottery-interesting-game-car-number-game-car-number-game.2626d147.js",
+      "bytes": 60661,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-confirm-game-stake-confirm",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-confirm-game-stake-confirm.7ecbf7e3.js",
+      "bytes": 94425,
+      "references": {}
+    },
+    {
+      "name": "package-selectLottery-szc-select-szc-select-navPage-szc-select-navPage",
+      "url": "http://zk.bjjckx.com/static/js/package-selectLottery-szc-select-szc-select-navPage-szc-select-navPage.0c839f38.js",
+      "bytes": 16960,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-match-live-basketball-match-ana-poster-match-ana-poster",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-match-live-basketball-match-ana-poster-match-ana-poster.a112dc81.js",
+      "bytes": 394445,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-optimize-game-stake-optimize",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-optimize-game-stake-optimize.8497966f.js",
+      "bytes": 51786,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-spChange-game-stake-spChange",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-spChange-game-stake-spChange.1d14f661.js",
+      "bytes": 221566,
+      "references": {
+        "getJcOddsDetail": [
+          "getSpHistorys:function(){var t=this;return(0,r.default)((0,o.default)().mark((function e(){var a,i,r,n,s;return(0,o.default)().wrap((function(e){while(1)switch(e.prev=e.next){case 0:return e.prev=0,e.next=3,t.$http.game.getJcOddsDetail({matchInfo:t.matchInfoCode});case 3:a=e.sent,i=a.data,200===i.status&&(t.matchData=i.result,r={series:[],categories:[]},t.matchData.wf.includes(\"spf\")&&(r.series=[{name:\"spf\"===t.matchData.wf?\"胜\":\"让胜\",data:[]},{name:\"spf\"===t.matchData.wf?\"平\":\"让平\",data:[]},{name:\"spf\"===t.matchData.wf?\"负\":\"让负\",data:[]}]),t.matchData.wf.includes"
+        ]
+      }
+    },
+    {
+      "name": "package-analysis-publish-analysis-select-analysisType-select-analysisType",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-publish-analysis-select-analysisType-select-analysisType.14247ff5.js",
+      "bytes": 106624,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-match-live-basketball-basketball-detail-basketball-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-match-live-basketball-basketball-detail-basketball-detail.bdd52694.js",
+      "bytes": 454835,
+      "references": {
+        "getMatchAllData": [
+          "tion(){var t=this;return(0,o.default)((0,i.default)().mark((function a(){var e,n,o,r,l,s,c,d,f,u,h,p,v,b;return(0,i.default)().wrap((function(a){while(1)switch(a.prev=a.next){case 0:return a.prev=0,a.next=3,t.$http.game.getMatchAllData({matchInfo:t.matchInfo});case 3:e=a.sent,n=e.data,200===n.status&&(n.data||(t.isLoadingFinished=!0),n.data.historyDataStr?(t.historyData=JSON.parse(n.data.historyDataStr),console.log(t.historyData),l=setTimeout((function(){t.waitingType.isHistory=1,clearTimeout(l)}),Math.floor(300+2e3*Math.random()))):t.waitingType.isHistory=1,"
+        ]
+      }
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-selfRecord-game-stake-selfRecord",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-selfRecord-game-stake-selfRecord.4eab2a0f.js",
+      "bytes": 39835,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-publish-analysis-analysis-summary-poster-analysis-summary-poster",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-publish-analysis-analysis-summary-poster-analysis-summary-poster.d4daaf2e.js",
+      "bytes": 449812,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-selfRecordDetail-game-stake-selfRecordDetail",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-selfRecordDetail-game-stake-selfRecordDetail.3e15db38.js",
+      "bytes": 165449,
+      "references": {}
+    },
+    {
+      "name": "package-selectLottery-dsj-dsj-szc-dsj-szc~package-video-train-camp-train-camp-train-camp",
+      "url": "http://zk.bjjckx.com/static/js/package-selectLottery-dsj-dsj-szc-dsj-szc~package-video-train-camp-train-camp-train-camp.9ce186a7.js",
+      "bytes": 22287,
+      "references": {}
+    },
+    {
+      "name": "package-activity-invite-activity-invite-activity~package-analysis-game-stake-calc-game-stake-poster-~843b670b",
+      "url": "http://zk.bjjckx.com/static/js/package-activity-invite-activity-invite-activity~package-analysis-game-stake-calc-game-stake-poster-~843b670b.25f07808.js",
+      "bytes": 27334,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-confirm-game-stake-confirm~package-analysis-publish-anal~517a0563",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-confirm-game-stake-confirm~package-analysis-publish-anal~517a0563.190f6387.js",
+      "bytes": 33779,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-poster-game-stake-poster~package-analysis-game-stake-cal~38c696e9",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-poster-game-stake-poster~package-analysis-game-stake-cal~38c696e9.8b946e18.js",
+      "bytes": 245384,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-select-game-stake-select~package-analysis-game-stake-cal~f2f562c1",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-select-game-stake-select~package-analysis-game-stake-cal~f2f562c1.ab802977.js",
+      "bytes": 19821,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-selfRecord-game-stake-selfRecord~package-analysis-homepa~9d7dcbd6",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-selfRecord-game-stake-selfRecord~package-analysis-homepa~9d7dcbd6.86ad93c6.js",
+      "bytes": 156546,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-confirm-game-stake-confirm~package-analysis-game-stake-c~8264b2ef",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-confirm-game-stake-confirm~package-analysis-game-stake-c~8264b2ef.23b89953.js",
+      "bytes": 17345,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-publish-analysis-analysis-comment-analysis-comment~package-analysis-publish-analysi~b8303247",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-publish-analysis-analysis-comment-analysis-comment~package-analysis-publish-analysi~b8303247.1bbd9271.js",
+      "bytes": 23080,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-optimize-game-stake-optimize~package-analysis-game-stake~8991429a",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-optimize-game-stake-optimize~package-analysis-game-stake~8991429a.6436a9f4.js",
+      "bytes": 67317,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-game-stake-calc-game-stake-optimize-game-stake-optimize~package-analysis-match-live~43732f5c",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-game-stake-calc-game-stake-optimize-game-stake-optimize~package-analysis-match-live~43732f5c.41f52138.js",
+      "bytes": 18424,
+      "references": {}
+    }
+  ],
+  "public_assets_only": true,
+  "history_rows_verified": 0,
+  "chunk_candidates_total": 105,
+  "first_candidates": [
+    "package-read-open-award-info-open-award-detail-football-detail",
+    "package-analysis-match-live-football-football-index-football-index",
+    "package-analysis-match-live-football-football-detail-football-detail",
+    "package-analysis-match-live-football-match-ana-poster-match-ana-poster",
+    "package-analysis-match-live-football-football-index-football-index~package-analysis-match-live-match~be49d501",
+    "package-read-open-award-info-open-award-index-open-award-index",
+    "package-read-open-award-info-open-award-detail-basketball-detail",
+    "package-read-open-award-info-open-award-detail-open-award-detail",
+    "package-read-open-award-info-open-award-history-open-award-history",
+    "package-selectLottery-szc-select-szc-awardMoney-sheet-szc-awardMoney-sheet",
+    "package-read-open-award-info-open-award-history-open-award-history~package-read-open-award-info-open~e67dc3d2",
+    "package-poster-poster-jc-dsj-list-dsj-list",
+    "package-poster-poster-jc-ecy-list-ecy-list",
+    "package-poster-poster-jc-dgss-list-dgss-list",
+    "package-poster-poster-jc-jdss-list-jdss-list",
+    "package-poster-poster-jc-kstx-list-kstx-list",
+    "package-poster-poster-jc-ssdz-list-ssdz-list",
+    "package-poster-poster-jc-sspl-list-sspl-list",
+    "package-poster-poster-jc-sssg-list-sssg-list",
+    "package-poster-poster-jc-tjzs-list-tjzs-list",
+    "package-poster-dsj-dsj-jc-poster-dsj-jc-poster",
+    "package-poster-poster-jc-ecy-detail-ecy-detail",
+    "package-poster-poster-jc-dgss-detail-dgss-detail",
+    "package-poster-poster-jc-jdss-detail-jdss-detail",
+    "package-poster-poster-jc-kstx-detail-kstx-detail",
+    "package-poster-poster-jc-ssdz-detail-ssdz-detail",
+    "package-poster-poster-jc-sspl-detail-sspl-detail",
+    "package-poster-poster-jc-sssg-detail-sssg-detail",
+    "package-poster-poster-jc-select-match-select-match",
+    "pages-index-index",
+    "package-poster-analysis-plan-plan",
+    "package-analysis-homepage-homepage",
+    "pages-ai-select-match-select-match",
+    "pages-index-trend-chart-trend-chart",
+    "package-poster-trend-chart-wnfs-wnfs",
+    "package-poster-analysis-comment-comment",
+    "pages-index-simulate-game-simulate-game",
+    "pages-index-match-message-match-message",
+    "package-analysis-leak-detail-leak-detail",
+    "package-analysis-leak-policy-leak-policy",
+    "package-analysis-homepage-target-analysis",
+    "pages-index-match-analysis-match-analysis",
+    "package-selectLottery-dsj-dsj-szc-dsj-szc",
+    "package-analysis-history-list-history-list",
+    "package-selectLottery-dsj-dsj-guess-dsj-guess",
+    "package-selectLottery-dsj-dsj-index-dsj-index",
+    "pages-home-setting-personal-data-personal-data",
+    "package-practice-practice-index-practice-index",
+    "package-analysis-history-ssq-dlt-history-ssq-dlt",
+    "package-selectLottery-ctzq-ctzq-index-ctzq-index",
+    "package-selectLottery-dsj-dsj-match-match-detail",
+    "pages-index-trend-chart-poster-trend-chart-poster",
+    "pages-login-analysis-agreement-analysis-agreement",
+    "pages-ai-ai-ai~pages-ai-select-match-select-match",
+    "package-selectLottery-dsj-dsj-szc-history-dlt-ssq",
+    "package-shopkeeper-market-market-index-market-index",
+    "package-read-read-lottery-read-lottery-read-lottery",
+    "pages-home-setting-analysis-setting-analysis-setting",
+    "package-selectLottery-dsj-dsj-szc-history-detail-kl8",
+    "pages-index-match-message-detail-match-message-detail",
+    "package-selectLottery-dsj-dsj-szc-history-pls-fc3d-kl8",
+    "package-poster-analysis-history-records-history-records",
+    "package-analysis-match-live-point-ranking-point-ranking",
+    "package-poster-dsj-dsj-match-briefing-dsj-match-briefing",
+    "package-selectLottery-dsj-dsj-szc-history-detail-dlt-ssq",
+    "package-analysis-match-live-match-analysis-match-analysis",
+    "package-selectLottery-dsj-dsj-our-ratings-dsj-our-ratings",
+    "package-selectLottery-ctzq-ctzq-stake-list-ctzq-stake-list",
+    "package-shopkeeper-components-index-module-shopkeeper-index",
+    "package-analysis-publish-analysis-publish-leak-publish-leak",
+    "package-shopkeeper-order-records-analysis-list-analysis-list",
+    "package-analysis-publish-analysis-szc-selector-pl3-fc3d-pl3-fc3d",
+    "package-read-read-lottery-read-lottery-detail-read-lottery-detail",
+    "package-analysis-publish-analysis-publish-preview-publish-preview",
+    "package-selectLottery-interesting-game-birthday-game-birthday-game",
+    "package-analysis-game-stake-calc-game-stake-print-game-stake-print",
+    "package-selectLottery-szc-select-szc-select-index-szc-select-index",
+    "package-analysis-publish-analysis-analysis-comment-analysis-comment",
+    "package-analysis-game-stake-calc-game-stake-poster-game-stake-poster",
+    "package-analysis-game-stake-calc-game-stake-ticket-game-stake-ticket",
+    "package-selectLottery-szc-select-szc-select-poster-szc-select-poster",
+    "package-analysis-game-stake-calc-game-stake-select-game-stake-select",
+    "package-selectLottery-szc-select-szc-select-detail-szc-select-detail",
+    "package-selectLottery-ctzq-ctzq-selected-detail-ctzq-selected-detail",
+    "package-selectLottery-interesting-game-car-number-game-car-number-game",
+    "package-analysis-game-stake-calc-game-stake-confirm-game-stake-confirm",
+    "package-selectLottery-szc-select-szc-select-navPage-szc-select-navPage",
+    "package-analysis-match-live-basketball-match-ana-poster-match-ana-poster",
+    "package-analysis-game-stake-calc-game-stake-optimize-game-stake-optimize",
+    "package-analysis-game-stake-calc-game-stake-spChange-game-stake-spChange"
+  ]
+}
