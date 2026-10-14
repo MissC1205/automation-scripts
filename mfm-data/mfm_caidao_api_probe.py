@@ -29,20 +29,22 @@ def probe():
            "no_credentials_or_access_bypass": True,
            "no_personal_response_data_saved": True}
     for path in PATHS:
-        info = {"path": path, "request_method": "POST",
+        method = "GET" if path.endswith("/footballQuery") else "POST"
+        info = {"path": path, "request_method": method,
                 "parameters": "empty_probe_only"}
-        req = urllib.request.Request(ROOT + path, data=b"",
+        req = urllib.request.Request(ROOT + path, data=None if method == "GET" else b"",
                 headers={"User-Agent": "MFM-public-H5-contract-test/1.0",
                          "Referer": ROOT + "/",
                          "Accept": "application/json, text/plain, */*",
                          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"},
-                method="POST")
+                method=method)
         try:
             with urllib.request.urlopen(req, timeout=9) as response:
                 info["http_status"] = response.status
                 info["content_type"] = response.headers.get("Content-Type","")
                 raw = response.read(160_001)
                 info["response_bytes_capped"] = len(raw)
+                info["response_truncated"] = len(raw) > 160_000
             try:
                 payload = json.loads(raw)
                 info["response_kind"] = "json"
