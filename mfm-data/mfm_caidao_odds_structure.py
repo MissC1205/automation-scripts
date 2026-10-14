@@ -68,6 +68,16 @@ def run():
                 row["status"]=payload.get("status")
                 row["message"]=str(payload.get("message",""))[:60]
                 row["result_shape"]=summarize(payload.get("result"))
+                res=payload.get("result")
+                if isinstance(res,dict):
+                    row["market_type_source"]=res.get("wf")
+                    row["integer_handicap_source"]=res.get("concedeNum")
+                    if isinstance(res.get("oddsDetails"),list):
+                        row["public_history_entries"]=[
+                            {k:v for k,v in e.items()
+                             if k in ("num","odds","oddsflag","updateTime")
+                             and isinstance(v,(str,int,float))}
+                            for e in res["oddsDetails"][:35] if isinstance(e,dict)]
                 row["data_shape"]=summarize(payload.get("data"))
                 # The source returns market rows as 'result' on some routes,
                 # never count the mere presence of a result key as SP history.
