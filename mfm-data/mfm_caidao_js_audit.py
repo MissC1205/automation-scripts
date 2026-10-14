@@ -76,6 +76,15 @@ def run():
             row["base_url_literals_unverified"] = sorted(set(
                 re.findall(r"BASE_URL\s*:\s*['\"](https?://[A-Za-z0-9.:-]+)", js)
             ))[:20]
+            callsites = []
+            for name in ("getSpfzstdetail", "getRqSpfzstdetail", "getJcZstDetail",
+                         "getLeagueMatchList", "getWorldCupOddsList"):
+                for m in list(re.finditer(re.escape(name), js))[:10]:
+                    seg = js[max(0,m.start()-190):m.end()+210]
+                    seg = re.sub(r"(?i)(token|secret|password|authorization|api[-_]?key)[^;,}]{0,90}",
+                                 "[REDACTED]", seg)
+                    callsites.append({"name":name, "offset":m.start(), "context":seg[:400]})
+            row["read_endpoint_callsite_contexts"] = callsites[:35]
         except (OSError, ValueError) as e:
             row["error_type"] = type(e).__name__
             row["error"] = str(e)[:180]
