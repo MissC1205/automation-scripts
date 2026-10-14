@@ -77,6 +77,24 @@ def schema_summary(key,val):
             result["team_strength_values"]={k:v for k,v in val.items() if k in ("home_value","away_value") and isinstance(v,(float,int))}
     return result
 
+def selected_raw_team_metrics(encoded):
+    """Limited provider-reported form metrics; no forecasts or prose."""
+    if not isinstance(encoded,str) or not encoded:
+        return {}
+    try:
+        raw=json.loads(encoded)
+    except ValueError:
+        return {}
+    if not isinstance(raw,dict):
+        return {}
+    allowed=("last","goalAvg","lossGoalAvg","eachHomeAway","sameHomeAway","eachSameHomeAway")
+    result={}
+    for key in allowed:
+        value=raw.get(key)
+        if isinstance(value,(dict,list)) and len(json.dumps(value,ensure_ascii=False))<=4000:
+            result[key]=value
+    return result
+
 def main():
     now=dt.datetime.now(TZ)
     result={"date":DATE,"collected_at_bj":now.isoformat(),
@@ -123,6 +141,8 @@ def main():
             if isinstance(data,dict):
                 match["detail_fields_present"]=sorted(k for k,v in data.items() if v not in (None,"",[],{}))
                 match["feature_schemas"]={k:schema_summary(k,data.get(k)) for k in STRUCTURES}
+                match["provider_reported_team_metrics"] = selected_raw_team_metrics(data.get("matchFeatureStr"))
+                match["provider_metrics_not_independently_verified"] = True
                 match["provider_update_time"]=data.get("updateTime")
             else:
                 match["detail_fields_present"]=[]
