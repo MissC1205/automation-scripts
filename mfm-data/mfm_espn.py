@@ -15,7 +15,8 @@ def collect(day,leagues,out):
     competition=(ev.get("competitions") or [{}])[0];teams=competition.get("competitors",[])
     home=next((x for x in teams if x.get("homeAway")=="home"),{})
     away=next((x for x in teams if x.get("homeAway")=="away"),{})
-    rows.append(dict(source="ESPN",league=league,event_id=ev.get("id"),kickoff_utc=ev.get("date"),home=home.get("team",{}).get("displayName"),away=away.get("team",{}).get("displayName"),home_score=home.get("score"),away_score=away.get("score"),status=ev.get("status",{}).get("type",{}).get("name"),collected_at_utc=stamp,source_url=url,data_status="UNVERIFIED_EXTERNAL"))
+    finished=bool(ev.get("status",{}).get("type",{}).get("completed"))
+    rows.append(dict(source="ESPN",league=league,event_id=ev.get("id"),kickoff_utc=ev.get("date"),home=home.get("team",{}).get("displayName"),away=away.get("team",{}).get("displayName"),home_score=home.get("score") if finished else None,away_score=away.get("score") if finished else None,status=ev.get("status",{}).get("type",{}).get("name"),collected_at_utc=stamp,source_url=url,data_status="UNVERIFIED_EXTERNAL"))
   except Exception as e:errors.append({"league":league,"error":str(e)})
  with (out/f"{day}_matches.csv").open("w",newline="",encoding="utf-8-sig") as f:
   writer=csv.DictWriter(f,fieldnames=FIELDS);writer.writeheader();writer.writerows(rows)
