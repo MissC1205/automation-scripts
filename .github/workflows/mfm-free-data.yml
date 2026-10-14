@@ -39,6 +39,9 @@ jobs:
       - name: Collect public-domain OpenFootball history
         if: always()
         run: python mfm-data/mfm_openfootball.py --dir mfm_data --date $(TZ=Asia/Shanghai date +%F)
+      - name: Audit source coverage and prediction eligibility
+        if: always()
+        run: python mfm-data/mfm_validate.py --dir mfm_data --date $(TZ=Asia/Shanghai date +%F)
       - name: Upload audit artifacts
         if: always()
         uses: actions/upload-artifact@v4
