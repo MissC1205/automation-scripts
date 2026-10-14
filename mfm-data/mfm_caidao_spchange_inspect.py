@@ -4,7 +4,7 @@ import datetime as dt,json,pathlib,re,urllib.request
 from zoneinfo import ZoneInfo
 TZ=ZoneInfo("Asia/Shanghai")
 ROOT="http://zk.bjjckx.com"
-NAME="package-analysis-game-stake-calc-game-stake-spChange-game-stake-spChange"
+NAME="package-analysis-game-stake-calc-game-stake-select-game-stake-select"
 def get(url):
     req=urllib.request.Request(url,headers={"User-Agent":"MFM-public-frontend-audit/1.0"})
     with urllib.request.urlopen(req,timeout=12) as r:return r.read(900000).decode("utf-8",errors="replace")
@@ -15,7 +15,7 @@ def main():
     url=ROOT+"/static/js/"+NAME+"."+m.group(1)+".js"
     js=get(url)
     selected={}
-    for marker in ("matchInfoCode","getSpHistorys","getJcOddsDetail","rqspf","spf","onLoad:function","created:function"):
+    for marker in ("spChange","matchInfoCode","getSpHistorys","getJcOddsDetail","rqspf","matchInfo","onLoad:function"):
         matches=list(re.finditer(re.escape(marker),js,re.I))
         selected[marker]={"occurrences":len(matches),"contexts":[
             js[max(0,x.start()-500):min(len(js),x.end()+1600)][:2200] for x in matches[:6]]}
