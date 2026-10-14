@@ -46,10 +46,27 @@ def probe():
                 info["response_kind"] = "json"
                 if isinstance(payload, dict):
                     info["top_level_keys"] = sorted(payload)[:25]
-                    # Only status-like fields; never output response arrays/user data
+                    # Only public aggregate metadata; never persist response arrays or user data.
                     for key in ("code", "status", "success", "errCode"):
                         if key in payload and isinstance(payload[key], (bool, int, str)):
                             info[key] = str(payload[key])[:70]
+                    message = payload.get("message")
+                    if isinstance(message, str):
+                        info["public_error_message"] = message[:110]
+                    data = payload.get("data")
+                    info["data_kind"] = type(data).__name__
+                    if isinstance(data, list):
+                        info["data_row_count"] = len(data)
+                        if data and isinstance(data[0], dict):
+                            info["first_row_fields_only"] = sorted(data[0])[:50]
+                    elif isinstance(data, dict):
+                        info["data_fields_only"] = sorted(data)[:50]
+                        info["nested_collection_counts"] = {
+                            k: len(v) for k, v in data.items()
+                            if isinstance(v, list) and not any(
+                                word in k.lower() for word in ("user", "phone", "customer", "member")
+                            )
+                        }
             except (ValueError, UnicodeError):
                 info["response_kind"] = "html_or_other"
         except urllib.error.HTTPError as exc:
