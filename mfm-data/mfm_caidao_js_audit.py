@@ -63,6 +63,19 @@ def run():
                                  "[REDACTED_SENSITIVE_KEY_CONTEXT]", seg)
                     contexts.append({"marker": marker, "offset": m.start(), "fragment": seg[:300]})
             row["selected_js_contexts"] = contexts[:30]
+            game_start = js.find('"/api/web/game"')
+            if game_start >= 0:
+                service_module = js[game_start:game_start + 14000]
+                row["game_service_methods_unverified"] = [
+                    {"method_name": name, "http_path": "/api/web/game" + suffix}
+                    for name, suffix in re.findall(
+                        r'([A-Za-z_]\w*):function\([^)]*\)\{return [^{}]{0,180}?o\+"([^"]+)"',
+                        service_module
+                    )
+                ][:80]
+            row["base_url_literals_unverified"] = sorted(set(
+                re.findall(r"BASE_URL\s*:\s*['\"](https?://[A-Za-z0-9.:-]+)", js)
+            ))[:20]
         except (OSError, ValueError) as e:
             row["error_type"] = type(e).__name__
             row["error"] = str(e)[:180]
