@@ -1,6 +1,12 @@
 name: MFM Hourly Official Odds Audit
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'mfm-data/mfm_official_odds.py'
+      - 'mfm-data/test_mfm_official_odds.py'
+      - '.github/workflows/mfm-hourly-odds.yml'
   schedule:
     - cron: '23 * * * *'
 permissions:
@@ -19,9 +25,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Fetch and preserve official raw data or explicit errors
+      - name: Test odds schema and failure handling
+        run: python -m unittest discover -s mfm-data -p 'test_mfm_official_odds.py' -v
+      - name: Fetch and preserve official SP records or explicit errors
         run: python mfm-data/mfm_official_odds.py
-      - name: Commit audit snapshot
+      - name: Commit audited snapshot
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
