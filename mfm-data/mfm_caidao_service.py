@@ -241,6 +241,12 @@ def collect(sale_date,now=None,transport=fetch,pause=time.sleep):
     report["coverage"]["fixture_ids"]=len(fixtures)
     if restricted:
         report["access_restriction_encountered"]=True
+    # Both source pools are necessary to recover the full sale-day slate:
+    # type=0 has upcoming games and type=1 has already-started/finished games.
+    # Never report full research coverage when one pool silently failed.
+    report["fixture_pool_integrity"]="COMPLETE" if all(
+        sources.get(str(pool),{}).get("status")=="SUCCESS" for pool in (0,1)
+    ) else "PARTIAL_SOURCE_POOL"
     for fid,fixture in fixtures.items():
         record=evaluate_match(fixture,sale_date,now,transport)
         report["matches"].append(record)
@@ -271,6 +277,7 @@ def collect(sale_date,now=None,transport=fetch,pause=time.sleep):
     if not n:
         report["quality_gate"]="NO_DATA"
     elif (not report.get("access_restriction_encountered") and
+          report["fixture_pool_integrity"]=="COMPLETE" and
           n==len(fixtures) and count["current_spf_prices"]==n and
           count["detail_objects"]==n and count["historical_spf_matches_verified"]==n):
         report["quality_gate"]="RESEARCH_DATA_AVAILABLE"
@@ -343,6 +350,8 @@ def persist(report,out_root):
         "date":sale,"collected_at_bj":report["collection_finished_at_bj"],
         "last_snapshot_path":str(archive),
         "quality_gate":report["quality_gate"],
+        "fixture_pool_integrity":report["fixture_pool_integrity"],
+        "fixture_sources":report["fixture_sources"],
         "betting_gate":report["betting_gate"],
         "coverage":report["coverage"],
         "match_summary":[{
