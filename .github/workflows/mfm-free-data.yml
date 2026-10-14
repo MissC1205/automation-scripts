@@ -4,7 +4,13 @@ on:
   push:
     branches: [main]
     paths:
-      - 'mfm-data/*.py'
+      - 'mfm-data/mfm_api_football.py'
+      - 'mfm-data/mfm_api_teams.py'
+      - 'mfm-data/mfm_enrich.py'
+      - 'mfm-data/mfm_espn.py'
+      - 'mfm-data/mfm_history.py'
+      - 'mfm-data/mfm_openfootball.py'
+      - 'mfm-data/mfm_validate.py'
       - '.github/workflows/mfm-free-data.yml'
   schedule:
     - cron: '17 2,10,18 * * *'
