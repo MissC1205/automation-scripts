@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'mfm-data/mfm_caidao_probe.py'
+      - 'mfm-data/mfm_caidao_js_audit.py'
       - '.github/workflows/mfm-caidao-public.yml'
 permissions:
   contents: write
@@ -19,6 +20,8 @@ jobs:
           python-version: '3.11'
       - name: Check public page DNS, HTTP and same-origin JS
         run: python mfm-data/mfm_caidao_probe.py
+      - name: Inspect public JavaScript for API paths
+        run: python mfm-data/mfm_caidao_js_audit.py
       - name: Commit diagnostic snapshot
         run: |
           git config user.name "github-actions[bot]"
