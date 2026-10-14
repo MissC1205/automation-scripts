@@ -297,7 +297,10 @@ def persist(report,out_root):
     archive=target/(stamp+".json")
     archive.write_text(raw,encoding="utf-8")
     (target/"latest.json").write_text(raw,encoding="utf-8")
-    (root/"latest.json").write_text(raw,encoding="utf-8")
+    # A historical date refresh must never clobber the today's global shortcut.
+    is_current_sale_day=(sale==utc_bj_now().date().isoformat())
+    if is_current_sale_day:
+        (root/"latest.json").write_text(raw,encoding="utf-8")
     # Hard separation: evidence-only football features are exported without odds.
     # The independent prediction stage must freeze its result before reading
     # the market-only view. This collector itself never produces a forecast.
@@ -331,9 +334,11 @@ def persist(report,out_root):
         } for m in report["matches"]]
     }
     (target/"football-only.json").write_text(json.dumps(football_only,ensure_ascii=False,indent=2),encoding="utf-8")
-    (root/"latest-football-only.json").write_text(json.dumps(football_only,ensure_ascii=False,indent=2),encoding="utf-8")
+    if is_current_sale_day:
+        (root/"latest-football-only.json").write_text(json.dumps(football_only,ensure_ascii=False,indent=2),encoding="utf-8")
     (target/"market-only.json").write_text(json.dumps(market_only,ensure_ascii=False,indent=2),encoding="utf-8")
-    (root/"latest-market-only.json").write_text(json.dumps(market_only,ensure_ascii=False,indent=2),encoding="utf-8")
+    if is_current_sale_day:
+        (root/"latest-market-only.json").write_text(json.dumps(market_only,ensure_ascii=False,indent=2),encoding="utf-8")
     digest={
         "date":sale,"collected_at_bj":report["collection_finished_at_bj"],
         "last_snapshot_path":str(archive),
@@ -354,7 +359,15 @@ def persist(report,out_root):
     }
     text=json.dumps(digest,ensure_ascii=False,indent=2)
     (target/"summary.json").write_text(text,encoding="utf-8")
-    (root/"latest-summary.json").write_text(text,encoding="utf-8")
+    if is_current_sale_day:
+        (root/"latest-summary.json").write_text(text,encoding="utf-8")
+    (root/"last-run.json").write_text(json.dumps({
+        "requested_sale_date":sale,
+        "collected_at_bj":report["collection_finished_at_bj"],
+        "quality_gate":report["quality_gate"],
+        "coverage":report["coverage"],
+        "archive":str(archive)
+    },ensure_ascii=False,indent=2),encoding="utf-8")
     return archive
 
 def main():
