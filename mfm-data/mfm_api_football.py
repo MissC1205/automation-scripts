@@ -23,12 +23,22 @@ def main():
   status=call("/status",key)
   audit["authenticated"]=True
   audit["requests"].append({"endpoint":"/status","ok":True,"results":status.get("results")})
-  # API dates are UTC; request two adjacent dates for Asia/Shanghai football day.
-  fixtures=[]
+  # API returns timezone-aware fixture kickoffs; probe two adjacent dates for the China sales day.
+  fixtures=[];successful_dates=0;plan_blocked_dates=[]
   for date in (a.date,(dt.date.fromisoformat(a.date)+dt.timedelta(days=1)).isoformat()):
-   data=call("/fixtures",key,{"date":date,"timezone":"Asia/Shanghai"})
+   try:
+    data=call("/fixtures",key,{"date":date,"timezone":"Asia/Shanghai"})
+   except RuntimeError as e:
+    # Known free-plan restriction must not destroy fixtures from an allowed date.
+    # Unrelated errors still fail the workflow rather than silently dropping data.
+    if "Free plans do not have access to this date" not in str(e):raise
+    audit["requests"].append({"endpoint":"/fixtures","date":date,"ok":False,"reason":"FREE_PLAN_DATE_RESTRICTION"})
+    plan_blocked_dates.append(date)
+    continue
+   successful_dates+=1
    audit["requests"].append({"endpoint":"/fixtures","date":date,"results":data.get("results"),"ok":True})
    fixtures.extend(data.get("response",[]))
+  if successful_dates==0:raise RuntimeError("No permitted fixture dates on current API plan")
   # Do not leak authentication or copy all provider data to a public repository.
   normalized=[]
   seen=set()
@@ -39,7 +49,10 @@ def main():
    seen.add(ident)
    normalized.append({"fixture_id":ident,"kickoff":fixture.get("date"),"league_id":league.get("id"),"league":league.get("name"),"season":league.get("season"),"home_id":teams.get("home",{}).get("id"),"home":teams.get("home",{}).get("name"),"away_id":teams.get("away",{}).get("id"),"away":teams.get("away",{}).get("name"),"status":fixture.get("status",{}).get("short")})
   (out/f"{a.date}_api_football_fixtures.json").write_text(json.dumps(normalized,ensure_ascii=False,indent=2))
-  audit["status"]="SUCCESS";audit["fixtures"]=len(normalized)
+  audit["status"]="PARTIAL_DATE_WINDOW" if plan_blocked_dates else "SUCCESS"
+  audit["fixtures"]=len(normalized)
+  audit["successful_fixture_dates"]=successful_dates
+  audit["plan_blocked_fixture_dates"]=plan_blocked_dates
  except Exception as e:
   audit["status"]="FAILED";audit["error"]=str(e)[:300]
  (out/f"{a.date}_api_football_audit.json").write_text(json.dumps(audit,ensure_ascii=False,indent=2))
