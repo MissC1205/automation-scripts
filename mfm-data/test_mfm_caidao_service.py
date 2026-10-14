@@ -84,6 +84,7 @@ class CaidaoServiceTests(unittest.TestCase):
             self.assertTrue((pathlib.Path(temp)/"latest-summary.json").exists())
             self.assertTrue((pathlib.Path(temp)/"latest-football-only.json").exists())
             self.assertTrue((pathlib.Path(temp)/"latest-market-only.json").exists())
+            self.assertTrue((pathlib.Path(temp)/"last-run.json").exists())
             football=(pathlib.Path(temp)/"latest-football-only.json").read_text()
             self.assertNotIn('spfOdds',football)
             self.assertNotIn('oddsDetails',football)
