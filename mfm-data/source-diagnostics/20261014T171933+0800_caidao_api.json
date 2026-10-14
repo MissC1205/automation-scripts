@@ -1,0 +1,80 @@
+{
+  "retrieved_at_bj": "2026-10-14T17:19:30.476195+08:00",
+  "h5_origin": "http://zk.bjjckx.com",
+  "requests": [
+    {
+      "path": "/api/web/game/getLeagueMatchList",
+      "request_method": "POST",
+      "parameters": "empty_probe_only",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "response_bytes_capped": 49,
+      "response_kind": "json",
+      "top_level_keys": [
+        "data",
+        "message",
+        "status"
+      ],
+      "status": "200"
+    },
+    {
+      "path": "/api/web/game/getWorldCupOddsList",
+      "request_method": "POST",
+      "parameters": "empty_probe_only",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "response_bytes_capped": 49,
+      "response_kind": "json",
+      "top_level_keys": [
+        "data",
+        "message",
+        "status"
+      ],
+      "status": "200"
+    },
+    {
+      "path": "/api/web/game/getSpfzstdetail",
+      "request_method": "POST",
+      "parameters": "empty_probe_only",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "response_bytes_capped": 39,
+      "response_kind": "json",
+      "top_level_keys": [
+        "message",
+        "status"
+      ],
+      "status": "400"
+    },
+    {
+      "path": "/api/web/game/getRqSpfzstdetail",
+      "request_method": "POST",
+      "parameters": "empty_probe_only",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "response_bytes_capped": 39,
+      "response_kind": "json",
+      "top_level_keys": [
+        "message",
+        "status"
+      ],
+      "status": "400"
+    },
+    {
+      "path": "/api/web/game/getJcZstDetail",
+      "request_method": "POST",
+      "parameters": "empty_probe_only",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "response_bytes_capped": 39,
+      "response_kind": "json",
+      "top_level_keys": [
+        "message",
+        "status"
+      ],
+      "status": "400"
+    }
+  ],
+  "no_credentials_or_access_bypass": true,
+  "no_personal_response_data_saved": true
+}
