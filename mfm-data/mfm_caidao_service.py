@@ -20,6 +20,7 @@ from zoneinfo import ZoneInfo
 
 import mfm_caidao_daily as detail_api
 import mfm_caidao_history as sp_api
+import mfm_kelly as kelly_shadow
 
 TZ=ZoneInfo("Asia/Shanghai")
 RETRY_ERRORS=(TimeoutError,ConnectionError,urllib.error.URLError)
@@ -344,6 +345,15 @@ def persist(report,out_root):
     if is_current_sale_day:
         (root/"latest-football-only.json").write_text(json.dumps(football_only,ensure_ascii=False,indent=2),encoding="utf-8")
     (target/"market-only.json").write_text(json.dumps(market_only,ensure_ascii=False,indent=2),encoding="utf-8")
+    # Shadow-only Kelly diagnostics from already separated market data.
+    # Caidao currently lacks verified multi-bookmaker identities, independent
+    # calibrated probabilities, and official SP. Keep stake outputs BLOCKED.
+    kelly_report=kelly_shadow.market_snapshot_shadow(market_only)
+    (target/"kelly-shadow.json").write_text(json.dumps(
+        kelly_report,ensure_ascii=False,indent=2),encoding="utf-8")
+    if is_current_sale_day:
+        (root/"latest-kelly-shadow.json").write_text(json.dumps(
+            kelly_report,ensure_ascii=False,indent=2),encoding="utf-8")
     if is_current_sale_day:
         (root/"latest-market-only.json").write_text(json.dumps(market_only,ensure_ascii=False,indent=2),encoding="utf-8")
     digest={
