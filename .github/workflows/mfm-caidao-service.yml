@@ -10,6 +10,8 @@ on:
     branches: [main]
     paths:
       - 'mfm-data/mfm_caidao_service.py'
+      - 'mfm-data/mfm_kelly.py'
+      - 'mfm-data/test_mfm_kelly.py'
       - 'mfm-data/test_mfm_caidao_service.py'
       - 'mfm-data/caidao-control/refresh.txt'
       - '.github/workflows/mfm-caidao-service.yml'
@@ -39,6 +41,7 @@ jobs:
         run: |
           python -m unittest discover -s mfm-data -p 'test_mfm_caidao_history.py' -v
           python -m unittest discover -s mfm-data -p 'test_mfm_caidao_service.py' -v
+          python -m unittest discover -s mfm-data -p 'test_mfm_kelly.py' -v
       - name: Fetch today or requested sale-day public datasets
         run: python mfm-data/mfm_caidao_service.py
       - name: Archive snapshots safely despite other repository writers
