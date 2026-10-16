@@ -60,3 +60,10 @@ GitHub Actions：`.github/workflows/mfm-caidao-service.yml`
 - 临时DNS/5xx按脚本规则有限重试；请求失败必须保留来源/错误类型/时间。
 - GitHub并发写入时先 `git fetch` + `git rebase` 再重试 push。无法提交时从该运行的 artifact 读取，不可声称仓库文件已更新。
 - 修改模型脚本不能借机重启免费 API-Football 全量探测，以免浪费免费额度。
+
+## 6. 凯利影子模块（2026-10-16加入）
+- `mfm_kelly.py` 提供两个独立函数：`bookmaker_indices` 比较真实独立博彩公司报价的描述性凯利指数；`kelly_stake` 在独立概率已校准并先于读盘冻结、官方JC SP经验证且EV>0时提供风险参考。禁止从赔率去水概率冒充独立胜率。
+- 现有采道服务每次采集额外生成日期归档 `caidao-live/YYYY-MM-DD/kelly-shadow.json` 和当日 `caidao-live/latest-kelly-shadow.json`；其中市场基准只是去水后的第三方价格，凯利指数和资金建议均须保持缺失/阻断状态，直到得到相应可核验数据。
+- 至少两个身份/时间/盘口均核验的独立博彩公司才允许描述性指数比较；目前单源采道不能构成“多博彩公司凯利”。
+- 即使满足条件，资金参考上限为**四分之一凯利且最多1%本金**，只用于影子验证。投入、实际盈亏和回撤不能由脚本凭空填写。
+- `.github/workflows/mfm-caidao-service.yml` 离线测试包括 `test_mfm_kelly.py`；出现失败时工作流不可宣称模型已集成验证。现阶段没有完成独立概率校准/回测，投注门禁继续 BLOCKED。
