@@ -1,19 +1,19 @@
 {
   "date": "2026-10-18",
-  "collected_at_bj": "2026-10-18T15:11:09.460876+08:00",
-  "last_snapshot_path": "mfm-data/caidao-live/2026-10-18/20261018T151109461169+0800.json",
+  "collected_at_bj": "2026-10-18T21:55:49.455882+08:00",
+  "last_snapshot_path": "mfm-data/caidao-live/2026-10-18/20261018T215549456126+0800.json",
   "quality_gate": "PARTIAL_RESEARCH_DATA",
   "fixture_pool_integrity": "COMPLETE",
   "fixture_sources": {
     "0": {
       "status": "SUCCESS",
-      "raw_rows": 33,
-      "date_rows": 25
+      "raw_rows": 27,
+      "date_rows": 19
     },
     "1": {
       "status": "SUCCESS",
-      "raw_rows": 353,
-      "date_rows": 0
+      "raw_rows": 360,
+      "date_rows": 7
     }
   },
   "betting_gate": "BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV",
@@ -25,12 +25,12 @@
     "reported_handicap_numbers": 25,
     "detail_objects": 25,
     "historical_spf_matches_verified": 24,
-    "historical_spf_rows": 89,
+    "historical_spf_rows": 157,
     "current_spf_matches_latest_history": 24,
     "current_spf_divergence_or_lag": 0,
-    "captured_before_kickoff": 24,
-    "captured_after_kickoff": 1,
-    "prematch_verified_history_snapshots": 23,
+    "captured_before_kickoff": 11,
+    "captured_after_kickoff": 14,
+    "prematch_verified_history_snapshots": 10,
     "third_party_handicap_historical_rows": 0,
     "verified_official_jc_sp_matches": 0
   },
@@ -64,7 +64,7 @@
       "home": "江原FC",
       "away": "仁川联",
       "kickoff_bj": "2026-10-18T15:30:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
         "home": 2.05,
         "draw": 2.75,
@@ -72,13 +72,13 @@
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 4.85,
+        "home": 5.15,
         "draw": 3.35,
-        "away": 1.6
+        "away": 1.57
       },
       "spf_history_rows": 5,
       "last_source_sp_updated_at_bj": "2026-10-18T14:37:02+08:00",
-      "prematch_snapshot_verified": true,
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -87,7 +87,7 @@
       "home": "首尔FC",
       "away": "金泉尚武",
       "kickoff_bj": "2026-10-18T15:30:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
         "home": 1.23,
         "draw": 5.11,
@@ -101,7 +101,7 @@
       },
       "spf_history_rows": 9,
       "last_source_sp_updated_at_bj": "2026-10-18T14:47:32+08:00",
-      "prematch_snapshot_verified": true,
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -110,21 +110,21 @@
       "home": "兹沃勒",
       "away": "前进之鹰",
       "kickoff_bj": "2026-10-18T18:15:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 3.86,
-        "draw": 3.95,
-        "away": 1.62
+        "home": 3.95,
+        "draw": 3.98,
+        "away": 1.6
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.97,
-        "draw": 3.85,
-        "away": 2.77
+        "home": 2.02,
+        "draw": 3.9,
+        "away": 2.65
       },
-      "spf_history_rows": 8,
-      "last_source_sp_updated_at_bj": "2026-10-18T14:30:35+08:00",
-      "prematch_snapshot_verified": true,
+      "spf_history_rows": 13,
+      "last_source_sp_updated_at_bj": "2026-10-18T17:54:04+08:00",
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -133,21 +133,21 @@
       "home": "乌迪内斯",
       "away": "莱切",
       "kickoff_bj": "2026-10-18T18:30:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 1.59,
-        "draw": 3.55,
-        "away": 4.57
+        "home": 1.57,
+        "draw": 3.45,
+        "away": 4.93
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 3.27,
-        "draw": 3.0,
-        "away": 2.04
+        "home": 3.38,
+        "draw": 2.85,
+        "away": 2.07
       },
-      "spf_history_rows": 4,
-      "last_source_sp_updated_at_bj": "2026-10-18T13:58:15+08:00",
-      "prematch_snapshot_verified": true,
+      "spf_history_rows": 6,
+      "last_source_sp_updated_at_bj": "2026-10-18T17:56:48+08:00",
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -156,21 +156,21 @@
       "home": "奥萨苏纳",
       "away": "桑坦德",
       "kickoff_bj": "2026-10-18T20:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 1.83,
-        "draw": 3.52,
-        "away": 3.35
+        "home": 1.76,
+        "draw": 3.6,
+        "away": 3.55
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 3.48,
-        "draw": 3.62,
-        "away": 1.77
+        "home": 3.45,
+        "draw": 3.54,
+        "away": 1.8
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-18T12:19:02+08:00",
-      "prematch_snapshot_verified": true,
+      "spf_history_rows": 5,
+      "last_source_sp_updated_at_bj": "2026-10-18T19:04:14+08:00",
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -179,21 +179,21 @@
       "home": "天狼星",
       "away": "埃夫斯堡",
       "kickoff_bj": "2026-10-18T20:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 1.83,
-        "draw": 3.5,
-        "away": 3.36
+        "home": 1.79,
+        "draw": 3.6,
+        "away": 3.41
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 3.6,
-        "draw": 3.65,
-        "away": 1.73
+        "home": 3.32,
+        "draw": 3.75,
+        "away": 1.78
       },
-      "spf_history_rows": 2,
-      "last_source_sp_updated_at_bj": "2026-10-17T10:44:09+08:00",
-      "prematch_snapshot_verified": true,
+      "spf_history_rows": 6,
+      "last_source_sp_updated_at_bj": "2026-10-18T19:24:42+08:00",
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -202,7 +202,7 @@
       "home": "库奥皮奥",
       "away": "瓦萨",
       "kickoff_bj": "2026-10-18T20:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
         "home": 1.39,
         "draw": 4.18,
@@ -210,13 +210,13 @@
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 2.3,
-        "draw": 3.32,
+        "home": 2.25,
+        "draw": 3.45,
         "away": 2.54
       },
       "spf_history_rows": 3,
       "last_source_sp_updated_at_bj": "2026-10-18T13:23:37+08:00",
-      "prematch_snapshot_verified": true,
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -225,21 +225,21 @@
       "home": "萨普斯堡",
       "away": "罗森博格",
       "kickoff_bj": "2026-10-18T20:30:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 2.45,
-        "draw": 3.7,
-        "away": 2.22
+        "home": 2.28,
+        "draw": 3.77,
+        "away": 2.35
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.51,
-        "draw": 4.25,
-        "away": 4.32
+        "home": 1.43,
+        "draw": 4.45,
+        "away": 4.9
       },
-      "spf_history_rows": 2,
-      "last_source_sp_updated_at_bj": "2026-10-18T11:17:30+08:00",
-      "prematch_snapshot_verified": true,
+      "spf_history_rows": 5,
+      "last_source_sp_updated_at_bj": "2026-10-18T20:08:32+08:00",
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -248,21 +248,21 @@
       "home": "利兹联",
       "away": "曼联",
       "kickoff_bj": "2026-10-18T21:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 2.22,
-        "draw": 3.4,
-        "away": 2.6
+        "home": 2.42,
+        "draw": 3.1,
+        "away": 2.55
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 4.5,
-        "draw": 4.15,
-        "away": 1.5
+        "home": 5.35,
+        "draw": 4.2,
+        "away": 1.42
       },
-      "spf_history_rows": 1,
-      "last_source_sp_updated_at_bj": "2026-10-16T09:41:59+08:00",
-      "prematch_snapshot_verified": true,
+      "spf_history_rows": 7,
+      "last_source_sp_updated_at_bj": "2026-10-18T20:44:32+08:00",
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -271,21 +271,21 @@
       "home": "伯恩茅斯",
       "away": "桑德兰",
       "kickoff_bj": "2026-10-18T21:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 1.8,
-        "draw": 3.35,
-        "away": 3.65
+        "home": 1.86,
+        "draw": 3.1,
+        "away": 3.72
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 3.55,
-        "draw": 3.58,
-        "away": 1.76
+        "home": 3.75,
+        "draw": 3.55,
+        "away": 1.72
       },
-      "spf_history_rows": 2,
-      "last_source_sp_updated_at_bj": "2026-10-18T14:51:01+08:00",
-      "prematch_snapshot_verified": true,
+      "spf_history_rows": 6,
+      "last_source_sp_updated_at_bj": "2026-10-18T20:50:39+08:00",
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -294,21 +294,21 @@
       "home": "佛罗伦萨",
       "away": "科莫",
       "kickoff_bj": "2026-10-18T21:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 3.4,
-        "draw": 3.55,
-        "away": 1.81
+        "home": 3.27,
+        "draw": 3.5,
+        "away": 1.86
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.76,
-        "draw": 3.55,
-        "away": 3.58
+        "home": 1.71,
+        "draw": 3.65,
+        "away": 3.7
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-18T12:20:13+08:00",
-      "prematch_snapshot_verified": true,
+      "spf_history_rows": 7,
+      "last_source_sp_updated_at_bj": "2026-10-18T20:48:59+08:00",
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -317,21 +317,21 @@
       "home": "昂热",
       "away": "马赛",
       "kickoff_bj": "2026-10-18T21:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 3.5,
-        "draw": 3.63,
-        "away": 1.76
+        "home": 4.12,
+        "draw": 4.0,
+        "away": 1.57
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.83,
-        "draw": 3.63,
-        "away": 3.25
+        "home": 2.05,
+        "draw": 3.45,
+        "away": 2.85
       },
-      "spf_history_rows": 5,
-      "last_source_sp_updated_at_bj": "2026-10-18T14:58:24+08:00",
-      "prematch_snapshot_verified": true,
+      "spf_history_rows": 10,
+      "last_source_sp_updated_at_bj": "2026-10-18T20:34:43+08:00",
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -340,21 +340,21 @@
       "home": "勒沃库森",
       "away": "弗赖堡",
       "kickoff_bj": "2026-10-18T21:30:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 1.42,
-        "draw": 4.4,
-        "away": 5.05
+        "home": 1.4,
+        "draw": 4.45,
+        "away": 5.25
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 2.3,
+        "home": 2.25,
         "draw": 3.6,
-        "away": 2.4
+        "away": 2.46
       },
-      "spf_history_rows": 4,
-      "last_source_sp_updated_at_bj": "2026-10-18T14:58:05+08:00",
-      "prematch_snapshot_verified": true,
+      "spf_history_rows": 5,
+      "last_source_sp_updated_at_bj": "2026-10-18T17:08:01+08:00",
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -365,18 +365,18 @@
       "kickoff_bj": "2026-10-18T22:15:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 2.07,
-        "draw": 2.85,
-        "away": 3.4
+        "home": 2.15,
+        "draw": 2.65,
+        "away": 3.48
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 4.65,
-        "draw": 3.5,
-        "away": 1.59
+        "home": 5.15,
+        "draw": 3.45,
+        "away": 1.55
       },
-      "spf_history_rows": 2,
-      "last_source_sp_updated_at_bj": "2026-10-18T14:13:22+08:00",
+      "spf_history_rows": 4,
+      "last_source_sp_updated_at_bj": "2026-10-18T20:03:37+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -394,12 +394,12 @@
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 2.02,
-        "draw": 3.85,
-        "away": 2.67
+        "home": 2.03,
+        "draw": 3.76,
+        "away": 2.7
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-18T14:53:08+08:00",
+      "spf_history_rows": 6,
+      "last_source_sp_updated_at_bj": "2026-10-18T21:44:53+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -434,18 +434,18 @@
       "kickoff_bj": "2026-10-18T23:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 7.0,
-        "draw": 4.16,
-        "away": 1.34
+        "home": 6.1,
+        "draw": 4.0,
+        "away": 1.4
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 2.65,
-        "draw": 3.25,
-        "away": 2.25
+        "home": 2.45,
+        "draw": 3.4,
+        "away": 2.34
       },
-      "spf_history_rows": 8,
-      "last_source_sp_updated_at_bj": "2026-10-18T14:09:21+08:00",
+      "spf_history_rows": 11,
+      "last_source_sp_updated_at_bj": "2026-10-18T20:15:21+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -457,18 +457,18 @@
       "kickoff_bj": "2026-10-18T23:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 3.12,
-        "draw": 3.9,
-        "away": 1.81
+        "home": 2.58,
+        "draw": 3.95,
+        "away": 2.05
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.77,
-        "draw": 4.0,
-        "away": 3.2
+        "home": 1.57,
+        "draw": 4.36,
+        "away": 3.8
       },
-      "spf_history_rows": 1,
-      "last_source_sp_updated_at_bj": "2026-10-17T09:46:16+08:00",
+      "spf_history_rows": 7,
+      "last_source_sp_updated_at_bj": "2026-10-18T21:41:35+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -480,18 +480,18 @@
       "kickoff_bj": "2026-10-19T00:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.55,
-        "draw": 3.7,
-        "away": 4.67
+        "home": 1.46,
+        "draw": 4.05,
+        "away": 5.05
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 2.85,
-        "draw": 3.33,
-        "away": 2.09
+        "home": 2.78,
+        "draw": 3.0,
+        "away": 2.29
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-18T14:56:45+08:00",
+      "spf_history_rows": 7,
+      "last_source_sp_updated_at_bj": "2026-10-18T21:49:03+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -503,18 +503,18 @@
       "kickoff_bj": "2026-10-19T00:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 3.22,
-        "draw": 3.45,
-        "away": 1.89
+        "home": 3.25,
+        "draw": 3.55,
+        "away": 1.85
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.71,
-        "draw": 3.62,
-        "away": 3.72
+        "home": 1.72,
+        "draw": 3.52,
+        "away": 3.8
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-18T14:07:03+08:00",
+      "spf_history_rows": 7,
+      "last_source_sp_updated_at_bj": "2026-10-18T19:53:07+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -526,18 +526,18 @@
       "kickoff_bj": "2026-10-19T02:45:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.5,
-        "draw": 3.6,
-        "away": 5.4
+        "home": 1.49,
+        "draw": 3.65,
+        "away": 5.45
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 2.72,
-        "draw": 3.25,
-        "away": 2.2
+        "home": 2.77,
+        "draw": 3.15,
+        "away": 2.22
       },
-      "spf_history_rows": 2,
-      "last_source_sp_updated_at_bj": "2026-10-18T14:46:36+08:00",
+      "spf_history_rows": 7,
+      "last_source_sp_updated_at_bj": "2026-10-18T21:10:40+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -549,18 +549,18 @@
       "kickoff_bj": "2026-10-19T02:45:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.64,
-        "draw": 3.75,
-        "away": 3.95
+        "home": 1.59,
+        "draw": 3.9,
+        "away": 4.1
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 2.92,
-        "draw": 3.65,
-        "away": 1.95
+        "home": 2.82,
+        "draw": 3.55,
+        "away": 2.03
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-18T13:02:00+08:00",
+      "spf_history_rows": 5,
+      "last_source_sp_updated_at_bj": "2026-10-18T20:09:36+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -591,18 +591,18 @@
       "kickoff_bj": "2026-10-19T03:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 2.1,
-        "draw": 3.05,
+        "home": 2.24,
+        "draw": 2.8,
         "away": 3.07
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 4.5,
-        "draw": 3.82,
-        "away": 1.55
+        "home": 5.1,
+        "draw": 3.9,
+        "away": 1.48
       },
-      "spf_history_rows": 2,
-      "last_source_sp_updated_at_bj": "2026-10-18T14:39:20+08:00",
+      "spf_history_rows": 5,
+      "last_source_sp_updated_at_bj": "2026-10-18T21:21:54+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     }
