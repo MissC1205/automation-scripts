@@ -1,7 +1,7 @@
 {
   "format_version": "1.0",
   "sale_date_bj": "2026-10-21",
-  "collection_started_at_bj": "2026-10-21T15:29:19.970790+08:00",
+  "collection_started_at_bj": "2026-10-21T21:42:16.134882+08:00",
   "source_provider": "Caidao 采道 public H5",
   "source_type": "THIRD_PARTY_AGGREGATOR_NOT_OFFICIAL_JC",
   "source_url": "http://zk.bjjckx.com",
@@ -14,13 +14,13 @@
   "fixture_sources": {
     "0": {
       "status": "SUCCESS",
-      "raw_rows": 24,
-      "date_rows": 13
+      "raw_rows": 21,
+      "date_rows": 10
     },
     "1": {
       "status": "SUCCESS",
-      "raw_rows": 322,
-      "date_rows": 0
+      "raw_rows": 325,
+      "date_rows": 3
     }
   },
   "matches": [
@@ -31,43 +31,43 @@
       "away": "柏太阳神",
       "competition": "日职",
       "kickoff_bj": "2026-10-21T18:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:22.358530+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:18.608730+08:00",
+      "collection_phase": "POST_KICKOFF",
       "source_market": {
         "raw": {
-          "spfOdds": "1.75|3.65|3.52",
-          "rqspfOdds": "3.45|3.45|1.82",
+          "spfOdds": "1.57|3.95|4.20",
+          "rqspfOdds": "3.10|3.12|2.06",
           "concedeNum": -1,
-          "bfOdds": "40.00|8.50|11.00|6.75|20.00|13.00|18.00|50.00|34.00|50.00|100.0|80.00|100.0|200.0|15.00|7.00|12.00|50.00|70.00|12.00|20.00|9.50|35.00|20.00|24.00|100.0|60.00|75.00|350.0|200.0|250.0",
-          "zjqOdds": "15.00|5.20|3.65|3.55|5.20|8.00|14.00|20.00",
-          "bqcOdds": "3.00|14.00|35.00|4.50|5.50|7.50|19.00|14.00|6.25"
+          "bfOdds": "34.00|8.50|9.00|6.50|16.00|10.50|17.00|40.00|34.00|38.00|90.00|80.00|100.0|200.0|17.00|7.25|12.00|50.00|70.00|15.00|25.00|12.00|40.00|22.00|24.00|150.0|75.00|75.00|350.0|200.0|250.0",
+          "zjqOdds": "17.00|5.75|3.55|3.40|4.95|8.75|13.50|18.00",
+          "bqcOdds": "2.60|15.00|39.00|3.95|5.25|11.00|21.00|15.00|7.75"
         },
         "spf": {
-          "home": 1.75,
-          "draw": 3.65,
-          "away": 3.52
+          "home": 1.57,
+          "draw": 3.95,
+          "away": 4.2
         },
         "integer_handicap": -1,
         "handicap_sp": {
-          "home": 3.45,
-          "draw": 3.45,
-          "away": 1.82
+          "home": 3.1,
+          "draw": 3.12,
+          "away": 2.06
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
-          15.0,
-          5.2,
-          3.65,
+          17.0,
+          5.75,
           3.55,
-          5.2,
-          8.0,
-          14.0,
-          20.0
+          3.4,
+          4.95,
+          8.75,
+          13.5,
+          18.0
         ]
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:23.020069+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:19.236313+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 3,
@@ -245,7 +245,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:09:46",
+        "provider_update_time_raw": "2026-10-21 21:33:00",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 10,
         "injury_data_presence_only_not_absence_verification": true,
@@ -332,6 +332,51 @@
             "away": 3.52,
             "source_odds_flag": "-1|1|1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T16:15:19+08:00",
+            "source_time_raw": "2026-10-21 16:15:19",
+            "home": 1.68,
+            "draw": 3.75,
+            "away": 3.75,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T16:30:26+08:00",
+            "source_time_raw": "2026-10-21 16:30:26",
+            "home": 1.65,
+            "draw": 3.8,
+            "away": 3.85,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T16:56:12+08:00",
+            "source_time_raw": "2026-10-21 16:56:12",
+            "home": 1.58,
+            "draw": 3.92,
+            "away": 4.15,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T17:03:57+08:00",
+            "source_time_raw": "2026-10-21 17:03:57",
+            "home": 1.61,
+            "draw": 3.85,
+            "away": 4.02,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T17:22:12+08:00",
+            "source_time_raw": "2026-10-21 17:22:12",
+            "home": 1.57,
+            "draw": 3.95,
+            "away": 4.2,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -339,19 +384,19 @@
         "provider_home": "东京FC",
         "provider_away": "柏太阳神",
         "integer_handicap": "-1",
-        "source_history_count": 8,
+        "source_history_count": 13,
         "duplicate_timestamps": 0,
-        "history_count": 8,
+        "history_count": 13,
         "earliest_source_updated_at_bj": "2026-10-20T09:50:47+08:00",
-        "latest_source_updated_at_bj": "2026-10-21T15:15:25+08:00",
+        "latest_source_updated_at_bj": "2026-10-21T17:22:12+08:00",
         "verified_for_model_use": true
       },
       "data_quality": {
         "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
         "history_spf_valid": true,
-        "history_spf_quote_count": 8,
-        "history_as_of": "2026-10-21T15:15:25+08:00",
-        "true_prematch_snapshot": true,
+        "history_spf_quote_count": 13,
+        "history_as_of": "2026-10-21T17:22:12+08:00",
+        "true_prematch_snapshot": false,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
         "probability_model_calibrated": false
@@ -431,43 +476,43 @@
       "away": "神户胜利",
       "competition": "日职",
       "kickoff_bj": "2026-10-21T18:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:23.899976+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:20.113113+08:00",
+      "collection_phase": "POST_KICKOFF",
       "source_market": {
         "raw": {
-          "spfOdds": "2.34|3.40|2.45",
-          "rqspfOdds": "5.05|4.15|1.45",
+          "spfOdds": "2.95|3.30|2.05",
+          "rqspfOdds": "6.75|5.00|1.28",
           "concedeNum": -1,
-          "bfOdds": "55.00|9.50|13.00|7.75|24.00|16.50|22.00|60.00|40.00|60.00|200.0|120.0|175.0|175.0|16.00|6.75|10.50|40.00|60.00|10.00|14.00|8.00|26.00|18.00|23.00|70.00|45.00|65.00|250.0|150.0|200.0",
-          "zjqOdds": "16.00|5.85|3.80|3.45|4.80|7.85|13.00|18.00",
-          "bqcOdds": "3.80|12.50|26.00|5.85|5.60|6.30|25.00|12.50|4.10"
+          "bfOdds": "60.00|10.00|14.00|8.00|26.00|18.00|23.00|70.00|45.00|65.00|250.0|150.0|200.0|150.0|17.00|6.75|10.00|36.00|55.00|9.75|13.50|7.80|25.00|16.50|22.00|60.00|40.00|50.00|200.0|120.0|175.0",
+          "zjqOdds": "17.00|6.60|4.25|3.30|4.45|7.50|12.00|15.50",
+          "bqcOdds": "4.85|12.50|23.00|6.50|5.40|5.20|28.00|12.50|3.60"
         },
         "spf": {
-          "home": 2.34,
-          "draw": 3.4,
-          "away": 2.45
+          "home": 2.95,
+          "draw": 3.3,
+          "away": 2.05
         },
         "integer_handicap": -1,
         "handicap_sp": {
-          "home": 5.05,
-          "draw": 4.15,
-          "away": 1.45
+          "home": 6.75,
+          "draw": 5.0,
+          "away": 1.28
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
-          16.0,
-          5.85,
-          3.8,
-          3.45,
-          4.8,
-          7.85,
-          13.0,
-          18.0
+          17.0,
+          6.6,
+          4.25,
+          3.3,
+          4.45,
+          7.5,
+          12.0,
+          15.5
         ]
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:24.721705+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:20.961603+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 1,
@@ -645,7 +690,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:09:47",
+        "provider_update_time_raw": "2026-10-21 21:33:00",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 10,
         "injury_data_presence_only_not_absence_verification": true,
@@ -669,6 +714,51 @@
             "away": 2.45,
             "source_odds_flag": "0|0|0",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T15:57:47+08:00",
+            "source_time_raw": "2026-10-21 15:57:47",
+            "home": 2.42,
+            "draw": 3.35,
+            "away": 2.4,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T16:15:03+08:00",
+            "source_time_raw": "2026-10-21 16:15:03",
+            "home": 2.55,
+            "draw": 3.35,
+            "away": 2.28,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T16:38:32+08:00",
+            "source_time_raw": "2026-10-21 16:38:32",
+            "home": 2.7,
+            "draw": 3.35,
+            "away": 2.17,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T16:59:49+08:00",
+            "source_time_raw": "2026-10-21 16:59:49",
+            "home": 2.82,
+            "draw": 3.35,
+            "away": 2.1,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T17:38:33+08:00",
+            "source_time_raw": "2026-10-21 17:38:33",
+            "home": 2.95,
+            "draw": 3.3,
+            "away": 2.05,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -676,19 +766,19 @@
         "provider_home": "川崎前锋",
         "provider_away": "神户胜利",
         "integer_handicap": "-1",
-        "source_history_count": 1,
+        "source_history_count": 6,
         "duplicate_timestamps": 0,
-        "history_count": 1,
+        "history_count": 6,
         "earliest_source_updated_at_bj": "2026-10-20T09:50:47+08:00",
-        "latest_source_updated_at_bj": "2026-10-20T09:50:47+08:00",
+        "latest_source_updated_at_bj": "2026-10-21T17:38:33+08:00",
         "verified_for_model_use": true
       },
       "data_quality": {
         "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
         "history_spf_valid": true,
-        "history_spf_quote_count": 1,
-        "history_as_of": "2026-10-20T09:50:47+08:00",
-        "true_prematch_snapshot": true,
+        "history_spf_quote_count": 6,
+        "history_as_of": "2026-10-21T17:38:33+08:00",
+        "true_prematch_snapshot": false,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
         "probability_model_calibrated": false
@@ -768,43 +858,43 @@
       "away": "富山胜利",
       "competition": "日乙",
       "kickoff_bj": "2026-10-21T18:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:25.622918+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:21.810608+08:00",
+      "collection_phase": "POST_KICKOFF",
       "source_market": {
         "raw": {
-          "spfOdds": "1.88|3.60|3.13",
-          "rqspfOdds": "3.80|3.65|1.69",
+          "spfOdds": "2.15|3.55|2.62",
+          "rqspfOdds": "4.50|3.95|1.53",
           "concedeNum": -1,
-          "bfOdds": "35.00|12.00|13.00|7.50|23.00|13.00|17.00|55.00|30.00|40.00|150.0|90.00|100.0|150.0|22.00|6.70|9.50|32.00|50.00|14.00|17.50|9.00|33.00|18.00|20.00|80.00|50.00|50.00|250.0|150.0|150.0",
-          "zjqOdds": "22.00|7.60|4.40|3.60|4.50|6.00|10.00|12.00",
-          "bqcOdds": "3.40|14.00|24.00|5.00|5.75|7.30|20.00|14.00|4.65"
+          "bfOdds": "30.00|14.00|16.00|8.00|25.00|14.00|16.00|60.00|35.00|36.00|175.0|90.00|90.00|125.0|26.00|6.70|9.50|32.00|33.00|15.00|18.00|8.75|28.00|16.00|18.00|70.00|40.00|40.00|200.0|100.0|100.0",
+          "zjqOdds": "26.00|8.65|4.75|3.45|4.15|6.00|9.50|11.50",
+          "bqcOdds": "3.55|14.00|24.00|5.45|6.15|6.80|22.00|14.00|4.00"
         },
         "spf": {
-          "home": 1.88,
-          "draw": 3.6,
-          "away": 3.13
+          "home": 2.15,
+          "draw": 3.55,
+          "away": 2.62
         },
         "integer_handicap": -1,
         "handicap_sp": {
-          "home": 3.8,
-          "draw": 3.65,
-          "away": 1.69
+          "home": 4.5,
+          "draw": 3.95,
+          "away": 1.53
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
-          22.0,
-          7.6,
-          4.4,
-          3.6,
-          4.5,
+          26.0,
+          8.65,
+          4.75,
+          3.45,
+          4.15,
           6.0,
-          10.0,
-          12.0
+          9.5,
+          11.5
         ]
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:26.437218+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:22.702539+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 2,
@@ -986,7 +1076,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:09:49",
+        "provider_update_time_raw": "2026-10-21 21:33:00",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 4,
         "injury_data_presence_only_not_absence_verification": true,
@@ -1055,6 +1145,24 @@
             "away": 3.13,
             "source_odds_flag": "-1|-1|1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T16:20:33+08:00",
+            "source_time_raw": "2026-10-21 16:20:33",
+            "home": 1.93,
+            "draw": 3.5,
+            "away": 3.08,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T17:34:12+08:00",
+            "source_time_raw": "2026-10-21 17:34:12",
+            "home": 2.15,
+            "draw": 3.55,
+            "away": 2.62,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -1062,19 +1170,19 @@
         "provider_home": "大宫松鼠",
         "provider_away": "富山胜利",
         "integer_handicap": "-1",
-        "source_history_count": 6,
+        "source_history_count": 8,
         "duplicate_timestamps": 0,
-        "history_count": 6,
+        "history_count": 8,
         "earliest_source_updated_at_bj": "2026-10-20T09:50:47+08:00",
-        "latest_source_updated_at_bj": "2026-10-21T15:03:33+08:00",
+        "latest_source_updated_at_bj": "2026-10-21T17:34:12+08:00",
         "verified_for_model_use": true
       },
       "data_quality": {
         "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
         "history_spf_valid": true,
-        "history_spf_quote_count": 6,
-        "history_as_of": "2026-10-21T15:03:33+08:00",
-        "true_prematch_snapshot": true,
+        "history_spf_quote_count": 8,
+        "history_as_of": "2026-10-21T17:34:12+08:00",
+        "true_prematch_snapshot": false,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
         "probability_model_calibrated": false
@@ -1154,35 +1262,35 @@
       "away": "曼联",
       "competition": "欧冠",
       "kickoff_bj": "2026-10-22T00:45:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:27.376756+08:00",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:23.393129+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
-          "spfOdds": "2.07|3.62|2.70",
-          "rqspfOdds": "4.20|4.00|1.56",
+          "spfOdds": "2.23|3.60|2.48",
+          "rqspfOdds": "4.50|4.32|1.48",
           "concedeNum": -1,
-          "bfOdds": "40.00|10.00|12.50|7.00|21.00|13.00|17.00|45.00|31.00|38.00|125.0|80.00|120.0|150.0|20.00|7.00|10.00|33.00|70.00|13.00|18.00|9.00|36.00|20.00|23.00|100.0|50.00|65.00|300.0|175.0|200.0",
-          "zjqOdds": "20.00|6.75|4.00|3.45|4.45|7.15|11.50|15.50",
-          "bqcOdds": "3.25|13.00|23.00|5.25|6.25|7.25|21.00|13.00|4.70"
+          "bfOdds": "40.00|11.50|14.00|7.30|22.00|13.00|17.00|45.00|31.00|38.00|125.0|80.00|120.0|150.0|20.00|7.10|10.00|33.00|55.00|13.00|18.00|9.00|32.00|19.00|21.00|80.00|40.00|50.00|250.0|125.0|150.0",
+          "zjqOdds": "20.00|7.00|4.15|3.35|4.35|7.15|11.50|15.50",
+          "bqcOdds": "3.55|13.00|23.00|5.40|6.40|6.75|21.00|13.00|4.20"
         },
         "spf": {
-          "home": 2.07,
-          "draw": 3.62,
-          "away": 2.7
+          "home": 2.23,
+          "draw": 3.6,
+          "away": 2.48
         },
         "integer_handicap": -1,
         "handicap_sp": {
-          "home": 4.2,
-          "draw": 4.0,
-          "away": 1.56
+          "home": 4.5,
+          "draw": 4.32,
+          "away": 1.48
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
           20.0,
-          6.75,
-          4.0,
-          3.45,
-          4.45,
+          7.0,
+          4.15,
+          3.35,
+          4.35,
           7.15,
           11.5,
           15.5
@@ -1190,7 +1298,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:28.444931+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:24.234492+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 0,
@@ -1372,7 +1480,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:09:50",
+        "provider_update_time_raw": "2026-10-21 21:33:00",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 0,
         "injury_data_presence_only_not_absence_verification": true,
@@ -1423,6 +1531,33 @@
             "away": 2.7,
             "source_odds_flag": "1|0|-1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T18:40:49+08:00",
+            "source_time_raw": "2026-10-21 18:40:49",
+            "home": 2.11,
+            "draw": 3.62,
+            "away": 2.64,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T19:22:21+08:00",
+            "source_time_raw": "2026-10-21 19:22:21",
+            "home": 2.15,
+            "draw": 3.62,
+            "away": 2.58,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T20:18:13+08:00",
+            "source_time_raw": "2026-10-21 20:18:13",
+            "home": 2.23,
+            "draw": 3.6,
+            "away": 2.48,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -1430,18 +1565,18 @@
         "provider_home": "科莫",
         "provider_away": "曼联",
         "integer_handicap": "-1",
-        "source_history_count": 4,
+        "source_history_count": 7,
         "duplicate_timestamps": 0,
-        "history_count": 4,
+        "history_count": 7,
         "earliest_source_updated_at_bj": "2026-10-20T09:50:47+08:00",
-        "latest_source_updated_at_bj": "2026-10-21T13:37:19+08:00",
+        "latest_source_updated_at_bj": "2026-10-21T20:18:13+08:00",
         "verified_for_model_use": true
       },
       "data_quality": {
         "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
         "history_spf_valid": true,
-        "history_spf_quote_count": 4,
-        "history_as_of": "2026-10-21T13:37:19+08:00",
+        "history_spf_quote_count": 7,
+        "history_as_of": "2026-10-21T20:18:13+08:00",
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -1522,16 +1657,16 @@
       "away": "加拉塔萨",
       "competition": "欧冠",
       "kickoff_bj": "2026-10-22T00:45:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:29.322414+08:00",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:25.129658+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
           "spfOdds": "1.81|3.65|3.30",
-          "rqspfOdds": "3.48|3.70|1.75",
+          "rqspfOdds": "3.57|3.60|1.75",
           "concedeNum": -1,
           "bfOdds": "35.00|9.50|11.00|7.00|19.00|12.50|18.00|40.00|28.00|45.00|100.0|80.00|100.0|200.0|17.00|7.00|10.50|40.00|75.00|13.50|20.00|9.00|45.00|20.00|23.00|100.0|70.00|80.00|350.0|250.0|300.0",
-          "zjqOdds": "17.00|6.30|4.00|3.45|4.50|7.20|13.00|17.00",
-          "bqcOdds": "3.05|14.00|27.00|4.50|6.25|8.00|20.00|14.00|5.30"
+          "zjqOdds": "17.00|6.30|4.10|3.05|4.45|8.00|15.50|20.00",
+          "bqcOdds": "3.15|14.00|27.00|4.40|5.90|8.00|20.00|14.00|5.40"
         },
         "spf": {
           "home": 1.81,
@@ -1540,25 +1675,25 @@
         },
         "integer_handicap": -1,
         "handicap_sp": {
-          "home": 3.48,
-          "draw": 3.7,
+          "home": 3.57,
+          "draw": 3.6,
           "away": 1.75
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
           17.0,
           6.3,
-          4.0,
-          3.45,
-          4.5,
-          7.2,
-          13.0,
-          17.0
+          4.1,
+          3.05,
+          4.45,
+          8.0,
+          15.5,
+          20.0
         ]
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:30.333059+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:25.968894+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 0,
@@ -1740,7 +1875,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:09:51",
+        "provider_update_time_raw": "2026-10-21 21:33:00",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 0,
         "injury_data_presence_only_not_absence_verification": true,
@@ -1881,43 +2016,43 @@
       "away": "毕尔巴鄂",
       "competition": "西甲",
       "kickoff_bj": "2026-10-22T02:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:31.266759+08:00",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:26.633850+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
-          "spfOdds": "3.60|3.20|1.86",
-          "rqspfOdds": "1.71|3.50|3.86",
+          "spfOdds": "3.90|3.21|1.78",
+          "rqspfOdds": "1.80|3.25|3.76",
           "concedeNum": 1,
-          "bfOdds": "150.0|9.00|16.00|10.00|50.00|30.00|35.00|150.0|100.0|150.0|400.0|300.0|400.0|350.0|10.50|5.55|13.00|65.00|75.00|6.80|8.75|7.25|17.00|16.00|26.00|50.00|50.00|75.00|150.0|150.0|200.0",
-          "zjqOdds": "10.50|4.45|3.05|3.45|5.85|12.50|25.00|38.00",
-          "bqcOdds": "5.85|16.00|27.00|8.00|4.90|4.05|30.00|16.00|3.20"
+          "bfOdds": "150.0|9.25|16.50|10.50|55.00|32.00|38.00|160.0|100.0|130.0|400.0|300.0|350.0|300.0|11.50|5.55|13.00|55.00|70.00|6.80|8.75|7.25|17.00|15.00|24.00|45.00|45.00|60.00|120.0|120.0|150.0",
+          "zjqOdds": "11.50|4.70|2.85|3.25|6.40|13.00|28.00|38.00",
+          "bqcOdds": "6.10|16.50|29.00|8.00|4.30|3.95|33.00|16.50|3.40"
         },
         "spf": {
-          "home": 3.6,
-          "draw": 3.2,
-          "away": 1.86
+          "home": 3.9,
+          "draw": 3.21,
+          "away": 1.78
         },
         "integer_handicap": 1,
         "handicap_sp": {
-          "home": 1.71,
-          "draw": 3.5,
-          "away": 3.86
+          "home": 1.8,
+          "draw": 3.25,
+          "away": 3.76
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
-          10.5,
-          4.45,
-          3.05,
-          3.45,
-          5.85,
-          12.5,
-          25.0,
+          11.5,
+          4.7,
+          2.85,
+          3.25,
+          6.4,
+          13.0,
+          28.0,
           38.0
         ]
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:32.152283+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:27.253253+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 4,
@@ -2095,7 +2230,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:09:53",
+        "provider_update_time_raw": "2026-10-21 21:33:00",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 10,
         "injury_data_presence_only_not_absence_verification": true,
@@ -2137,6 +2272,33 @@
             "away": 1.86,
             "source_odds_flag": "1|1|-1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T16:55:42+08:00",
+            "source_time_raw": "2026-10-21 16:55:42",
+            "home": 3.72,
+            "draw": 3.25,
+            "away": 1.81,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T20:13:13+08:00",
+            "source_time_raw": "2026-10-21 20:13:13",
+            "home": 3.8,
+            "draw": 3.25,
+            "away": 1.79,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T21:27:22+08:00",
+            "source_time_raw": "2026-10-21 21:27:22",
+            "home": 3.9,
+            "draw": 3.21,
+            "away": 1.78,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -2144,18 +2306,18 @@
         "provider_home": "莱万特",
         "provider_away": "毕尔巴鄂",
         "integer_handicap": "+1",
-        "source_history_count": 3,
+        "source_history_count": 6,
         "duplicate_timestamps": 0,
-        "history_count": 3,
+        "history_count": 6,
         "earliest_source_updated_at_bj": "2026-10-20T09:50:47+08:00",
-        "latest_source_updated_at_bj": "2026-10-21T12:55:57+08:00",
+        "latest_source_updated_at_bj": "2026-10-21T21:27:22+08:00",
         "verified_for_model_use": true
       },
       "data_quality": {
         "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
         "history_spf_valid": true,
-        "history_spf_quote_count": 3,
-        "history_as_of": "2026-10-21T12:55:57+08:00",
+        "history_spf_quote_count": 6,
+        "history_as_of": "2026-10-21T21:27:22+08:00",
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -2236,15 +2398,15 @@
       "away": "莱红牛",
       "competition": "欧冠",
       "kickoff_bj": "2026-10-22T03:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:32.830981+08:00",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:28.087648+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
           "spfOdds": "1.13|7.00|9.80",
-          "rqspfOdds": "2.02|4.45|2.44",
+          "rqspfOdds": "2.00|4.45|2.47",
           "concedeNum": -2,
           "bfOdds": "6.00|17.00|11.00|9.00|10.00|7.75|14.00|14.50|10.00|18.00|20.00|16.00|28.00|120.0|60.00|15.00|17.00|38.00|100.0|60.00|100.0|32.00|200.0|80.00|45.00|500.0|150.0|100.0|1000|550.0|400.0",
-          "zjqOdds": "60.00|14.50|7.00|4.60|4.10|4.70|6.25|5.20",
+          "zjqOdds": "60.00|16.50|7.70|4.80|4.10|4.60|5.90|4.80",
           "bqcOdds": "1.40|24.00|65.00|4.50|14.50|28.00|18.00|24.00|17.00"
         },
         "spf": {
@@ -2254,25 +2416,25 @@
         },
         "integer_handicap": -2,
         "handicap_sp": {
-          "home": 2.02,
+          "home": 2.0,
           "draw": 4.45,
-          "away": 2.44
+          "away": 2.47
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
           60.0,
-          14.5,
-          7.0,
-          4.6,
+          16.5,
+          7.7,
+          4.8,
           4.1,
-          4.7,
-          6.25,
-          5.2
+          4.6,
+          5.9,
+          4.8
         ]
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:34.016667+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:28.978529+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 1,
@@ -2454,7 +2616,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:09:54",
+        "provider_update_time_raw": "2026-10-21 21:33:00",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 4,
         "injury_data_presence_only_not_absence_verification": true,
@@ -2595,15 +2757,15 @@
       "away": "维京",
       "competition": "欧冠",
       "kickoff_bj": "2026-10-22T03:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:34.693781+08:00",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:29.899711+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
           "spfOdds": "1.12|6.85|11.00",
-          "rqspfOdds": "2.11|4.32|2.36",
+          "rqspfOdds": "2.08|4.35|2.39",
           "concedeNum": -2,
           "bfOdds": "7.75|12.00|9.00|7.50|9.50|8.00|16.00|12.50|12.00|22.00|20.00|19.00|38.00|200.0|42.00|13.00|17.00|50.00|150.0|45.00|90.00|24.00|200.0|75.00|50.00|500.0|200.0|150.0|1000|700.0|600.0",
-          "zjqOdds": "42.00|11.50|6.00|4.10|4.00|5.00|7.15|7.00",
+          "zjqOdds": "42.00|11.50|6.00|3.95|3.95|5.30|7.20|7.00",
           "bqcOdds": "1.40|27.00|65.00|4.20|13.00|28.00|19.00|27.00|21.00"
         },
         "spf": {
@@ -2613,25 +2775,25 @@
         },
         "integer_handicap": -2,
         "handicap_sp": {
-          "home": 2.11,
-          "draw": 4.32,
-          "away": 2.36
+          "home": 2.08,
+          "draw": 4.35,
+          "away": 2.39
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
           42.0,
           11.5,
           6.0,
-          4.1,
-          4.0,
-          5.0,
-          7.15,
+          3.95,
+          3.95,
+          5.3,
+          7.2,
           7.0
         ]
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:35.696597+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:30.779979+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 0,
@@ -2813,7 +2975,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:09:56",
+        "provider_update_time_raw": "2026-10-21 21:33:00",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 0,
         "injury_data_presence_only_not_absence_verification": true,
@@ -2945,27 +3107,27 @@
       "away": "费耶诺德",
       "competition": "欧冠",
       "kickoff_bj": "2026-10-22T03:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:36.357969+08:00",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:31.732807+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
-          "spfOdds": "1.38|4.72|5.17",
-          "rqspfOdds": "2.15|3.78|2.50",
+          "spfOdds": "1.42|4.65|4.75",
+          "rqspfOdds": "2.32|3.55|2.40",
           "concedeNum": -1,
-          "bfOdds": "15.50|11.50|10.50|7.00|12.50|8.75|13.00|21.00|16.00|23.00|50.00|35.00|50.00|150.0|32.00|9.00|12.00|30.00|70.00|25.00|35.00|15.50|80.00|34.00|27.00|250.0|100.0|90.00|550.0|300.0|300.0",
+          "bfOdds": "15.50|12.00|10.50|7.00|13.00|8.75|13.00|21.00|16.00|20.00|50.00|35.00|45.00|100.0|32.00|9.50|12.50|30.00|65.00|25.00|35.00|15.50|80.00|34.00|27.00|200.0|100.0|80.00|550.0|300.0|250.0",
           "zjqOdds": "32.00|9.80|5.25|3.65|4.10|5.35|8.75|9.00",
-          "bqcOdds": "2.02|16.00|33.00|4.35|8.50|12.50|18.00|16.00|8.25"
+          "bqcOdds": "1.98|16.00|33.00|4.50|8.80|12.50|18.00|16.00|8.25"
         },
         "spf": {
-          "home": 1.38,
-          "draw": 4.72,
-          "away": 5.17
+          "home": 1.42,
+          "draw": 4.65,
+          "away": 4.75
         },
         "integer_handicap": -1,
         "handicap_sp": {
-          "home": 2.15,
-          "draw": 3.78,
-          "away": 2.5
+          "home": 2.32,
+          "draw": 3.55,
+          "away": 2.4
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
@@ -2981,7 +3143,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:37.172343+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:32.775485+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 0,
@@ -3163,7 +3325,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:09:57",
+        "provider_update_time_raw": "2026-10-21 21:33:00",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 1,
         "injury_data_presence_only_not_absence_verification": true,
@@ -3214,6 +3376,42 @@
             "away": 5.17,
             "source_odds_flag": "-1|1|1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T16:24:36+08:00",
+            "source_time_raw": "2026-10-21 16:24:36",
+            "home": 1.4,
+            "draw": 4.65,
+            "away": 5.0,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T17:02:27+08:00",
+            "source_time_raw": "2026-10-21 17:02:27",
+            "home": 1.42,
+            "draw": 4.58,
+            "away": 4.85,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T19:03:31+08:00",
+            "source_time_raw": "2026-10-21 19:03:31",
+            "home": 1.44,
+            "draw": 4.5,
+            "away": 4.7,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T20:52:31+08:00",
+            "source_time_raw": "2026-10-21 20:52:31",
+            "home": 1.42,
+            "draw": 4.65,
+            "away": 4.75,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -3221,18 +3419,18 @@
         "provider_home": "贝蒂斯",
         "provider_away": "费耶诺德",
         "integer_handicap": "-1",
-        "source_history_count": 4,
+        "source_history_count": 8,
         "duplicate_timestamps": 0,
-        "history_count": 4,
+        "history_count": 8,
         "earliest_source_updated_at_bj": "2026-10-20T09:50:47+08:00",
-        "latest_source_updated_at_bj": "2026-10-21T11:41:24+08:00",
+        "latest_source_updated_at_bj": "2026-10-21T20:52:31+08:00",
         "verified_for_model_use": true
       },
       "data_quality": {
         "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
         "history_spf_valid": true,
-        "history_spf_quote_count": 4,
-        "history_as_of": "2026-10-21T11:41:24+08:00",
+        "history_spf_quote_count": 8,
+        "history_as_of": "2026-10-21T20:52:31+08:00",
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -3313,43 +3511,43 @@
       "away": "阿森纳",
       "competition": "欧冠",
       "kickoff_bj": "2026-10-22T03:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:37.870320+08:00",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:33.467445+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
-          "spfOdds": "1.91|3.32|3.28",
-          "rqspfOdds": "3.70|3.80|1.68",
+          "spfOdds": "2.03|3.40|2.92",
+          "rqspfOdds": "4.20|3.75|1.60",
           "concedeNum": -1,
-          "bfOdds": "32.00|10.00|11.00|7.00|18.00|12.00|16.00|40.00|28.00|40.00|120.0|75.00|90.00|150.0|22.00|7.50|10.00|32.00|75.00|15.00|21.00|9.00|45.00|20.00|21.00|120.0|65.00|70.00|350.0|250.0|250.0",
-          "zjqOdds": "22.00|7.25|4.25|3.50|4.35|6.75|10.00|14.00",
-          "bqcOdds": "2.95|13.00|25.00|5.20|6.50|7.50|20.00|13.00|5.20"
+          "bfOdds": "35.00|10.50|12.00|7.00|21.00|13.00|17.00|50.00|30.00|40.00|150.0|75.00|90.00|150.0|18.00|7.25|10.00|32.00|60.00|12.50|19.00|9.00|45.00|20.00|21.00|120.0|60.00|60.00|350.0|200.0|200.0",
+          "zjqOdds": "18.00|6.75|4.10|3.50|4.50|6.95|11.00|15.50",
+          "bqcOdds": "3.10|13.00|24.00|5.20|6.40|7.50|20.00|13.00|4.90"
         },
         "spf": {
-          "home": 1.91,
-          "draw": 3.32,
-          "away": 3.28
+          "home": 2.03,
+          "draw": 3.4,
+          "away": 2.92
         },
         "integer_handicap": -1,
         "handicap_sp": {
-          "home": 3.7,
-          "draw": 3.8,
-          "away": 1.68
+          "home": 4.2,
+          "draw": 3.75,
+          "away": 1.6
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
-          22.0,
-          7.25,
-          4.25,
-          3.5,
-          4.35,
+          18.0,
           6.75,
-          10.0,
-          14.0
+          4.1,
+          3.5,
+          4.5,
+          6.95,
+          11.0,
+          15.5
         ]
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:38.753022+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:34.308590+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 2,
@@ -3531,7 +3729,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:09:58",
+        "provider_update_time_raw": "2026-10-21 21:33:00",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 9,
         "injury_data_presence_only_not_absence_verification": true,
@@ -3609,6 +3807,51 @@
             "away": 3.28,
             "source_odds_flag": "1|0|-1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T17:58:46+08:00",
+            "source_time_raw": "2026-10-21 17:58:46",
+            "home": 1.93,
+            "draw": 3.32,
+            "away": 3.22,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T18:12:05+08:00",
+            "source_time_raw": "2026-10-21 18:12:05",
+            "home": 1.96,
+            "draw": 3.32,
+            "away": 3.14,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T18:16:32+08:00",
+            "source_time_raw": "2026-10-21 18:16:32",
+            "home": 1.97,
+            "draw": 3.4,
+            "away": 3.05,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T18:20:51+08:00",
+            "source_time_raw": "2026-10-21 18:20:51",
+            "home": 2.0,
+            "draw": 3.4,
+            "away": 2.98,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T18:49:18+08:00",
+            "source_time_raw": "2026-10-21 18:49:18",
+            "home": 2.03,
+            "draw": 3.4,
+            "away": 2.92,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -3616,18 +3859,18 @@
         "provider_home": "拜仁",
         "provider_away": "阿森纳",
         "integer_handicap": "-1",
-        "source_history_count": 7,
+        "source_history_count": 12,
         "duplicate_timestamps": 0,
-        "history_count": 7,
+        "history_count": 12,
         "earliest_source_updated_at_bj": "2026-10-20T09:50:47+08:00",
-        "latest_source_updated_at_bj": "2026-10-21T13:01:32+08:00",
+        "latest_source_updated_at_bj": "2026-10-21T18:49:18+08:00",
         "verified_for_model_use": true
       },
       "data_quality": {
         "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
         "history_spf_valid": true,
-        "history_spf_quote_count": 7,
-        "history_as_of": "2026-10-21T13:01:32+08:00",
+        "history_spf_quote_count": 12,
+        "history_as_of": "2026-10-21T18:49:18+08:00",
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -3708,39 +3951,39 @@
       "away": "LASK林茨",
       "competition": "欧冠",
       "kickoff_bj": "2026-10-22T03:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:39.419690+08:00",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:35.006917+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
           "spfOdds": "||",
-          "rqspfOdds": "2.02|4.26|2.50",
+          "rqspfOdds": "2.23|4.35|2.22",
           "concedeNum": -2,
-          "bfOdds": "7.50|12.00|8.50|7.75|8.50|8.00|17.00|12.00|11.00|23.00|18.00|19.00|45.00|250.0|40.00|13.50|19.00|55.00|200.0|40.00|90.00|30.00|250.0|90.00|50.00|650.0|300.0|200.0|1000|850.0|750.0",
-          "zjqOdds": "40.00|10.50|5.70|4.10|4.00|5.40|7.15|7.15",
-          "bqcOdds": "1.35|30.00|70.00|4.20|14.00|32.00|20.00|30.00|24.00"
+          "bfOdds": "8.00|10.50|8.25|7.75|8.50|8.00|17.00|12.00|11.50|23.00|19.00|19.00|45.00|250.0|31.00|12.50|22.00|75.00|200.0|38.00|90.00|33.00|250.0|90.00|50.00|650.0|300.0|200.0|1000|850.0|750.0",
+          "zjqOdds": "31.00|10.00|5.50|3.80|3.90|5.90|8.00|7.90",
+          "bqcOdds": "1.40|28.00|60.00|4.20|13.00|28.00|19.00|28.00|21.00"
         },
         "spf": null,
         "integer_handicap": -2,
         "handicap_sp": {
-          "home": 2.02,
-          "draw": 4.26,
-          "away": 2.5
+          "home": 2.23,
+          "draw": 4.35,
+          "away": 2.22
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
-          40.0,
-          10.5,
-          5.7,
-          4.1,
-          4.0,
-          5.4,
-          7.15,
-          7.15
+          31.0,
+          10.0,
+          5.5,
+          3.8,
+          3.9,
+          5.9,
+          8.0,
+          7.9
         ]
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:41.319503+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:36.137062+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 0,
@@ -3922,7 +4165,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:10:01",
+        "provider_update_time_raw": "2026-10-21 21:33:01",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 3,
         "injury_data_presence_only_not_absence_verification": true,
@@ -4034,43 +4277,43 @@
       "away": "朗斯",
       "competition": "欧冠",
       "kickoff_bj": "2026-10-22T03:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:42.008935+08:00",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:36.815565+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
-          "spfOdds": "1.60|4.30|3.68",
-          "rqspfOdds": "2.70|3.83|2.01",
+          "spfOdds": "1.56|4.50|3.75",
+          "rqspfOdds": "2.70|3.59|2.08",
           "concedeNum": -1,
-          "bfOdds": "17.00|11.50|13.00|7.00|18.00|10.00|12.00|40.00|19.00|24.00|90.00|60.00|60.00|150.0|33.00|8.25|11.50|30.00|50.00|21.00|25.00|12.00|40.00|22.00|22.00|120.0|60.00|60.00|350.0|175.0|175.0",
-          "zjqOdds": "33.00|9.75|5.10|3.75|4.10|5.50|8.25|9.00",
-          "bqcOdds": "2.50|13.00|27.00|4.80|8.25|9.50|18.00|13.00|5.80"
+          "bfOdds": "15.00|12.00|13.00|7.00|19.00|10.00|12.00|40.00|19.00|23.00|90.00|45.00|45.00|100.0|33.00|9.25|10.50|27.00|50.00|23.00|27.00|12.00|50.00|23.00|23.00|120.0|60.00|60.00|350.0|175.0|175.0",
+          "zjqOdds": "33.00|10.00|5.50|3.65|4.00|5.60|8.50|8.25",
+          "bqcOdds": "2.50|13.00|27.00|4.65|8.25|10.00|18.00|13.00|5.85"
         },
         "spf": {
-          "home": 1.6,
-          "draw": 4.3,
-          "away": 3.68
+          "home": 1.56,
+          "draw": 4.5,
+          "away": 3.75
         },
         "integer_handicap": -1,
         "handicap_sp": {
           "home": 2.7,
-          "draw": 3.83,
-          "away": 2.01
+          "draw": 3.59,
+          "away": 2.08
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
           33.0,
-          9.75,
-          5.1,
-          3.75,
-          4.1,
+          10.0,
           5.5,
-          8.25,
-          9.0
+          3.65,
+          4.0,
+          5.6,
+          8.5,
+          8.25
         ]
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:42.879873+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:38.108107+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 0,
@@ -4252,7 +4495,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:10:02",
+        "provider_update_time_raw": "2026-10-21 21:33:01",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 0,
         "injury_data_presence_only_not_absence_verification": true,
@@ -4330,6 +4573,24 @@
             "away": 3.68,
             "source_odds_flag": "-1|1|1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T19:54:48+08:00",
+            "source_time_raw": "2026-10-21 19:54:48",
+            "home": 1.58,
+            "draw": 4.44,
+            "away": 3.68,
+            "source_odds_flag": "-1|1|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T21:01:18+08:00",
+            "source_time_raw": "2026-10-21 21:01:18",
+            "home": 1.56,
+            "draw": 4.5,
+            "away": 3.75,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -4337,18 +4598,18 @@
         "provider_home": "布鲁日",
         "provider_away": "朗斯",
         "integer_handicap": "-1",
-        "source_history_count": 7,
+        "source_history_count": 9,
         "duplicate_timestamps": 0,
-        "history_count": 7,
+        "history_count": 9,
         "earliest_source_updated_at_bj": "2026-10-20T09:50:47+08:00",
-        "latest_source_updated_at_bj": "2026-10-21T15:24:13+08:00",
+        "latest_source_updated_at_bj": "2026-10-21T21:01:18+08:00",
         "verified_for_model_use": true
       },
       "data_quality": {
         "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
         "history_spf_valid": true,
-        "history_spf_quote_count": 7,
-        "history_as_of": "2026-10-21T15:24:13+08:00",
+        "history_spf_quote_count": 9,
+        "history_as_of": "2026-10-21T21:01:18+08:00",
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -4429,43 +4690,43 @@
       "away": "弗鲁米嫩",
       "competition": "解放者杯",
       "kickoff_bj": "2026-10-22T08:30:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-21T15:29:43.534860+08:00",
+      "snapshot_captured_at_bj": "2026-10-21T21:42:38.771247+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
-          "spfOdds": "1.74|3.20|4.15",
-          "rqspfOdds": "3.75|3.20|1.82",
+          "spfOdds": "1.58|3.25|5.30",
+          "rqspfOdds": "3.27|2.90|2.09",
           "concedeNum": -1,
-          "bfOdds": "65.00|5.70|6.80|6.80|13.00|14.00|26.00|35.00|35.00|70.00|80.00|80.00|200.0|550.0|9.50|7.00|16.00|90.00|300.0|10.00|22.00|12.00|65.00|40.00|45.00|300.0|175.0|250.0|650.0|550.0|650.0",
-          "zjqOdds": "9.50|4.10|3.10|3.60|6.20|13.00|26.00|40.00",
-          "bqcOdds": "2.80|16.00|45.00|4.25|4.45|9.00|28.00|16.00|7.00"
+          "bfOdds": "65.00|5.45|6.60|6.80|12.50|14.00|26.00|33.00|33.00|70.00|80.00|80.00|200.0|550.0|9.50|7.00|16.00|90.00|300.0|10.50|24.00|13.00|75.00|45.00|45.00|300.0|175.0|250.0|650.0|550.0|650.0",
+          "zjqOdds": "9.50|4.00|3.00|3.60|6.40|13.50|28.00|45.00",
+          "bqcOdds": "2.70|17.50|50.00|3.75|4.15|11.00|29.00|17.50|8.60"
         },
         "spf": {
-          "home": 1.74,
-          "draw": 3.2,
-          "away": 4.15
+          "home": 1.58,
+          "draw": 3.25,
+          "away": 5.3
         },
         "integer_handicap": -1,
         "handicap_sp": {
-          "home": 3.75,
-          "draw": 3.2,
-          "away": 1.82
+          "home": 3.27,
+          "draw": 2.9,
+          "away": 2.09
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
           9.5,
-          4.1,
-          3.1,
+          4.0,
+          3.0,
           3.6,
-          6.2,
-          13.0,
-          26.0,
-          40.0
+          6.4,
+          13.5,
+          28.0,
+          45.0
         ]
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-21T15:29:44.405441+08:00",
+        "retrieved_at_bj": "2026-10-21T21:42:39.667822+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 2,
@@ -4647,7 +4908,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-21 15:10:04",
+        "provider_update_time_raw": "2026-10-21 21:33:01",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 10,
         "injury_data_presence_only_not_absence_verification": true,
@@ -4698,6 +4959,51 @@
             "away": 4.15,
             "source_odds_flag": "1|-1|-1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T16:38:06+08:00",
+            "source_time_raw": "2026-10-21 16:38:06",
+            "home": 1.72,
+            "draw": 3.2,
+            "away": 4.25,
+            "source_odds_flag": "-1|0|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T17:56:12+08:00",
+            "source_time_raw": "2026-10-21 17:56:12",
+            "home": 1.69,
+            "draw": 3.2,
+            "away": 4.43,
+            "source_odds_flag": "-1|0|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T19:34:31+08:00",
+            "source_time_raw": "2026-10-21 19:34:31",
+            "home": 1.65,
+            "draw": 3.25,
+            "away": 4.65,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T19:43:48+08:00",
+            "source_time_raw": "2026-10-21 19:43:48",
+            "home": 1.61,
+            "draw": 3.25,
+            "away": 5.0,
+            "source_odds_flag": "-1|0|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-21T20:43:54+08:00",
+            "source_time_raw": "2026-10-21 20:43:54",
+            "home": 1.58,
+            "draw": 3.25,
+            "away": 5.3,
+            "source_odds_flag": "-1|0|1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -4705,18 +5011,18 @@
         "provider_home": "帕梅拉斯",
         "provider_away": "弗鲁米嫩",
         "integer_handicap": "-1",
-        "source_history_count": 4,
+        "source_history_count": 9,
         "duplicate_timestamps": 0,
-        "history_count": 4,
+        "history_count": 9,
         "earliest_source_updated_at_bj": "2026-10-20T09:50:47+08:00",
-        "latest_source_updated_at_bj": "2026-10-21T11:31:12+08:00",
+        "latest_source_updated_at_bj": "2026-10-21T20:43:54+08:00",
         "verified_for_model_use": true
       },
       "data_quality": {
         "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
         "history_spf_valid": true,
-        "history_spf_quote_count": 4,
-        "history_as_of": "2026-10-21T11:31:12+08:00",
+        "history_spf_quote_count": 9,
+        "history_as_of": "2026-10-21T20:43:54+08:00",
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -4799,18 +5105,18 @@
     "reported_handicap_numbers": 13,
     "detail_objects": 13,
     "historical_spf_matches_verified": 12,
-    "historical_spf_rows": 52,
+    "historical_spf_rows": 86,
     "current_spf_matches_latest_history": 12,
     "current_spf_divergence_or_lag": 0,
-    "captured_before_kickoff": 13,
-    "captured_after_kickoff": 0,
-    "prematch_verified_history_snapshots": 12,
+    "captured_before_kickoff": 10,
+    "captured_after_kickoff": 3,
+    "prematch_verified_history_snapshots": 9,
     "third_party_handicap_historical_rows": 0,
     "verified_official_jc_sp_matches": 0
   },
   "quality_gate": "PARTIAL_RESEARCH_DATA",
   "fixture_pool_integrity": "COMPLETE",
-  "collection_finished_at_bj": "2026-10-21T15:29:45.073085+08:00",
+  "collection_finished_at_bj": "2026-10-21T21:42:40.353529+08:00",
   "betting_gate": "BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV",
   "known_gaps": [
     "Caidao third-party quotes have not been directly matched to official JC feed",
