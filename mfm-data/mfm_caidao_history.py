@@ -22,6 +22,12 @@ HEAD={"User-Agent":"MFM-odds-data-audit/1.0",
       "Accept":"application/json, text/plain, */*",
       "Referer":ROOT+"/"}
 FIELDS=("matchInfo","matchNum","hostTeam","guestTeam","gameTime","matchName")
+# Narrow, explicitly reviewed aliases within Caidao; not independent fixture verification.
+TEAM_NAME_ALIASES={"珀斯":"珀斯光荣"}
+def canonical_team_name(value):
+    if not isinstance(value,str):return value
+    name=" ".join(value.split())
+    return TEAM_NAME_ALIASES.get(name,name)
 def get_json(path,params,method="GET"):
     url=ROOT+path
     headers=dict(HEAD)
@@ -71,10 +77,16 @@ def parse_history(payload,fixture,observed_at):
     summary["provider_away"]=result.get("guestTeam")
     summary["market"]=result.get("wf")
     summary["integer_handicap"]=result.get("concedeNum")
+    summary["source_identity_alias_used"]=any(
+        isinstance(provider,str) and isinstance(fixture_name,str)
+        and provider!=fixture_name
+        and canonical_team_name(provider)==canonical_team_name(fixture_name)
+        for provider,fixture_name in ((summary["provider_home"],summary["fixture_home"]),
+                                      (summary["provider_away"],summary["fixture_away"])))
     summary["source_identity_verified"]=(
         summary["provider_match_number"]==summary["match_number"]
-        and summary["provider_home"]==summary["fixture_home"]
-        and summary["provider_away"]==summary["fixture_away"])
+        and canonical_team_name(summary["provider_home"])==canonical_team_name(summary["fixture_home"])
+        and canonical_team_name(summary["provider_away"])==canonical_team_name(summary["fixture_away"]))
     entries=result.get("oddsDetails")
     if not isinstance(entries,list):
         summary["reason"]="NO_HISTORY_LIST"
