@@ -163,6 +163,24 @@ def select_fixtures(sale_date,transport=fetch):
         except (ValueError,OSError) as exc:
             sources[str(pool)]={"status":"ERROR","error_type":type(exc).__name__,
                                 "message":str(exc)[:140]}
+    # The provider date prefix alone does not establish a unique JC number.
+    # Two different IDs claiming the same sale-day number are ambiguous:
+    # quarantine both rather than silently selecting one for a prediction.
+    seen_numbers={}
+    for ident,record in list(fixtures.items()):
+        number=" ".join(str(record.get("matchNum") or "").split())
+        if not number:
+            continue
+        other=seen_numbers.get(number)
+        if other and other!=ident:
+            conflicts.append({"match_id":ident,"other_match_id":other,
+                              "jc_number":number,
+                              "reason":"DUPLICATE_JC_NUMBER_DIFFERENT_IDS"})
+            quarantined.update((ident,other))
+        else:
+            seen_numbers[number]=ident
+    for ident in quarantined:
+        fixtures.pop(ident,None)
     if conflicts:
         sources["identity_conflicts"]=conflicts
         sources["quarantined_fixture_ids"]=sorted(quarantined)
@@ -303,7 +321,9 @@ def collect(sale_date,now=None,transport=fetch,pause=time.sleep):
     elif (not report.get("access_restriction_encountered") and
           report["fixture_pool_integrity"]=="COMPLETE" and
           n==len(fixtures) and count["current_spf_prices"]==n and
-          count["detail_objects"]==n and count["historical_spf_matches_verified"]==n):
+          count["detail_objects"]==n and count["historical_spf_matches_verified"]==n and
+          all(m["data_quality"].get("identity")=="DATE_BOUND_ID_WITH_PROVIDER_TEAMS"
+              and m["kickoff_bj"] is not None for m in rows)):
         report["quality_gate"]="RESEARCH_DATA_AVAILABLE"
     else:
         report["quality_gate"]="PARTIAL_RESEARCH_DATA"
