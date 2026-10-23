@@ -97,6 +97,47 @@ class CaidaoServiceTests(unittest.TestCase):
         report=mod.collect("2026-10-14",now=FIXED,transport=no_detail,pause=lambda x:None)
         self.assertEqual(report["quality_gate"],"PARTIAL_RESEARCH_DATA")
         self.assertEqual(report["coverage"]["detail_objects"],0)
+    def test_duplicate_sale_day_number_quarantines_both_ids(self):
+        rows=fixtures()
+        duplicate=dict(rows[0])
+        duplicate["matchInfo"]="F20261014009"
+        def duplicate_transport(path,params,method="GET"):
+            if path.endswith("footballQuery"):
+                return {"status":200,"body":rows+[duplicate] if params["type"]==0 else []}
+            raise AssertionError("Unexpected call")
+        found,sources,restricted=mod.select_fixtures("2026-10-14",duplicate_transport)
+        self.assertFalse(restricted)
+        self.assertEqual(list(found),["F20261014004"])
+        self.assertEqual(len(sources["identity_conflicts"]),1)
+        self.assertEqual(sources["identity_conflicts"][0]["reason"],
+                         "DUPLICATE_JC_NUMBER_DIFFERENT_IDS")
+        self.assertEqual(sources["quarantined_fixture_ids"],
+                         ["F20261014008","F20261014009"])
+
+    def test_same_id_conflicting_teams_quarantined(self):
+        changed=dict(fixtures()[0])
+        changed["guestTeam"]="另一支球队"
+        def conflicting_transport(path,params,method="GET"):
+            if path.endswith("footballQuery"):
+                return {"status":200,"body":fixtures() if params["type"]==0 else [changed]}
+            raise AssertionError("Unexpected call")
+        found,sources,_=mod.select_fixtures("2026-10-14",conflicting_transport)
+        self.assertEqual(list(found),["F20261014004"])
+        self.assertEqual(len(sources["identity_conflicts"]),1)
+        self.assertEqual(sources["quarantined_fixture_ids"],["F20261014008"])
+
+    def test_invalid_kickoff_downgrades_quality(self):
+        def invalid_transport(path,params,method="GET"):
+            if path.endswith("footballQuery"):
+                rows=[dict(row) for row in fixtures()]
+                rows[0]["gameTime"]="invalid-time"
+                return {"status":200,"body":rows if params["type"]==0 else []}
+            return transport(path,params,method)
+        report=mod.collect("2026-10-14",now=FIXED,
+                           transport=invalid_transport,pause=lambda x:None)
+        self.assertEqual(report["coverage"]["fixture_ids"],2)
+        self.assertEqual(report["quality_gate"],"PARTIAL_RESEARCH_DATA")
+
     def test_source_dates_do_not_replace_capture_dates(self):
         report=mod.collect("2026-10-14",now=FIXED,transport=transport,pause=lambda x:None)
         four=next(x for x in report["matches"] if x["jc_number"]=="周三004")
