@@ -1,21 +1,21 @@
 {
   "date": "2026-10-23",
-  "collected_at_bj": "2026-10-23T15:23:18.088610+08:00",
-  "last_snapshot_path": "mfm-data/caidao-live/2026-10-23/20261023T152318088828+0800.json",
-  "quality_gate": "PARTIAL_RESEARCH_DATA",
+  "collected_at_bj": "2026-10-23T21:20:34.773183+08:00",
+  "last_snapshot_path": "mfm-data/caidao-live/2026-10-23/20261023T212034773436+0800.json",
+  "quality_gate": "RESEARCH_DATA_AVAILABLE",
   "fixture_pool_integrity": "COMPLETE",
   "fixture_identity_conflicts": [],
   "fixture_identity_independently_verified": false,
   "fixture_sources": {
     "0": {
       "status": "SUCCESS",
-      "raw_rows": 49,
-      "date_rows": 12
+      "raw_rows": 48,
+      "date_rows": 11
     },
     "1": {
       "status": "SUCCESS",
-      "raw_rows": 343,
-      "date_rows": 0
+      "raw_rows": 344,
+      "date_rows": 1
     }
   },
   "betting_gate": "BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV",
@@ -26,12 +26,12 @@
     "current_handicap_prices": 12,
     "reported_handicap_numbers": 12,
     "detail_objects": 12,
-    "historical_spf_matches_verified": 11,
-    "historical_spf_rows": 42,
+    "historical_spf_matches_verified": 12,
+    "historical_spf_rows": 73,
     "current_spf_matches_latest_history": 12,
     "current_spf_divergence_or_lag": 0,
-    "captured_before_kickoff": 12,
-    "captured_after_kickoff": 0,
+    "captured_before_kickoff": 11,
+    "captured_after_kickoff": 1,
     "prematch_verified_history_snapshots": 11,
     "third_party_handicap_historical_rows": 0,
     "verified_official_jc_sp_matches": 0
@@ -43,20 +43,20 @@
       "home": "布里斯班",
       "away": "珀斯光荣",
       "kickoff_bj": "2026-10-23T17:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 1.98,
-        "draw": 3.35,
-        "away": 3.07
+        "home": 2.1,
+        "draw": 3.32,
+        "away": 2.84
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 4.08,
-        "draw": 3.65,
-        "away": 1.64
+        "home": 4.4,
+        "draw": 3.9,
+        "away": 1.55
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-23T12:25:53+08:00",
+      "spf_history_rows": 6,
+      "last_source_sp_updated_at_bj": "2026-10-23T16:37:46+08:00",
       "prematch_snapshot_verified": false,
       "detail_available": true
     },
@@ -68,18 +68,18 @@
       "kickoff_bj": "2026-10-24T00:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 3.43,
-        "draw": 4.0,
-        "away": 1.7
+        "home": 3.4,
+        "draw": 4.1,
+        "away": 1.69
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.89,
-        "draw": 3.74,
-        "away": 3.0
+        "home": 1.88,
+        "draw": 3.96,
+        "away": 2.9
       },
-      "spf_history_rows": 8,
-      "last_source_sp_updated_at_bj": "2026-10-23T14:09:15+08:00",
+      "spf_history_rows": 12,
+      "last_source_sp_updated_at_bj": "2026-10-23T19:32:48+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -91,18 +91,18 @@
       "kickoff_bj": "2026-10-24T01:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.85,
-        "draw": 3.55,
-        "away": 3.25
+        "home": 1.79,
+        "draw": 3.62,
+        "away": 3.4
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 3.62,
-        "draw": 3.55,
-        "away": 1.75
+        "home": 3.65,
+        "draw": 3.45,
+        "away": 1.77
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-23T12:00:44+08:00",
+      "spf_history_rows": 6,
+      "last_source_sp_updated_at_bj": "2026-10-23T20:08:15+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -114,18 +114,18 @@
       "kickoff_bj": "2026-10-24T02:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.36,
-        "draw": 4.48,
-        "away": 5.85
+        "home": 1.37,
+        "draw": 4.45,
+        "away": 5.72
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 2.12,
-        "draw": 3.68,
-        "away": 2.59
+        "home": 2.08,
+        "draw": 3.92,
+        "away": 2.54
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-23T15:16:57+08:00",
+      "spf_history_rows": 4,
+      "last_source_sp_updated_at_bj": "2026-10-23T20:50:01+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -137,18 +137,18 @@
       "kickoff_bj": "2026-10-24T02:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 2.38,
+        "home": 2.69,
         "draw": 3.65,
-        "away": 2.3
+        "away": 2.07
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 4.88,
-        "draw": 4.35,
-        "away": 1.44
+        "home": 5.35,
+        "draw": 5.25,
+        "away": 1.33
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-23T14:28:22+08:00",
+      "spf_history_rows": 7,
+      "last_source_sp_updated_at_bj": "2026-10-23T20:11:47+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -160,18 +160,18 @@
       "kickoff_bj": "2026-10-24T02:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.21,
-        "draw": 5.78,
-        "away": 7.7
+        "home": 1.19,
+        "draw": 6.15,
+        "away": 7.9
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 1.67,
-        "draw": 4.15,
-        "away": 3.45
+        "home": 1.59,
+        "draw": 4.62,
+        "away": 3.52
       },
-      "spf_history_rows": 5,
-      "last_source_sp_updated_at_bj": "2026-10-23T13:30:04+08:00",
+      "spf_history_rows": 7,
+      "last_source_sp_updated_at_bj": "2026-10-23T20:12:30+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -183,18 +183,18 @@
       "kickoff_bj": "2026-10-24T02:45:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.89,
-        "draw": 3.25,
-        "away": 3.42
+        "home": 1.9,
+        "draw": 3.06,
+        "away": 3.62
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 3.8,
-        "draw": 3.6,
-        "away": 1.7
+        "home": 3.86,
+        "draw": 3.5,
+        "away": 1.71
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-23T14:17:09+08:00",
+      "spf_history_rows": 6,
+      "last_source_sp_updated_at_bj": "2026-10-23T17:30:12+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -206,18 +206,18 @@
       "kickoff_bj": "2026-10-24T02:45:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 2.07,
+        "home": 2.02,
         "draw": 3.35,
-        "away": 2.88
+        "away": 2.98
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 4.25,
-        "draw": 3.95,
-        "away": 1.56
+        "home": 4.22,
+        "draw": 3.8,
+        "away": 1.59
       },
-      "spf_history_rows": 2,
-      "last_source_sp_updated_at_bj": "2026-10-23T12:57:10+08:00",
+      "spf_history_rows": 3,
+      "last_source_sp_updated_at_bj": "2026-10-23T16:47:05+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -252,18 +252,18 @@
       "kickoff_bj": "2026-10-24T03:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 5.25,
-        "draw": 4.45,
-        "away": 1.4
+        "home": 5.35,
+        "draw": 4.58,
+        "away": 1.38
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 2.44,
-        "draw": 3.85,
-        "away": 2.18
+        "home": 2.5,
+        "draw": 3.81,
+        "away": 2.14
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-23T14:05:48+08:00",
+      "spf_history_rows": 4,
+      "last_source_sp_updated_at_bj": "2026-10-23T20:05:31+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -275,18 +275,18 @@
       "kickoff_bj": "2026-10-24T03:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.47,
-        "draw": 3.75,
-        "away": 5.5
+        "home": 1.42,
+        "draw": 3.87,
+        "away": 6.0
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 2.8,
-        "draw": 3.05,
-        "away": 2.25
+        "home": 2.76,
+        "draw": 2.88,
+        "away": 2.38
       },
-      "spf_history_rows": 4,
-      "last_source_sp_updated_at_bj": "2026-10-23T14:03:17+08:00",
+      "spf_history_rows": 8,
+      "last_source_sp_updated_at_bj": "2026-10-23T19:54:26+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -298,18 +298,18 @@
       "kickoff_bj": "2026-10-24T03:45:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.47,
-        "draw": 3.7,
-        "away": 5.6
+        "home": 1.35,
+        "draw": 4.3,
+        "away": 6.4
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 2.73,
-        "draw": 3.05,
-        "away": 2.3
+        "home": 2.57,
+        "draw": 2.8,
+        "away": 2.61
       },
-      "spf_history_rows": 3,
-      "last_source_sp_updated_at_bj": "2026-10-23T13:59:49+08:00",
+      "spf_history_rows": 8,
+      "last_source_sp_updated_at_bj": "2026-10-23T20:17:40+08:00",
       "prematch_snapshot_verified": true,
       "detail_available": true
     }
