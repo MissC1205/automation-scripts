@@ -115,11 +115,18 @@ def parse_detail(payload,source_time):
     out["independent_model_1x2_probability"]=None
     return out
 
+def identity_signature(row):
+    """Provider identity tuple; do not silently merge conflicting match IDs."""
+    return tuple(" ".join(str(row.get(key) or "").split()).casefold()
+                 for key in ("matchNum","hostTeam","guestTeam","gameTime"))
+
 def select_fixtures(sale_date,transport=fetch):
     """Join active and recent-result pools, validating date-specific IDs."""
     fixtures={}
     sources={}
     restricted=False
+    conflicts=[]
+    quarantined=set()
     for pool in (0,1):
         try:
             payload=transport("/api/web/game/footballQuery",{"type":pool},"GET")
@@ -134,9 +141,20 @@ def select_fixtures(sale_date,transport=fetch):
                                 "date_rows":len(picked)}
             for record in picked:
                 ident=record["matchInfo"]
-                # Active market entries take precedence over recent results.
-                if ident not in fixtures:
-                    fixtures[ident]=record
+                # Conflicting provider records must not be merged or predicted.
+                if ident in quarantined:
+                    continue
+                previous=fixtures.get(ident)
+                if previous is not None:
+                    if identity_signature(previous)!=identity_signature(record):
+                        conflicts.append({"match_id":ident,
+                            "first":dict(zip(("number","home","away","kickoff"),identity_signature(previous))),
+                            "conflicting":dict(zip(("number","home","away","kickoff"),identity_signature(record))),
+                            "source_pool":pool})
+                        fixtures.pop(ident,None)
+                        quarantined.add(ident)
+                    continue
+                fixtures[ident]=record
         except urllib.error.HTTPError as exc:
             sources[str(pool)]={"status":"HTTP_ERROR","http_status":exc.code}
             if exc.code in (401,403,429,567):
@@ -145,6 +163,9 @@ def select_fixtures(sale_date,transport=fetch):
         except (ValueError,OSError) as exc:
             sources[str(pool)]={"status":"ERROR","error_type":type(exc).__name__,
                                 "message":str(exc)[:140]}
+    if conflicts:
+        sources["identity_conflicts"]=conflicts
+        sources["quarantined_fixture_ids"]=sorted(quarantined)
     return dict(sorted(fixtures.items())[:MAX_MATCHES]),sources,restricted
 
 def evaluate_match(row,sale_date,now,transport=fetch):
@@ -232,6 +253,8 @@ def collect(sale_date,now=None,transport=fetch,pause=time.sleep):
         "sp_prices_are_officially_verified":False,
         "provider_predictions_used_in_model":False,
         "date_identity_mapping":"MATCH_ID_PREFIX_VALIDATED_MATCH_NAME_PROVIDER_REPORTED",
+        "fixture_identity_independently_verified":False,
+        "fixture_identity_conflicts":sources.get("identity_conflicts",[]),
         "independent_model_status":"NOT_IMPLEMENTED_OR_NOT_CALIBRATED",
         "final_prediction_status":"NOT_GENERATED_BY_COLLECTOR",
         "fixture_sources":sources,
@@ -247,7 +270,7 @@ def collect(sale_date,now=None,transport=fetch,pause=time.sleep):
     # Never report full research coverage when one pool silently failed.
     report["fixture_pool_integrity"]="COMPLETE" if all(
         sources.get(str(pool),{}).get("status")=="SUCCESS" for pool in (0,1)
-    ) else "PARTIAL_SOURCE_POOL"
+    ) and not report["fixture_identity_conflicts"] else "PARTIAL_SOURCE_POOL"
     for fid,fixture in fixtures.items():
         record=evaluate_match(fixture,sale_date,now,transport)
         report["matches"].append(record)
@@ -287,6 +310,7 @@ def collect(sale_date,now=None,transport=fetch,pause=time.sleep):
     report["betting_gate"]="BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV"
     report["known_gaps"]=[
        "Caidao third-party quotes have not been directly matched to official JC feed",
+       "Fixture team identities and kickoffs are not independently verified against primary schedules",
        "No verified time-series for official integer-handicap H-HAD odds",
        "Provider form/lineups/injuries not individually verified against original team/league sources",
        "No calibrated evidence-only 1X2/draw/score/handicap model run",
@@ -361,6 +385,8 @@ def persist(report,out_root):
         "last_snapshot_path":str(archive),
         "quality_gate":report["quality_gate"],
         "fixture_pool_integrity":report["fixture_pool_integrity"],
+        "fixture_identity_conflicts":report["fixture_identity_conflicts"],
+        "fixture_identity_independently_verified":False,
         "fixture_sources":report["fixture_sources"],
         "betting_gate":report["betting_gate"],
         "coverage":report["coverage"],
