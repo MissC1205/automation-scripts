@@ -1,6 +1,11 @@
 name: MFM Free Soccer Data Probe
 on:
   workflow_dispatch:
+    inputs:
+      probe_api:
+        description: 'Run a single API-Football recovery probe despite scheduled pause'
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths:
@@ -34,8 +39,10 @@ jobs:
         if: success()
         run: python mfm-data/mfm_history.py --date $(TZ=Asia/Shanghai date +%F) --dir mfm_data --days 21
       - name: Probe API-Football with repository secret
+        if: ${{ !cancelled() }}
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          API_FOOTBALL_ENABLED: ${{ vars.API_FOOTBALL_ENABLED == 'true' || inputs.probe_api == true }}
         run: python mfm-data/mfm_api_football.py --out mfm_data --date $(TZ=Asia/Shanghai date +%F)
       - name: Collect API-Football team form
         env:
