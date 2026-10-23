@@ -35,6 +35,17 @@ class TestHistory(unittest.TestCase):
     def test_wrong_match_is_not_verified(self):
         fixture=dict(FIXTURE,guestTeam="错误球队")
         self.assertFalse(mod.parse_history(BASE,fixture,NOW)["verified_for_model_use"])
+    def test_perth_glory_short_name_alias(self):
+        fixture=dict(FIXTURE,guestTeam="珀斯光荣")
+        payload={"status":200,"result":dict(BASE["result"],guestTeam="珀斯")}
+        data=mod.parse_history(payload,fixture,NOW)
+        self.assertTrue(data["source_identity_verified"])
+        self.assertTrue(data["source_identity_alias_used"])
+        self.assertTrue(data["verified_for_model_use"])
+        wrong=dict(fixture,matchNum="周三012")
+        self.assertFalse(mod.parse_history(payload,wrong,NOW)["verified_for_model_use"])
+        unrelated=dict(fixture,guestTeam="珀斯SC")
+        self.assertFalse(mod.parse_history(payload,unrelated,NOW)["verified_for_model_use"])
     def test_invalid_time_and_duplicate_rejected(self):
         bad={"status":200,"result":dict(BASE["result"])}
         bad["result"]["oddsDetails"]=list(BASE["result"]["oddsDetails"])+[
