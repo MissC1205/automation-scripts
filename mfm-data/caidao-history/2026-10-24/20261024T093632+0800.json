@@ -1,0 +1,1367 @@
+{
+  "sale_date": "2026-10-24",
+  "retrieved_at_bj": "2026-10-24T09:36:05.442133+08:00",
+  "provider": "Caidao public H5 backend",
+  "provider_category": "THIRD_PARTY_NOT_OFFICIAL_SP",
+  "official_sp_verified": false,
+  "history_market": "spf",
+  "source": "http://zk.bjjckx.com/api/web/game/getJcOddsDetail",
+  "forecast_eligibility": "SOURCE_AUDIT_ONLY_NOT_CALIBRATED_PREDICTION",
+  "lookahead_warning": "Collection time can be after match kickoff; do not backdate live captures.",
+  "fixture_feeds": {
+    "0": {
+      "status": 200,
+      "all_rows": 37,
+      "sale_day_rows": 27
+    },
+    "1": {
+      "status": 200,
+      "all_rows": 352,
+      "sale_day_rows": 0
+    }
+  },
+  "matches": [
+    {
+      "fixture": {
+        "matchInfo": "F20261024001",
+        "matchNum": "周六001",
+        "hostTeam": "首尔FC",
+        "guestTeam": "江原FC",
+        "gameTime": "20261024130000",
+        "matchName": "韩职"
+      },
+      "kickoff_bj": "2026-10-24T13:00:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024001",
+        "match_number": "周六001",
+        "fixture_home": "首尔FC",
+        "fixture_away": "江原FC",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.64,
+            "draw": 3.42,
+            "away": 4.4,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六001",
+        "provider_home": "首尔FC",
+        "provider_away": "江原FC",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024002",
+        "matchNum": "周六002",
+        "hostTeam": "仁川联",
+        "guestTeam": "济州SK",
+        "gameTime": "20261024130000",
+        "matchName": "韩职"
+      },
+      "kickoff_bj": "2026-10-24T13:00:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024002",
+        "match_number": "周六002",
+        "fixture_home": "仁川联",
+        "fixture_away": "济州SK",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.98,
+            "draw": 3.05,
+            "away": 3.38,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六002",
+        "provider_home": "仁川联",
+        "provider_away": "济州SK",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024003",
+        "matchNum": "周六003",
+        "hostTeam": "神户胜利",
+        "guestTeam": "町田泽维",
+        "gameTime": "20261024140000",
+        "matchName": "日职"
+      },
+      "kickoff_bj": "2026-10-24T14:00:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024003",
+        "match_number": "周六003",
+        "fixture_home": "神户胜利",
+        "fixture_away": "町田泽维",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 2.27,
+            "draw": 3.12,
+            "away": 2.72,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六003",
+        "provider_home": "神户胜利",
+        "provider_away": "町田泽维",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024004",
+        "matchNum": "周六004",
+        "hostTeam": "鹿岛鹿角",
+        "guestTeam": "柏太阳神",
+        "gameTime": "20261024140000",
+        "matchName": "日职"
+      },
+      "kickoff_bj": "2026-10-24T14:00:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024004",
+        "match_number": "周六004",
+        "fixture_home": "鹿岛鹿角",
+        "fixture_away": "柏太阳神",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 2.25,
+            "draw": 3.4,
+            "away": 2.56,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-23T21:52:12+08:00",
+            "source_time_raw": "2026-10-23 21:52:12",
+            "home": 2.2,
+            "draw": 3.4,
+            "away": 2.63,
+            "source_odds_flag": "-1|0|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六004",
+        "provider_home": "鹿岛鹿角",
+        "provider_away": "柏太阳神",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T21:52:12+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024005",
+        "matchNum": "周六005",
+        "hostTeam": "墨胜利",
+        "guestTeam": "墨尔本城",
+        "gameTime": "20261024164000",
+        "matchName": "澳超"
+      },
+      "kickoff_bj": "2026-10-24T16:40:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024005",
+        "match_number": "周六005",
+        "fixture_home": "墨胜利",
+        "fixture_away": "墨尔本城",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 2.4,
+            "draw": 3.2,
+            "away": 2.5,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六005",
+        "provider_home": "墨胜利",
+        "provider_away": "墨尔本城",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024006",
+        "matchNum": "周六006",
+        "hostTeam": "维拉",
+        "guestTeam": "曼城",
+        "gameTime": "20261024193000",
+        "matchName": "英超"
+      },
+      "kickoff_bj": "2026-10-24T19:30:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024006",
+        "match_number": "周六006",
+        "fixture_home": "维拉",
+        "fixture_away": "曼城",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 4.5,
+            "draw": 4.1,
+            "away": 1.51,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-23T14:16:30+08:00",
+            "source_time_raw": "2026-10-23 14:16:30",
+            "home": 4.7,
+            "draw": 4.15,
+            "away": 1.48,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六006",
+        "provider_home": "维拉",
+        "provider_away": "曼城",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T14:16:30+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024008",
+        "matchNum": "周六008",
+        "hostTeam": "巴列卡诺",
+        "guestTeam": "埃尔切",
+        "gameTime": "20261024200000",
+        "matchName": "西甲"
+      },
+      "kickoff_bj": "2026-10-24T20:00:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024008",
+        "match_number": "周六008",
+        "fixture_home": "巴列卡诺",
+        "fixture_away": "埃尔切",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.58,
+            "draw": 3.65,
+            "away": 4.5,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六008",
+        "provider_home": "巴列卡诺",
+        "provider_away": "埃尔切",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024009",
+        "matchNum": "周六009",
+        "hostTeam": "科莫",
+        "guestTeam": "萨索洛",
+        "gameTime": "20261024210000",
+        "matchName": "意甲"
+      },
+      "kickoff_bj": "2026-10-24T21:00:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024009",
+        "match_number": "周六009",
+        "fixture_home": "科莫",
+        "fixture_away": "萨索洛",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.38,
+            "draw": 4.5,
+            "away": 5.5,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-23T15:44:55+08:00",
+            "source_time_raw": "2026-10-23 15:44:55",
+            "home": 1.36,
+            "draw": 4.6,
+            "away": 5.65,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六009",
+        "provider_home": "科莫",
+        "provider_away": "萨索洛",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T15:44:55+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024010",
+        "matchNum": "周六010",
+        "hostTeam": "卡利亚里",
+        "guestTeam": "博洛尼亚",
+        "gameTime": "20261024210000",
+        "matchName": "意甲"
+      },
+      "kickoff_bj": "2026-10-24T21:00:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024010",
+        "match_number": "周六010",
+        "fixture_home": "卡利亚里",
+        "fixture_away": "博洛尼亚",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 2.7,
+            "draw": 2.85,
+            "away": 2.45,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六010",
+        "provider_home": "卡利亚里",
+        "provider_away": "博洛尼亚",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024011",
+        "matchNum": "周六011",
+        "hostTeam": "莱红牛",
+        "guestTeam": "埃沃斯堡",
+        "gameTime": "20261024213000",
+        "matchName": "德甲"
+      },
+      "kickoff_bj": "2026-10-24T21:30:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024011",
+        "match_number": "周六011",
+        "fixture_home": "莱红牛",
+        "fixture_away": "埃沃斯堡",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.28,
+            "draw": 5.3,
+            "away": 6.25,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-23T15:54:16+08:00",
+            "source_time_raw": "2026-10-23 15:54:16",
+            "home": 1.27,
+            "draw": 5.32,
+            "away": 6.5,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六011",
+        "provider_home": "莱红牛",
+        "provider_away": "埃沃斯堡",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T15:54:16+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024012",
+        "matchNum": "周六012",
+        "hostTeam": "美因茨",
+        "guestTeam": "不来梅",
+        "gameTime": "20261024213000",
+        "matchName": "德甲"
+      },
+      "kickoff_bj": "2026-10-24T21:30:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024012",
+        "match_number": "周六012",
+        "fixture_home": "美因茨",
+        "fixture_away": "不来梅",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.59,
+            "draw": 3.85,
+            "away": 4.15,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六012",
+        "provider_home": "美因茨",
+        "provider_away": "不来梅",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024013",
+        "matchNum": "周六013",
+        "hostTeam": "帕德博恩",
+        "guestTeam": "汉堡",
+        "gameTime": "20261024213000",
+        "matchName": "德甲"
+      },
+      "kickoff_bj": "2026-10-24T21:30:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024013",
+        "match_number": "周六013",
+        "fixture_home": "帕德博恩",
+        "fixture_away": "汉堡",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 2.13,
+            "draw": 3.5,
+            "away": 2.67,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六013",
+        "provider_home": "帕德博恩",
+        "provider_away": "汉堡",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024014",
+        "matchNum": "周六014",
+        "hostTeam": "科隆",
+        "guestTeam": "沙尔克04",
+        "gameTime": "20261024213000",
+        "matchName": "德甲"
+      },
+      "kickoff_bj": "2026-10-24T21:30:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024014",
+        "match_number": "周六014",
+        "fixture_home": "科隆",
+        "fixture_away": "沙尔克04",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.88,
+            "draw": 3.5,
+            "away": 3.21,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-23T21:23:32+08:00",
+            "source_time_raw": "2026-10-23 21:23:32",
+            "home": 1.84,
+            "draw": 3.5,
+            "away": 3.33,
+            "source_odds_flag": "-1|0|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六014",
+        "provider_home": "科隆",
+        "provider_away": "沙尔克04",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T21:23:32+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024015",
+        "matchNum": "周六015",
+        "hostTeam": "奥格斯堡",
+        "guestTeam": "柏林联合",
+        "gameTime": "20261024213000",
+        "matchName": "德甲"
+      },
+      "kickoff_bj": "2026-10-24T21:30:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024015",
+        "match_number": "周六015",
+        "fixture_home": "奥格斯堡",
+        "fixture_away": "柏林联合",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.66,
+            "draw": 3.85,
+            "away": 3.75,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六015",
+        "provider_home": "奥格斯堡",
+        "provider_away": "柏林联合",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024016",
+        "matchNum": "周六016",
+        "hostTeam": "阿森纳",
+        "guestTeam": "埃弗顿",
+        "gameTime": "20261024220000",
+        "matchName": "英超"
+      },
+      "kickoff_bj": "2026-10-24T22:00:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024016",
+        "match_number": "周六016",
+        "fixture_home": "阿森纳",
+        "fixture_away": "埃弗顿",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.3,
+            "draw": 4.3,
+            "away": 7.9,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-23T14:38:25+08:00",
+            "source_time_raw": "2026-10-23 14:38:25",
+            "home": 1.29,
+            "draw": 4.32,
+            "away": 8.12,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六016",
+        "provider_home": "阿森纳",
+        "provider_away": "埃弗顿",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T14:38:25+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024017",
+        "matchNum": "周六017",
+        "hostTeam": "考文垂",
+        "guestTeam": "富勒姆",
+        "gameTime": "20261024220000",
+        "matchName": "英超"
+      },
+      "kickoff_bj": "2026-10-24T22:00:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024017",
+        "match_number": "周六017",
+        "fixture_home": "考文垂",
+        "fixture_away": "富勒姆",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 2.95,
+            "draw": 3.35,
+            "away": 2.04,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六017",
+        "provider_home": "考文垂",
+        "provider_away": "富勒姆",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024019",
+        "matchNum": "周六019",
+        "hostTeam": "桑坦德",
+        "guestTeam": "西班牙人",
+        "gameTime": "20261024221500",
+        "matchName": "西甲"
+      },
+      "kickoff_bj": "2026-10-24T22:15:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024019",
+        "match_number": "周六019",
+        "fixture_home": "桑坦德",
+        "fixture_away": "西班牙人",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 2.26,
+            "draw": 3.45,
+            "away": 2.52,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六019",
+        "provider_home": "桑坦德",
+        "provider_away": "西班牙人",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024020",
+        "matchNum": "周六020",
+        "hostTeam": "乌德勒支",
+        "guestTeam": "兹沃勒",
+        "gameTime": "20261024223000",
+        "matchName": "荷甲"
+      },
+      "kickoff_bj": "2026-10-24T22:30:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024020",
+        "match_number": "周六020",
+        "fixture_home": "乌德勒支",
+        "fixture_away": "兹沃勒",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.5,
+            "draw": 4.1,
+            "away": 4.57,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六020",
+        "provider_home": "乌德勒支",
+        "provider_away": "兹沃勒",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024021",
+        "matchNum": "周六021",
+        "hostTeam": "阿马多拉",
+        "guestTeam": "卡萨皮亚",
+        "gameTime": "20261024223000",
+        "matchName": "葡超"
+      },
+      "kickoff_bj": "2026-10-24T22:30:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024021",
+        "match_number": "周六021",
+        "fixture_home": "阿马多拉",
+        "fixture_away": "卡萨皮亚",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.67,
+            "draw": 3.42,
+            "away": 4.2,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六021",
+        "provider_home": "阿马多拉",
+        "provider_away": "卡萨皮亚",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024022",
+        "matchNum": "周六022",
+        "hostTeam": "那不勒斯",
+        "guestTeam": "罗马",
+        "gameTime": "20261025000000",
+        "matchName": "意甲"
+      },
+      "kickoff_bj": "2026-10-25T00:00:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024022",
+        "match_number": "周六022",
+        "fixture_home": "那不勒斯",
+        "fixture_away": "罗马",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 2.58,
+            "draw": 3.15,
+            "away": 2.36,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-23T15:49:55+08:00",
+            "source_time_raw": "2026-10-23 15:49:55",
+            "home": 2.63,
+            "draw": 3.15,
+            "away": 2.32,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六022",
+        "provider_home": "那不勒斯",
+        "provider_away": "罗马",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T15:49:55+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024023",
+        "matchNum": "周六023",
+        "hostTeam": "切尔西",
+        "guestTeam": "热刺",
+        "gameTime": "20261025003000",
+        "matchName": "英超"
+      },
+      "kickoff_bj": "2026-10-25T00:30:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024023",
+        "match_number": "周六023",
+        "fixture_home": "切尔西",
+        "fixture_away": "热刺",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.65,
+            "draw": 3.85,
+            "away": 3.8,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-23T15:46:56+08:00",
+            "source_time_raw": "2026-10-23 15:46:56",
+            "home": 1.62,
+            "draw": 3.92,
+            "away": 3.9,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六023",
+        "provider_home": "切尔西",
+        "provider_away": "热刺",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T15:46:56+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024024",
+        "matchNum": "周六024",
+        "hostTeam": "多特蒙德",
+        "guestTeam": "法兰克福",
+        "gameTime": "20261025003000",
+        "matchName": "德甲"
+      },
+      "kickoff_bj": "2026-10-25T00:30:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024024",
+        "match_number": "周六024",
+        "fixture_home": "多特蒙德",
+        "fixture_away": "法兰克福",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.36,
+            "draw": 4.75,
+            "away": 5.45,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-23T15:48:31+08:00",
+            "source_time_raw": "2026-10-23 15:48:31",
+            "home": 1.34,
+            "draw": 4.9,
+            "away": 5.6,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六024",
+        "provider_home": "多特蒙德",
+        "provider_away": "法兰克福",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T15:48:31+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024025",
+        "matchNum": "周六025",
+        "hostTeam": "巴伦西亚",
+        "guestTeam": "比利亚雷",
+        "gameTime": "20261025003000",
+        "matchName": "西甲"
+      },
+      "kickoff_bj": "2026-10-25T00:30:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024025",
+        "match_number": "周六025",
+        "fixture_home": "巴伦西亚",
+        "fixture_away": "比利亚雷",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 2.95,
+            "draw": 3.4,
+            "away": 2.02,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六025",
+        "provider_home": "巴伦西亚",
+        "provider_away": "比利亚雷",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024026",
+        "matchNum": "周六026",
+        "hostTeam": "拉齐奥",
+        "guestTeam": "帕尔马",
+        "gameTime": "20261025024500",
+        "matchName": "意甲"
+      },
+      "kickoff_bj": "2026-10-25T02:45:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024026",
+        "match_number": "周六026",
+        "fixture_home": "拉齐奥",
+        "fixture_away": "帕尔马",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.31,
+            "draw": 4.3,
+            "away": 7.5,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-23T14:41:39+08:00",
+            "source_time_raw": "2026-10-23 14:41:39",
+            "home": 1.29,
+            "draw": 4.4,
+            "away": 7.85,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六026",
+        "provider_home": "拉齐奥",
+        "provider_away": "帕尔马",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T14:41:39+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024027",
+        "matchNum": "周六027",
+        "hostTeam": "朗斯",
+        "guestTeam": "巴黎FC",
+        "gameTime": "20261025024500",
+        "matchName": "法甲"
+      },
+      "kickoff_bj": "2026-10-25T02:45:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024027",
+        "match_number": "周六027",
+        "fixture_home": "朗斯",
+        "fixture_away": "巴黎FC",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 2.27,
+            "draw": 3.42,
+            "away": 2.52,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六027",
+        "provider_home": "朗斯",
+        "provider_away": "巴黎FC",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024028",
+        "matchNum": "周六028",
+        "hostTeam": "马竞",
+        "guestTeam": "拉科",
+        "gameTime": "20261025030000",
+        "matchName": "西甲"
+      },
+      "kickoff_bj": "2026-10-25T03:00:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024028",
+        "match_number": "周六028",
+        "fixture_home": "马竞",
+        "fixture_away": "拉科",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 1.18,
+            "draw": 5.4,
+            "away": 10.3,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六028",
+        "provider_home": "马竞",
+        "provider_away": "拉科",
+        "integer_handicap": "-2",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    },
+    {
+      "fixture": {
+        "matchInfo": "F20261024029",
+        "matchNum": "周六029",
+        "hostTeam": "吉维森特",
+        "guestTeam": "波尔图",
+        "gameTime": "20261025033000",
+        "matchName": "葡超"
+      },
+      "kickoff_bj": "2026-10-25T03:30:00+08:00",
+      "collection_phase": "BEFORE_KICKOFF",
+      "sp_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261024029",
+        "match_number": "周六029",
+        "fixture_home": "吉维森特",
+        "fixture_away": "波尔图",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+            "source_time_raw": "2026-10-23 09:40:01",
+            "home": 8.25,
+            "draw": 4.55,
+            "away": 1.27,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周六029",
+        "provider_home": "吉维森特",
+        "provider_away": "波尔图",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "latest_source_updated_at_bj": "2026-10-23T09:40:01+08:00",
+        "verified_for_model_use": true
+      },
+      "pre_kickoff_snapshot_verified": true
+    }
+  ],
+  "coverage": {
+    "fixture_ids": 27,
+    "matches_checked": 27,
+    "matches_with_any_history": 27,
+    "matches_with_verified_spf_history": 27,
+    "prematch_snapshots_eligible": 27,
+    "total_valid_history_rows": 37,
+    "before_kickoff_at_collection": 27,
+    "after_kickoff_at_collection": 0
+  }
+}
