@@ -1,0 +1,125 @@
+{
+  "retrieved_at_bj": "2026-10-24T09:38:26.933163+08:00",
+  "h5_origin": "http://zk.bjjckx.com",
+  "requests": [
+    {
+      "path": "/api/web/game/getLeagueMatchList",
+      "request_method": "POST",
+      "parameters": "empty_probe_only",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "response_bytes_capped": 49,
+      "response_truncated": false,
+      "response_kind": "json",
+      "top_level_keys": [
+        "data",
+        "message",
+        "status"
+      ],
+      "status": "200",
+      "public_error_message": "请求成功",
+      "data_kind": "str",
+      "data_string_length": 0
+    },
+    {
+      "path": "/api/web/game/getWorldCupOddsList",
+      "request_method": "POST",
+      "parameters": "empty_probe_only",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "response_bytes_capped": 49,
+      "response_truncated": false,
+      "response_kind": "json",
+      "top_level_keys": [
+        "data",
+        "message",
+        "status"
+      ],
+      "status": "200",
+      "public_error_message": "请求成功",
+      "data_kind": "str",
+      "data_string_length": 0
+    },
+    {
+      "path": "/api/web/game/getSpfzstdetail",
+      "request_method": "POST",
+      "parameters": "empty_probe_only",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "response_bytes_capped": 39,
+      "response_truncated": false,
+      "response_kind": "json",
+      "top_level_keys": [
+        "message",
+        "status"
+      ],
+      "status": "400",
+      "public_error_message": "请求失败",
+      "data_kind": "NoneType"
+    },
+    {
+      "path": "/api/web/game/getRqSpfzstdetail",
+      "request_method": "POST",
+      "parameters": "empty_probe_only",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "response_bytes_capped": 39,
+      "response_truncated": false,
+      "response_kind": "json",
+      "top_level_keys": [
+        "message",
+        "status"
+      ],
+      "status": "400",
+      "public_error_message": "请求失败",
+      "data_kind": "NoneType"
+    },
+    {
+      "path": "/api/web/game/getJcZstDetail",
+      "request_method": "POST",
+      "parameters": "empty_probe_only",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "response_bytes_capped": 39,
+      "response_truncated": false,
+      "response_kind": "json",
+      "top_level_keys": [
+        "message",
+        "status"
+      ],
+      "status": "400",
+      "public_error_message": "参数错误",
+      "data_kind": "NoneType"
+    },
+    {
+      "path": "/api/web/game/footballQuery",
+      "request_method": "GET",
+      "parameters": "empty_probe_only",
+      "http_status": 500,
+      "error_type": "HTTPError"
+    },
+    {
+      "path": "/api/web/game/footballLiveQuery",
+      "request_method": "POST",
+      "parameters": "empty_probe_only",
+      "http_status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "response_bytes_capped": 85,
+      "response_truncated": false,
+      "response_kind": "json",
+      "top_level_keys": [
+        "body",
+        "code",
+        "message",
+        "status",
+        "timestamp"
+      ],
+      "code": "000",
+      "status": "200",
+      "public_error_message": "成功",
+      "data_kind": "NoneType"
+    }
+  ],
+  "no_credentials_or_access_bypass": true,
+  "no_personal_response_data_saved": true
+}
