@@ -186,6 +186,17 @@ def select_fixtures(sale_date,transport=fetch):
         sources["quarantined_fixture_ids"]=sorted(quarantined)
     return dict(sorted(fixtures.items())[:MAX_MATCHES]),sources,restricted
 
+def spf_history_trend_status(history):
+    """A single source quote is a snapshot, never evidence of a price trend."""
+    if not history.get("verified_for_model_use"):
+        return "UNVERIFIED_OR_MISSING"
+    quotes=history.get("history") or []
+    if len(quotes)<2:
+        return "SINGLE_SNAPSHOT_NO_TREND"
+    values={(q.get("home"),q.get("draw"),q.get("away")) for q in quotes}
+    return ("MULTI_SNAPSHOT_PRICE_CHANGE" if len(values)>1
+            else "MULTI_SNAPSHOT_NO_PRICE_CHANGE")
+
 def evaluate_match(row,sale_date,now,transport=fetch):
     ident=row["matchInfo"]
     kickoff=parse_kickoff(row.get("gameTime"))
@@ -234,6 +245,7 @@ def evaluate_match(row,sale_date,now,transport=fetch):
     approved=bool(hist.get("verified_for_model_use"))
     result["data_quality"]["history_spf_valid"]=approved
     result["data_quality"]["history_spf_quote_count"]=hist.get("history_count",0)
+    result["data_quality"]["spf_history_trend_status"]=spf_history_trend_status(hist)
     result["data_quality"]["history_as_of"]=hist.get("latest_source_updated_at_bj")
     result["data_quality"]["true_prematch_snapshot"]=(
         result["collection_phase"]=="PRE_KICKOFF" and approved)
@@ -306,6 +318,9 @@ def collect(sale_date,now=None,transport=fetch,pause=time.sleep):
       "detail_objects":sum(m["detail"].get("status")=="SOURCE_DETAIL_AVAILABLE" for m in rows),
       "historical_spf_matches_verified":sum(m["spf_history"].get("verified_for_model_use",False) for m in rows),
       "historical_spf_rows":sum(m["spf_history"].get("history_count",0) for m in rows),
+      "historical_spf_single_snapshot_matches":sum(m["data_quality"].get("spf_history_trend_status")=="SINGLE_SNAPSHOT_NO_TREND" for m in rows),
+      "historical_spf_multi_snapshot_matches":sum(m["data_quality"].get("spf_history_trend_status") in ("MULTI_SNAPSHOT_NO_PRICE_CHANGE","MULTI_SNAPSHOT_PRICE_CHANGE") for m in rows),
+      "historical_spf_price_change_matches":sum(m["data_quality"].get("spf_history_trend_status")=="MULTI_SNAPSHOT_PRICE_CHANGE" for m in rows),
       "current_spf_matches_latest_history":sum(m["data_quality"].get("current_sp_vs_latest_history")=="MATCH" for m in rows),
       "current_spf_divergence_or_lag":sum(m["data_quality"].get("current_sp_vs_latest_history")=="DIFFERENT_SNAPSHOT_OR_PROVIDER_LAG" for m in rows),
       "captured_before_kickoff":sum(m["collection_phase"]=="PRE_KICKOFF" for m in rows),
@@ -327,11 +342,15 @@ def collect(sale_date,now=None,transport=fetch,pause=time.sleep):
         report["quality_gate"]="RESEARCH_DATA_AVAILABLE"
     else:
         report["quality_gate"]="PARTIAL_RESEARCH_DATA"
+    report["odds_trend_gate"]=("NO_MULTI_SNAPSHOT_TREND" if count["historical_spf_multi_snapshot_matches"]==0
+        else ("PARTIAL_MULTI_SNAPSHOT_COVERAGE" if count["historical_spf_multi_snapshot_matches"]<n
+              else "MULTI_SNAPSHOT_COVERAGE_NOT_OFFICIAL"))
     report["betting_gate"]="BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV"
     report["known_gaps"]=[
        "Caidao third-party quotes have not been directly matched to official JC feed",
        "Fixture team identities and kickoffs are not independently verified against primary schedules",
        "No verified time-series for official integer-handicap H-HAD odds",
+       "A single SPF quote does not prove historical odds movement; check odds_trend_gate and price-change coverage",
        "Provider form/lineups/injuries not individually verified against original team/league sources",
        "No calibrated evidence-only 1X2/draw/score/handicap model run",
        "Provider probabilities and prose excluded to preserve independent model firewall",
@@ -404,6 +423,7 @@ def persist(report,out_root):
         "date":sale,"collected_at_bj":report["collection_finished_at_bj"],
         "last_snapshot_path":str(archive),
         "quality_gate":report["quality_gate"],
+        "odds_trend_gate":report["odds_trend_gate"],
         "fixture_pool_integrity":report["fixture_pool_integrity"],
         "fixture_identity_conflicts":report["fixture_identity_conflicts"],
         "fixture_identity_independently_verified":False,
@@ -417,6 +437,7 @@ def persist(report,out_root):
            "hhad_line":m["source_market"]["integer_handicap"],
            "hhad_sp":m["source_market"]["handicap_sp"],
            "spf_history_rows":m["spf_history"].get("history_count",0),
+           "spf_history_trend_status":m["data_quality"].get("spf_history_trend_status"),
            "last_source_sp_updated_at_bj":m["spf_history"].get("latest_source_updated_at_bj"),
            "prematch_snapshot_verified":m["data_quality"].get("true_prematch_snapshot",False),
            "detail_available":m["detail"].get("status")=="SOURCE_DETAIL_AVAILABLE"

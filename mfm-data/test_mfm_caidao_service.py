@@ -89,6 +89,27 @@ class CaidaoServiceTests(unittest.TestCase):
             self.assertNotIn('spfOdds',football)
             self.assertNotIn('oddsDetails',football)
             self.assertNotIn('poissonDistributionStr',football)
+    def test_single_snapshot_is_not_misreported_as_odds_movement(self):
+        report=mod.collect("2026-10-14",now=FIXED,transport=transport,pause=lambda x:None)
+        coverage=report["coverage"]
+        self.assertEqual(coverage["historical_spf_rows"],2)
+        self.assertEqual(coverage["historical_spf_single_snapshot_matches"],2)
+        self.assertEqual(coverage["historical_spf_multi_snapshot_matches"],0)
+        self.assertEqual(coverage["historical_spf_price_change_matches"],0)
+        self.assertEqual(report["odds_trend_gate"],"NO_MULTI_SNAPSHOT_TREND")
+        self.assertEqual(mod.spf_history_trend_status({
+            "verified_for_model_use":True,
+            "history":[{"home":1.8,"draw":3.2,"away":4.0},
+                       {"home":1.8,"draw":3.2,"away":4.0}]}),
+            "MULTI_SNAPSHOT_NO_PRICE_CHANGE")
+        self.assertEqual(mod.spf_history_trend_status({
+            "verified_for_model_use":True,
+            "history":[{"home":1.8,"draw":3.2,"away":4.0},
+                       {"home":1.9,"draw":3.1,"away":3.9}]}),
+            "MULTI_SNAPSHOT_PRICE_CHANGE")
+        self.assertEqual(mod.spf_history_trend_status({"verified_for_model_use":False}),
+                         "UNVERIFIED_OR_MISSING")
+
     def test_missing_data_marks_partial(self):
         def no_detail(path,params,method="GET"):
             if path.endswith("getMatchAllData"):
