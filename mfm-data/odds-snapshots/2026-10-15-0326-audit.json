@@ -1,0 +1,34 @@
+{
+  "sale_date_bj": "2026-10-15",
+  "audit_at_bj": "2026-10-15T03:26:55+08:00",
+  "official_fixture_pool_verified": false,
+  "source_checks": {
+    "sporttery_calculator": {
+      "status": "DNS_RESOLUTION_FAILED",
+      "method": "direct_urllib",
+      "error": "Temporary failure in name resolution"
+    },
+    "sporttery_history": {
+      "status": "NOT_VERIFIED",
+      "reason": "No validated official fixture identifiers or usable history response"
+    },
+    "caidao": {
+      "last_snapshot": "mfm-data/caidao-live/2026-10-15/20261015T015633110259+0800.json",
+      "collected_at_bj": "2026-10-15T01:56:33.110085+08:00",
+      "raw_rows": 341,
+      "matched_sale_day_rows": 0,
+      "quality_gate": "NO_DATA"
+    }
+  },
+  "same_source_delta": "NOT_CALCULABLE_NO_COMPARABLE_CURRENT_MATCHES",
+  "official_sp_rows": 0,
+  "handicap_sp_rows": 0,
+  "match_direction_conclusions": [],
+  "scheduler": {
+    "caidao": "5 2,7,10,13,15 * * *",
+    "desired": "5 * * * *",
+    "update": "BLOCKED_BY_SAFETY_CHECKS"
+  },
+  "notion_write": "BLOCKED_BY_SAFETY_CHECKS",
+  "notes": "Do not treat 2026-10-14 fixtures as 2026-10-15 sale-day official fixtures. No verified new odds change."
+}

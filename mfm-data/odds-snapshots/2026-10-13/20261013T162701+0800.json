@@ -1,0 +1,611 @@
+{
+  "collected_at": "2026-10-13T16:27:01+08:00",
+  "timezone": "Asia/Shanghai",
+  "source_name": "澳客竞彩足球",
+  "source_url": "https://www.okooo.com/jingcai/",
+  "source_read_method": "web indexed HTML response (crawled today; exact fetch freshness unknown)",
+  "source_updated_at": null,
+  "source_cache_freshness": "unverified; may repeat 15:27 cached content",
+  "source_type": "third_party_web_display_not_official_SP",
+  "official_on_sale": "unverified",
+  "third_party_page_sale_status": "12场全部显示未开售，非官方销售状态证明",
+  "official_api_attempts": [
+    {
+      "endpoint": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry",
+      "result": "web internal error; container DNS failure"
+    },
+    {
+      "endpoint": "https://webapi.sporttery.cn/gateway/uniform/football/getOddsHistoryV1.qry",
+      "result": "web internal error; container DNS failure"
+    }
+  ],
+  "baseline": "2026-10-13T15:27:36+08:00",
+  "baseline_type": "local JSON from previous automation turn (GitHub 15:27 write failed)",
+  "baseline_local_file": "mfm_2026-10-13_1527_odds_audit.json",
+  "historical_github_reference": "https://github.com/MissC1205/automation-scripts/blob/main/mfm-data/odds-snapshots/2026-10-13/20261013T142807%2B0800.json",
+  "display_changes_count": 0,
+  "verified_market_movements_count": 0,
+  "important_anomalies": [
+    "001第三方页面标示开赛15:45但16:27可见页面仍为未开售且报价与15:27相同；无法验证页面是否已更新",
+    "欧足联官方10月13日欧冠赛程含Sabah对Slavia Praha，第三方当前12场列表未包含；不代表一定属于中国竞彩在售"
+  ],
+  "interpretation": "所有数值仅为本次网页工具返回的第三方展示值。相对15:27本地同源快照的数值差为零，但因源更新时间和缓存未知，不代表真实赔率零波动；不得作为投注方向依据。",
+  "rows": [
+    {
+      "match_no": "001",
+      "home": "纽卡斯托",
+      "away": "大阪钢巴",
+      "spf_display": [
+        3.95,
+        4.25,
+        1.56
+      ],
+      "integer_handicap_display_unverified": 1,
+      "rqspf_display": [
+        2.08,
+        3.8,
+        2.6
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-13T16:27:01+08:00",
+      "previous_collected_at": "2026-10-13T15:27:36+08:00",
+      "previous_spf_display": [
+        3.95,
+        4.25,
+        1.56
+      ],
+      "previous_rqspf_display": [
+        2.08,
+        3.8,
+        2.6
+      ],
+      "delta_spf_display": [
+        0,
+        0,
+        0
+      ],
+      "delta_rqspf_display": [
+        0,
+        0,
+        0
+      ],
+      "same_source_display_changed": false,
+      "verified_market_movement": false,
+      "directional_interpretation": "本次可见网页值与15:27同源记录一致；源更新时间和缓存新鲜度均未知，不能据此证明真实盘口未变化或支持任何结果。",
+      "evidence_missing": [
+        "官方在售清单",
+        "官方SP原始接口响应",
+        "源更新时间",
+        "页面缓存新鲜度",
+        "带时间戳的盘口历史及成交量"
+      ]
+    },
+    {
+      "match_no": "002",
+      "home": "上海海港",
+      "away": "大田市民",
+      "spf_display": [
+        1.98,
+        3.55,
+        2.92
+      ],
+      "integer_handicap_display_unverified": -1,
+      "rqspf_display": [
+        4.08,
+        3.75,
+        1.62
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-13T16:27:01+08:00",
+      "previous_collected_at": "2026-10-13T15:27:36+08:00",
+      "previous_spf_display": [
+        1.98,
+        3.55,
+        2.92
+      ],
+      "previous_rqspf_display": [
+        4.08,
+        3.75,
+        1.62
+      ],
+      "delta_spf_display": [
+        0,
+        0,
+        0
+      ],
+      "delta_rqspf_display": [
+        0,
+        0,
+        0
+      ],
+      "same_source_display_changed": false,
+      "verified_market_movement": false,
+      "directional_interpretation": "本次可见网页值与15:27同源记录一致；源更新时间和缓存新鲜度均未知，不能据此证明真实盘口未变化或支持任何结果。",
+      "evidence_missing": [
+        "官方在售清单",
+        "官方SP原始接口响应",
+        "源更新时间",
+        "页面缓存新鲜度",
+        "带时间戳的盘口历史及成交量"
+      ]
+    },
+    {
+      "match_no": "003",
+      "home": "布里兰",
+      "away": "北京国安",
+      "spf_display": [
+        1.87,
+        3.75,
+        3.05
+      ],
+      "integer_handicap_display_unverified": -1,
+      "rqspf_display": [
+        3.7,
+        3.6,
+        1.72
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-13T16:27:01+08:00",
+      "previous_collected_at": "2026-10-13T15:27:36+08:00",
+      "previous_spf_display": [
+        1.87,
+        3.75,
+        3.05
+      ],
+      "previous_rqspf_display": [
+        3.7,
+        3.6,
+        1.72
+      ],
+      "delta_spf_display": [
+        0,
+        0,
+        0
+      ],
+      "delta_rqspf_display": [
+        0,
+        0,
+        0
+      ],
+      "same_source_display_changed": false,
+      "verified_market_movement": false,
+      "directional_interpretation": "本次可见网页值与15:27同源记录一致；源更新时间和缓存新鲜度均未知，不能据此证明真实盘口未变化或支持任何结果。",
+      "evidence_missing": [
+        "官方在售清单",
+        "官方SP原始接口响应",
+        "源更新时间",
+        "页面缓存新鲜度",
+        "带时间戳的盘口历史及成交量"
+      ]
+    },
+    {
+      "match_no": "004",
+      "home": "朗斯",
+      "away": "里斯本",
+      "spf_display": [
+        2.38,
+        3.42,
+        2.4
+      ],
+      "integer_handicap_display_unverified": -1,
+      "rqspf_display": [
+        5,
+        4.45,
+        1.42
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-13T16:27:01+08:00",
+      "previous_collected_at": "2026-10-13T15:27:36+08:00",
+      "previous_spf_display": [
+        2.38,
+        3.42,
+        2.4
+      ],
+      "previous_rqspf_display": [
+        5,
+        4.45,
+        1.42
+      ],
+      "delta_spf_display": [
+        0,
+        0,
+        0
+      ],
+      "delta_rqspf_display": [
+        0,
+        0,
+        0
+      ],
+      "same_source_display_changed": false,
+      "verified_market_movement": false,
+      "directional_interpretation": "本次可见网页值与15:27同源记录一致；源更新时间和缓存新鲜度均未知，不能据此证明真实盘口未变化或支持任何结果。",
+      "evidence_missing": [
+        "官方在售清单",
+        "官方SP原始接口响应",
+        "源更新时间",
+        "页面缓存新鲜度",
+        "带时间戳的盘口历史及成交量"
+      ]
+    },
+    {
+      "match_no": "005",
+      "home": "国际米兰",
+      "away": "布鲁日",
+      "spf_display": [
+        1.13,
+        6.3,
+        12
+      ],
+      "integer_handicap_display_unverified": -2,
+      "rqspf_display": [
+        2.35,
+        3.95,
+        2.22
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-13T16:27:01+08:00",
+      "previous_collected_at": "2026-10-13T15:27:36+08:00",
+      "previous_spf_display": [
+        1.13,
+        6.3,
+        12
+      ],
+      "previous_rqspf_display": [
+        2.35,
+        3.95,
+        2.22
+      ],
+      "delta_spf_display": [
+        0,
+        0,
+        0
+      ],
+      "delta_rqspf_display": [
+        0,
+        0,
+        0
+      ],
+      "same_source_display_changed": false,
+      "verified_market_movement": false,
+      "directional_interpretation": "本次可见网页值与15:27同源记录一致；源更新时间和缓存新鲜度均未知，不能据此证明真实盘口未变化或支持任何结果。",
+      "evidence_missing": [
+        "官方在售清单",
+        "官方SP原始接口响应",
+        "源更新时间",
+        "页面缓存新鲜度",
+        "带时间戳的盘口历史及成交量"
+      ]
+    },
+    {
+      "match_no": "006",
+      "home": "阿森纳",
+      "away": "里尔",
+      "spf_display": [
+        1.11,
+        6.5,
+        13.5
+      ],
+      "integer_handicap_display_unverified": -2,
+      "rqspf_display": [
+        2.42,
+        3.82,
+        2.2
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-13T16:27:01+08:00",
+      "previous_collected_at": "2026-10-13T15:27:36+08:00",
+      "previous_spf_display": [
+        1.11,
+        6.5,
+        13.5
+      ],
+      "previous_rqspf_display": [
+        2.42,
+        3.82,
+        2.2
+      ],
+      "delta_spf_display": [
+        0,
+        0,
+        0
+      ],
+      "delta_rqspf_display": [
+        0,
+        0,
+        0
+      ],
+      "same_source_display_changed": false,
+      "verified_market_movement": false,
+      "directional_interpretation": "本次可见网页值与15:27同源记录一致；源更新时间和缓存新鲜度均未知，不能据此证明真实盘口未变化或支持任何结果。",
+      "evidence_missing": [
+        "官方在售清单",
+        "官方SP原始接口响应",
+        "源更新时间",
+        "页面缓存新鲜度",
+        "带时间戳的盘口历史及成交量"
+      ]
+    },
+    {
+      "match_no": "007",
+      "home": "比利亚雷亚尔",
+      "away": "那不勒斯",
+      "spf_display": [
+        2.04,
+        3.4,
+        2.9
+      ],
+      "integer_handicap_display_unverified": -1,
+      "rqspf_display": [
+        4.05,
+        3.95,
+        1.59
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-13T16:27:01+08:00",
+      "previous_collected_at": "2026-10-13T15:27:36+08:00",
+      "previous_spf_display": [
+        2.04,
+        3.4,
+        2.9
+      ],
+      "previous_rqspf_display": [
+        4.05,
+        3.95,
+        1.59
+      ],
+      "delta_spf_display": [
+        0,
+        0,
+        0
+      ],
+      "delta_rqspf_display": [
+        0,
+        0,
+        0
+      ],
+      "same_source_display_changed": false,
+      "verified_market_movement": false,
+      "directional_interpretation": "本次可见网页值与15:27同源记录一致；源更新时间和缓存新鲜度均未知，不能据此证明真实盘口未变化或支持任何结果。",
+      "evidence_missing": [
+        "官方在售清单",
+        "官方SP原始接口响应",
+        "源更新时间",
+        "页面缓存新鲜度",
+        "带时间戳的盘口历史及成交量"
+      ]
+    },
+    {
+      "match_no": "008",
+      "home": "维京",
+      "away": "拜仁",
+      "spf_display": null,
+      "integer_handicap_display_unverified": 3,
+      "rqspf_display": [
+        2,
+        5,
+        2.33
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-13T16:27:01+08:00",
+      "previous_collected_at": "2026-10-13T15:27:36+08:00",
+      "previous_spf_display": null,
+      "previous_rqspf_display": [
+        2,
+        5,
+        2.33
+      ],
+      "delta_spf_display": null,
+      "delta_rqspf_display": [
+        0,
+        0,
+        0
+      ],
+      "same_source_display_changed": false,
+      "verified_market_movement": false,
+      "directional_interpretation": "本次可见网页值与15:27同源记录一致；源更新时间和缓存新鲜度均未知，不能据此证明真实盘口未变化或支持任何结果。",
+      "evidence_missing": [
+        "官方在售清单",
+        "官方SP原始接口响应",
+        "源更新时间",
+        "页面缓存新鲜度",
+        "带时间戳的盘口历史及成交量"
+      ]
+    },
+    {
+      "match_no": "009",
+      "home": "莱比锡",
+      "away": "埃因霍温",
+      "spf_display": [
+        1.49,
+        4.6,
+        4.15
+      ],
+      "integer_handicap_display_unverified": -1,
+      "rqspf_display": [
+        2.3,
+        4,
+        2.25
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-13T16:27:01+08:00",
+      "previous_collected_at": "2026-10-13T15:27:36+08:00",
+      "previous_spf_display": [
+        1.49,
+        4.6,
+        4.15
+      ],
+      "previous_rqspf_display": [
+        2.3,
+        4,
+        2.25
+      ],
+      "delta_spf_display": [
+        0,
+        0,
+        0
+      ],
+      "delta_rqspf_display": [
+        0,
+        0,
+        0
+      ],
+      "same_source_display_changed": false,
+      "verified_market_movement": false,
+      "directional_interpretation": "本次可见网页值与15:27同源记录一致；源更新时间和缓存新鲜度均未知，不能据此证明真实盘口未变化或支持任何结果。",
+      "evidence_missing": [
+        "官方在售清单",
+        "官方SP原始接口响应",
+        "源更新时间",
+        "页面缓存新鲜度",
+        "带时间戳的盘口历史及成交量"
+      ]
+    },
+    {
+      "match_no": "010",
+      "home": "加拉塔萨雷",
+      "away": "巴萨",
+      "spf_display": [
+        8.15,
+        6.6,
+        1.17
+      ],
+      "integer_handicap_display_unverified": 2,
+      "rqspf_display": [
+        2.2,
+        4.5,
+        2.21
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-13T16:27:01+08:00",
+      "previous_collected_at": "2026-10-13T15:27:36+08:00",
+      "previous_spf_display": [
+        8.15,
+        6.6,
+        1.17
+      ],
+      "previous_rqspf_display": [
+        2.2,
+        4.5,
+        2.21
+      ],
+      "delta_spf_display": [
+        0,
+        0,
+        0
+      ],
+      "delta_rqspf_display": [
+        0,
+        0,
+        0
+      ],
+      "same_source_display_changed": false,
+      "verified_market_movement": false,
+      "directional_interpretation": "本次可见网页值与15:27同源记录一致；源更新时间和缓存新鲜度均未知，不能据此证明真实盘口未变化或支持任何结果。",
+      "evidence_missing": [
+        "官方在售清单",
+        "官方SP原始接口响应",
+        "源更新时间",
+        "页面缓存新鲜度",
+        "带时间戳的盘口历史及成交量"
+      ]
+    },
+    {
+      "match_no": "011",
+      "home": "马竞",
+      "away": "曼联",
+      "spf_display": [
+        1.72,
+        3.75,
+        3.55
+      ],
+      "integer_handicap_display_unverified": -1,
+      "rqspf_display": [
+        3.06,
+        3.7,
+        1.88
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-13T16:27:01+08:00",
+      "previous_collected_at": "2026-10-13T15:27:36+08:00",
+      "previous_spf_display": [
+        1.72,
+        3.75,
+        3.55
+      ],
+      "previous_rqspf_display": [
+        3.06,
+        3.7,
+        1.88
+      ],
+      "delta_spf_display": [
+        0,
+        0,
+        0
+      ],
+      "delta_rqspf_display": [
+        0,
+        0,
+        0
+      ],
+      "same_source_display_changed": false,
+      "verified_market_movement": false,
+      "directional_interpretation": "本次可见网页值与15:27同源记录一致；源更新时间和缓存新鲜度均未知，不能据此证明真实盘口未变化或支持任何结果。",
+      "evidence_missing": [
+        "官方在售清单",
+        "官方SP原始接口响应",
+        "源更新时间",
+        "页面缓存新鲜度",
+        "带时间戳的盘口历史及成交量"
+      ]
+    },
+    {
+      "match_no": "012",
+      "home": "斯托克城",
+      "away": "米堡",
+      "spf_display": [
+        3.42,
+        3.55,
+        1.8
+      ],
+      "integer_handicap_display_unverified": 1,
+      "rqspf_display": [
+        1.78,
+        3.72,
+        3.35
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-13T16:27:01+08:00",
+      "previous_collected_at": "2026-10-13T15:27:36+08:00",
+      "previous_spf_display": [
+        3.42,
+        3.55,
+        1.8
+      ],
+      "previous_rqspf_display": [
+        1.78,
+        3.72,
+        3.35
+      ],
+      "delta_spf_display": [
+        0,
+        0,
+        0
+      ],
+      "delta_rqspf_display": [
+        0,
+        0,
+        0
+      ],
+      "same_source_display_changed": false,
+      "verified_market_movement": false,
+      "directional_interpretation": "本次可见网页值与15:27同源记录一致；源更新时间和缓存新鲜度均未知，不能据此证明真实盘口未变化或支持任何结果。",
+      "evidence_missing": [
+        "官方在售清单",
+        "官方SP原始接口响应",
+        "源更新时间",
+        "页面缓存新鲜度",
+        "带时间戳的盘口历史及成交量"
+      ]
+    }
+  ]
+}

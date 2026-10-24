@@ -1,0 +1,101 @@
+name: MFM Caidao Daily and On-Demand
+on:
+  workflow_dispatch:
+    inputs:
+      sale_date:
+        description: 'Beijing JC sale date YYYY-MM-DD, blank for today'
+        required: false
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - 'mfm-data/mfm_caidao_service.py'
+      - 'mfm-data/mfm_kelly.py'
+      - 'mfm-data/test_mfm_kelly.py'
+      - 'mfm-data/test_mfm_caidao_service.py'
+      - 'mfm-data/caidao-control/refresh.txt'
+      - '.github/workflows/mfm-caidao-service.yml'
+  schedule:
+    # Hourly during Beijing 10:05-23:05; GitHub schedule can be delayed.
+    # UTC 02:05-15:05. Incremental snapshots are preserved by the collector.
+    - cron: '5 2-15 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: mfm-caidao-production-collector
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SALE_DATE: ${{ inputs.sale_date || '' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Offline regression tests
+        run: |
+          python -m unittest discover -s mfm-data -p 'test_mfm_caidao_history.py' -v
+          python -m unittest discover -s mfm-data -p 'test_mfm_caidao_service.py' -v
+          python -m unittest discover -s mfm-data -p 'test_mfm_kelly.py' -v
+      - name: Fetch today or requested sale-day public datasets
+        run: python mfm-data/mfm_caidao_service.py
+      - name: Archive snapshots safely despite other repository writers
+        if: always()
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ ! -d mfm-data/caidao-live ]; then
+            echo "No freshly generated data to archive"
+            exit 0
+          fi
+          fresh_dir="$(mktemp -d)"
+          mkdir -p "$fresh_dir/data"
+          cp -a mfm-data/caidao-live/. "$fresh_dir/data/"
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            # Safe: this is an ephemeral GitHub Actions checkout.
+            git reset --hard origin/main
+            mkdir -p mfm-data/caidao-live
+            cp -a "$fresh_dir/data/." mfm-data/caidao-live/
+            git add mfm-data/caidao-live/
+            if git diff --cached --quiet; then
+              echo "No new data to save"
+              exit 0
+            fi
+            git commit -m "data(mfm): audited Caidao daily snapshot"
+            if git push origin HEAD:main; then
+              echo "Source-stamped snapshot committed"
+              exit 0
+            fi
+            sleep 3
+          done
+          echo "Source fetched but branch update blocked. Use backup artifact."
+          exit 1
+      - name: Upload independent artifact backup
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: mfm-caidao-operational-${{ github.run_id }}
+          path: mfm-data/caidao-live/
+          retention-days: 45
+          if-no-files-found: warn
+      - name: Enforce data delivery, distinct from workflow completion
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+          f = pathlib.Path('mfm-data/caidao-live/last-run.json')
+          if not f.exists():
+              print('COLLECTION_FAILED: no summary generated')
+              sys.exit(2)
+          s = json.loads(f.read_text(encoding='utf-8'))
+          print('Caidao collection status:', s['quality_gate'], s['coverage'])
+          if s['quality_gate'] == 'NO_DATA':
+              sys.exit(2)
+          PY

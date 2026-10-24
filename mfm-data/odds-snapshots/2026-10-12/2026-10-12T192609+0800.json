@@ -1,0 +1,432 @@
+{
+  "sales_date_bjt": "2026-10-12",
+  "collection_time_bjt": "2026-10-12T19:26:09+08:00",
+  "source_update_time": null,
+  "official_api_status": {
+    "getMatchCalculatorV1": "web tool inaccessible",
+    "getOddsHistoryV1": "web tool inaccessible"
+  },
+  "reference_sources": [
+    {
+      "url": "https://www.okooo.cn/jingcai/jiangjin/",
+      "kind": "third_party_1x2_display"
+    },
+    {
+      "url": "https://www.okooo.cn/jingcai/shengpingfu/",
+      "kind": "third_party_reported_china_jc_1x2_and_integer_handicap_sp"
+    }
+  ],
+  "caveat": "Web search indexed today; original bookmaker source timestamps and raw official API responses not available. Two URLs are different data views. Do not interpret cross-view differences as market changes. Cached pages within this run disagree slightly. Prior 18:26 snapshot existed only as conversation-local file, not verified GitHub snapshot.",
+  "matches": [
+    {
+      "jc_number": "001",
+      "home": "迪拜连接",
+      "away": "吉达国民",
+      "third_party_reference_1x2": [
+        3.34,
+        3.71,
+        1.94
+      ],
+      "reference_source": "https://www.okooo.cn/jingcai/jiangjin/",
+      "reported_china_jc_1x2_sp": [
+        3.4,
+        3.65,
+        1.78
+      ],
+      "reported_official_integer_handicap": 1,
+      "reported_china_jc_handicap_sp": [
+        1.81,
+        3.5,
+        3.43
+      ],
+      "jc_report_source": "https://www.okooo.cn/jingcai/shengpingfu/",
+      "prior_1826_reference_1x2": [
+        3.34,
+        3.71,
+        1.94
+      ],
+      "same_url_display_delta": [
+        0,
+        0,
+        0
+      ],
+      "verified_real_market_movement": false,
+      "conclusion": "源更新时间缺失；同URL展示差异不足以证明真实盘口变化",
+      "missing_evidence": [
+        "官方API原始响应",
+        "逐场源更新时间",
+        "缓存校验",
+        "同源官方历史SP"
+      ]
+    },
+    {
+      "jc_number": "002",
+      "home": "亚特兰大",
+      "away": "威尼斯",
+      "third_party_reference_1x2": [
+        1.56,
+        4.32,
+        5.45
+      ],
+      "reference_source": "https://www.okooo.cn/jingcai/jiangjin/",
+      "reported_china_jc_1x2_sp": [
+        1.38,
+        4.3,
+        5.8
+      ],
+      "reported_official_integer_handicap": -1,
+      "reported_china_jc_handicap_sp": [
+        2.2,
+        3.64,
+        2.5
+      ],
+      "jc_report_source": "https://www.okooo.cn/jingcai/shengpingfu/",
+      "prior_1826_reference_1x2": [
+        1.56,
+        4.32,
+        5.45
+      ],
+      "same_url_display_delta": [
+        0,
+        0,
+        0
+      ],
+      "verified_real_market_movement": false,
+      "conclusion": "源更新时间缺失；同URL展示差异不足以证明真实盘口变化",
+      "missing_evidence": [
+        "官方API原始响应",
+        "逐场源更新时间",
+        "缓存校验",
+        "同源官方历史SP"
+      ]
+    },
+    {
+      "jc_number": "003",
+      "home": "马尔默",
+      "away": "卡尔马",
+      "third_party_reference_1x2": [
+        1.7,
+        3.84,
+        4.4
+      ],
+      "reference_source": "https://www.okooo.cn/jingcai/jiangjin/",
+      "reported_china_jc_1x2_sp": [
+        1.53,
+        4.1,
+        4.35
+      ],
+      "reported_official_integer_handicap": -1,
+      "reported_china_jc_handicap_sp": [
+        2.67,
+        3.4,
+        2.17
+      ],
+      "jc_report_source": "https://www.okooo.cn/jingcai/shengpingfu/",
+      "prior_1826_reference_1x2": [
+        1.7,
+        3.84,
+        4.38
+      ],
+      "same_url_display_delta": [
+        0,
+        0,
+        0.02
+      ],
+      "verified_real_market_movement": false,
+      "conclusion": "源更新时间缺失；同URL展示差异不足以证明真实盘口变化",
+      "missing_evidence": [
+        "官方API原始响应",
+        "逐场源更新时间",
+        "缓存校验",
+        "同源官方历史SP"
+      ]
+    },
+    {
+      "jc_number": "004",
+      "home": "KFUM奥斯陆",
+      "away": "瓦勒伦加",
+      "third_party_reference_1x2": [
+        2.81,
+        3.61,
+        2.25
+      ],
+      "reference_source": "https://www.okooo.cn/jingcai/jiangjin/",
+      "reported_china_jc_1x2_sp": [
+        2.75,
+        3.3,
+        2.16
+      ],
+      "reported_official_integer_handicap": 1,
+      "reported_china_jc_handicap_sp": [
+        1.54,
+        4.05,
+        4.28
+      ],
+      "jc_report_source": "https://www.okooo.cn/jingcai/shengpingfu/",
+      "prior_1826_reference_1x2": [
+        2.82,
+        3.61,
+        2.25
+      ],
+      "same_url_display_delta": [
+        -0.01,
+        0,
+        0
+      ],
+      "verified_real_market_movement": false,
+      "conclusion": "源更新时间缺失；同URL展示差异不足以证明真实盘口变化",
+      "missing_evidence": [
+        "官方API原始响应",
+        "逐场源更新时间",
+        "缓存校验",
+        "同源官方历史SP"
+      ]
+    },
+    {
+      "jc_number": "005",
+      "home": "都灵",
+      "away": "乌迪内斯",
+      "third_party_reference_1x2": [
+        2.4,
+        3.1,
+        3.14
+      ],
+      "reference_source": "https://www.okooo.cn/jingcai/jiangjin/",
+      "reported_china_jc_1x2_sp": [
+        2.17,
+        2.8,
+        3.21
+      ],
+      "reported_official_integer_handicap": -1,
+      "reported_china_jc_handicap_sp": [
+        5.15,
+        3.5,
+        1.54
+      ],
+      "jc_report_source": "https://www.okooo.cn/jingcai/shengpingfu/",
+      "prior_1826_reference_1x2": [
+        2.4,
+        3.1,
+        3.14
+      ],
+      "same_url_display_delta": [
+        0,
+        0,
+        0
+      ],
+      "verified_real_market_movement": false,
+      "conclusion": "源更新时间缺失；同URL展示差异不足以证明真实盘口变化",
+      "missing_evidence": [
+        "官方API原始响应",
+        "逐场源更新时间",
+        "缓存校验",
+        "同源官方历史SP"
+      ]
+    },
+    {
+      "jc_number": "006",
+      "home": "第戎",
+      "away": "梅斯",
+      "third_party_reference_1x2": [
+        2.67,
+        3.43,
+        2.42
+      ],
+      "reference_source": "https://www.okooo.cn/jingcai/jiangjin/",
+      "reported_china_jc_1x2_sp": [
+        2.75,
+        3.15,
+        2.23
+      ],
+      "reported_official_integer_handicap": 1,
+      "reported_china_jc_handicap_sp": [
+        1.51,
+        3.9,
+        4.75
+      ],
+      "jc_report_source": "https://www.okooo.cn/jingcai/shengpingfu/",
+      "prior_1826_reference_1x2": [
+        2.67,
+        3.43,
+        2.42
+      ],
+      "same_url_display_delta": [
+        0,
+        0,
+        0
+      ],
+      "verified_real_market_movement": false,
+      "conclusion": "源更新时间缺失；同URL展示差异不足以证明真实盘口变化",
+      "missing_evidence": [
+        "官方API原始响应",
+        "逐场源更新时间",
+        "缓存校验",
+        "同源官方历史SP"
+      ]
+    },
+    {
+      "jc_number": "007",
+      "home": "考文垂",
+      "away": "纽卡斯尔",
+      "third_party_reference_1x2": [
+        3.19,
+        3.58,
+        2.17
+      ],
+      "reference_source": "https://www.okooo.cn/jingcai/jiangjin/",
+      "reported_china_jc_1x2_sp": [
+        3.08,
+        3.52,
+        1.92
+      ],
+      "reported_official_integer_handicap": 1,
+      "reported_china_jc_handicap_sp": [
+        1.67,
+        3.95,
+        3.6
+      ],
+      "jc_report_source": "https://www.okooo.cn/jingcai/shengpingfu/",
+      "prior_1826_reference_1x2": [
+        3.18,
+        3.57,
+        2.17
+      ],
+      "same_url_display_delta": [
+        0.01,
+        0.01,
+        0
+      ],
+      "verified_real_market_movement": false,
+      "conclusion": "源更新时间缺失；同URL展示差异不足以证明真实盘口变化",
+      "missing_evidence": [
+        "官方API原始响应",
+        "逐场源更新时间",
+        "缓存校验",
+        "同源官方历史SP"
+      ]
+    },
+    {
+      "jc_number": "008",
+      "home": "莱万特",
+      "away": "塞维利亚",
+      "third_party_reference_1x2": [
+        2.7,
+        3.18,
+        2.7
+      ],
+      "reference_source": "https://www.okooo.cn/jingcai/jiangjin/",
+      "reported_china_jc_1x2_sp": [
+        2.47,
+        3.13,
+        2.47
+      ],
+      "reported_official_integer_handicap": 1,
+      "reported_china_jc_handicap_sp": [
+        1.41,
+        4.16,
+        5.55
+      ],
+      "jc_report_source": "https://www.okooo.cn/jingcai/shengpingfu/",
+      "prior_1826_reference_1x2": [
+        2.7,
+        3.18,
+        2.71
+      ],
+      "same_url_display_delta": [
+        0,
+        0,
+        -0.01
+      ],
+      "verified_real_market_movement": false,
+      "conclusion": "源更新时间缺失；同URL展示差异不足以证明真实盘口变化",
+      "missing_evidence": [
+        "官方API原始响应",
+        "逐场源更新时间",
+        "缓存校验",
+        "同源官方历史SP"
+      ]
+    },
+    {
+      "jc_number": "009",
+      "home": "科里蒂巴",
+      "away": "博塔弗戈",
+      "third_party_reference_1x2": [
+        2.61,
+        3.44,
+        2.51
+      ],
+      "reference_source": "https://www.okooo.cn/jingcai/jiangjin/",
+      "reported_china_jc_1x2_sp": [
+        2.7,
+        3.01,
+        2.34
+      ],
+      "reported_official_integer_handicap": 1,
+      "reported_china_jc_handicap_sp": [
+        1.46,
+        4,
+        5.15
+      ],
+      "jc_report_source": "https://www.okooo.cn/jingcai/shengpingfu/",
+      "prior_1826_reference_1x2": [
+        2.61,
+        3.44,
+        2.51
+      ],
+      "same_url_display_delta": [
+        0,
+        0,
+        0
+      ],
+      "verified_real_market_movement": false,
+      "conclusion": "源更新时间缺失；同URL展示差异不足以证明真实盘口变化",
+      "missing_evidence": [
+        "官方API原始响应",
+        "逐场源更新时间",
+        "缓存校验",
+        "同源官方历史SP"
+      ]
+    },
+    {
+      "jc_number": "010",
+      "home": "法马利康",
+      "away": "艾华卡",
+      "third_party_reference_1x2": [
+        1.85,
+        3.33,
+        4.32
+      ],
+      "reference_source": "https://www.okooo.cn/jingcai/jiangjin/",
+      "reported_china_jc_1x2_sp": [
+        1.7,
+        3.32,
+        4.2
+      ],
+      "reported_official_integer_handicap": -1,
+      "reported_china_jc_handicap_sp": [
+        3.45,
+        3.2,
+        1.9
+      ],
+      "jc_report_source": "https://www.okooo.cn/jingcai/shengpingfu/",
+      "prior_1826_reference_1x2": [
+        1.85,
+        3.34,
+        4.33
+      ],
+      "same_url_display_delta": [
+        0,
+        -0.01,
+        -0.01
+      ],
+      "verified_real_market_movement": false,
+      "conclusion": "源更新时间缺失；同URL展示差异不足以证明真实盘口变化",
+      "missing_evidence": [
+        "官方API原始响应",
+        "逐场源更新时间",
+        "缓存校验",
+        "同源官方历史SP"
+      ]
+    }
+  ]
+}

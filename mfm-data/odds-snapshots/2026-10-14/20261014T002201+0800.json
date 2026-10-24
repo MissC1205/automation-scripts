@@ -1,0 +1,82 @@
+{
+  "schema_version": "mfm_odds_audit_v1",
+  "date_beijing": "2026-10-14",
+  "collected_at": "2026-10-14T00:22:01+08:00",
+  "time_zone": "Asia/Shanghai",
+  "scope": "Beijing-calendar-day official on-sale Jingcai football matches",
+  "official_api": {
+    "getMatchCalculatorV1": {
+      "url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry",
+      "status": "unavailable",
+      "reason": "DNS resolution failed from execution environment; web reader internal error",
+      "source_updated_at": null
+    },
+    "getOddsHistoryV1": {
+      "url": "https://webapi.sporttery.cn/gateway/jc/football/getOddsHistoryV1.qry",
+      "status": "unavailable",
+      "reason": "DNS resolution failed from execution environment; web reader inaccessible",
+      "source_updated_at": null
+    }
+  },
+  "sources_checked": [
+    {
+      "url": "https://www.shsportslottery.com/",
+      "source_type": "provincial official lottery center",
+      "visible_status": "当前可受注足球0场",
+      "source_updated_at": null,
+      "collected_at": "2026-10-14T00:22:01+08:00",
+      "limitation": "Web crawl/cache freshness and live sales status cannot be verified"
+    },
+    {
+      "url": "https://www.okooo.com/jingcai/",
+      "source_type": "third-party display",
+      "visible_dates": [
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "source_updated_at": null,
+      "collected_at": "2026-10-14T00:22:01+08:00",
+      "limitation": "No 2026-10-14 listings available on fetched page; past-date listings cannot establish today's sale scope"
+    },
+    {
+      "url": "https://www.okooo.com/jingcai/2026-10-14/",
+      "source_type": "third-party date-specific",
+      "status": "inaccessible",
+      "source_updated_at": null,
+      "collected_at": "2026-10-14T00:22:01+08:00"
+    },
+    {
+      "url": "https://m.17500.cn/zq/score/jczq-2026-10-14",
+      "source_type": "third-party date-specific",
+      "status": "timeout",
+      "source_updated_at": null,
+      "collected_at": "2026-10-14T00:22:01+08:00"
+    }
+  ],
+  "historical_reference": {
+    "date_beijing": "2026-10-13",
+    "github_snapshot": "mfm-data/odds-snapshots/2026-10-13/20261013T232644+0800.json",
+    "historical_rows": 12,
+    "usage": "Historical reference only. DO NOT compare across different Beijing sale days or count as today's matches."
+  },
+  "today_match_count_verified": null,
+  "today_official_on_sale_verified": false,
+  "today_official_spf_values_obtained": 0,
+  "today_official_handicap_values_obtained": 0,
+  "today_official_rqspf_values_obtained": 0,
+  "rows": [],
+  "same_source_time_series_comparisons": [],
+  "confirmed_real_market_movements": 0,
+  "display_changes_confirmed": 0,
+  "per_match_direction": "No current-day officially verified match list or current-day same-source snapshots; no per-match support/opposition conclusion can be justified.",
+  "missing": [
+    "Official live on-sale list for 2026-10-14",
+    "Original official 1X2 SP and official integer handicaps",
+    "Original official handicap 1X2 SP",
+    "Official source timestamps",
+    "New-day same-source time-series baseline",
+    "Cache freshness",
+    "Public betting volume and exchange trades"
+  ],
+  "outcome": "Collection blocked for current-day market data; recorded negative/empty audit, not an assertion that no matches exist or no odds moved."
+}

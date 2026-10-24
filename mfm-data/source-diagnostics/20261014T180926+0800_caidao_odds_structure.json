@@ -1,0 +1,403 @@
+{
+  "time_bj": "2026-10-14T18:08:28.799884+08:00",
+  "purpose": "public market response shape and observed front-end call sites",
+  "odds": {
+    "tested_matches": [
+      "008",
+      "011"
+    ],
+    "requests": [
+      {
+        "match": "008",
+        "matchInfo": "F20261014008",
+        "endpoint": "getJcOddsDetail",
+        "response_bytes": 444,
+        "status": 200,
+        "message": "成功",
+        "result_shape": {
+          "type": "dict",
+          "keys": [
+            "concedeNum",
+            "guestTeam",
+            "hostTeam",
+            "matchName",
+            "matchNum",
+            "oddsDetails",
+            "wf"
+          ],
+          "subfields": {
+            "oddsDetails": {
+              "type": "list",
+              "count": 3,
+              "first_item_shape": {
+                "type": "dict",
+                "keys": [
+                  "num",
+                  "odds",
+                  "oddsflag",
+                  "updateTime"
+                ]
+              }
+            }
+          }
+        },
+        "data_shape": {
+          "type": "NoneType"
+        }
+      },
+      {
+        "match": "011",
+        "matchInfo": "F20261014011",
+        "endpoint": "getJcOddsDetail",
+        "response_bytes": 809,
+        "status": 200,
+        "message": "成功",
+        "result_shape": {
+          "type": "dict",
+          "keys": [
+            "concedeNum",
+            "guestTeam",
+            "hostTeam",
+            "matchName",
+            "matchNum",
+            "oddsDetails",
+            "wf"
+          ],
+          "subfields": {
+            "oddsDetails": {
+              "type": "list",
+              "count": 7,
+              "first_item_shape": {
+                "type": "dict",
+                "keys": [
+                  "num",
+                  "odds",
+                  "oddsflag",
+                  "updateTime"
+                ]
+              }
+            }
+          }
+        },
+        "data_shape": {
+          "type": "NoneType"
+        }
+      }
+    ]
+  },
+  "chunks": [
+    {
+      "name": "package-read-open-award-info-open-award-detail-football-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-read-open-award-info-open-award-detail-football-detail.a414cfec.js",
+      "bytes": 25229,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-match-live-football-football-index-football-index",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-match-live-football-football-index-football-index.dff2060b.js",
+      "bytes": 60880,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-match-live-football-football-detail-football-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-match-live-football-football-detail-football-detail.702cfbf0.js",
+      "bytes": 635158,
+      "references": {
+        "getMatchAllData": [
+          "his;return(0,o.default)((0,n.default)().mark((function a(){var e,i,o,r,l,s,c,d,f,u,b,p,v,h,g,m,y,w,x,j,k;return(0,n.default)().wrap((function(a){while(1)switch(a.prev=a.next){case 0:return a.prev=0,a.next=3,t.$http.game.getMatchAllData({matchInfo:t.matchInfo});case 3:e=a.sent,i=e.data,200===i.status&&(null!==(o=i.data)&&void 0!==o&&o.historyDataStr?(t.historyData=JSON.parse(i.data.historyDataStr),p=setTimeout((function(){t.waitingType.isHistory=1,clearTimeout(p)}),Math.floor(300+Math.random()*t.duration))):t.waitingType.isHistory=1,null!==(r=i.data)&&void 0!="
+        ]
+      }
+    },
+    {
+      "name": "package-analysis-match-live-football-match-ana-poster-match-ana-poster",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-match-live-football-match-ana-poster-match-ana-poster.3423866d.js",
+      "bytes": 413605,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-match-live-football-football-index-football-index~package-analysis-match-live-match~be49d501",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-match-live-football-football-index-football-index~package-analysis-match-live-match~be49d501.d8c0a90a.js",
+      "bytes": 21959,
+      "references": {}
+    },
+    {
+      "name": "package-read-open-award-info-open-award-index-open-award-index",
+      "url": "http://zk.bjjckx.com/static/js/package-read-open-award-info-open-award-index-open-award-index.1041b80c.js",
+      "bytes": 18736,
+      "references": {}
+    },
+    {
+      "name": "package-read-open-award-info-open-award-detail-basketball-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-read-open-award-info-open-award-detail-basketball-detail.34ec2659.js",
+      "bytes": 24329,
+      "references": {}
+    },
+    {
+      "name": "package-read-open-award-info-open-award-detail-open-award-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-read-open-award-info-open-award-detail-open-award-detail.998e7aff.js",
+      "bytes": 21899,
+      "references": {}
+    },
+    {
+      "name": "package-read-open-award-info-open-award-history-open-award-history",
+      "url": "http://zk.bjjckx.com/static/js/package-read-open-award-info-open-award-history-open-award-history.daa80644.js",
+      "bytes": 2942,
+      "references": {}
+    },
+    {
+      "name": "package-selectLottery-szc-select-szc-awardMoney-sheet-szc-awardMoney-sheet",
+      "url": "http://zk.bjjckx.com/static/js/package-selectLottery-szc-select-szc-awardMoney-sheet-szc-awardMoney-sheet.5c4c8524.js",
+      "bytes": 15671,
+      "references": {}
+    },
+    {
+      "name": "package-read-open-award-info-open-award-history-open-award-history~package-read-open-award-info-open~e67dc3d2",
+      "url": "http://zk.bjjckx.com/static/js/package-read-open-award-info-open-award-history-open-award-history~package-read-open-award-info-open~e67dc3d2.9f47e817.js",
+      "bytes": 19056,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-dsj-list-dsj-list",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-dsj-list-dsj-list.3db34f2f.js",
+      "bytes": 36155,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-ecy-list-ecy-list",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-ecy-list-ecy-list.c5741820.js",
+      "bytes": 32349,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-dgss-list-dgss-list",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-dgss-list-dgss-list.f457e3e8.js",
+      "bytes": 32336,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-jdss-list-jdss-list",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-jdss-list-jdss-list.72c4666e.js",
+      "bytes": 32326,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-kstx-list-kstx-list",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-kstx-list-kstx-list.4399c7fb.js",
+      "bytes": 32669,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-ssdz-list-ssdz-list",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-ssdz-list-ssdz-list.982d5706.js",
+      "bytes": 32818,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-sspl-list-sspl-list",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-sspl-list-sspl-list.f425cad4.js",
+      "bytes": 32328,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-sssg-list-sssg-list",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-sssg-list-sssg-list.bc0003f4.js",
+      "bytes": 32280,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-tjzs-list-tjzs-list",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-tjzs-list-tjzs-list.909fe322.js",
+      "bytes": 32710,
+      "references": {}
+    },
+    {
+      "name": "package-poster-dsj-dsj-jc-poster-dsj-jc-poster",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-dsj-dsj-jc-poster-dsj-jc-poster.a9e7d4da.js",
+      "bytes": 457252,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-ecy-detail-ecy-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-ecy-detail-ecy-detail.e94eed26.js",
+      "bytes": 410769,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-dgss-detail-dgss-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-dgss-detail-dgss-detail.c55b071f.js",
+      "bytes": 441400,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-jdss-detail-jdss-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-jdss-detail-jdss-detail.ff18485a.js",
+      "bytes": 409571,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-kstx-detail-kstx-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-kstx-detail-kstx-detail.a119373a.js",
+      "bytes": 440530,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-ssdz-detail-ssdz-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-ssdz-detail-ssdz-detail.92e2f7e3.js",
+      "bytes": 619907,
+      "references": {
+        "getJcDetail": [
+          "etMatchInfoDetail:function(){var A=this;return(0,n.default)((0,r.default)().mark((function t(){var e,a,n;return(0,r.default)().wrap((function(t){while(1)switch(t.prev=t.next){case 0:return t.prev=0,t.next=3,A.$http.game.getJcDetail({matchInfo:A.matchData.matchInfo},{custom:{isShowLoading:!0}});case 3:e=t.sent,a=e.data,200===a.status&&(A.matchInfoData=a.result,1===A.analysisType&&(n=A.matchInfoData.firstsp.split(\"|\"),n.splice(1,0,A.matchInfoData.rnum),A.matchInfoData.firstsp=n.join(\"|\")),A.$emit(\"toFreshCompose\",A.composeFreshNum+1)),t.next=14;break;case 8"
+        ]
+      }
+    },
+    {
+      "name": "package-poster-poster-jc-sspl-detail-sspl-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-sspl-detail-sspl-detail.511caa93.js",
+      "bytes": 553883,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-sssg-detail-sssg-detail",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-sssg-detail-sssg-detail.68a10ab4.js",
+      "bytes": 413348,
+      "references": {}
+    },
+    {
+      "name": "package-poster-poster-jc-select-match-select-match",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-poster-jc-select-match-select-match.9010fb81.js",
+      "bytes": 74637,
+      "references": {}
+    },
+    {
+      "name": "pages-index-index",
+      "url": "http://zk.bjjckx.com/static/js/pages-index-index.0eeb2cec.js",
+      "bytes": 1222450,
+      "references": {}
+    },
+    {
+      "name": "package-poster-analysis-plan-plan",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-analysis-plan-plan.7580f9a4.js",
+      "bytes": 546031,
+      "references": {}
+    },
+    {
+      "name": "package-analysis-homepage-homepage",
+      "url": "http://zk.bjjckx.com/static/js/package-analysis-homepage-homepage.071164d0.js",
+      "bytes": 813907,
+      "references": {}
+    },
+    {
+      "name": "pages-ai-select-match-select-match",
+      "url": "http://zk.bjjckx.com/static/js/pages-ai-select-match-select-match.aa009fcb.js",
+      "bytes": 44831,
+      "references": {}
+    },
+    {
+      "name": "pages-index-trend-chart-trend-chart",
+      "url": "http://zk.bjjckx.com/static/js/pages-index-trend-chart-trend-chart.761b24b0.js",
+      "bytes": 34995,
+      "references": {}
+    },
+    {
+      "name": "package-poster-trend-chart-wnfs-wnfs",
+      "url": "http://zk.bjjckx.com/static/js/package-poster-trend-chart-wnfs-wnfs.9077b6d3.js",
+      "bytes": 395185,
+      "references": {}
+    }
+  ],
+  "public_assets_only": true,
+  "history_rows_verified": 0,
+  "chunk_candidates_total": 105,
+  "first_candidates": [
+    "package-read-open-award-info-open-award-detail-football-detail",
+    "package-analysis-match-live-football-football-index-football-index",
+    "package-analysis-match-live-football-football-detail-football-detail",
+    "package-analysis-match-live-football-match-ana-poster-match-ana-poster",
+    "package-analysis-match-live-football-football-index-football-index~package-analysis-match-live-match~be49d501",
+    "package-read-open-award-info-open-award-index-open-award-index",
+    "package-read-open-award-info-open-award-detail-basketball-detail",
+    "package-read-open-award-info-open-award-detail-open-award-detail",
+    "package-read-open-award-info-open-award-history-open-award-history",
+    "package-selectLottery-szc-select-szc-awardMoney-sheet-szc-awardMoney-sheet",
+    "package-read-open-award-info-open-award-history-open-award-history~package-read-open-award-info-open~e67dc3d2",
+    "package-poster-poster-jc-dsj-list-dsj-list",
+    "package-poster-poster-jc-ecy-list-ecy-list",
+    "package-poster-poster-jc-dgss-list-dgss-list",
+    "package-poster-poster-jc-jdss-list-jdss-list",
+    "package-poster-poster-jc-kstx-list-kstx-list",
+    "package-poster-poster-jc-ssdz-list-ssdz-list",
+    "package-poster-poster-jc-sspl-list-sspl-list",
+    "package-poster-poster-jc-sssg-list-sssg-list",
+    "package-poster-poster-jc-tjzs-list-tjzs-list",
+    "package-poster-dsj-dsj-jc-poster-dsj-jc-poster",
+    "package-poster-poster-jc-ecy-detail-ecy-detail",
+    "package-poster-poster-jc-dgss-detail-dgss-detail",
+    "package-poster-poster-jc-jdss-detail-jdss-detail",
+    "package-poster-poster-jc-kstx-detail-kstx-detail",
+    "package-poster-poster-jc-ssdz-detail-ssdz-detail",
+    "package-poster-poster-jc-sspl-detail-sspl-detail",
+    "package-poster-poster-jc-sssg-detail-sssg-detail",
+    "package-poster-poster-jc-select-match-select-match",
+    "pages-index-index",
+    "package-poster-analysis-plan-plan",
+    "package-analysis-homepage-homepage",
+    "pages-ai-select-match-select-match",
+    "pages-index-trend-chart-trend-chart",
+    "package-poster-trend-chart-wnfs-wnfs",
+    "package-poster-analysis-comment-comment",
+    "pages-index-simulate-game-simulate-game",
+    "pages-index-match-message-match-message",
+    "package-analysis-leak-detail-leak-detail",
+    "package-analysis-leak-policy-leak-policy",
+    "package-analysis-homepage-target-analysis",
+    "pages-index-match-analysis-match-analysis",
+    "package-selectLottery-dsj-dsj-szc-dsj-szc",
+    "package-analysis-history-list-history-list",
+    "package-selectLottery-dsj-dsj-guess-dsj-guess",
+    "package-selectLottery-dsj-dsj-index-dsj-index",
+    "pages-home-setting-personal-data-personal-data",
+    "package-practice-practice-index-practice-index",
+    "package-analysis-history-ssq-dlt-history-ssq-dlt",
+    "package-selectLottery-ctzq-ctzq-index-ctzq-index",
+    "package-selectLottery-dsj-dsj-match-match-detail",
+    "pages-index-trend-chart-poster-trend-chart-poster",
+    "pages-login-analysis-agreement-analysis-agreement",
+    "pages-ai-ai-ai~pages-ai-select-match-select-match",
+    "package-selectLottery-dsj-dsj-szc-history-dlt-ssq",
+    "package-shopkeeper-market-market-index-market-index",
+    "package-read-read-lottery-read-lottery-read-lottery",
+    "pages-home-setting-analysis-setting-analysis-setting",
+    "package-selectLottery-dsj-dsj-szc-history-detail-kl8",
+    "pages-index-match-message-detail-match-message-detail",
+    "package-selectLottery-dsj-dsj-szc-history-pls-fc3d-kl8",
+    "package-poster-analysis-history-records-history-records",
+    "package-analysis-match-live-point-ranking-point-ranking",
+    "package-poster-dsj-dsj-match-briefing-dsj-match-briefing",
+    "package-selectLottery-dsj-dsj-szc-history-detail-dlt-ssq",
+    "package-analysis-match-live-match-analysis-match-analysis",
+    "package-selectLottery-dsj-dsj-our-ratings-dsj-our-ratings",
+    "package-selectLottery-ctzq-ctzq-stake-list-ctzq-stake-list",
+    "package-shopkeeper-components-index-module-shopkeeper-index",
+    "package-analysis-publish-analysis-publish-leak-publish-leak",
+    "package-shopkeeper-order-records-analysis-list-analysis-list",
+    "package-analysis-publish-analysis-szc-selector-pl3-fc3d-pl3-fc3d",
+    "package-read-read-lottery-read-lottery-detail-read-lottery-detail",
+    "package-analysis-publish-analysis-publish-preview-publish-preview",
+    "package-selectLottery-interesting-game-birthday-game-birthday-game",
+    "package-analysis-game-stake-calc-game-stake-print-game-stake-print",
+    "package-selectLottery-szc-select-szc-select-index-szc-select-index",
+    "package-analysis-publish-analysis-analysis-comment-analysis-comment",
+    "package-analysis-game-stake-calc-game-stake-poster-game-stake-poster",
+    "package-analysis-game-stake-calc-game-stake-ticket-game-stake-ticket",
+    "package-selectLottery-szc-select-szc-select-poster-szc-select-poster",
+    "package-analysis-game-stake-calc-game-stake-select-game-stake-select",
+    "package-selectLottery-szc-select-szc-select-detail-szc-select-detail",
+    "package-selectLottery-ctzq-ctzq-selected-detail-ctzq-selected-detail",
+    "package-selectLottery-interesting-game-car-number-game-car-number-game",
+    "package-analysis-game-stake-calc-game-stake-confirm-game-stake-confirm",
+    "package-selectLottery-szc-select-szc-select-navPage-szc-select-navPage",
+    "package-analysis-match-live-basketball-match-ana-poster-match-ana-poster",
+    "package-analysis-game-stake-calc-game-stake-optimize-game-stake-optimize",
+    "package-analysis-game-stake-calc-game-stake-spChange-game-stake-spChange"
+  ]
+}

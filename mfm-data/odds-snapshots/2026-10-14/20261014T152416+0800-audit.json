@@ -1,0 +1,685 @@
+{
+  "date_beijing": "2026-10-14",
+  "collected_at": "2026-10-14T15:24:16+08:00",
+  "audit_type": "collection_failure_and_last_snapshot_reference",
+  "official_endpoints": {
+    "getMatchCalculatorV1_qry": {
+      "url": "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry",
+      "result": "unavailable",
+      "observed_error": "Temporary failure in name resolution"
+    },
+    "getOddsHistoryV1_qry": {
+      "url": "https://webapi.sporttery.cn/gateway/jc/football/getOddsHistoryV1.qry",
+      "result": "unavailable",
+      "observed_error": "Temporary failure in name resolution"
+    }
+  },
+  "alternate_source": {
+    "url": "https://www.okooo.com/jingcai/",
+    "direct_fetch_result": "unavailable",
+    "observed_error": "Temporary failure in name resolution",
+    "web_search_result_note": "A search-indexed homepage excerpt showed a 20-match today schedule, but did not provide a fresh timestamped full SP board; not used as current odds."
+  },
+  "repository_history": {
+    "directory_checked": "mfm-data/odds-snapshots/2026-10-14/",
+    "latest_full_snapshot_path": "mfm-data/odds-snapshots/2026-10-14/20261014T142031+0800.json",
+    "latest_full_snapshot_collected_at": "2026-10-14T14:20:31+08:00",
+    "latest_full_snapshot_sha": "d0bb6d1f5f0c8a2f3e992938b973804837fd0897",
+    "previous_source_type": "third_party_webpage_rendered_text",
+    "previous_source_url": "https://www.okooo.com/jingcai/",
+    "previous_snapshot_warning": "Prior same-page readings showed conflicting cached versions; displayed deltas are not verified time-ordered source price changes. Do not treat different-source quotes as time series. All displayed matches say 未开售; official sale status unknown."
+  },
+  "official_sale_list_verified": false,
+  "current_official_match_count": null,
+  "current_fresh_quotes_obtained": 0,
+  "prior_displayed_matches_carried_for_audit": 14,
+  "verified_market_movements": null,
+  "comparison_status": "not_computable_no_current_same_source_quotes",
+  "conclusion": "本轮没有取得任何可用于时间序列比较的新报价。不能将本轮变化记为0，也不能把上一轮第三方展示值当作本轮报价。所有赛果方向均不因本轮数据更新。",
+  "rows": [
+    {
+      "match_no": "001",
+      "teams": {
+        "home": "墨尔本胜利",
+        "away": "首尔FC"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          1.59,
+          3.9,
+          4.1
+        ],
+        "displayed_handicap": -1,
+        "rqspf": [
+          2.8,
+          3.55,
+          2.04
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "002",
+      "teams": {
+        "home": "神户胜利",
+        "away": "全北现代"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          1.47,
+          3.9,
+          5.2
+        ],
+        "displayed_handicap": -1,
+        "rqspf": [
+          2.62,
+          3.2,
+          2.3
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "003",
+      "teams": {
+        "home": "柏太阳神",
+        "away": "泰港"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          1.06,
+          7.9,
+          17
+        ],
+        "displayed_handicap": -2,
+        "rqspf": [
+          1.85,
+          4.1,
+          2.9
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "004",
+      "teams": {
+        "home": "横滨水手",
+        "away": "清水鼓动"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          1.83,
+          3.3,
+          3.6
+        ],
+        "displayed_handicap": -1,
+        "rqspf": [
+          3.75,
+          3.45,
+          1.75
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "005",
+      "teams": {
+        "home": "费耶诺德",
+        "away": "科莫"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          3.48,
+          3.85,
+          1.72
+        ],
+        "displayed_handicap": 1,
+        "rqspf": [
+          1.85,
+          3.95,
+          2.98
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "006",
+      "teams": {
+        "home": "林茨",
+        "away": "利物浦"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          8.75,
+          5.5,
+          1.2
+        ],
+        "displayed_handicap": 1,
+        "rqspf": [
+          3.5,
+          4.08,
+          1.67
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "007",
+      "teams": {
+        "home": "诺维奇",
+        "away": "南安普敦"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          2.2,
+          3.55,
+          2.55
+        ],
+        "displayed_handicap": -1,
+        "rqspf": [
+          4.3,
+          4.35,
+          1.5
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "008",
+      "teams": {
+        "home": "罗马",
+        "away": "皇马"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          3.35,
+          3.85,
+          1.75
+        ],
+        "displayed_handicap": 1,
+        "rqspf": [
+          1.83,
+          4,
+          3
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "009",
+      "teams": {
+        "home": "博德闪耀",
+        "away": "多特蒙德"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          2.97,
+          3.83,
+          1.88
+        ],
+        "displayed_handicap": 1,
+        "rqspf": [
+          1.7,
+          4.12,
+          3.35
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "010",
+      "teams": {
+        "home": "贝蒂斯",
+        "away": "波尔图"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          1.81,
+          3.5,
+          3.45
+        ],
+        "displayed_handicap": -1,
+        "rqspf": [
+          3.43,
+          3.75,
+          1.75
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "011",
+      "teams": {
+        "home": "曼城",
+        "away": "巴黎圣曼"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          1.93,
+          3.7,
+          2.94
+        ],
+        "displayed_handicap": -1,
+        "rqspf": [
+          3.65,
+          3.85,
+          1.68
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "012",
+      "teams": {
+        "home": "维拉",
+        "away": "费内巴切"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          1.45,
+          4.1,
+          5.1
+        ],
+        "displayed_handicap": -1,
+        "rqspf": [
+          2.42,
+          3.47,
+          2.34
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "013",
+      "teams": {
+        "home": "弗鲁米嫩塞",
+        "away": "帕尔梅拉斯"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          2.72,
+          2.62,
+          2.63
+        ],
+        "displayed_handicap": 1,
+        "rqspf": [
+          1.37,
+          3.95,
+          6.9
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    },
+    {
+      "match_no": "014",
+      "teams": {
+        "home": "圣路易斯市",
+        "away": "温哥华白帽"
+      },
+      "last_observed_third_party_display": {
+        "source_url": "https://www.okooo.com/jingcai/",
+        "collected_at": "2026-10-14T14:20:31+08:00",
+        "source_updated_at": null,
+        "source_cache_status": "unknown",
+        "spf": [
+          2.04,
+          3.68,
+          2.72
+        ],
+        "displayed_handicap": -1,
+        "rqspf": [
+          3.9,
+          4.1,
+          1.59
+        ],
+        "official_sale_verified": false
+      },
+      "current_official_observation": {
+        "collected_at": "2026-10-14T15:24:16+08:00",
+        "source_attempted": true,
+        "result": "DNS resolution failure; no response body",
+        "spf": null,
+        "official_handicap": null,
+        "rqspf": null,
+        "source_updated_at": null
+      },
+      "delta_vs_last_observation": null,
+      "verified_market_movement": false,
+      "outcome_effect": "本轮没有可比较的新SP；不能判断支持或反对主胜、平、主负或让胜、让平、让负。",
+      "missing_evidence": [
+        "本轮官方在售名单及赛事编号",
+        "本轮 getMatchCalculatorV1.qry 原始响应",
+        "本轮 getOddsHistoryV1.qry 历史响应",
+        "本轮官方胜平负SP与官方整数让球",
+        "本轮官方让胜平负SP",
+        "报价源更新时间与缓存状态",
+        "本轮可用于同源差分的有效新报价"
+      ]
+    }
+  ]
+}
