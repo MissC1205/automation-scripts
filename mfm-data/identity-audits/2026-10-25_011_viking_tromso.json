@@ -1,0 +1,45 @@
+{
+  "sale_date_bj": "2026-10-25",
+  "jc_number": "周日011",
+  "caidao_match_id": "F20261025011",
+  "caidao_home": "维京",
+  "caidao_away": "特罗姆瑟",
+  "caidao_kickoff_bj": "2026-10-25T21:30:00+08:00",
+  "independent_fixture_verification": {
+    "status": "MATCHED_SINGLE_FIXTURE_ONLY",
+    "source_tier": "A_OFFICIAL_HOME_CLUB_AND_LEAGUE",
+    "source_names": [
+      "Viking FK official fixture calendar",
+      "Eliteserien official fixture calendar"
+    ],
+    "source_urls": [
+      "https://www.vikingfotball.no/terminliste",
+      "https://www.eliteserien.no/terminliste"
+    ],
+    "official_home": "Viking",
+    "official_away": "Tromsø",
+    "official_competition": "Eliteserien",
+    "official_kickoff_local": "2026-10-25T14:30:00+01:00",
+    "official_kickoff_bj": "2026-10-25T21:30:00+08:00",
+    "notes": "Norway is on CET after 2026-10-25 DST change. Verifies fixture identity and kickoff only; not JC sales number or odds."
+  },
+  "odds_audit": {
+    "source": "Caidao third-party H5",
+    "snapshot_collected_at_bj": "2026-10-25T21:09:41.935950+08:00",
+    "current_spf": {
+      "home": 1.33,
+      "draw": 4.75,
+      "away": 6
+    },
+    "latest_source_history_at_bj": "2026-10-25T21:02:57+08:00",
+    "latest_source_history_spf": {
+      "home": 1.31,
+      "draw": 4.85,
+      "away": 6.25
+    },
+    "history_rows": 5,
+    "discrepancy": "CURRENT_VS_HISTORY_NOT_EQUAL; may reflect separate source refresh timing, not a parser failure",
+    "official_sp_verified": false
+  },
+  "scope_warning": "Do not mark all 29 fixtures independently verified. Do not substitute third-party quotes for official JC SP."
+}
