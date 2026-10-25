@@ -71,7 +71,7 @@ def run(date, root):
         "fixture_forms": len(forms),
         "fixtures_with_5_prior_matches_per_team": len(complete),
         "lookback_days": history.get("days_back"),
-        "warning": "Within-league only; 21 days are insufficient for reliable cross-competition 5/10-match form",
+        "warning": f"Within-league only; {history.get('days_back', 'unknown')} days lookback may still omit cross-competition and postponed matches",
     }
     op = read_json(root, stem + "openfootball_audit.json") or {}
     audit["openfootball"] = {
