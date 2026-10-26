@@ -110,6 +110,20 @@ class CaidaoServiceTests(unittest.TestCase):
         self.assertEqual(mod.spf_history_trend_status({"verified_for_model_use":False}),
                          "UNVERIFIED_OR_MISSING")
 
+    def test_source_quote_age_is_not_capture_age(self):
+        old="2026-10-12T17:00:00+08:00"
+        self.assertGreater(mod.source_quote_age_hours(old,FIXED),24)
+        self.assertIsNone(mod.source_quote_age_hours("not-a-time",FIXED))
+        self.assertIsNone(mod.source_quote_age_hours("2026-10-15T00:00:00+08:00",FIXED))
+        report=mod.collect("2026-10-14",now=FIXED,transport=transport,pause=lambda x:None)
+        self.assertEqual(report["coverage"]["source_sp_without_update_over_24h"],0)
+        self.assertGreater(report["matches"][0]["data_quality"]["source_sp_update_age_hours"],1)
+        with tempfile.TemporaryDirectory() as temp:
+            mod.persist(report,temp)
+            import json
+            summary=json.loads((pathlib.Path(temp)/"2026-10-14"/"summary.json").read_text())
+            self.assertIn("source_sp_update_age_hours",summary["match_summary"][0])
+
     def test_missing_data_marks_partial(self):
         def no_detail(path,params,method="GET"):
             if path.endswith("getMatchAllData"):
