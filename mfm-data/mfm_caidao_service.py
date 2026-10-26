@@ -197,6 +197,23 @@ def spf_history_trend_status(history):
     return ("MULTI_SNAPSHOT_PRICE_CHANGE" if len(values)>1
             else "MULTI_SNAPSHOT_NO_PRICE_CHANGE")
 
+def source_quote_age_hours(source_timestamp, observed_at):
+    """Elapsed hours since a provider-declared SPF update, not time since capture.
+
+    A long interval is a freshness warning, not proof of an incorrect price.
+    Unknown or future timestamps are never coerced into fresh data.
+    """
+    if not isinstance(source_timestamp,str) or observed_at.tzinfo is None:
+        return None
+    try:
+        source=dt.datetime.fromisoformat(source_timestamp)
+        if source.tzinfo is None:
+            return None
+        age=(observed_at-source).total_seconds()/3600
+        return round(age,2) if age>=0 else None
+    except ValueError:
+        return None
+
 def evaluate_match(row,sale_date,now,transport=fetch):
     ident=row["matchInfo"]
     kickoff=parse_kickoff(row.get("gameTime"))
@@ -247,6 +264,8 @@ def evaluate_match(row,sale_date,now,transport=fetch):
     result["data_quality"]["history_spf_quote_count"]=hist.get("history_count",0)
     result["data_quality"]["spf_history_trend_status"]=spf_history_trend_status(hist)
     result["data_quality"]["history_as_of"]=hist.get("latest_source_updated_at_bj")
+    result["data_quality"]["source_sp_update_age_hours"]=source_quote_age_hours(
+        hist.get("latest_source_updated_at_bj"),collected_now)
     result["data_quality"]["true_prematch_snapshot"]=(
         result["collection_phase"]=="PRE_KICKOFF" and approved)
     current=result["source_market"]["spf"]
@@ -323,6 +342,8 @@ def collect(sale_date,now=None,transport=fetch,pause=time.sleep):
       "historical_spf_price_change_matches":sum(m["data_quality"].get("spf_history_trend_status")=="MULTI_SNAPSHOT_PRICE_CHANGE" for m in rows),
       "current_spf_matches_latest_history":sum(m["data_quality"].get("current_sp_vs_latest_history")=="MATCH" for m in rows),
       "current_spf_divergence_or_lag":sum(m["data_quality"].get("current_sp_vs_latest_history")=="DIFFERENT_SNAPSHOT_OR_PROVIDER_LAG" for m in rows),
+      "source_sp_without_update_over_24h":sum(
+          (m["data_quality"].get("source_sp_update_age_hours") or 0)>24 for m in rows),
       "captured_before_kickoff":sum(m["collection_phase"]=="PRE_KICKOFF" for m in rows),
       "captured_after_kickoff":sum(m["collection_phase"]=="POST_KICKOFF" for m in rows),
       "prematch_verified_history_snapshots":sum(m["data_quality"].get("true_prematch_snapshot",False) for m in rows),
@@ -439,6 +460,7 @@ def persist(report,out_root):
            "spf_history_rows":m["spf_history"].get("history_count",0),
            "spf_history_trend_status":m["data_quality"].get("spf_history_trend_status"),
            "last_source_sp_updated_at_bj":m["spf_history"].get("latest_source_updated_at_bj"),
+            "source_sp_update_age_hours":m["data_quality"].get("source_sp_update_age_hours"),
            "prematch_snapshot_verified":m["data_quality"].get("true_prematch_snapshot",False),
            "detail_available":m["detail"].get("status")=="SOURCE_DETAIL_AVAILABLE"
         } for m in report["matches"]]
