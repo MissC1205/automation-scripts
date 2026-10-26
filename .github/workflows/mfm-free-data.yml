@@ -35,9 +35,12 @@ jobs:
       - name: Enrich with standings and match summaries
         if: success()
         run: python mfm-data/mfm_enrich.py --date $(TZ=Asia/Shanghai date +%F) --dir mfm_data
+      # A 42-day window produced zero fixtures with five prior matches on 2026-10-26.
+      # Extend within-league history into the season start; this does not solve
+      # cross-provider identity joins or imply validated JC match coverage.
       - name: Collect completed historical matches and team form
         if: success()
-        run: python mfm-data/mfm_history.py --date $(TZ=Asia/Shanghai date +%F) --dir mfm_data --days 42
+        run: python mfm-data/mfm_history.py --date $(TZ=Asia/Shanghai date +%F) --dir mfm_data --days 70
       - name: Probe API-Football with repository secret
         if: ${{ !cancelled() }}
         env:
