@@ -1,0 +1,78 @@
+{
+  "sale_date_bj": "2026-10-26",
+  "audit_scope": "Independent team names and kickoff crosscheck against public fixture sources, NOT JC sale-list validation",
+  "collector_snapshot_bj": "2026-10-26T01:37:03.308791+08:00",
+  "source_type": "Caidao public H5 third party",
+  "fixture_count": 4,
+  "primary_source_verified_count": 3,
+  "secondary_source_verified_count": 1,
+  "official_jc_fixture_ids_verified": 0,
+  "odds_officially_verified": 0,
+  "fixtures": [
+    {
+      "provider_id": "F20261026001",
+      "jc_number_provider_reported": "周一001",
+      "home_provider": "圣克拉拉",
+      "away_provider": "本菲卡",
+      "kickoff_bj_provider": "2026-10-27T02:45:00+08:00",
+      "external_evidence": {
+        "name": "CD Santa Clara vs SL Benfica",
+        "url": "https://www.slbenfica.pt/pt-pt/agora/noticias/2026/10/16/futebol-bilhetes-santa-clara-benfica-9-jornada-liga-betclic",
+        "kind": "club_official",
+        "note": "2026-10-26 18:45 mainland Portugal (WET UTC+0)"
+      },
+      "external_names_and_kickoff_consistent": true,
+      "independent_jc_match_number_verified": false
+    },
+    {
+      "provider_id": "F20261026002",
+      "jc_number_provider_reported": "周一002",
+      "home_provider": "布洛涅",
+      "away_provider": "兰斯",
+      "kickoff_bj_provider": "2026-10-27T03:45:00+08:00",
+      "external_evidence": {
+        "name": "US Boulogne vs Stade de Reims",
+        "url": "https://www.fotmob.com/en-GB/matches/boulogne-vs-reims/1mexwx",
+        "kind": "independent_secondary_fixture",
+        "note": "2026-10-26 19:45 UTC; primary league fixture confirmation still outstanding"
+      },
+      "external_names_and_kickoff_consistent": true,
+      "independent_jc_match_number_verified": false
+    },
+    {
+      "provider_id": "F20261026003",
+      "jc_number_provider_reported": "周一003",
+      "home_provider": "塞维利亚",
+      "away_provider": "奥萨苏纳",
+      "kickoff_bj_provider": "2026-10-27T04:00:00+08:00",
+      "external_evidence": {
+        "name": "Sevilla FC vs CA Osasuna",
+        "url": "https://www.laliga.com/en-US/match/temporada-2026-2027-laliga-ea-sports-sevilla-fc-ca-osasuna-10",
+        "kind": "league_official",
+        "note": "2026-10-26 20:00 UTC"
+      },
+      "external_names_and_kickoff_consistent": true,
+      "independent_jc_match_number_verified": false
+    },
+    {
+      "provider_id": "F20261026004",
+      "jc_number_provider_reported": "周一004",
+      "home_provider": "弗拉门戈",
+      "away_provider": "米竞技",
+      "kickoff_bj_provider": "2026-10-27T07:00:00+08:00",
+      "external_evidence": {
+        "name": "CR Flamengo vs Atletico Mineiro",
+        "url": "https://www.flamengo.com.br/noticias/ingressos/flamengo-x-atletico-mg-informacoes-sobre-ingressos-para-a-partida-pelo-campeonato-brasileiro",
+        "kind": "club_official",
+        "note": "2026-10-26 20:00 Brasilia (UTC-3)"
+      },
+      "external_names_and_kickoff_consistent": true,
+      "independent_jc_match_number_verified": false
+    }
+  ],
+  "limitations": [
+    "Not all matches verified via league/club primary sources: 002 secondary source only",
+    "This does not validate Chinese official JC sales status, handicap or SP",
+    "No verified injury, lineups, xG, team form, or odds time-series inferred"
+  ]
+}
