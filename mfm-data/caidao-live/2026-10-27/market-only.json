@@ -1,7 +1,934 @@
 {
   "sale_date_bj": "2026-10-27",
-  "collected_at_bj": "2026-10-27T09:37:32.457150+08:00",
+  "collected_at_bj": "2026-10-27T15:33:54.560944+08:00",
   "source": "Caidao THIRD_PARTY_NOT_OFFICIAL",
   "to_be_read_after_freezing_independent_forecast": true,
-  "matches": []
+  "matches": [
+    {
+      "match_id": "F20261027001",
+      "jc_number": "周二001",
+      "collection_phase": "PRE_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "1.27|5.05|6.95",
+          "rqspfOdds": "1.87|3.75|3.05",
+          "concedeNum": -1,
+          "bfOdds": "14.00|10.00|7.25|6.75|9.50|8.50|16.00|16.00|16.00|29.00|34.00|29.00|55.00|200.0|26.00|11.00|14.00|40.00|120.0|23.00|50.00|20.00|120.0|50.00|45.00|350.0|175.0|120.0|850.0|550.0|450.0",
+          "zjqOdds": "26.00|8.30|5.30|3.40|3.70|6.30|10.00|12.00",
+          "bqcOdds": "1.72|20.00|65.00|3.95|8.60|16.00|22.00|20.00|12.50"
+        },
+        "spf": {
+          "home": 1.27,
+          "draw": 5.05,
+          "away": 6.95
+        },
+        "integer_handicap": -1,
+        "handicap_sp": {
+          "home": 1.87,
+          "draw": 3.75,
+          "away": 3.05
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          26.0,
+          8.3,
+          5.3,
+          3.4,
+          3.7,
+          6.3,
+          10.0,
+          12.0
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261027001",
+        "match_number": "周二001",
+        "fixture_home": "京都",
+        "fixture_away": "纽喷气机",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+            "source_time_raw": "2026-10-27 09:53:54",
+            "home": 1.27,
+            "draw": 5.05,
+            "away": 6.95,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T11:45:42+08:00",
+            "source_time_raw": "2026-10-27 11:45:42",
+            "home": 1.25,
+            "draw": 5.3,
+            "away": 7.1,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T12:57:52+08:00",
+            "source_time_raw": "2026-10-27 12:57:52",
+            "home": 1.27,
+            "draw": 5.05,
+            "away": 6.95,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二001",
+        "provider_home": "京都",
+        "provider_away": "纽喷气机",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 3,
+        "duplicate_timestamps": 0,
+        "history_count": 3,
+        "earliest_source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+        "latest_source_updated_at_bj": "2026-10-27T12:57:52+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    },
+    {
+      "match_id": "F20261027002",
+      "jc_number": "周二002",
+      "collection_phase": "PRE_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "2.76|3.10|2.25",
+          "rqspfOdds": "1.49|4.00|4.80",
+          "concedeNum": 1,
+          "bfOdds": "80.00|9.40|13.50|8.50|29.00|20.00|24.00|70.00|60.00|70.00|250.0|200.0|250.0|300.0|12.50|5.50|11.50|50.00|70.00|9.00|12.00|8.00|25.00|19.00|23.00|55.00|45.00|65.00|200.0|150.0|200.0",
+          "zjqOdds": "12.50|4.80|3.25|3.35|5.65|10.00|21.00|29.00",
+          "bqcOdds": "4.50|15.00|29.00|5.60|4.60|5.20|32.00|15.00|4.10"
+        },
+        "spf": {
+          "home": 2.76,
+          "draw": 3.1,
+          "away": 2.25
+        },
+        "integer_handicap": 1,
+        "handicap_sp": {
+          "home": 1.49,
+          "draw": 4.0,
+          "away": 4.8
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          12.5,
+          4.8,
+          3.25,
+          3.35,
+          5.65,
+          10.0,
+          21.0,
+          29.0
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261027002",
+        "match_number": "周二002",
+        "fixture_home": "大田市民",
+        "fixture_away": "神户胜利",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+            "source_time_raw": "2026-10-27 09:53:54",
+            "home": 2.46,
+            "draw": 3.2,
+            "away": 2.44,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T09:56:08+08:00",
+            "source_time_raw": "2026-10-27 09:56:08",
+            "home": 2.45,
+            "draw": 3.2,
+            "away": 2.45,
+            "source_odds_flag": "-1|0|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T14:14:34+08:00",
+            "source_time_raw": "2026-10-27 14:14:34",
+            "home": 2.54,
+            "draw": 3.13,
+            "away": 2.4,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T15:21:02+08:00",
+            "source_time_raw": "2026-10-27 15:21:02",
+            "home": 2.62,
+            "draw": 3.1,
+            "away": 2.35,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T15:28:58+08:00",
+            "source_time_raw": "2026-10-27 15:28:58",
+            "home": 2.76,
+            "draw": 3.1,
+            "away": 2.25,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二002",
+        "provider_home": "大田市民",
+        "provider_away": "神户胜利",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 5,
+        "duplicate_timestamps": 0,
+        "history_count": 5,
+        "earliest_source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+        "latest_source_updated_at_bj": "2026-10-27T15:28:58+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    },
+    {
+      "match_id": "F20261027003",
+      "jc_number": "周二003",
+      "collection_phase": "PRE_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "2.30|3.50|2.45",
+          "rqspfOdds": "5.10|4.10|1.45",
+          "concedeNum": -1,
+          "bfOdds": "55.00|9.75|12.00|7.50|23.00|16.00|21.00|60.00|36.00|55.00|150.0|90.00|150.0|250.0|15.00|6.00|11.00|40.00|70.00|11.00|15.00|8.50|33.00|20.00|22.00|95.00|50.00|60.00|250.0|175.0|175.0",
+          "zjqOdds": "15.00|5.50|3.60|3.40|4.80|8.20|16.00|25.00",
+          "bqcOdds": "3.70|13.50|26.00|5.30|5.30|6.20|24.00|13.50|4.60"
+        },
+        "spf": {
+          "home": 2.3,
+          "draw": 3.5,
+          "away": 2.45
+        },
+        "integer_handicap": -1,
+        "handicap_sp": {
+          "home": 5.1,
+          "draw": 4.1,
+          "away": 1.45
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          15.0,
+          5.5,
+          3.6,
+          3.4,
+          4.8,
+          8.2,
+          16.0,
+          25.0
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261027003",
+        "match_number": "周二003",
+        "fixture_home": "北京国安",
+        "fixture_away": "全北现代",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+            "source_time_raw": "2026-10-27 09:53:54",
+            "home": 2.19,
+            "draw": 3.32,
+            "away": 2.7,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T11:33:46+08:00",
+            "source_time_raw": "2026-10-27 11:33:46",
+            "home": 2.19,
+            "draw": 3.45,
+            "away": 2.62,
+            "source_odds_flag": "0|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T12:29:08+08:00",
+            "source_time_raw": "2026-10-27 12:29:08",
+            "home": 2.25,
+            "draw": 3.45,
+            "away": 2.53,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T13:06:09+08:00",
+            "source_time_raw": "2026-10-27 13:06:09",
+            "home": 2.3,
+            "draw": 3.45,
+            "away": 2.47,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T14:29:56+08:00",
+            "source_time_raw": "2026-10-27 14:29:56",
+            "home": 2.35,
+            "draw": 3.5,
+            "away": 2.39,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T14:36:02+08:00",
+            "source_time_raw": "2026-10-27 14:36:02",
+            "home": 2.3,
+            "draw": 3.5,
+            "away": 2.45,
+            "source_odds_flag": "-1|0|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二003",
+        "provider_home": "北京国安",
+        "provider_away": "全北现代",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 6,
+        "duplicate_timestamps": 0,
+        "history_count": 6,
+        "earliest_source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+        "latest_source_updated_at_bj": "2026-10-27T14:36:02+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    },
+    {
+      "match_id": "F20261027004",
+      "jc_number": "周二004",
+      "collection_phase": "PRE_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "2.80|3.57|2.03",
+          "rqspfOdds": "1.59|4.00|4.00",
+          "concedeNum": 1,
+          "bfOdds": "50.00|14.00|18.00|9.00|35.00|19.00|21.00|100.0|50.00|60.00|350.0|175.0|200.0|150.0|20.00|7.50|10.00|31.00|35.00|11.50|13.00|7.00|21.00|13.00|16.00|50.00|30.00|35.00|125.0|70.00|80.00",
+          "zjqOdds": "20.00|7.10|4.15|3.45|4.35|6.90|11.00|15.00",
+          "bqcOdds": "4.65|13.00|19.00|6.90|6.50|5.60|23.00|13.00|3.20"
+        },
+        "spf": {
+          "home": 2.8,
+          "draw": 3.57,
+          "away": 2.03
+        },
+        "integer_handicap": 1,
+        "handicap_sp": {
+          "home": 1.59,
+          "draw": 4.0,
+          "away": 4.0
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          20.0,
+          7.1,
+          4.15,
+          3.45,
+          4.35,
+          6.9,
+          11.0,
+          15.0
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261027004",
+        "match_number": "周二004",
+        "fixture_home": "汉堡",
+        "fixture_away": "法兰克福",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+            "source_time_raw": "2026-10-27 09:53:54",
+            "home": 2.8,
+            "draw": 3.57,
+            "away": 2.03,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二004",
+        "provider_home": "汉堡",
+        "provider_away": "法兰克福",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+        "latest_source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    },
+    {
+      "match_id": "F20261027005",
+      "jc_number": "周二005",
+      "collection_phase": "PRE_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "3.50|3.65|1.76",
+          "rqspfOdds": "1.80|3.60|3.38",
+          "concedeNum": 1,
+          "bfOdds": "85.00|12.00|18.00|9.00|40.00|24.00|26.00|100.0|70.00|80.00|350.0|200.0|300.0|300.0|15.00|6.50|11.50|50.00|45.00|8.75|10.50|6.70|19.00|13.00|19.00|45.00|32.00|50.00|120.0|90.00|125.0",
+          "zjqOdds": "15.00|5.50|3.75|3.45|5.00|8.00|13.50|20.00",
+          "bqcOdds": "5.50|14.50|25.00|8.50|6.70|3.20|35.00|14.50|3.50"
+        },
+        "spf": {
+          "home": 3.5,
+          "draw": 3.65,
+          "away": 1.76
+        },
+        "integer_handicap": 1,
+        "handicap_sp": {
+          "home": 1.8,
+          "draw": 3.6,
+          "away": 3.38
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          15.0,
+          5.5,
+          3.75,
+          3.45,
+          5.0,
+          8.0,
+          13.5,
+          20.0
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261027005",
+        "match_number": "周二005",
+        "fixture_home": "萨索洛",
+        "fixture_away": "拉齐奥",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+            "source_time_raw": "2026-10-27 09:53:54",
+            "home": 2.9,
+            "draw": 3.4,
+            "away": 2.04,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T11:20:01+08:00",
+            "source_time_raw": "2026-10-27 11:20:01",
+            "home": 2.97,
+            "draw": 3.45,
+            "away": 1.99,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T12:03:16+08:00",
+            "source_time_raw": "2026-10-27 12:03:16",
+            "home": 3.15,
+            "draw": 3.5,
+            "away": 1.9,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T12:45:39+08:00",
+            "source_time_raw": "2026-10-27 12:45:39",
+            "home": 3.2,
+            "draw": 3.55,
+            "away": 1.87,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T14:12:02+08:00",
+            "source_time_raw": "2026-10-27 14:12:02",
+            "home": 3.35,
+            "draw": 3.55,
+            "away": 1.82,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T15:24:25+08:00",
+            "source_time_raw": "2026-10-27 15:24:25",
+            "home": 3.5,
+            "draw": 3.65,
+            "away": 1.76,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二005",
+        "provider_home": "萨索洛",
+        "provider_away": "拉齐奥",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 6,
+        "duplicate_timestamps": 0,
+        "history_count": 6,
+        "earliest_source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+        "latest_source_updated_at_bj": "2026-10-27T15:24:25+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    },
+    {
+      "match_id": "F20261027006",
+      "jc_number": "周二006",
+      "collection_phase": "PRE_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "2.85|3.45|2.05",
+          "rqspfOdds": "1.59|3.82|4.20",
+          "concedeNum": 1,
+          "bfOdds": "60.00|11.00|16.00|8.75|30.00|20.00|22.00|90.00|60.00|75.00|300.0|175.0|200.0|200.0|16.00|6.75|11.00|45.00|50.00|9.50|12.00|7.00|21.00|14.00|19.00|50.00|38.00|50.00|150.0|100.0|150.0",
+          "zjqOdds": "16.00|5.70|3.85|3.45|4.65|7.70|14.00|20.00",
+          "bqcOdds": "4.60|13.00|23.00|7.00|5.90|5.10|28.00|13.00|3.40"
+        },
+        "spf": {
+          "home": 2.85,
+          "draw": 3.45,
+          "away": 2.05
+        },
+        "integer_handicap": 1,
+        "handicap_sp": {
+          "home": 1.59,
+          "draw": 3.82,
+          "away": 4.2
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          16.0,
+          5.7,
+          3.85,
+          3.45,
+          4.65,
+          7.7,
+          14.0,
+          20.0
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261027006",
+        "match_number": "周二006",
+        "fixture_home": "索尔纳",
+        "fixture_away": "埃夫斯堡",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+            "source_time_raw": "2026-10-27 09:53:54",
+            "home": 2.75,
+            "draw": 3.45,
+            "away": 2.1,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T13:48:07+08:00",
+            "source_time_raw": "2026-10-27 13:48:07",
+            "home": 2.85,
+            "draw": 3.45,
+            "away": 2.05,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二006",
+        "provider_home": "索尔纳",
+        "provider_away": "埃夫斯堡",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+        "latest_source_updated_at_bj": "2026-10-27T13:48:07+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    },
+    {
+      "match_id": "F20261027007",
+      "jc_number": "周二007",
+      "collection_phase": "PRE_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "1.26|5.10|7.15",
+          "rqspfOdds": "1.86|3.80|3.05",
+          "concedeNum": -1,
+          "bfOdds": "13.50|10.00|8.00|7.00|9.00|8.75|16.00|15.00|14.00|28.00|32.00|28.00|50.00|250.0|25.00|10.00|14.00|44.00|150.0|27.00|55.00|18.00|150.0|60.00|45.00|550.0|200.0|175.0|1000|600.0|500.0",
+          "zjqOdds": "25.00|8.00|4.50|3.50|4.15|6.25|10.25|12.00",
+          "bqcOdds": "1.72|18.00|50.00|4.25|8.70|17.00|20.00|18.00|12.00"
+        },
+        "spf": {
+          "home": 1.26,
+          "draw": 5.1,
+          "away": 7.15
+        },
+        "integer_handicap": -1,
+        "handicap_sp": {
+          "home": 1.86,
+          "draw": 3.8,
+          "away": 3.05
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          25.0,
+          8.0,
+          4.5,
+          3.5,
+          4.15,
+          6.25,
+          10.25,
+          12.0
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261027007",
+        "match_number": "周二007",
+        "fixture_home": "多特蒙德",
+        "fixture_away": "不来梅",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+            "source_time_raw": "2026-10-27 09:53:54",
+            "home": 1.28,
+            "draw": 5.0,
+            "away": 6.75,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T14:07:36+08:00",
+            "source_time_raw": "2026-10-27 14:07:36",
+            "home": 1.26,
+            "draw": 5.1,
+            "away": 7.15,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二007",
+        "provider_home": "多特蒙德",
+        "provider_away": "不来梅",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+        "latest_source_updated_at_bj": "2026-10-27T14:07:36+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    },
+    {
+      "match_id": "F20261027008",
+      "jc_number": "周二008",
+      "collection_phase": "PRE_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "1.68|3.60|3.90",
+          "rqspfOdds": "3.12|3.50|1.91",
+          "concedeNum": -1,
+          "bfOdds": "35.00|9.00|8.75|6.50|14.50|11.00|18.00|31.00|24.00|37.00|80.00|70.00|80.00|250.0|15.00|7.00|12.00|45.00|110.0|14.50|24.00|11.00|60.00|30.00|30.00|200.0|100.0|100.0|550.0|350.0|400.0",
+          "zjqOdds": "15.00|5.75|3.75|3.50|4.70|8.00|13.50|20.00",
+          "bqcOdds": "2.60|14.00|29.00|4.70|6.00|8.75|20.00|14.00|6.75"
+        },
+        "spf": {
+          "home": 1.68,
+          "draw": 3.6,
+          "away": 3.9
+        },
+        "integer_handicap": -1,
+        "handicap_sp": {
+          "home": 3.12,
+          "draw": 3.5,
+          "away": 1.91
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          15.0,
+          5.75,
+          3.75,
+          3.5,
+          4.7,
+          8.0,
+          13.5,
+          20.0
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261027008",
+        "match_number": "周二008",
+        "fixture_home": "科隆",
+        "fixture_away": "柏林联合",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+            "source_time_raw": "2026-10-27 09:53:54",
+            "home": 1.68,
+            "draw": 3.6,
+            "away": 3.9,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二008",
+        "provider_home": "科隆",
+        "provider_away": "柏林联合",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 1,
+        "duplicate_timestamps": 0,
+        "history_count": 1,
+        "earliest_source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+        "latest_source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    },
+    {
+      "match_id": "F20261027009",
+      "jc_number": "周二009",
+      "collection_phase": "PRE_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "1.18|5.35|10.50",
+          "rqspfOdds": "1.69|3.82|3.62",
+          "concedeNum": -1,
+          "bfOdds": "19.00|6.70|6.00|7.00|7.00|10.00|25.00|12.00|17.00|50.00|25.00|35.00|120.0|600.0|17.00|9.00|21.00|100.0|500.0|21.00|60.00|22.00|200.0|100.0|90.00|700.0|500.0|500.0|1000|1000|1000",
+          "zjqOdds": "17.00|6.00|3.95|3.40|4.60|7.60|13.00|18.00",
+          "bqcOdds": "1.60|23.00|70.00|3.75|8.25|23.00|26.00|23.00|17.00"
+        },
+        "spf": {
+          "home": 1.18,
+          "draw": 5.35,
+          "away": 10.5
+        },
+        "integer_handicap": -1,
+        "handicap_sp": {
+          "home": 1.69,
+          "draw": 3.82,
+          "away": 3.62
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          17.0,
+          6.0,
+          3.95,
+          3.4,
+          4.6,
+          7.6,
+          13.0,
+          18.0
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261027009",
+        "match_number": "周二009",
+        "fixture_home": "罗马",
+        "fixture_away": "卡利亚里",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+            "source_time_raw": "2026-10-27 09:53:54",
+            "home": 1.21,
+            "draw": 5.1,
+            "away": 9.4,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T11:37:32+08:00",
+            "source_time_raw": "2026-10-27 11:37:32",
+            "home": 1.19,
+            "draw": 5.3,
+            "away": 10.0,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T13:58:15+08:00",
+            "source_time_raw": "2026-10-27 13:58:15",
+            "home": 1.18,
+            "draw": 5.35,
+            "away": 10.5,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二009",
+        "provider_home": "罗马",
+        "provider_away": "卡利亚里",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 3,
+        "duplicate_timestamps": 0,
+        "history_count": 3,
+        "earliest_source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+        "latest_source_updated_at_bj": "2026-10-27T13:58:15+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    },
+    {
+      "match_id": "F20261027010",
+      "jc_number": "周二010",
+      "collection_phase": "PRE_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "5.30|4.00|1.45",
+          "rqspfOdds": "2.30|3.40|2.50",
+          "concedeNum": 1,
+          "bfOdds": "175.0|16.00|29.00|14.00|70.00|50.00|38.00|300.0|150.0|175.0|700.0|500.0|500.0|300.0|16.00|7.00|13.00|50.00|30.00|7.50|7.50|6.70|11.50|10.50|18.00|23.00|21.00|42.00|60.00|55.00|90.00",
+          "zjqOdds": "16.00|5.90|4.00|3.30|4.80|7.50|14.00|18.00",
+          "bqcOdds": "8.50|16.00|22.00|11.00|6.70|4.30|36.00|16.00|2.15"
+        },
+        "spf": {
+          "home": 5.3,
+          "draw": 4.0,
+          "away": 1.45
+        },
+        "integer_handicap": 1,
+        "handicap_sp": {
+          "home": 2.3,
+          "draw": 3.4,
+          "away": 2.5
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          16.0,
+          5.9,
+          4.0,
+          3.3,
+          4.8,
+          7.5,
+          14.0,
+          18.0
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261027010",
+        "match_number": "周二010",
+        "fixture_home": "都灵",
+        "fixture_away": "科莫",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+            "source_time_raw": "2026-10-27 09:53:54",
+            "home": 4.7,
+            "draw": 3.8,
+            "away": 1.53,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T11:39:23+08:00",
+            "source_time_raw": "2026-10-27 11:39:23",
+            "home": 4.95,
+            "draw": 3.85,
+            "away": 1.5,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T12:35:14+08:00",
+            "source_time_raw": "2026-10-27 12:35:14",
+            "home": 5.15,
+            "draw": 3.92,
+            "away": 1.47,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T14:16:48+08:00",
+            "source_time_raw": "2026-10-27 14:16:48",
+            "home": 5.3,
+            "draw": 4.0,
+            "away": 1.45,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-10-27T15:19:36+08:00",
+            "source_time_raw": "2026-10-27 15:19:36",
+            "home": 5.3,
+            "draw": 4.0,
+            "away": 1.45,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二010",
+        "provider_home": "都灵",
+        "provider_away": "科莫",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 5,
+        "duplicate_timestamps": 0,
+        "history_count": 5,
+        "earliest_source_updated_at_bj": "2026-10-27T09:53:54+08:00",
+        "latest_source_updated_at_bj": "2026-10-27T15:19:36+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    }
+  ]
 }
