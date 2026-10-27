@@ -24,3 +24,7 @@ Purpose: 09:34 MFM health audit; request first same-day source-stamped fixture a
 Version: 10
 Requested sale date: 2026-10-27 Asia/Shanghai
 Purpose: 15:32 MFM source recovery audit. Retry public same-day fixture pools after 09:37 NO_DATA; preserve source-stamped raw counts and report missing sale-day IDs honestly. Do not infer zero real matches, and do not generate predictions.
+
+Version: 11
+Requested sale date: 2026-10-27 Asia/Shanghai
+Purpose: 21:26 MFM evening health audit; refresh remaining pre-kickoff fixtures 004-010 and capture post-kickoff 001-003 as non-predictive audit only. Check source quote ages, 004/008 single-snapshot histories, official-SP separation, aliases, and regression gates. Preserve immutable timestamps; do not create predictions or overwrite earlier snapshots.
