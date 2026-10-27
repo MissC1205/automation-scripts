@@ -8,11 +8,12 @@
   "independent_primary_source_verified": false,
   "official_jc_sale_status_verified": false,
   "comparison_count": 10,
-  "matched_count": 9,
+  "matched_count": 10,
   "notes": [
     "External provider independently lists ten numbered fixtures, but neither source establishes official JC sale status.",
     "Two abbreviated team labels require documented alias mapping; do not use to infer team statistics.",
-    "Market prices and provider predictions are excluded from this identity check."
+    "Market prices and provider predictions are excluded from this identity check.",
+    "The 不莱梅/不来梅 spelling variant for 007 was reviewed as the same team; this is an alias, not a verified roster/team-ID join."
   ],
   "checks": [
     {
@@ -82,8 +83,8 @@
       "external_home": "多特蒙德",
       "external_away": "不莱梅",
       "kickoff_bj": "2026-10-28T03:45:00+08:00",
-      "identity_match": false,
-      "alias_note": null
+      "identity_match": true,
+      "alias_note": "external away alias 不莱梅 -> provider 不来梅 (Bremen)"
     },
     {
       "number": "周二008",
