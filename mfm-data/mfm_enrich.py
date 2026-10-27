@@ -1,10 +1,24 @@
 #!/usr/bin/env python3
 """MFM enrichment probe: ESPN standings and match summaries, provenance first."""
-import argparse,csv,datetime as dt,json,pathlib,time,urllib.request,urllib.parse
+import argparse,csv,datetime as dt,json,pathlib,time,urllib.request,urllib.parse,urllib.error
 BASE="https://site.api.espn.com/apis"
+
+def _is_transient_timeout(error):
+ if isinstance(error,(TimeoutError,ConnectionResetError)):
+  return True
+ if isinstance(error,urllib.error.URLError):
+  reason=getattr(error,"reason",None)
+  return isinstance(reason,(TimeoutError,ConnectionResetError)) or "timed out" in str(reason).lower()
+ return False
+
 def fetch(url):
  req=urllib.request.Request(url,headers={"User-Agent":"MFM-Research/0.2","Accept":"application/json"})
- with urllib.request.urlopen(req,timeout=18) as response:return json.load(response)
+ for attempt in range(2):
+  try:
+   with urllib.request.urlopen(req,timeout=18) as response:return json.load(response)
+  except Exception as error:
+   if attempt or not _is_transient_timeout(error):raise
+   time.sleep(.5)
 def main():
  p=argparse.ArgumentParser();p.add_argument("--date",required=True);p.add_argument("--dir",default="mfm_data");p.add_argument("--max-summaries",type=int,default=20);a=p.parse_args()
  root=pathlib.Path(a.dir);rows=list(csv.DictReader((root/f"{a.date}_matches.csv").open(encoding="utf-8-sig")))
