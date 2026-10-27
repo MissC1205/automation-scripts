@@ -12,6 +12,7 @@ on:
       - 'mfm-data/mfm_api_football.py'
       - 'mfm-data/mfm_api_teams.py'
       - 'mfm-data/mfm_enrich.py'
+      - 'mfm-data/test_mfm_enrich.py'
       - 'mfm-data/mfm_espn.py'
       - 'mfm-data/mfm_history.py'
       - 'mfm-data/mfm_openfootball.py'
@@ -30,6 +31,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Offline ESPN enrichment timeout regression
+        run: python -m unittest discover -s mfm-data -p 'test_mfm_enrich.py' -v
       - name: Collect source-stamped ESPN events
         run: python mfm-data/mfm_espn.py --out mfm_data --leagues eng.1,ita.1,esp.1,ger.1,fra.1,por.1,bra.1,swe.1,nor.1,fin.1,fra.2,afc.champions
       - name: Enrich with standings and match summaries
