@@ -117,12 +117,27 @@ class CaidaoServiceTests(unittest.TestCase):
         self.assertIsNone(mod.source_quote_age_hours("2026-10-15T00:00:00+08:00",FIXED))
         report=mod.collect("2026-10-14",now=FIXED,transport=transport,pause=lambda x:None)
         self.assertEqual(report["coverage"]["source_sp_without_update_over_24h"],0)
+        self.assertEqual(report["coverage"]["source_sp_without_update_over_12h"],0)
+        self.assertEqual(report["coverage"]["source_sp_timestamp_missing"],0)
         self.assertGreater(report["matches"][0]["data_quality"]["source_sp_update_age_hours"],1)
         with tempfile.TemporaryDirectory() as temp:
             mod.persist(report,temp)
             import json
             summary=json.loads((pathlib.Path(temp)/"2026-10-14"/"summary.json").read_text())
             self.assertIn("source_sp_update_age_hours",summary["match_summary"][0])
+
+    def test_old_source_quotes_counted_without_conflating_capture_time(self):
+        def old_quote(path,params,method="GET"):
+            response=transport(path,params,method)
+            if path.endswith("getJcOddsDetail"):
+                import copy
+                response=copy.deepcopy(response)
+                response["result"]["oddsDetails"][0]["updateTime"]="2026-10-12 17:10:05"
+            return response
+        report=mod.collect("2026-10-14",now=FIXED,transport=old_quote,pause=lambda x:None)
+        self.assertEqual(report["coverage"]["source_sp_without_update_over_12h"],2)
+        self.assertEqual(report["coverage"]["source_sp_without_update_over_24h"],2)
+        self.assertEqual(report["coverage"]["source_sp_timestamp_missing"],0)
 
     def test_missing_data_marks_partial(self):
         def no_detail(path,params,method="GET"):
