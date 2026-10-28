@@ -1,0 +1,69 @@
+{
+  "audit_date_bj": "2026-10-28",
+  "audited_at_bj": "2026-10-28T09:28:00+08:00",
+  "scope": "External official club schedule crosscheck against Caidao third-party 04:01 snapshot. Confirms team pairing and local kickoff only, NOT official China JC sale number/SP or all-day sale-list completeness.",
+  "source_snapshot": "mfm-data/caidao-live/2026-10-28/summary.json",
+  "reported_fixture_count": 13,
+  "verified_independent_club_schedule_count": 4,
+  "verified": [
+    {
+      "jc_number_third_party": "周三001",
+      "home": "大阪钢巴",
+      "away": "布里兰",
+      "kickoff_bj": "2026-10-28T18:00:00+08:00",
+      "source_org": "Buriram United official club",
+      "source_url": "https://www.buriramunited.com/fixture",
+      "source_time": "2026-10-28 17:00 Thailand local (UTC+7)",
+      "result": "PAIRING_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number_third_party": "周三004",
+      "home": "帕德博恩",
+      "away": "斯图加特",
+      "kickoff_bj": "2026-10-29T01:00:00+08:00",
+      "source_org": "VfB Stuttgart official club",
+      "source_url": "https://www.vfb.de/de/vfb/aktuell/neues/profis/2627/dfb-pokal-ansetzung-runde-zwei/",
+      "source_time": "2026-10-28 18:00 Germany local (CET UTC+1)",
+      "result": "PAIRING_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number_third_party": "周三006",
+      "home": "AC米兰",
+      "away": "博洛尼亚",
+      "kickoff_bj": "2026-10-29T01:30:00+08:00",
+      "source_org": "AC Milan official club",
+      "source_url": "https://www.acmilan.com/en/news/articles/ticketing/2026-09-14/ac-milan-vs-bologna-midweek-fixture-at-san-siro",
+      "source_time": "2026-10-28 18:30 Italy local (CET UTC+1)",
+      "result": "PAIRING_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number_third_party": "周三015",
+      "home": "利物浦",
+      "away": "切尔西",
+      "kickoff_bj": "2026-10-29T04:00:00+08:00",
+      "source_org": "Liverpool FC official club",
+      "source_url": "https://lfcbeta.liverpoolfc.com/id/news/liverpool-v-chelsea-carabao-cup-fixture-details-confirmed",
+      "source_time": "2026-10-28 20:00 GMT (UTC+0)",
+      "result": "PAIRING_AND_KICKOFF_MATCH"
+    }
+  ],
+  "not_yet_independently_checked": [
+    "周三002",
+    "周三003",
+    "周三005",
+    "周三007",
+    "周三010",
+    "周三011",
+    "周三012",
+    "周三013",
+    "周三014"
+  ],
+  "number_gaps": [
+    "周三008",
+    "周三009"
+  ],
+  "number_gap_interpretation": "Not returned by this upstream sale-date pool. This alone does not prove missing real fixtures or an error; require official sale list before treating as omissions.",
+  "official_jc_sale_numbers_verified": false,
+  "official_sp_verified": false,
+  "team_history_crosswalk_verified": false
+}
