@@ -342,8 +342,14 @@ def collect(sale_date,now=None,transport=fetch,pause=time.sleep):
       "historical_spf_price_change_matches":sum(m["data_quality"].get("spf_history_trend_status")=="MULTI_SNAPSHOT_PRICE_CHANGE" for m in rows),
       "current_spf_matches_latest_history":sum(m["data_quality"].get("current_sp_vs_latest_history")=="MATCH" for m in rows),
       "current_spf_divergence_or_lag":sum(m["data_quality"].get("current_sp_vs_latest_history")=="DIFFERENT_SNAPSHOT_OR_PROVIDER_LAG" for m in rows),
+      "source_sp_timestamp_missing":sum(
+          m["data_quality"].get("source_sp_update_age_hours") is None for m in rows),
+      "source_sp_without_update_over_12h":sum(
+          m["data_quality"].get("source_sp_update_age_hours") is not None and
+          m["data_quality"]["source_sp_update_age_hours"]>12 for m in rows),
       "source_sp_without_update_over_24h":sum(
-          (m["data_quality"].get("source_sp_update_age_hours") or 0)>24 for m in rows),
+          m["data_quality"].get("source_sp_update_age_hours") is not None and
+          m["data_quality"]["source_sp_update_age_hours"]>24 for m in rows),
       "captured_before_kickoff":sum(m["collection_phase"]=="PRE_KICKOFF" for m in rows),
       "captured_after_kickoff":sum(m["collection_phase"]=="POST_KICKOFF" for m in rows),
       "prematch_verified_history_snapshots":sum(m["data_quality"].get("true_prematch_snapshot",False) for m in rows),
