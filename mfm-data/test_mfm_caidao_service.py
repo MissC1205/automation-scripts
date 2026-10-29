@@ -139,6 +139,18 @@ class CaidaoServiceTests(unittest.TestCase):
         self.assertEqual(report["coverage"]["source_sp_without_update_over_24h"],2)
         self.assertEqual(report["coverage"]["source_sp_timestamp_missing"],0)
 
+    def test_empty_successful_source_pools_are_not_complete(self):
+        def empty_source(path,params,method="GET"):
+            if path.endswith("footballQuery"):
+                return {"status":200,"body":[]}
+            raise AssertionError("Unexpected call")
+        report=mod.collect("2026-10-29",now=FIXED,transport=empty_source,pause=lambda x:None)
+        self.assertEqual(report["coverage"]["fixture_ids"],0)
+        self.assertEqual(report["quality_gate"],"NO_DATA")
+        self.assertEqual(report["fixture_pool_integrity"],"EMPTY_SALE_DATE")
+        self.assertEqual(report["betting_gate"],
+                         "BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV")
+
     def test_missing_data_marks_partial(self):
         def no_detail(path,params,method="GET"):
             if path.endswith("getMatchAllData"):
