@@ -40,3 +40,7 @@ Purpose: 15:35 MFM afternoon health audit. Refresh 13-source fixture pool ahead 
 Version: 14
 Requested sale date: 2026-10-28 Asia/Shanghai
 Purpose: 21:34 MFM evening health audit. Refresh 17 third-party fixture pool with source timestamps, preserve already kicked-off games as post-kickoff audit only; recheck 012 Fulham-Crystal Palace quote older than 24h, 008 Sparta-Fortuna single-snapshot gap, 16/17 newly added fixtures, official-SP separation, and independent identity status. Preserve immutable earlier snapshots; do not create forecasts or imply official JC validation.
+
+Version: 15
+Requested sale date: 2026-10-29 Asia/Shanghai
+Purpose: 09:34 MFM morning health audit. The 2026-10-29 daily snapshot is not yet present; collect today's source-stamped third-party fixture pool, preserve prior dates and immutable snapshots, audit fixture ID/team identity, source quote ages and historical coverage, and separate official-SP HTTP 567 access failure. Do not backfill 2026-10-28 as today's sale date or generate model predictions.
