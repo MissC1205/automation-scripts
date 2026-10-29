@@ -44,3 +44,7 @@ Purpose: 21:34 MFM evening health audit. Refresh 17 third-party fixture pool wit
 Version: 15
 Requested sale date: 2026-10-29 Asia/Shanghai
 Purpose: 09:34 MFM morning health audit. The 2026-10-29 daily snapshot is not yet present; collect today's source-stamped third-party fixture pool, preserve prior dates and immutable snapshots, audit fixture ID/team identity, source quote ages and historical coverage, and separate official-SP HTTP 567 access failure. Do not backfill 2026-10-28 as today's sale date or generate model predictions.
+
+Version: 16
+Requested sale date: 2026-10-29 Asia/Shanghai
+Purpose: 21:25 evening MFM health audit; scheduled Caidao collector last completed at 16:23 and latest third-party snapshot is stale for the evening. Refresh all 7 sale-day fixtures, preserve immutable earlier pre-kickoff snapshots, classify 001 Shanghai Shenhua vs Machida as post-kickoff only, verify 005 Everton-Newcastle and 006 Fiorentina-Atalanta single-snapshot odds gaps, source timestamps, fixture identities and missing official SP. Check for newly added sale-day fixtures. Do not generate predictions or claim official JC completeness.
