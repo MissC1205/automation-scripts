@@ -135,10 +135,26 @@ def select_fixtures(sale_date,transport=fetch):
                 sources[str(pool)]={"status":"ERROR_OR_NO_LIST",
                     "provider_status":payload.get("status") if isinstance(payload,dict) else None}
                 continue
+            # When the provider returns rows but none for this sale date,
+            # preserve bounded aggregate date evidence for diagnosis. Never
+            # relabel an adjacent day's matches as today's JC fixtures.
+            id_date_counts={}
+            unrecognized_id_rows=0
+            for row in body:
+                ident=row.get("matchInfo") if isinstance(row,dict) else None
+                found=re.fullmatch(r"F(\\d{8})\\d{3,4}",ident) if isinstance(ident,str) else None
+                if found:
+                    day=found.group(1)
+                    id_date_counts[day]=id_date_counts.get(day,0)+1
+                else:
+                    unrecognized_id_rows+=1
             picked=[x for x in body if isinstance(x,dict)
                     and match_identity_valid(x.get("matchInfo"),sale_date)]
             sources[str(pool)]={"status":"SUCCESS","raw_rows":len(body),
-                                "date_rows":len(picked)}
+                                "date_rows":len(picked),
+                                "provider_id_date_counts":dict(sorted(
+                                    id_date_counts.items(),reverse=True)[:15]),
+                                "provider_id_unrecognized_rows":unrecognized_id_rows}
             for record in picked:
                 ident=record["matchInfo"]
                 # Conflicting provider records must not be merged or predicted.
