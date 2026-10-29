@@ -142,7 +142,7 @@ def select_fixtures(sale_date,transport=fetch):
             unrecognized_id_rows=0
             for row in body:
                 ident=row.get("matchInfo") if isinstance(row,dict) else None
-                found=re.fullmatch(r"F(\\d{8})\\d{3,4}",ident) if isinstance(ident,str) else None
+                found=re.fullmatch(r"F(\d{8})\d{3,4}",ident) if isinstance(ident,str) else None
                 if found:
                     day=found.group(1)
                     id_date_counts[day]=id_date_counts.get(day,0)+1
