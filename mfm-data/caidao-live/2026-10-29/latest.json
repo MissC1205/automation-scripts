@@ -1,0 +1,67 @@
+{
+  "format_version": "1.0",
+  "sale_date_bj": "2026-10-29",
+  "collection_started_at_bj": "2026-10-29T09:35:01.388018+08:00",
+  "source_provider": "Caidao 采道 public H5",
+  "source_type": "THIRD_PARTY_AGGREGATOR_NOT_OFFICIAL_JC",
+  "source_url": "http://zk.bjjckx.com",
+  "access_scope": "UNAUTHENTICATED_PUBLIC_READ_ONLY",
+  "sp_prices_are_officially_verified": false,
+  "provider_predictions_used_in_model": false,
+  "date_identity_mapping": "MATCH_ID_PREFIX_VALIDATED_MATCH_NAME_PROVIDER_REPORTED",
+  "fixture_identity_independently_verified": false,
+  "fixture_identity_conflicts": [],
+  "independent_model_status": "NOT_IMPLEMENTED_OR_NOT_CALIBRATED",
+  "final_prediction_status": "NOT_GENERATED_BY_COLLECTOR",
+  "fixture_sources": {
+    "0": {
+      "status": "SUCCESS",
+      "raw_rows": 0,
+      "date_rows": 0
+    },
+    "1": {
+      "status": "SUCCESS",
+      "raw_rows": 379,
+      "date_rows": 0
+    }
+  },
+  "matches": [],
+  "coverage": {
+    "fixture_ids": 0,
+    "matches_evaluated": 0,
+    "current_spf_prices": 0,
+    "current_handicap_prices": 0,
+    "reported_handicap_numbers": 0,
+    "detail_objects": 0,
+    "historical_spf_matches_verified": 0,
+    "historical_spf_rows": 0,
+    "historical_spf_single_snapshot_matches": 0,
+    "historical_spf_multi_snapshot_matches": 0,
+    "historical_spf_price_change_matches": 0,
+    "current_spf_matches_latest_history": 0,
+    "current_spf_divergence_or_lag": 0,
+    "source_sp_timestamp_missing": 0,
+    "source_sp_without_update_over_12h": 0,
+    "source_sp_without_update_over_24h": 0,
+    "captured_before_kickoff": 0,
+    "captured_after_kickoff": 0,
+    "prematch_verified_history_snapshots": 0,
+    "third_party_handicap_historical_rows": 0,
+    "verified_official_jc_sp_matches": 0
+  },
+  "quality_gate": "NO_DATA",
+  "fixture_pool_integrity": "COMPLETE",
+  "collection_finished_at_bj": "2026-10-29T09:35:03.267523+08:00",
+  "odds_trend_gate": "NO_MULTI_SNAPSHOT_TREND",
+  "betting_gate": "BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV",
+  "known_gaps": [
+    "Caidao third-party quotes have not been directly matched to official JC feed",
+    "Fixture team identities and kickoffs are not independently verified against primary schedules",
+    "No verified time-series for official integer-handicap H-HAD odds",
+    "A single SPF quote does not prove historical odds movement; check odds_trend_gate and price-change coverage",
+    "Provider form/lineups/injuries not individually verified against original team/league sources",
+    "No calibrated evidence-only 1X2/draw/score/handicap model run",
+    "Provider probabilities and prose excluded to preserve independent model firewall",
+    "GitHub schedule timestamps and provider update timestamps are not guaranteed simultaneous"
+  ]
+}
