@@ -151,6 +151,28 @@ class CaidaoServiceTests(unittest.TestCase):
         self.assertEqual(report["betting_gate"],
                          "BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV")
 
+    def test_empty_sale_day_reports_provider_id_dates_without_backfill(self):
+        def other_day_source(path,params,method="GET"):
+            if path.endswith("footballQuery"):
+                if params["type"]==0:
+                    return {"status":200,"body":[]}
+                return {"status":200,"body":[
+                    {"matchInfo":"F20261028001","matchNum":"周三001"},
+                    {"matchInfo":"F20261028002","matchNum":"周三002"},
+                    {"matchInfo":"F20261030001","matchNum":"周五001"},
+                    {"matchInfo":"unexpected-id"}]}
+            raise AssertionError("Unexpected call")
+        report=mod.collect("2026-10-29",now=FIXED,
+                           transport=other_day_source,pause=lambda x:None)
+        self.assertEqual(report["quality_gate"],"NO_DATA")
+        self.assertEqual(report["coverage"]["fixture_ids"],0)
+        pool=report["fixture_sources"]["1"]
+        self.assertEqual(pool["raw_rows"],4)
+        self.assertEqual(pool["date_rows"],0)
+        self.assertEqual(pool["provider_id_date_counts"],
+                         {"20261030":1,"20261028":2})
+        self.assertEqual(pool["provider_id_unrecognized_rows"],1)
+
     def test_missing_data_marks_partial(self):
         def no_detail(path,params,method="GET"):
             if path.endswith("getMatchAllData"):
