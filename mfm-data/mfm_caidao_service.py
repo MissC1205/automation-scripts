@@ -317,9 +317,15 @@ def collect(sale_date,now=None,transport=fetch,pause=time.sleep):
     # Both source pools are necessary to recover the full sale-day slate:
     # type=0 has upcoming games and type=1 has already-started/finished games.
     # Never report full research coverage when one pool silently failed.
-    report["fixture_pool_integrity"]="COMPLETE" if all(
-        sources.get(str(pool),{}).get("status")=="SUCCESS" for pool in (0,1)
-    ) and not report["fixture_identity_conflicts"] else "PARTIAL_SOURCE_POOL"
+    # A successful HTTP response with zero sale-day matches is not evidence of a
+    # complete fixture slate. Keep the empty-pool state explicit for monitoring.
+    report["fixture_pool_integrity"]=(
+        "EMPTY_SALE_DATE" if not fixtures and not report["fixture_identity_conflicts"] and all(
+            sources.get(str(pool),{}).get("status")=="SUCCESS" for pool in (0,1))
+        else "COMPLETE" if all(
+            sources.get(str(pool),{}).get("status")=="SUCCESS" for pool in (0,1)
+        ) and not report["fixture_identity_conflicts"] else "PARTIAL_SOURCE_POOL"
+    )
     for fid,fixture in fixtures.items():
         record=evaluate_match(fixture,sale_date,now,transport)
         report["matches"].append(record)
