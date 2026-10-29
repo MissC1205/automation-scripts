@@ -1,0 +1,61 @@
+{
+  "sale_date_bj": "2026-10-29",
+  "audit_scope": "Independent primary-source schedule cross-check for three of seven Caidao third-party fixtures. Does not verify official Chinese JC sale-list membership or odds.",
+  "collected_after_latest_snapshot_bj": "2026-10-29T21:26:52+08:00",
+  "fixtures": [
+    {
+      "jc_number": "周四004",
+      "caidao_home": "哈马比",
+      "caidao_away": "天狼星",
+      "caidao_kickoff_bj": "2026-10-30T01:30:00+08:00",
+      "primary_source": "Swedish Football Association (svenskfotboll.se)",
+      "source_url": "https://www.svenskfotboll.se/serier-cuper/elitfotboll",
+      "primary_source_home": "Hammarby",
+      "primary_source_away": "IK Sirius FK",
+      "primary_source_kickoff_local": "2026-10-29 18:30 Europe/Stockholm",
+      "converted_kickoff_bj": "2026-10-30T01:30:00+08:00",
+      "identity_status": "PRIMARY_SOURCE_TEAMS_DATE_TIME_MATCH",
+      "independent_jc_sale_list_verified": false
+    },
+    {
+      "jc_number": "周四005",
+      "caidao_home": "埃弗顿",
+      "caidao_away": "纽卡斯尔",
+      "caidao_kickoff_bj": "2026-10-30T03:45:00+08:00",
+      "primary_source": "Everton FC and Newcastle United FC official fixture notices",
+      "source_url": "https://www.evertonfc.com/news/2026/september/24/everton-v-newcastle-carabao-cup-ticket-news",
+      "second_primary_url": "https://www.newcastleunited.com/en/news/date-confirmed-for-carabao-cup-fourth-round-tie",
+      "primary_source_home": "Everton",
+      "primary_source_away": "Newcastle United",
+      "primary_source_kickoff_local": "2026-10-29 19:45 GMT",
+      "converted_kickoff_bj": "2026-10-30T03:45:00+08:00",
+      "identity_status": "PRIMARY_SOURCE_TEAMS_DATE_TIME_MATCH",
+      "independent_jc_sale_list_verified": false
+    },
+    {
+      "jc_number": "周四006",
+      "caidao_home": "佛罗伦萨",
+      "caidao_away": "亚特兰大",
+      "caidao_kickoff_bj": "2026-10-30T03:45:00+08:00",
+      "primary_source": "Lega Serie A official pre-match notice",
+      "source_url": "https://www.legaseriea.it/serie-a/news/fiorentina-atalanta-chiude-il-turno-infrasettimanale",
+      "primary_source_home": "Fiorentina",
+      "primary_source_away": "Atalanta",
+      "primary_source_kickoff_local": null,
+      "secondary_time_source": "https://www.fotmob.com/it/matches/atalanta-vs-fiorentina/2en1cd",
+      "identity_status": "PRIMARY_SOURCE_TEAMS_DATE_MATCH_TIME_SECONDARY_ONLY",
+      "independent_jc_sale_list_verified": false
+    }
+  ],
+  "summary": {
+    "primary_source_team_date_time_matches": 2,
+    "primary_source_team_date_matches_with_secondary_time": 1,
+    "other_fixtures_not_independently_verified": 4,
+    "official_jc_sale_list_verified_matches": 0,
+    "official_jc_sp_verified_matches": 0
+  },
+  "warnings": [
+    "Do not change Caidao summary fixture_identity_independently_verified to true: it is a slate-wide flag and four matches remain unchecked.",
+    "No predictions, betting odds, official JC prices, or final score claims are inferred from this audit."
+  ]
+}
