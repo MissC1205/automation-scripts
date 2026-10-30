@@ -16,9 +16,11 @@ on:
       - 'mfm-data/caidao-control/refresh.txt'
       - '.github/workflows/mfm-caidao-service.yml'
   schedule:
-    # Hourly during Beijing 10:05-23:05; GitHub schedule can be delayed.
-    # UTC 02:05-15:05. Incremental snapshots are preserved by the collector.
-    - cron: '5 2-15 * * *'
+    # Hourly target during Beijing 10:17-23:17 (UTC 02:17-15:17).
+    # Use an off-peak minute to reduce GitHub scheduled-run contention;
+    # GitHub can still delay or drop runs, so audit actual run timestamps.
+    # Incremental snapshots are preserved by the collector.
+    - cron: '17 2-15 * * *'
 permissions:
   contents: write
 concurrency:
