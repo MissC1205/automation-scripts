@@ -1,7 +1,7 @@
 {
   "date": "2026-10-30",
-  "collected_at_bj": "2026-10-30T00:02:16.274435+08:00",
-  "last_snapshot_path": "mfm-data/caidao-live/2026-10-30/20261030T000216274733+0800.json",
+  "collected_at_bj": "2026-10-30T09:29:45.410407+08:00",
+  "last_snapshot_path": "mfm-data/caidao-live/2026-10-30/20261030T092945410677+0800.json",
   "quality_gate": "RESEARCH_DATA_AVAILABLE",
   "odds_trend_gate": "PARTIAL_MULTI_SNAPSHOT_COVERAGE",
   "fixture_pool_integrity": "COMPLETE",
@@ -10,20 +10,20 @@
   "fixture_sources": {
     "0": {
       "status": "SUCCESS",
-      "raw_rows": 18,
+      "raw_rows": 13,
       "date_rows": 12,
       "provider_id_date_counts": {
         "20261030": 12,
-        "20261029": 6
+        "20261029": 1
       },
       "provider_id_unrecognized_rows": 0
     },
     "1": {
       "status": "SUCCESS",
-      "raw_rows": 365,
+      "raw_rows": 370,
       "date_rows": 0,
       "provider_id_date_counts": {
-        "20261029": 1,
+        "20261029": 6,
         "20261028": 17,
         "20261027": 10,
         "20261026": 4,
@@ -58,7 +58,7 @@
     "current_spf_matches_latest_history": 12,
     "current_spf_divergence_or_lag": 0,
     "source_sp_timestamp_missing": 0,
-    "source_sp_without_update_over_12h": 0,
+    "source_sp_without_update_over_12h": 12,
     "source_sp_without_update_over_24h": 0,
     "captured_before_kickoff": 12,
     "captured_after_kickoff": 0,
@@ -88,7 +88,7 @@
       "spf_history_rows": 1,
       "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
       "last_source_sp_updated_at_bj": "2026-10-29T13:36:58+08:00",
-      "source_sp_update_age_hours": 10.42,
+      "source_sp_update_age_hours": 19.87,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -113,7 +113,7 @@
       "spf_history_rows": 1,
       "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
       "last_source_sp_updated_at_bj": "2026-10-29T13:36:58+08:00",
-      "source_sp_update_age_hours": 10.42,
+      "source_sp_update_age_hours": 19.87,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -138,7 +138,7 @@
       "spf_history_rows": 1,
       "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
       "last_source_sp_updated_at_bj": "2026-10-29T13:36:58+08:00",
-      "source_sp_update_age_hours": 10.42,
+      "source_sp_update_age_hours": 19.88,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -163,7 +163,7 @@
       "spf_history_rows": 2,
       "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
       "last_source_sp_updated_at_bj": "2026-10-29T19:36:24+08:00",
-      "source_sp_update_age_hours": 4.43,
+      "source_sp_update_age_hours": 13.89,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -188,7 +188,7 @@
       "spf_history_rows": 1,
       "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
       "last_source_sp_updated_at_bj": "2026-10-29T13:36:58+08:00",
-      "source_sp_update_age_hours": 10.42,
+      "source_sp_update_age_hours": 19.88,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -213,7 +213,7 @@
       "spf_history_rows": 1,
       "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
       "last_source_sp_updated_at_bj": "2026-10-29T13:36:58+08:00",
-      "source_sp_update_age_hours": 10.42,
+      "source_sp_update_age_hours": 19.88,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -238,7 +238,7 @@
       "spf_history_rows": 1,
       "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
       "last_source_sp_updated_at_bj": "2026-10-29T13:36:58+08:00",
-      "source_sp_update_age_hours": 10.42,
+      "source_sp_update_age_hours": 19.88,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -263,7 +263,7 @@
       "spf_history_rows": 1,
       "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
       "last_source_sp_updated_at_bj": "2026-10-29T13:36:58+08:00",
-      "source_sp_update_age_hours": 10.42,
+      "source_sp_update_age_hours": 19.88,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -288,7 +288,7 @@
       "spf_history_rows": 2,
       "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
       "last_source_sp_updated_at_bj": "2026-10-29T19:31:45+08:00",
-      "source_sp_update_age_hours": 4.51,
+      "source_sp_update_age_hours": 13.96,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -313,7 +313,7 @@
       "spf_history_rows": 1,
       "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
       "last_source_sp_updated_at_bj": "2026-10-29T13:36:58+08:00",
-      "source_sp_update_age_hours": 10.42,
+      "source_sp_update_age_hours": 19.88,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -338,7 +338,7 @@
       "spf_history_rows": 1,
       "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
       "last_source_sp_updated_at_bj": "2026-10-29T13:36:58+08:00",
-      "source_sp_update_age_hours": 10.42,
+      "source_sp_update_age_hours": 19.88,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -363,7 +363,7 @@
       "spf_history_rows": 1,
       "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
       "last_source_sp_updated_at_bj": "2026-10-29T13:36:58+08:00",
-      "source_sp_update_age_hours": 10.42,
+      "source_sp_update_age_hours": 19.88,
       "prematch_snapshot_verified": true,
       "detail_available": true
     }

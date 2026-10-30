@@ -1,7 +1,7 @@
 {
   "format_version": "1.0",
   "sale_date_bj": "2026-10-30",
-  "collection_started_at_bj": "2026-10-30T00:01:52.781470+08:00",
+  "collection_started_at_bj": "2026-10-30T09:29:23.776333+08:00",
   "source_provider": "Caidao 采道 public H5",
   "source_type": "THIRD_PARTY_AGGREGATOR_NOT_OFFICIAL_JC",
   "source_url": "http://zk.bjjckx.com",
@@ -16,20 +16,20 @@
   "fixture_sources": {
     "0": {
       "status": "SUCCESS",
-      "raw_rows": 18,
+      "raw_rows": 13,
       "date_rows": 12,
       "provider_id_date_counts": {
         "20261030": 12,
-        "20261029": 6
+        "20261029": 1
       },
       "provider_id_unrecognized_rows": 0
     },
     "1": {
       "status": "SUCCESS",
-      "raw_rows": 365,
+      "raw_rows": 370,
       "date_rows": 0,
       "provider_id_date_counts": {
-        "20261029": 1,
+        "20261029": 6,
         "20261028": 17,
         "20261027": 10,
         "20261026": 4,
@@ -56,7 +56,7 @@
       "away": "奥克兰FC",
       "competition": "澳超",
       "kickoff_bj": "2026-10-30T17:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-30T00:01:55.448401+08:00",
+      "snapshot_captured_at_bj": "2026-10-30T09:29:26.088519+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
@@ -92,7 +92,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-30T00:01:56.402311+08:00",
+        "retrieved_at_bj": "2026-10-30T09:29:26.905549+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 2,
@@ -274,7 +274,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-29 23:10:12",
+        "provider_update_time_raw": "2026-10-30 09:09:38",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 5,
         "injury_data_presence_only_not_absence_verification": true,
@@ -319,7 +319,7 @@
         "history_spf_quote_count": 1,
         "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
         "history_as_of": "2026-10-29T13:36:58+08:00",
-        "source_sp_update_age_hours": 10.42,
+        "source_sp_update_age_hours": 19.87,
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -400,7 +400,7 @@
       "away": "波鸿",
       "competition": "德乙",
       "kickoff_bj": "2026-10-31T01:30:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-30T00:01:57.358676+08:00",
+      "snapshot_captured_at_bj": "2026-10-30T09:29:27.819475+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
@@ -436,7 +436,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-30T00:01:58.331843+08:00",
+        "retrieved_at_bj": "2026-10-30T09:29:28.876519+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 2,
@@ -618,7 +618,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-29 23:10:13",
+        "provider_update_time_raw": "2026-10-30 09:09:40",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 8,
         "injury_data_presence_only_not_absence_verification": true,
@@ -663,7 +663,7 @@
         "history_spf_quote_count": 1,
         "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
         "history_as_of": "2026-10-29T13:36:58+08:00",
-        "source_sp_update_age_hours": 10.42,
+        "source_sp_update_age_hours": 19.87,
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -744,7 +744,7 @@
       "away": "雷恩",
       "competition": "法甲",
       "kickoff_bj": "2026-10-31T02:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-30T00:01:59.324447+08:00",
+      "snapshot_captured_at_bj": "2026-10-30T09:29:29.779246+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
@@ -780,7 +780,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-30T00:02:00.057880+08:00",
+        "retrieved_at_bj": "2026-10-30T09:29:30.392367+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 1,
@@ -919,9 +919,18 @@
             }
           },
           "injurySuspensionStr": {
-            "present": false,
-            "type": "NoneType",
-            "parsed_type": "NoneType"
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "away",
+              "home"
+            ],
+            "injury_counts": {
+              "away": 5,
+              "home": 5
+            }
           },
           "matchTableStr": {
             "present": true,
@@ -953,10 +962,10 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-29 23:10:15",
+        "provider_update_time_raw": "2026-10-30 09:09:41",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 10,
-        "injury_data_presence_only_not_absence_verification": false,
+        "injury_data_presence_only_not_absence_verification": true,
         "independent_model_1x2_probability": null
       },
       "spf_history": {
@@ -998,7 +1007,7 @@
         "history_spf_quote_count": 1,
         "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
         "history_as_of": "2026-10-29T13:36:58+08:00",
-        "source_sp_update_age_hours": 10.42,
+        "source_sp_update_age_hours": 19.88,
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -1079,7 +1088,7 @@
       "away": "巴黎圣曼",
       "competition": "法甲",
       "kickoff_bj": "2026-10-31T02:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-30T00:02:00.817508+08:00",
+      "snapshot_captured_at_bj": "2026-10-30T09:29:31.299751+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
@@ -1115,7 +1124,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-30T00:02:01.783388+08:00",
+        "retrieved_at_bj": "2026-10-30T09:29:32.112980+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 1,
@@ -1297,7 +1306,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-29 23:10:16",
+        "provider_update_time_raw": "2026-10-30 09:09:42",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 8,
         "injury_data_presence_only_not_absence_verification": true,
@@ -1351,7 +1360,7 @@
         "history_spf_quote_count": 2,
         "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
         "history_as_of": "2026-10-29T19:36:24+08:00",
-        "source_sp_update_age_hours": 4.43,
+        "source_sp_update_age_hours": 13.89,
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -1432,7 +1441,7 @@
       "away": "维京",
       "competition": "挪超",
       "kickoff_bj": "2026-10-31T02:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-30T00:02:02.727974+08:00",
+      "snapshot_captured_at_bj": "2026-10-30T09:29:32.761242+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
@@ -1468,7 +1477,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-30T00:02:03.709668+08:00",
+        "retrieved_at_bj": "2026-10-30T09:29:33.706182+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 1,
@@ -1650,7 +1659,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-29 23:10:18",
+        "provider_update_time_raw": "2026-10-30 09:09:43",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 10,
         "injury_data_presence_only_not_absence_verification": true,
@@ -1695,7 +1704,7 @@
         "history_spf_quote_count": 1,
         "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
         "history_as_of": "2026-10-29T13:36:58+08:00",
-        "source_sp_update_age_hours": 10.42,
+        "source_sp_update_age_hours": 19.88,
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -1776,7 +1785,7 @@
       "away": "格拉夫",
       "competition": "荷乙",
       "kickoff_bj": "2026-10-31T03:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-30T00:02:04.700583+08:00",
+      "snapshot_captured_at_bj": "2026-10-30T09:29:34.597639+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
@@ -1812,7 +1821,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-30T00:02:05.425683+08:00",
+        "retrieved_at_bj": "2026-10-30T09:29:35.203603+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 1,
@@ -1994,7 +2003,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-29 23:10:19",
+        "provider_update_time_raw": "2026-10-30 09:09:44",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 10,
         "injury_data_presence_only_not_absence_verification": true,
@@ -2039,7 +2048,7 @@
         "history_spf_quote_count": 1,
         "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
         "history_as_of": "2026-10-29T13:36:58+08:00",
-        "source_sp_update_age_hours": 10.42,
+        "source_sp_update_age_hours": 19.88,
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -2120,7 +2129,7 @@
       "away": "美因茨",
       "competition": "德甲",
       "kickoff_bj": "2026-10-31T03:30:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-30T00:02:06.471062+08:00",
+      "snapshot_captured_at_bj": "2026-10-30T09:29:35.848166+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
@@ -2156,7 +2165,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-30T00:02:07.444711+08:00",
+        "retrieved_at_bj": "2026-10-30T09:29:36.644005+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 1,
@@ -2338,7 +2347,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-29 23:10:21",
+        "provider_update_time_raw": "2026-10-30 09:09:45",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 2,
         "injury_data_presence_only_not_absence_verification": true,
@@ -2383,7 +2392,7 @@
         "history_spf_quote_count": 1,
         "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
         "history_as_of": "2026-10-29T13:36:58+08:00",
-        "source_sp_update_age_hours": 10.42,
+        "source_sp_update_age_hours": 19.88,
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -2464,7 +2473,7 @@
       "away": "雷克斯",
       "competition": "英冠",
       "kickoff_bj": "2026-10-31T04:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-30T00:02:08.185819+08:00",
+      "snapshot_captured_at_bj": "2026-10-30T09:29:37.294291+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
@@ -2500,7 +2509,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-30T00:02:08.899982+08:00",
+        "retrieved_at_bj": "2026-10-30T09:29:38.103606+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 1,
@@ -2682,7 +2691,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-29 23:10:23",
+        "provider_update_time_raw": "2026-10-30 09:09:46",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 5,
         "injury_data_presence_only_not_absence_verification": true,
@@ -2727,7 +2736,7 @@
         "history_spf_quote_count": 1,
         "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
         "history_as_of": "2026-10-29T13:36:58+08:00",
-        "source_sp_update_age_hours": 10.42,
+        "source_sp_update_age_hours": 19.88,
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -2808,7 +2817,7 @@
       "away": "西班牙人",
       "competition": "西甲",
       "kickoff_bj": "2026-10-31T04:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-30T00:02:09.907944+08:00",
+      "snapshot_captured_at_bj": "2026-10-30T09:29:38.744361+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
@@ -2844,7 +2853,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-30T00:02:10.628123+08:00",
+        "retrieved_at_bj": "2026-10-30T09:29:39.335520+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 2,
@@ -3026,7 +3035,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-29 23:10:24",
+        "provider_update_time_raw": "2026-10-30 09:09:47",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 10,
         "injury_data_presence_only_not_absence_verification": true,
@@ -3080,7 +3089,7 @@
         "history_spf_quote_count": 2,
         "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
         "history_as_of": "2026-10-29T19:31:45+08:00",
-        "source_sp_update_age_hours": 4.51,
+        "source_sp_update_age_hours": 13.96,
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -3161,7 +3170,7 @@
       "away": "朗斯",
       "competition": "法甲",
       "kickoff_bj": "2026-10-31T04:05:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-30T00:02:11.357864+08:00",
+      "snapshot_captured_at_bj": "2026-10-30T09:29:39.992563+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
@@ -3197,7 +3206,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-30T00:02:12.325000+08:00",
+        "retrieved_at_bj": "2026-10-30T09:29:40.825728+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 3,
@@ -3379,7 +3388,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-29 23:10:26",
+        "provider_update_time_raw": "2026-10-30 09:09:48",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 10,
         "injury_data_presence_only_not_absence_verification": true,
@@ -3424,7 +3433,7 @@
         "history_spf_quote_count": 1,
         "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
         "history_as_of": "2026-10-29T13:36:58+08:00",
-        "source_sp_update_age_hours": 10.42,
+        "source_sp_update_age_hours": 19.88,
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -3505,7 +3514,7 @@
       "away": "里斯本",
       "competition": "葡超",
       "kickoff_bj": "2026-10-31T04:15:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-30T00:02:13.054976+08:00",
+      "snapshot_captured_at_bj": "2026-10-30T09:29:41.902572+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
@@ -3541,7 +3550,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-30T00:02:14.072051+08:00",
+        "retrieved_at_bj": "2026-10-30T09:29:43.010252+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 0,
@@ -3723,7 +3732,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-29 23:10:28",
+        "provider_update_time_raw": "2026-10-30 09:09:49",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 9,
         "injury_data_presence_only_not_absence_verification": true,
@@ -3768,7 +3777,7 @@
         "history_spf_quote_count": 1,
         "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
         "history_as_of": "2026-10-29T13:36:58+08:00",
-        "source_sp_update_age_hours": 10.42,
+        "source_sp_update_age_hours": 19.88,
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -3849,7 +3858,7 @@
       "away": "米拉索尔",
       "competition": "巴甲",
       "kickoff_bj": "2026-10-31T07:00:00+08:00",
-      "snapshot_captured_at_bj": "2026-10-30T00:02:14.823372+08:00",
+      "snapshot_captured_at_bj": "2026-10-30T09:29:43.669817+08:00",
       "collection_phase": "PRE_KICKOFF",
       "source_market": {
         "raw": {
@@ -3885,7 +3894,7 @@
       },
       "detail": {
         "business_status": 200,
-        "retrieved_at_bj": "2026-10-30T00:02:15.544871+08:00",
+        "retrieved_at_bj": "2026-10-30T09:29:44.741484+08:00",
         "raw_football_fields": {
           "last": {
             "awayDrawMatchCnt": 1,
@@ -4063,7 +4072,7 @@
           }
         },
         "status": "SOURCE_DETAIL_AVAILABLE",
-        "provider_update_time_raw": "2026-10-29 23:10:29",
+        "provider_update_time_raw": "2026-10-30 09:09:50",
         "raw_features_are_provider_reported_not_independently_verified": true,
         "h2h_record_count": 10,
         "injury_data_presence_only_not_absence_verification": true,
@@ -4108,7 +4117,7 @@
         "history_spf_quote_count": 1,
         "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
         "history_as_of": "2026-10-29T13:36:58+08:00",
-        "source_sp_update_age_hours": 10.42,
+        "source_sp_update_age_hours": 19.88,
         "true_prematch_snapshot": true,
         "current_sp_vs_latest_history": "MATCH",
         "market_officially_verified": false,
@@ -4198,7 +4207,7 @@
     "current_spf_matches_latest_history": 12,
     "current_spf_divergence_or_lag": 0,
     "source_sp_timestamp_missing": 0,
-    "source_sp_without_update_over_12h": 0,
+    "source_sp_without_update_over_12h": 12,
     "source_sp_without_update_over_24h": 0,
     "captured_before_kickoff": 12,
     "captured_after_kickoff": 0,
@@ -4208,7 +4217,7 @@
   },
   "quality_gate": "RESEARCH_DATA_AVAILABLE",
   "fixture_pool_integrity": "COMPLETE",
-  "collection_finished_at_bj": "2026-10-30T00:02:16.274435+08:00",
+  "collection_finished_at_bj": "2026-10-30T09:29:45.410407+08:00",
   "odds_trend_gate": "PARTIAL_MULTI_SNAPSHOT_COVERAGE",
   "betting_gate": "BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV",
   "known_gaps": [
