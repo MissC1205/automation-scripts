@@ -56,3 +56,7 @@ Purpose: 09:28 MFM health audit on current 12-match third-party slate. Refresh p
 Version: 18
 Requested sale date: 2026-10-30 Asia/Shanghai
 Purpose: 15:35 MFM afternoon health audit; no automatic collector snapshot since 09:29 despite hourly cron. Refresh all 12 sale-day fixtures before 17:00 first kickoff, preserve source quote timestamps, check 10 single-snapshot histories, source 0/1 date mismatch, official SP HTTP 567, fixture identity and 12h stale quotes. Keep betting gate BLOCKED; no model predictions. Preserve immutable snapshots and classify any post-kickoff data.
+
+Version: 19
+Requested sale date: 2026-10-30 Asia/Shanghai
+Purpose: 21:34 MFM evening health audit. Scheduled hourly collector has no archived refresh after 16:31; request new source-stamped 12-fixture sale-day collection, classify 001 Brisbane-Auckland as post-kickoff only, check 002 Cottbus-Bochum 26h+ stale single quote and 004 Le Havre-PSG 20h+ stale quote, identity conflicts and date pool coverage. Preserve previous immutable snapshots, separate official JC SP failures and independent model gate, no predictions or fabricated data.
