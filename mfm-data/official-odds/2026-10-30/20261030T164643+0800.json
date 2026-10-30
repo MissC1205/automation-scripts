@@ -1,0 +1,19 @@
+{
+  "collected_at": "2026-10-30T16:46:43.441955+08:00",
+  "source": "sporttery.cn",
+  "source_url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=had%2Chhad%2Ccrs%2Cttg%2Chafu",
+  "official_sale_list_verified": false,
+  "status": "SOURCE_FAILURE",
+  "matches": [],
+  "sources": {
+    "calculator": {
+      "url": "https://webapi.sporttery.cn/gateway/uniform/football/getMatchCalculatorV1.qry?channel=c&poolCode=had%2Chhad%2Ccrs%2Cttg%2Chafu",
+      "error_type": "URLError",
+      "error": "<urlopen error timed out>"
+    }
+  },
+  "history": {
+    "status": "NOT_PROBED",
+    "reason": "Requires validated event-specific query schema; no naked history requests"
+  }
+}
