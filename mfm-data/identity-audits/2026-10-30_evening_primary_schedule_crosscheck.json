@@ -1,0 +1,125 @@
+{
+  "sale_date_bj": "2026-10-30",
+  "checked_at_bj": "2026-10-30T21:39:00+08:00",
+  "source_snapshot": "mfm-data/caidao-live/2026-10-30/summary.json",
+  "prior_primary_audit": "mfm-data/identity-audits/2026-10-30_afternoon_primary_schedule_crosscheck.json",
+  "purpose": "Independent primary club/league/competition schedule check for the ten sale-day fixtures not checked in afternoon audit; this does NOT verify the Chinese JC official sale list or official SP.",
+  "newly_verified_count": 10,
+  "prior_verified_count": 2,
+  "combined_verified_fixture_count": 12,
+  "third_party_sale_day_fixture_count": 12,
+  "official_jc_sale_list_verified": false,
+  "official_jc_sp_verified_count": 0,
+  "odds_or_market_validation_from_primary_sources": false,
+  "independent_primary_fixture_conflicts": [],
+  "matches": [
+    {
+      "jc_number": "周五003",
+      "provider_home": "尼斯",
+      "provider_away": "雷恩",
+      "provider_kickoff_bj": "2026-10-31T02:00:00+08:00",
+      "primary_source": "OGC Nice official club, 26 Oct rescheduling notice",
+      "primary_url": "https://www.ogcnice.com/fr/article/131046/nice-rennes-avance-a-vendredi-19h.html",
+      "primary_description": "Nice v Rennes moved from Sat 31 Oct 17:15 CET to Fri 30 Oct 19:00 CET = 31 Oct 02:00 Beijing",
+      "result": "HOME_AWAY_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number": "周五004",
+      "provider_home": "勒阿弗尔",
+      "provider_away": "巴黎圣曼",
+      "provider_kickoff_bj": "2026-10-31T02:00:00+08:00",
+      "primary_source": "Paris Saint-Germain official fixtures",
+      "primary_url": "https://www.psg.fr/en/mens-football/fixtures",
+      "primary_description": "Le Havre AC v Paris Saint-Germain, Fri 30 Oct 19:00 CET = 31 Oct 02:00 Beijing",
+      "result": "HOME_AWAY_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number": "周五005",
+      "provider_home": "博德闪耀",
+      "provider_away": "维京",
+      "provider_kickoff_bj": "2026-10-31T02:00:00+08:00",
+      "primary_source": "Bodø/Glimt official pre-match article",
+      "primary_url": "https://www.glimt.no/nyheter/toppkamp-pa-aspmyra-vi-ma-vaere-bedre-enn-viking",
+      "primary_description": "Bodø/Glimt v Viking, Fri 30 Oct 19:00 CET = 31 Oct 02:00 Beijing",
+      "result": "HOME_AWAY_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number": "周五006",
+      "provider_home": "福伦丹",
+      "provider_away": "格拉夫",
+      "provider_kickoff_bj": "2026-10-31T03:00:00+08:00",
+      "primary_source": "FC Volendam official preview",
+      "primary_url": "https://fcvolendam.nl/wedstrijdnieuws/jurjus-en-niemeijer-treffen-oude-club-in-kras-stadion/",
+      "primary_description": "FC Volendam v De Graafschap, Fri 30 Oct 20:00 CET = 31 Oct 03:00 Beijing",
+      "result": "HOME_AWAY_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number": "周五007",
+      "provider_home": "埃沃斯堡",
+      "provider_away": "美因茨",
+      "provider_kickoff_bj": "2026-10-31T03:30:00+08:00",
+      "primary_source": "1. FSV Mainz 05 official away fixture",
+      "primary_url": "https://www.mainz05.de/news/daten-und-fakten-zum-spiel-in-elversberg",
+      "primary_description": "SV Elversberg v Mainz 05, Fri 30 Oct 20:30 CET = 31 Oct 03:30 Beijing",
+      "result": "HOME_AWAY_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number": "周五008",
+      "provider_home": "谢菲联",
+      "provider_away": "雷克斯",
+      "provider_kickoff_bj": "2026-10-31T04:00:00+08:00",
+      "primary_source": "English Football League official match centre",
+      "primary_url": "https://www.efl.com/match-centre/g2647328",
+      "primary_description": "Sheffield United v Wrexham, Fri 30 Oct 20:00 GMT = 31 Oct 04:00 Beijing; source's separate live score panels not used",
+      "result": "HOME_AWAY_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number": "周五009",
+      "provider_home": "比利亚雷",
+      "provider_away": "西班牙人",
+      "provider_kickoff_bj": "2026-10-31T04:00:00+08:00",
+      "primary_source": "Villarreal CF official ticket listing",
+      "primary_url": "https://villarrealcf.es/en/venta-de-entradas/",
+      "primary_description": "Villarreal v Espanyol, Fri 30 Oct 21:00 CET = 31 Oct 04:00 Beijing",
+      "result": "HOME_AWAY_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number": "周五010",
+      "provider_home": "里尔",
+      "provider_away": "朗斯",
+      "provider_kickoff_bj": "2026-10-31T04:05:00+08:00",
+      "primary_source": "LOSC official match schedule",
+      "primary_url": "https://www.losc.fr/actualites/2026-09-02/la-date-du-derby-du-nord-connue",
+      "primary_description": "LOSC v RC Lens, Fri 30 Oct 21:05 CET = 31 Oct 04:05 Beijing",
+      "result": "HOME_AWAY_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number": "周五011",
+      "provider_home": "卡萨皮亚",
+      "provider_away": "里斯本",
+      "provider_kickoff_bj": "2026-10-31T04:15:00+08:00",
+      "primary_source": "Sporting CP official team calendar",
+      "primary_url": "https://www.sporting.pt/pt/futebol/equipa-principal/calendario",
+      "primary_description": "Casa Pia AC v Sporting CP, Fri 30 Oct 20:15 WET = 31 Oct 04:15 Beijing",
+      "result": "HOME_AWAY_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number": "周五012",
+      "provider_home": "科林蒂安",
+      "provider_away": "米拉索尔",
+      "provider_kickoff_bj": "2026-10-31T07:00:00+08:00",
+      "primary_source": "Brazilian Football Confederation official match record",
+      "primary_url": "https://www.cbf.com.br/futebol-brasileiro/jogos/campeonato-brasileiro/serie-a/2026/corinthians-x-mirassol/832214",
+      "primary_description": "Corinthians v Mirassol, Fri 30 Oct 20:00 BRT (UTC-3) = 31 Oct 07:00 Beijing",
+      "result": "HOME_AWAY_AND_KICKOFF_MATCH"
+    }
+  ],
+  "caveats": [
+    "12/12 applies ONLY to independent primary fixture pairing and kickoff schedule crosschecks; the JC match numbers and sale-day pool remain third-party reported.",
+    "The OGC Nice v Rennes match was moved from Oct 31 to Oct 30; older club articles and cached calendars still show the previous date. Use official 26 Oct rescheduling notice.",
+    "The 001 Brisbane v Auckland match was already underway when evening snapshot was captured; this audit does not establish pre-match eligibility.",
+    "002 Cottbus v Bochum had a single price snapshot earlier but evening history is updated; primary fixture verification is independent of price freshness.",
+    "004 Le Havre v PSG third-party price source remains older than 24 hours in the evening snapshot.",
+    "No official Chinese JC SP, handicap odds history, calibrated probabilities or EV were established by this audit."
+  ]
+}
