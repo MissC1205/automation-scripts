@@ -48,3 +48,7 @@ Purpose: 09:34 MFM morning health audit. The 2026-10-29 daily snapshot is not ye
 Version: 16
 Requested sale date: 2026-10-29 Asia/Shanghai
 Purpose: 21:25 evening MFM health audit; scheduled Caidao collector last completed at 16:23 and latest third-party snapshot is stale for the evening. Refresh all 7 sale-day fixtures, preserve immutable earlier pre-kickoff snapshots, classify 001 Shanghai Shenhua vs Machida as post-kickoff only, verify 005 Everton-Newcastle and 006 Fiorentina-Atalanta single-snapshot odds gaps, source timestamps, fixture identities and missing official SP. Check for newly added sale-day fixtures. Do not generate predictions or claim official JC completeness.
+
+Version: 17
+Requested sale date: 2026-10-30 Asia/Shanghai
+Purpose: 09:28 MFM health audit on current 12-match third-party slate. Refresh pre-kickoff source-stamped fixtures and odds; diagnose 10/12 single-snapshot price histories and quote ages, team identities, source 0 vs source 1 date coverage, official SP HTTP 567 and zero handicap history. Preserve immutable snapshots and keep official-SP/independent-probability betting gate BLOCKED. No predictions or post-kickoff backfill.
