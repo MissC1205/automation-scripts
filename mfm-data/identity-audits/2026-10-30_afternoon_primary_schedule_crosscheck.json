@@ -1,0 +1,37 @@
+{
+  "sale_date_bj": "2026-10-30",
+  "checked_at_bj": "2026-10-30T15:38:00+08:00",
+  "snapshot": "mfm-data/caidao-live/2026-10-30/20261030T153709810808+0800.json",
+  "purpose": "Independent primary-source team and kickoff crosscheck for two of twelve third-party fixtures; not official JC sale-list validation.",
+  "verified_count": 2,
+  "total_third_party_fixtures": 12,
+  "official_jc_sale_list_verified": false,
+  "remaining_without_independent_primary_verification": 10,
+  "matches": [
+    {
+      "jc_number": "周五001",
+      "provider_home": "布里斯班",
+      "provider_away": "奥克兰FC",
+      "provider_kickoff_bj": "2026-10-30T17:00:00+08:00",
+      "primary_source": "A-Leagues (official competition)",
+      "primary_url": "https://aleagues.com.au/news/a-league-men-preview-what-you-need-to-know-for-matchweek-3/",
+      "primary_description": "Brisbane Roar v Auckland FC; Friday 30 Oct, 8pm AEDT = 17:00 Beijing.",
+      "result": "HOME_AWAY_AND_KICKOFF_MATCH"
+    },
+    {
+      "jc_number": "周五002",
+      "provider_home": "科特布斯",
+      "provider_away": "波鸿",
+      "provider_kickoff_bj": "2026-10-31T01:30:00+08:00",
+      "primary_source": "Bundesliga official 2. Bundesliga club schedule",
+      "primary_url": "https://www.bundesliga.com/en/2bundesliga/clubs/fc-energie-cottbus",
+      "primary_description": "FC Energie Cottbus vs VfL Bochum, Friday 30 Oct, 17:30 UTC = Saturday 31 Oct 01:30 Beijing.",
+      "result": "HOME_AWAY_AND_KICKOFF_MATCH"
+    }
+  ],
+  "caveats": [
+    "Primary competition schedule validation is distinct from Chinese JC official fixture/SP verification.",
+    "Ten other fixtures not checked against independent primary sources.",
+    "Provider reported match ID and number remain third-party fields."
+  ]
+}
