@@ -68,3 +68,7 @@ Purpose: 09:27 MFM morning audit. Refresh 26 third-party sale-day fixtures befor
 Version: 21
 Requested sale date: 2026-10-31 Asia/Shanghai
 Purpose: 15:25 MFM afternoon audit. No new collector archive since 09:28 despite hourly schedule. Refresh 26 third-party fixtures with source-stamped odds, explicitly classify 001/002 as post-kickoff and 003 15:00 as already underway, preserve immutable pre-kickoff archives. Recheck 027 Barcelona-Alaves missing SPF, 16 single-snapshot histories, 25 stale quotes over 12h, source 0/1 sale-date mismatch, 007/019 numbering gaps, and independent team/kickoff identity. Do not backfill post-kickoff as prematch, do not fabricate official SP or model forecasts.
+
+Version: 22
+Requested sale date: 2026-10-31 Asia/Shanghai
+Purpose: 21:26 MFM evening audit. Last verified collector archive was 16:27 despite hourly schedule; request fresh source-stamped 28-fixture pool, reclassify all already-started matches as POST_KICKOFF, preserve immutable earlier pre-kickoff records. Recheck 027 Barcelona-Alaves missing ordinary SPF, 3 single-snapshot histories, 4 source quotes stale over 24h, source 0/1 sale-day count split (26+2), third-party handicap history 0, official SP HTTP 567, and independent fixture identity. Do not generate forecasts or claim official JC completeness.
