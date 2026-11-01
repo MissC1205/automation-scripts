@@ -77,3 +77,8 @@ Version: 23
 Requested sale date: 2026-11-01 Asia/Shanghai
 Requested at: 2026-11-01 15:33 Asia/Shanghai
 Purpose: MFM afternoon audit; latest collector archive remains 09:36 despite hourly schedule. Refresh current 25-fixture source pool, classify 001/002 and 003 (15:00 kickoff) as post-kickoff and 004 (15:30 kickoff) as already underway. Preserve prior immutable pre-kickoff records. Check 23 single-snapshot histories, 15 source quotes stale over 24h, source 0/1 date mismatch, independent fixture identity and official-SP HTTP 567 restriction. No forecasts; keep betting gate blocked without independently verified SP, probabilities and EV.
+
+Version: 24
+Requested sale date: 2026-11-01 Asia/Shanghai
+Requested at: 2026-11-01 21:27 Asia/Shanghai
+Purpose: MFM evening health audit. The last archived collector snapshot was 17:14 despite hourly cron; request fresh source-stamped 25-fixture sale-day data, preserve all immutable prior snapshots and classify already-started fixtures as POST_KICKOFF. Recheck stale single-snapshot 006/014/025, independent team identity and sale-day fixture mapping, source quote ages, and official SP HTTP 567 access denial. Keep betting gate blocked without verified official SP, independent probabilities and EV; no forecasts.
