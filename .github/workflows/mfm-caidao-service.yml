@@ -21,6 +21,9 @@ on:
     # GitHub can still delay or drop runs, so audit actual run timestamps.
     # Incremental snapshots are preserved by the collector.
     - cron: '17 1-15 * * *'
+    # Redundant :47 schedule mitigates GitHub dropping individual :17 runs.
+    # Both runs preserve source timestamps; collector concurrency serializes them.
+    - cron: '47 1-15 * * *'
 permissions:
   contents: write
 concurrency:
