@@ -1,0 +1,67 @@
+{
+  "audit_date_bj": "2026-11-02",
+  "audit_time_bj": "2026-11-02T09:28:00+08:00",
+  "scope": "Independent fixture identity and kickoff verification only; not independent JC sale-number or official SP verification.",
+  "source_snapshot": "mfm-data/caidao-live/2026-11-02/summary.json",
+  "verified": [
+    {
+      "match_id": "F20261102001",
+      "jc_number_provider_reported": "周一001",
+      "provider_home": "国际图尔",
+      "provider_away": "赫尔火花",
+      "canonical_home": "FC Inter Turku",
+      "canonical_away": "IF Gnistan",
+      "competition": "Veikkausliiga",
+      "kickoff_bj": "2026-11-03T00:00:00+08:00",
+      "local_kickoff": "2026-11-02 18:00 Europe/Helsinki (UTC+02:00)",
+      "sources": [
+        "https://fcinter.fi/ottelut/edustus",
+        "https://gnistan.fi/en/miehet/ottelut/",
+        "https://www.veikkausliiga.com/tilastot/2026/veikkausliiga/ottelut/4353557/seuranta/"
+      ],
+      "result": "MATCH_IDENTITY_AND_KICKOFF_MATCH",
+      "alias_note": "Provider Chinese abbreviations refer to FC Inter Turku and IF Gnistan; Gnistan is not HJK Helsinki."
+    },
+    {
+      "match_id": "F20261102006",
+      "jc_number_provider_reported": "周一006",
+      "provider_home": "纽卡斯尔",
+      "provider_away": "埃弗顿",
+      "canonical_home": "Newcastle United",
+      "canonical_away": "Everton",
+      "competition": "Premier League",
+      "kickoff_bj": "2026-11-03T04:00:00+08:00",
+      "local_kickoff": "2026-11-02 20:00 Europe/London (UTC+00:00)",
+      "sources": [
+        "https://www.newcastleunited.com/en/matches/mens-team/fixtures/premier-league",
+        "https://nufc-v3-web-prod.stadion.io/en/matches/mens-team/newcastle-united-v-everton-english-premier-league-20261102"
+      ],
+      "result": "MATCH_IDENTITY_AND_KICKOFF_MATCH"
+    },
+    {
+      "match_id": "F20261102008",
+      "jc_number_provider_reported": "周一008",
+      "provider_home": "本菲卡",
+      "provider_away": "阿尔维卡",
+      "canonical_home": "SL Benfica",
+      "canonical_away": "FC Alverca",
+      "competition": "Liga Portugal",
+      "kickoff_bj": "2026-11-03T04:15:00+08:00",
+      "local_kickoff": "2026-11-02 20:15 Europe/Lisbon (UTC+00:00)",
+      "sources": [
+        "https://www.ligaportugal.pt/match/20262027/ligaportugalbetclic/10/9"
+      ],
+      "result": "MATCH_IDENTITY_AND_KICKOFF_MATCH",
+      "market_gap": "Provider spfOdds is literal '||' and historical SPF is empty; cannot infer ordinary 1X2 odds from handicap prices."
+    }
+  ],
+  "not_verified": [
+    "official Chinese lottery sale numbers",
+    "official Chinese lottery SP",
+    "remaining 6 fixtures",
+    "full match feature data",
+    "independent model probabilities/EV"
+  ],
+  "fixture_pool_count_provider_reported": 9,
+  "verified_count": 3
+}
