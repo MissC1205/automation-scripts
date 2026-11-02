@@ -1,0 +1,69 @@
+{
+  "audit_date_bj": "2026-11-02",
+  "audit_time_bj": "2026-11-02T21:30:34+08:00",
+  "scope": "Independent fixture identity and kickoff crosscheck for remaining three third-party sale-day fixtures. Does not independently verify Chinese lottery numbering or official SP.",
+  "source_snapshot": "mfm-data/caidao-live/2026-11-02/summary.json",
+  "verified": [
+    {
+      "match_id": "F20261102003",
+      "provider_number": "周一003",
+      "provider_home": "盖斯",
+      "provider_away": "索尔纳",
+      "canonical_home": "GAIS",
+      "canonical_away": "AIK Fotboll",
+      "competition": "Allsvenskan",
+      "kickoff_bj": "2026-11-03T02:00:00+08:00",
+      "local_kickoff": "2026-11-02 19:00 Europe/Stockholm",
+      "sources": [
+        "https://www.gais.se/",
+        "https://aik.se/kalender/kategori/fotboll/dag/2026-11-02/"
+      ],
+      "result": "MATCH_IDENTITY_AND_KICKOFF_MATCH"
+    },
+    {
+      "match_id": "F20261102005",
+      "provider_number": "周一005",
+      "provider_home": "圣旺红星",
+      "provider_away": "南锡",
+      "canonical_home": "Red Star FC",
+      "canonical_away": "AS Nancy Lorraine",
+      "competition": "Ligue 2",
+      "kickoff_bj": "2026-11-03T03:45:00+08:00",
+      "local_kickoff": "2026-11-02 20:45 Europe/Paris",
+      "sources": [
+        "https://www.asnl.net/58/actualites/actualites/fiche/30724",
+        "https://www.leprogres.fr/sport/equipe/football/national-ligue-2/red-star"
+      ],
+      "result": "MATCH_IDENTITY_AND_KICKOFF_MATCH"
+    },
+    {
+      "match_id": "F20261102009",
+      "provider_number": "周一009",
+      "provider_home": "布拉干RB",
+      "provider_away": "桑托斯",
+      "canonical_home": "Red Bull Bragantino",
+      "canonical_away": "Santos FC",
+      "competition": "Campeonato Brasileiro Serie A",
+      "kickoff_bj": "2026-11-03T07:00:00+08:00",
+      "local_kickoff": "2026-11-02 20:00 America/Sao_Paulo",
+      "sources": [
+        "https://www.uol.com.br/esporte/ultimas-noticias/2026/11/02/red-bull-bragantino-x-santos-horario-e-onde-assistir-ao-jogo-do-brasileirao.ghtm",
+        "https://placar.com.br/braganca-paulista-sao-paulo/futebol/brasileiro-serie-a-2026/jogo/11-2026/147485/rb-bragantino-santos/"
+      ],
+      "result": "MATCH_IDENTITY_AND_KICKOFF_MATCH",
+      "evidence_note": "Two dated independent Brazilian sports outlets; official league match page not independently confirmed."
+    }
+  ],
+  "verified_total_this_audit": 3,
+  "verified_total_combined_with_prior_audits": 9,
+  "remaining_unverified_provider_fixture_ids": [],
+  "not_verified": [
+    "Official Chinese lottery sale numbers",
+    "Official Chinese lottery SP",
+    "Provider pool completeness against official sale-day list",
+    "Official primary league source for fixture 009",
+    "008 Benfica-Alverca ordinary 1X2 market (upstream blank)",
+    "Independent model probabilities and EV"
+  ],
+  "notes": "All nine third-party fixture identities and kickoff times have independent crosschecks in three audit files; this does not imply all nine are official lottery-listed matches."
+}
