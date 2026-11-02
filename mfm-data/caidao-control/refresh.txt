@@ -87,3 +87,8 @@ Version: 25
 Requested sale date: 2026-11-02 Asia/Shanghai
 Requested at: 2026-11-02 09:26 Asia/Shanghai
 Purpose: morning MFM operational health audit. Last source-stamped collection at 02:36 Beijing despite dual hourly schedule. Refresh 9 source fixtures, check 008 Benfica-Alverca missing normal SPF, 7 stale >24h prices, 7 single-snapshot odds, provider pool 0 vs pool 1 sale-date mismatch, and ambiguous aliases 001 Inter Turku/Gnistan. Preserve immutable snapshots and pre-kickoff status, do not fabricate official SP, probabilities, EV or forecasts; keep betting gate blocked.
+
+Version: 26
+Requested sale date: 2026-11-02 Asia/Shanghai
+Requested at: 2026-11-02 15:32 Asia/Shanghai
+Purpose: afternoon MFM operational health audit. No collector run since 09:28 despite 17/47 dual-hour cron; request source-stamped refresh of 9 provider-reported sale-day fixtures. Recheck 008 Benfica-Alverca empty ordinary 1X2 odds, 7 source prices older than 24h, 7 single-snapshot histories, provider pool 1 zero sale-date rows, 6 unverified fixture identities, official SP access restriction and absence of handicap history. Preserve earlier immutable pre-kickoff snapshots and do not infer missing SP or generate predictions. This is a workflow push trigger, not evidence of restored scheduled delivery.
