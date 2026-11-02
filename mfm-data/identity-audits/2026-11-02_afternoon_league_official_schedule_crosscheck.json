@@ -1,0 +1,71 @@
+{
+  "audit_date_bj": "2026-11-02",
+  "audit_time_bj": "2026-11-02T15:33:00+08:00",
+  "scope": "Additional independent league-official fixture and kickoff checks; not official Chinese JC number/SP verification.",
+  "source_snapshot": "mfm-data/caidao-live/2026-11-02/summary.json",
+  "verified": [
+    {
+      "match_id": "F20261102002",
+      "jc_number_provider_reported": "周一002",
+      "provider_home": "萨索洛",
+      "provider_away": "佛罗伦萨",
+      "canonical_home": "US Sassuolo Calcio",
+      "canonical_away": "ACF Fiorentina",
+      "competition": "Serie A",
+      "kickoff_bj": "2026-11-03T01:30:00+08:00",
+      "evidence": "Lega Serie A pre-match article 2026-10-30 and dated Sky Sports Nov 2 fixtures confirm Sassuolo home to Fiorentina at 17:30 UTC.",
+      "sources": [
+        "https://en.legaseriea.it/serie-a/news/sassuolo-vs-fiorentina-battle-to-escape-drop-zone",
+        "https://www.skysports.com/serie-a-scores-fixtures"
+      ],
+      "result": "MATCH_IDENTITY_AND_KICKOFF_MATCH"
+    },
+    {
+      "match_id": "F20261102004",
+      "jc_number_provider_reported": "周一004",
+      "provider_home": "亚特兰大",
+      "provider_away": "帕尔马",
+      "canonical_home": "Atalanta BC",
+      "canonical_away": "Parma Calcio 1913",
+      "competition": "Serie A",
+      "kickoff_bj": "2026-11-03T03:45:00+08:00",
+      "evidence": "Lega Serie A pre-match article 2026-10-30 and dated Sky Sports Nov 2 fixtures confirm Atalanta home to Parma at 19:45 UTC.",
+      "sources": [
+        "https://en.legaseriea.it/serie-a/news/atalanta-parma-brings-serie-a-matchday-10-to-a-close",
+        "https://www.skysports.com/serie-a-scores-fixtures"
+      ],
+      "result": "MATCH_IDENTITY_AND_KICKOFF_MATCH"
+    },
+    {
+      "match_id": "F20261102007",
+      "jc_number_provider_reported": "周一007",
+      "provider_home": "拉科",
+      "provider_away": "奥萨苏纳",
+      "canonical_home": "RC Deportivo de La Coruña",
+      "canonical_away": "CA Osasuna",
+      "competition": "LaLiga",
+      "kickoff_bj": "2026-11-03T04:00:00+08:00",
+      "evidence": "Official LaLiga match page and Osasuna club schedule list 2026-11-02 21:00 Europe/Madrid (UTC+01), corresponding to 2026-11-03 04:00 Beijing.",
+      "sources": [
+        "https://www.laliga.com/en-ES/match/temporada-2026-2027-laliga-ea-sports-rc-deportivo-ca-osasuna-11",
+        "https://www.laliga.com/clubes/c-a-osasuna/proximos-partidos"
+      ],
+      "result": "MATCH_IDENTITY_AND_KICKOFF_MATCH",
+      "alias_note": "Provider short name 拉科 maps to RC Deportivo, not another La Coruna club."
+    }
+  ],
+  "verified_total_this_audit": 3,
+  "verified_total_combined_with_morning_audit": 6,
+  "remaining_unverified_provider_fixture_ids": [
+    "F20261102003",
+    "F20261102005",
+    "F20261102009"
+  ],
+  "not_verified": [
+    "Official Chinese lottery match number mapping",
+    "Official Chinese lottery SP",
+    "Remaining three fixture identities",
+    "Independent model probabilities and EV"
+  ],
+  "notes": "Independent source verification is distinct from internal provider identity-conflict checks."
+}
