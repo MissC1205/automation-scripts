@@ -102,3 +102,8 @@ Version: 28
 Requested sale date: 2026-11-03 Asia/Shanghai
 Requested at: 2026-11-03 09:35 Asia/Shanghai
 Purpose: morning MFM operational health audit. Last archived snapshot 02:52 Beijing; trigger new source-stamped collection for provider-reported 8 sale-day fixtures numbered 004-011. Audit missing 001-003 IDs, two stale >12h source prices, two single-snapshot histories, source pool 1 zero sale-date rows, official SP restriction, fixture identities and handicap history 0. Preserve immutable pre-kickoff snapshots, no invented forecasts or official sale-pool completeness. This is a push-triggered refresh, not evidence that hourly schedule is reliable.
+
+Version: 29
+Requested sale date: 2026-11-03 Asia/Shanghai
+Requested at: 2026-11-03 15:25 Asia/Shanghai
+Purpose: afternoon MFM operational audit. Last archived snapshot 09:35 Beijing despite dual :17/:47 hourly schedule. Refresh 8 provider-reported fixtures 004-011; inspect current 8/8 quotes older than 12h, 2 single-snapshot histories (004/005), absent 001-003 provider IDs, possible 9th UEFA fixture absent from provider pool, source pool 1 date mismatch, independent identity mapping, official SP restriction and handicap history 0. Preserve immutable earlier pre-kickoff snapshots and quote source times; do not generate forecasts or claim official lottery completeness. This push refresh is not proof scheduled collection reliability.
