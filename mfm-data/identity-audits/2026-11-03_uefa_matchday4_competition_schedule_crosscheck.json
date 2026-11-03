@@ -1,0 +1,108 @@
+{
+  "audit_date_bj": "2026-11-03",
+  "audit_type": "independent_competition_schedule_crosscheck",
+  "scope": "UEFA Champions League matchday 4 fixtures on 2026-11-03 local Europe; Beijing 2026-11-04",
+  "collector_snapshot_at_bj": "2026-11-03T02:52:54.368173+08:00",
+  "independent_source": {
+    "publisher": "UEFA",
+    "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixture/",
+    "source_role": "Official UEFA competition fixture list; not Chinese lottery sale list"
+  },
+  "provider_source": "Caidao public H5 third-party",
+  "identity_verified_against_uefa": true,
+  "official_jc_number_verified": false,
+  "official_jc_sp_verified": false,
+  "fixtures": [
+    {
+      "provider_jc_number": "周二004",
+      "home_provider": "加拉塔萨",
+      "away_provider": "斯图加特",
+      "kickoff_bj": "2026-11-04T01:45:00+08:00",
+      "competition": "UEFA Champions League",
+      "uefa_pair_and_kickoff_match": true,
+      "official_jc_number_match": "NOT_VERIFIED"
+    },
+    {
+      "provider_jc_number": "周二005",
+      "home_provider": "马竞",
+      "away_provider": "拜仁",
+      "kickoff_bj": "2026-11-04T04:00:00+08:00",
+      "competition": "UEFA Champions League",
+      "uefa_pair_and_kickoff_match": true,
+      "official_jc_number_match": "NOT_VERIFIED"
+    },
+    {
+      "provider_jc_number": "周二006",
+      "home_provider": "LASK林茨",
+      "away_provider": "布拉迪斯",
+      "kickoff_bj": "2026-11-04T04:00:00+08:00",
+      "competition": "UEFA Champions League",
+      "uefa_pair_and_kickoff_match": true,
+      "official_jc_number_match": "NOT_VERIFIED"
+    },
+    {
+      "provider_jc_number": "周二007",
+      "home_provider": "费耶诺德",
+      "away_provider": "国际米兰",
+      "kickoff_bj": "2026-11-04T04:00:00+08:00",
+      "competition": "UEFA Champions League",
+      "uefa_pair_and_kickoff_match": true,
+      "official_jc_number_match": "NOT_VERIFIED"
+    },
+    {
+      "provider_jc_number": "周二008",
+      "home_provider": "曼联",
+      "away_provider": "罗马",
+      "kickoff_bj": "2026-11-04T04:00:00+08:00",
+      "competition": "UEFA Champions League",
+      "uefa_pair_and_kickoff_match": true,
+      "official_jc_number_match": "NOT_VERIFIED"
+    },
+    {
+      "provider_jc_number": "周二009",
+      "home_provider": "巴塞罗那",
+      "away_provider": "维拉",
+      "kickoff_bj": "2026-11-04T04:00:00+08:00",
+      "competition": "UEFA Champions League",
+      "uefa_pair_and_kickoff_match": true,
+      "official_jc_number_match": "NOT_VERIFIED"
+    },
+    {
+      "provider_jc_number": "周二010",
+      "home_provider": "比利亚雷",
+      "away_provider": "巴黎圣曼",
+      "kickoff_bj": "2026-11-04T04:00:00+08:00",
+      "competition": "UEFA Champions League",
+      "uefa_pair_and_kickoff_match": true,
+      "official_jc_number_match": "NOT_VERIFIED"
+    },
+    {
+      "provider_jc_number": "周二011",
+      "home_provider": "博德闪耀",
+      "away_provider": "里尔",
+      "kickoff_bj": "2026-11-04T04:00:00+08:00",
+      "competition": "UEFA Champions League",
+      "uefa_pair_and_kickoff_match": true,
+      "official_jc_number_match": "NOT_VERIFIED"
+    }
+  ],
+  "missing_competition_fixture": {
+    "home": "Shakhtar Donetsk",
+    "away": "Sporting CP",
+    "kickoff_bj": "2026-11-04T01:45:00+08:00",
+    "uefa_schedule_present": true,
+    "caidao_sale_day_snapshot_present": false,
+    "official_jc_eligibility": "UNKNOWN"
+  },
+  "numbering_gap": [
+    "周二001",
+    "周二002",
+    "周二003"
+  ],
+  "numbering_gap_note": "Provider source pool starts at 004; this alone does not prove 001-003 are on official Chinese JC sale list. Do not assign missing fixture to any number.",
+  "limitations": [
+    "Only competition fixture identity and kickoff crosschecked; not independent Chinese lottery sale IDs or odds",
+    "No team injury or form data crosschecked",
+    "Official SP access remains blocked in collector"
+  ]
+}
