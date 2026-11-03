@@ -97,3 +97,8 @@ Version: 27
 Requested sale date: 2026-11-02 Asia/Shanghai
 Requested at: 2026-11-02 21:31 Asia/Shanghai
 Purpose: evening MFM operational health audit. Latest source-stamped collector snapshot remains 16:23 Beijing despite hourly :17/:47 schedule. Trigger source-stamped 9-fixture refresh; preserve immutable prior snapshots. Recheck 008 Benfica-Alverca blank ordinary 1X2, quote freshness, 27 historical rows, all 9 fixture identity audit records, official-SP HTTP 567 restriction, provider pool 1 sale-date zero rows, and missing handicap history. Do not generate model predictions, and do not claim official lottery mapping or complete market coverage.
+
+Version: 28
+Requested sale date: 2026-11-03 Asia/Shanghai
+Requested at: 2026-11-03 09:35 Asia/Shanghai
+Purpose: morning MFM operational health audit. Last archived snapshot 02:52 Beijing; trigger new source-stamped collection for provider-reported 8 sale-day fixtures numbered 004-011. Audit missing 001-003 IDs, two stale >12h source prices, two single-snapshot histories, source pool 1 zero sale-date rows, official SP restriction, fixture identities and handicap history 0. Preserve immutable pre-kickoff snapshots, no invented forecasts or official sale-pool completeness. This is a push-triggered refresh, not evidence that hourly schedule is reliable.
