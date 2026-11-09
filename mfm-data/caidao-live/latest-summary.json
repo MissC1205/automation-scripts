@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-09",
-  "collected_at_bj": "2026-11-09T16:42:25.991272+08:00",
-  "last_snapshot_path": "mfm-data/caidao-live/2026-11-09/20261109T164225991382+0800.json",
-  "quality_gate": "NO_DATA",
-  "odds_trend_gate": "NO_MULTI_SNAPSHOT_TREND",
-  "fixture_pool_integrity": "EMPTY_SALE_DATE",
+  "date": "2026-11-10",
+  "collected_at_bj": "2026-11-10T02:46:00.941444+08:00",
+  "last_snapshot_path": "mfm-data/caidao-live/2026-11-10/20261110T024600941671+0800.json",
+  "quality_gate": "RESEARCH_DATA_AVAILABLE",
+  "odds_trend_gate": "MULTI_SNAPSHOT_COVERAGE_NOT_OFFICIAL",
+  "fixture_pool_integrity": "COMPLETE",
   "fixture_identity_conflicts": [],
   "fixture_identity_independently_verified": false,
   "fixture_sources": {
     "0": {
       "status": "SUCCESS",
       "raw_rows": 4,
-      "date_rows": 0,
+      "date_rows": 2,
       "provider_id_date_counts": {
         "20261111": 2,
         "20261110": 2
@@ -20,7 +20,7 @@
     },
     "1": {
       "status": "SUCCESS",
-      "raw_rows": 509,
+      "raw_rows": 479,
       "date_rows": 0,
       "provider_id_date_counts": {
         "20261108": 30,
@@ -44,27 +44,78 @@
   },
   "betting_gate": "BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV",
   "coverage": {
-    "fixture_ids": 0,
-    "matches_evaluated": 0,
-    "current_spf_prices": 0,
-    "current_handicap_prices": 0,
-    "reported_handicap_numbers": 0,
-    "detail_objects": 0,
-    "historical_spf_matches_verified": 0,
-    "historical_spf_rows": 0,
+    "fixture_ids": 2,
+    "matches_evaluated": 2,
+    "current_spf_prices": 2,
+    "current_handicap_prices": 2,
+    "reported_handicap_numbers": 2,
+    "detail_objects": 2,
+    "historical_spf_matches_verified": 2,
+    "historical_spf_rows": 5,
     "historical_spf_single_snapshot_matches": 0,
-    "historical_spf_multi_snapshot_matches": 0,
-    "historical_spf_price_change_matches": 0,
-    "current_spf_matches_latest_history": 0,
+    "historical_spf_multi_snapshot_matches": 2,
+    "historical_spf_price_change_matches": 2,
+    "current_spf_matches_latest_history": 2,
     "current_spf_divergence_or_lag": 0,
     "source_sp_timestamp_missing": 0,
-    "source_sp_without_update_over_12h": 0,
+    "source_sp_without_update_over_12h": 1,
     "source_sp_without_update_over_24h": 0,
-    "captured_before_kickoff": 0,
+    "captured_before_kickoff": 2,
     "captured_after_kickoff": 0,
-    "prematch_verified_history_snapshots": 0,
+    "prematch_verified_history_snapshots": 2,
     "third_party_handicap_historical_rows": 0,
     "verified_official_jc_sp_matches": 0
   },
-  "match_summary": []
+  "match_summary": [
+    {
+      "id": "F20261110001",
+      "number": "周二001",
+      "home": "伯顿",
+      "away": "诺茨郡",
+      "kickoff_bj": "2026-11-11T03:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 2.18,
+        "draw": 3.3,
+        "away": 2.65
+      },
+      "hhad_line": -1,
+      "hhad_sp": {
+        "home": 4.6,
+        "draw": 3.85,
+        "away": 1.51
+      },
+      "spf_history_rows": 3,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-09T21:52:30+08:00",
+      "source_sp_update_age_hours": 4.89,
+      "prematch_snapshot_verified": true,
+      "detail_available": true
+    },
+    {
+      "id": "F20261110002",
+      "number": "周二002",
+      "home": "布罗姆利",
+      "away": "米尔顿",
+      "kickoff_bj": "2026-11-11T03:30:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 4.11,
+        "draw": 3.92,
+        "away": 1.56
+      },
+      "hhad_line": 1,
+      "hhad_sp": {
+        "home": 2.05,
+        "draw": 3.67,
+        "away": 2.64
+      },
+      "spf_history_rows": 2,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-09T13:51:53+08:00",
+      "source_sp_update_age_hours": 12.9,
+      "prematch_snapshot_verified": true,
+      "detail_available": true
+    }
+  ]
 }

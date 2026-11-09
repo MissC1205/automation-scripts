@@ -1,6 +1,31 @@
 {
-  "sale_date_bj": "2026-11-09",
+  "sale_date_bj": "2026-11-10",
   "source": "Caidao THIRD_PARTY_NOT_OFFICIAL",
   "analysis_mode": "SHADOW_MARKET_ONLY_NO_PREDICTION",
-  "matches": []
+  "matches": [
+    {
+      "match_id": "F20261110001",
+      "jc_number": "周二001",
+      "market_only_no_vig_probabilities": {
+        "home": 0.4026984711733284,
+        "draw": 0.26602505065389576,
+        "away": 0.33127647817277583
+      },
+      "market_status": "THIRD_PARTY_MARKET_BENCHMARK_ONLY",
+      "bookmaker_kelly_status": "UNAVAILABLE_NEEDS_VERIFIED_MULTI_BOOKMAKER_QUOTES",
+      "stake_kelly_status": "BLOCKED_REQUIRES_FROZEN_CALIBRATED_MODEL_AND_OFFICIAL_SP"
+    },
+    {
+      "match_id": "F20261110002",
+      "jc_number": "周二002",
+      "market_only_no_vig_probabilities": {
+        "home": 0.2135344646972554,
+        "draw": 0.22388434946574484,
+        "away": 0.5625811858369998
+      },
+      "market_status": "THIRD_PARTY_MARKET_BENCHMARK_ONLY",
+      "bookmaker_kelly_status": "UNAVAILABLE_NEEDS_VERIFIED_MULTI_BOOKMAKER_QUOTES",
+      "stake_kelly_status": "BLOCKED_REQUIRES_FROZEN_CALIBRATED_MODEL_AND_OFFICIAL_SP"
+    }
+  ]
 }
