@@ -1,0 +1,2464 @@
+{
+  "format_version": "1.0",
+  "sale_date_bj": "2026-11-12",
+  "collection_started_at_bj": "2026-11-12T16:18:48.536521+08:00",
+  "source_provider": "Caidao 采道 public H5",
+  "source_type": "THIRD_PARTY_AGGREGATOR_NOT_OFFICIAL_JC",
+  "source_url": "http://zk.bjjckx.com",
+  "access_scope": "UNAUTHENTICATED_PUBLIC_READ_ONLY",
+  "sp_prices_are_officially_verified": false,
+  "provider_predictions_used_in_model": false,
+  "date_identity_mapping": "MATCH_ID_PREFIX_VALIDATED_MATCH_NAME_PROVIDER_REPORTED",
+  "fixture_identity_independently_verified": false,
+  "fixture_identity_conflicts": [],
+  "independent_model_status": "NOT_IMPLEMENTED_OR_NOT_CALIBRATED",
+  "final_prediction_status": "NOT_GENERATED_BY_COLLECTOR",
+  "fixture_sources": {
+    "0": {
+      "status": "SUCCESS",
+      "raw_rows": 14,
+      "date_rows": 6,
+      "provider_id_date_counts": {
+        "20261113": 8,
+        "20261112": 6
+      },
+      "provider_id_unrecognized_rows": 0
+    },
+    "1": {
+      "status": "SUCCESS",
+      "raw_rows": 449,
+      "date_rows": 0,
+      "provider_id_date_counts": {
+        "20261111": 6,
+        "20261110": 2,
+        "20261108": 30,
+        "20261107": 29,
+        "20261106": 14,
+        "20261105": 13,
+        "20261104": 12,
+        "20261103": 11,
+        "20261102": 9,
+        "20261101": 25,
+        "20261031": 28,
+        "20261030": 12,
+        "20261029": 7,
+        "20261028": 17,
+        "20261027": 10
+      },
+      "provider_id_unrecognized_rows": 0
+    }
+  },
+  "matches": [
+    {
+      "match_id": "F20261112001",
+      "jc_number": "周四001",
+      "home": "土耳其",
+      "away": "比利时",
+      "competition": "欧国联",
+      "kickoff_bj": "2026-11-13T01:00:00+08:00",
+      "snapshot_captured_at_bj": "2026-11-12T16:18:50.622334+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "source_market": {
+        "raw": {
+          "spfOdds": "3.75|4.05|1.60",
+          "rqspfOdds": "2.00|3.75|2.68",
+          "concedeNum": 1,
+          "bfOdds": "65.00|19.00|28.00|12.50|55.00|28.00|26.00|125.0|80.00|70.00|300.0|175.0|175.0|120.0|23.00|8.50|11.00|33.00|25.00|10.50|9.00|6.50|14.00|9.75|15.00|35.00|21.00|30.00|90.00|55.00|75.00",
+          "zjqOdds": "23.00|7.30|4.40|3.45|4.40|6.25|10.50|13.50",
+          "bqcOdds": "6.30|13.50|20.00|9.70|7.25|4.30|34.00|13.50|2.54"
+        },
+        "spf": {
+          "home": 3.75,
+          "draw": 4.05,
+          "away": 1.6
+        },
+        "integer_handicap": 1,
+        "handicap_sp": {
+          "home": 2.0,
+          "draw": 3.75,
+          "away": 2.68
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          23.0,
+          7.3,
+          4.4,
+          3.45,
+          4.4,
+          6.25,
+          10.5,
+          13.5
+        ]
+      },
+      "detail": {
+        "business_status": 200,
+        "retrieved_at_bj": "2026-11-12T16:18:51.558529+08:00",
+        "raw_football_fields": {
+          "last": {
+            "awayDrawMatchCnt": 0,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "100",
+            "awayWinGoalMatchCnt": 1,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 1,
+            "homeScoreRatio": "0",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 1
+          },
+          "goalAvg": {
+            "awayGoalAvgCnt": "1.9",
+            "awayGoalAvgCntRatio": "61.3",
+            "homeGoalAvgCnt": "1.2",
+            "homeGoalAvgCntRatio": "38.7",
+            "totalLegCnt": 10
+          },
+          "lossGoalAvg": {
+            "awayLossGoalAvgCnt": "1.2",
+            "awayLossGoalAvgCntRatio": "41.4",
+            "homeLossGoalAvgCnt": "1.7",
+            "homeLossGoalAvgCntRatio": "58.6",
+            "totalLegCnt": 10
+          },
+          "eachHomeAway": {
+            "awayDrawMatchCnt": 3,
+            "awayLossGoalMatchCnt": 3,
+            "awayScoreRatio": "50",
+            "awayWinGoalMatchCnt": 4,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 6,
+            "homeScoreRatio": "40",
+            "homeWinGoalMatchCnt": 4,
+            "totalLegCnt": 10
+          },
+          "sameHomeAway": {
+            "awayDrawMatchCnt": 0,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 0
+          },
+          "eachSameHomeAway": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 2,
+            "awayScoreRatio": "67",
+            "awayWinGoalMatchCnt": 6,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 4,
+            "homeScoreRatio": "60",
+            "homeWinGoalMatchCnt": 6,
+            "totalLegCnt": 10
+          }
+        },
+        "third_party_prediction_fields_excluded": [
+          "bqcyc",
+          "dxyc",
+          "matchAnalysis",
+          "poissonDistributionStr",
+          "sfyc",
+          "spfyc",
+          "zjqyc"
+        ],
+        "feature_coverage": {
+          "historyDataStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "matchList",
+              "statistics"
+            ],
+            "history_match_count": 1
+          },
+          "matchFeatureStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 16,
+            "keys": [
+              "awayTeamId",
+              "awayTeamShortName",
+              "eachHomeAway",
+              "eachSameHomeAway",
+              "goalAvg",
+              "homeTeamId",
+              "homeTeamShortName",
+              "last",
+              "lossGoalAvg",
+              "matchId",
+              "sameHomeAway",
+              "sportteryAwayTeamId",
+              "sportteryHomeTeamId",
+              "sportteryMatchId",
+              "uniformAwayTeamId",
+              "uniformHomeTeamId"
+            ],
+            "numeric_leaves": {
+              "awayTeamId": 0,
+              "homeTeamId": 0,
+              "matchId": 2500426,
+              "sportteryAwayTeamId": 363,
+              "sportteryHomeTeamId": 404,
+              "sportteryMatchId": 2042692,
+              "uniformAwayTeamId": 750,
+              "uniformHomeTeamId": 411
+            },
+            "metric_shapes": {
+              "eachHomeAway": {
+                "type": "dict",
+                "length": 9
+              },
+              "goalAvg": {
+                "type": "dict",
+                "length": 5
+              },
+              "last": {
+                "type": "dict",
+                "length": 9
+              },
+              "lossGoalAvg": {
+                "type": "dict",
+                "length": 5
+              },
+              "sameHomeAway": {
+                "type": "dict",
+                "length": 9
+              }
+            }
+          },
+          "injurySuspensionStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "away",
+              "home"
+            ],
+            "injury_counts": {
+              "away": 5,
+              "home": 5
+            }
+          },
+          "matchTableStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 9,
+            "keys": [
+              "awayTables",
+              "gmLeagueId",
+              "homeTables",
+              "leagueShortName",
+              "phaseId",
+              "seasonId",
+              "seasonName",
+              "tournamentId",
+              "uniformLeagueId"
+            ]
+          },
+          "matchTableDetailStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 3,
+            "keys": [
+              "awayTables",
+              "homeTables",
+              "totalTables"
+            ]
+          }
+        },
+        "status": "SOURCE_DETAIL_AVAILABLE",
+        "provider_update_time_raw": "2026-11-12 16:09:36",
+        "raw_features_are_provider_reported_not_independently_verified": true,
+        "h2h_record_count": 1,
+        "injury_data_presence_only_not_absence_verification": true,
+        "independent_model_1x2_probability": null
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261112001",
+        "match_number": "周四001",
+        "fixture_home": "土耳其",
+        "fixture_away": "比利时",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-11-11T09:27:54+08:00",
+            "source_time_raw": "2026-11-11 09:27:54",
+            "home": 3.35,
+            "draw": 3.8,
+            "away": 1.73,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-11T12:28:32+08:00",
+            "source_time_raw": "2026-11-11 12:28:32",
+            "home": 3.42,
+            "draw": 3.86,
+            "away": 1.7,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-11T13:02:21+08:00",
+            "source_time_raw": "2026-11-11 13:02:21",
+            "home": 3.56,
+            "draw": 3.9,
+            "away": 1.66,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-11T18:21:28+08:00",
+            "source_time_raw": "2026-11-11 18:21:28",
+            "home": 3.66,
+            "draw": 3.95,
+            "away": 1.63,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T10:26:41+08:00",
+            "source_time_raw": "2026-11-12 10:26:41",
+            "home": 3.75,
+            "draw": 3.98,
+            "away": 1.61,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T11:19:46+08:00",
+            "source_time_raw": "2026-11-12 11:19:46",
+            "home": 3.8,
+            "draw": 4.05,
+            "away": 1.59,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T11:46:01+08:00",
+            "source_time_raw": "2026-11-12 11:46:01",
+            "home": 3.85,
+            "draw": 4.12,
+            "away": 1.57,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T12:18:21+08:00",
+            "source_time_raw": "2026-11-12 12:18:21",
+            "home": 3.77,
+            "draw": 4.08,
+            "away": 1.59,
+            "source_odds_flag": "-1|-1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T12:23:09+08:00",
+            "source_time_raw": "2026-11-12 12:23:09",
+            "home": 3.72,
+            "draw": 4.0,
+            "away": 1.61,
+            "source_odds_flag": "-1|-1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T12:36:11+08:00",
+            "source_time_raw": "2026-11-12 12:36:11",
+            "home": 3.67,
+            "draw": 4.0,
+            "away": 1.62,
+            "source_odds_flag": "-1|0|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T13:10:17+08:00",
+            "source_time_raw": "2026-11-12 13:10:17",
+            "home": 3.7,
+            "draw": 4.03,
+            "away": 1.61,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T13:33:14+08:00",
+            "source_time_raw": "2026-11-12 13:33:14",
+            "home": 3.77,
+            "draw": 4.07,
+            "away": 1.59,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T13:52:18+08:00",
+            "source_time_raw": "2026-11-12 13:52:18",
+            "home": 3.83,
+            "draw": 4.14,
+            "away": 1.57,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T15:05:17+08:00",
+            "source_time_raw": "2026-11-12 15:05:17",
+            "home": 3.81,
+            "draw": 4.1,
+            "away": 1.58,
+            "source_odds_flag": "-1|-1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T15:23:32+08:00",
+            "source_time_raw": "2026-11-12 15:23:32",
+            "home": 3.75,
+            "draw": 4.05,
+            "away": 1.6,
+            "source_odds_flag": "-1|-1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周四001",
+        "provider_home": "土耳其",
+        "provider_away": "比利时",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 15,
+        "duplicate_timestamps": 0,
+        "history_count": 15,
+        "earliest_source_updated_at_bj": "2026-11-11T09:27:54+08:00",
+        "latest_source_updated_at_bj": "2026-11-12T15:23:32+08:00",
+        "verified_for_model_use": true
+      },
+      "data_quality": {
+        "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
+        "history_spf_valid": true,
+        "history_spf_quote_count": 15,
+        "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+        "history_as_of": "2026-11-12T15:23:32+08:00",
+        "source_sp_update_age_hours": 0.92,
+        "true_prematch_snapshot": true,
+        "current_sp_vs_latest_history": "MATCH",
+        "market_officially_verified": false,
+        "probability_model_calibrated": false
+      },
+      "model_features": {
+        "usable_as_third_party_research_inputs": {
+          "last": {
+            "awayDrawMatchCnt": 0,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "100",
+            "awayWinGoalMatchCnt": 1,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 1,
+            "homeScoreRatio": "0",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 1
+          },
+          "goalAvg": {
+            "awayGoalAvgCnt": "1.9",
+            "awayGoalAvgCntRatio": "61.3",
+            "homeGoalAvgCnt": "1.2",
+            "homeGoalAvgCntRatio": "38.7",
+            "totalLegCnt": 10
+          },
+          "lossGoalAvg": {
+            "awayLossGoalAvgCnt": "1.2",
+            "awayLossGoalAvgCntRatio": "41.4",
+            "homeLossGoalAvgCnt": "1.7",
+            "homeLossGoalAvgCntRatio": "58.6",
+            "totalLegCnt": 10
+          },
+          "eachHomeAway": {
+            "awayDrawMatchCnt": 3,
+            "awayLossGoalMatchCnt": 3,
+            "awayScoreRatio": "50",
+            "awayWinGoalMatchCnt": 4,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 6,
+            "homeScoreRatio": "40",
+            "homeWinGoalMatchCnt": 4,
+            "totalLegCnt": 10
+          },
+          "sameHomeAway": {
+            "awayDrawMatchCnt": 0,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 0
+          },
+          "eachSameHomeAway": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 2,
+            "awayScoreRatio": "67",
+            "awayWinGoalMatchCnt": 6,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 4,
+            "homeScoreRatio": "60",
+            "homeWinGoalMatchCnt": 6,
+            "totalLegCnt": 10
+          }
+        },
+        "prematch_independent_feature_validation": "NOT_COMPLETED",
+        "vendor_prediction_outputs_excluded": true,
+        "independent_1x2_prediction": null,
+        "independent_handicap_prediction": null,
+        "calibrated_ev": null
+      }
+    },
+    {
+      "match_id": "F20261112002",
+      "jc_number": "周四002",
+      "home": "亚美尼亚",
+      "away": "塞浦路斯",
+      "competition": "欧国联",
+      "kickoff_bj": "2026-11-13T01:00:00+08:00",
+      "snapshot_captured_at_bj": "2026-11-12T16:18:52.410119+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "source_market": {
+        "raw": {
+          "spfOdds": "2.55|2.90|2.49",
+          "rqspfOdds": "6.00|4.32|1.35",
+          "concedeNum": -1,
+          "bfOdds": "125.0|8.25|13.00|8.50|32.00|22.00|30.00|80.00|70.00|90.00|225.0|200.0|300.0|350.0|10.00|5.10|12.00|65.00|80.00|8.00|12.00|8.00|28.00|19.00|28.00|75.00|60.00|80.00|200.0|175.0|250.0",
+          "zjqOdds": "10.00|4.50|3.10|3.45|5.80|11.50|27.00|42.00",
+          "bqcOdds": "4.50|15.00|32.00|5.20|4.60|5.10|34.00|15.00|4.30"
+        },
+        "spf": {
+          "home": 2.55,
+          "draw": 2.9,
+          "away": 2.49
+        },
+        "integer_handicap": -1,
+        "handicap_sp": {
+          "home": 6.0,
+          "draw": 4.32,
+          "away": 1.35
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          10.0,
+          4.5,
+          3.1,
+          3.45,
+          5.8,
+          11.5,
+          27.0,
+          42.0
+        ]
+      },
+      "detail": {
+        "business_status": 200,
+        "retrieved_at_bj": "2026-11-12T16:18:53.367213+08:00",
+        "raw_football_fields": {
+          "last": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 1,
+            "awayScoreRatio": "44",
+            "awayWinGoalMatchCnt": 1,
+            "homeDrawMatchCnt": 1,
+            "homeLossGoalMatchCnt": 1,
+            "homeScoreRatio": "44",
+            "homeWinGoalMatchCnt": 1,
+            "totalLegCnt": 3
+          },
+          "goalAvg": {
+            "awayGoalAvgCnt": "1.3",
+            "awayGoalAvgCntRatio": "61.9",
+            "homeGoalAvgCnt": "0.8",
+            "homeGoalAvgCntRatio": "38.1",
+            "totalLegCnt": 10
+          },
+          "lossGoalAvg": {
+            "awayLossGoalAvgCnt": "1.3",
+            "awayLossGoalAvgCntRatio": "39.4",
+            "homeLossGoalAvgCnt": "2.0",
+            "homeLossGoalAvgCntRatio": "60.6",
+            "totalLegCnt": 10
+          },
+          "eachHomeAway": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 4,
+            "awayScoreRatio": "47",
+            "awayWinGoalMatchCnt": 4,
+            "homeDrawMatchCnt": 3,
+            "homeLossGoalMatchCnt": 6,
+            "homeScoreRatio": "20",
+            "homeWinGoalMatchCnt": 1,
+            "totalLegCnt": 10
+          },
+          "sameHomeAway": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 1,
+            "awayScoreRatio": "17",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 1,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "67",
+            "homeWinGoalMatchCnt": 1,
+            "totalLegCnt": 2
+          },
+          "eachSameHomeAway": {
+            "awayDrawMatchCnt": 3,
+            "awayLossGoalMatchCnt": 5,
+            "awayScoreRatio": "30",
+            "awayWinGoalMatchCnt": 2,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 6,
+            "homeScoreRatio": "27",
+            "homeWinGoalMatchCnt": 2,
+            "totalLegCnt": 10
+          }
+        },
+        "third_party_prediction_fields_excluded": [
+          "bqcyc",
+          "dxyc",
+          "matchAnalysis",
+          "poissonDistributionStr",
+          "sfyc",
+          "spfyc",
+          "zjqyc"
+        ],
+        "feature_coverage": {
+          "historyDataStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "matchList",
+              "statistics"
+            ],
+            "history_match_count": 3
+          },
+          "matchFeatureStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 16,
+            "keys": [
+              "awayTeamId",
+              "awayTeamShortName",
+              "eachHomeAway",
+              "eachSameHomeAway",
+              "goalAvg",
+              "homeTeamId",
+              "homeTeamShortName",
+              "last",
+              "lossGoalAvg",
+              "matchId",
+              "sameHomeAway",
+              "sportteryAwayTeamId",
+              "sportteryHomeTeamId",
+              "sportteryMatchId",
+              "uniformAwayTeamId",
+              "uniformHomeTeamId"
+            ],
+            "numeric_leaves": {
+              "awayTeamId": 0,
+              "homeTeamId": 0,
+              "matchId": 2500500,
+              "sportteryAwayTeamId": 367,
+              "sportteryHomeTeamId": 359,
+              "sportteryMatchId": 2042693,
+              "uniformAwayTeamId": 913,
+              "uniformHomeTeamId": 914
+            },
+            "metric_shapes": {
+              "eachHomeAway": {
+                "type": "dict",
+                "length": 9
+              },
+              "goalAvg": {
+                "type": "dict",
+                "length": 5
+              },
+              "last": {
+                "type": "dict",
+                "length": 9
+              },
+              "lossGoalAvg": {
+                "type": "dict",
+                "length": 5
+              },
+              "sameHomeAway": {
+                "type": "dict",
+                "length": 9
+              }
+            }
+          },
+          "injurySuspensionStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "away",
+              "home"
+            ],
+            "injury_counts": {
+              "away": 5,
+              "home": 5
+            }
+          },
+          "matchTableStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 9,
+            "keys": [
+              "awayTables",
+              "gmLeagueId",
+              "homeTables",
+              "leagueShortName",
+              "phaseId",
+              "seasonId",
+              "seasonName",
+              "tournamentId",
+              "uniformLeagueId"
+            ]
+          },
+          "matchTableDetailStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 3,
+            "keys": [
+              "awayTables",
+              "homeTables",
+              "totalTables"
+            ]
+          }
+        },
+        "status": "SOURCE_DETAIL_AVAILABLE",
+        "provider_update_time_raw": "2026-11-12 16:09:38",
+        "raw_features_are_provider_reported_not_independently_verified": true,
+        "h2h_record_count": 3,
+        "injury_data_presence_only_not_absence_verification": true,
+        "independent_model_1x2_probability": null
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261112002",
+        "match_number": "周四002",
+        "fixture_home": "亚美尼亚",
+        "fixture_away": "塞浦路斯",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-11-11T09:27:54+08:00",
+            "source_time_raw": "2026-11-11 09:27:54",
+            "home": 2.05,
+            "draw": 3.15,
+            "away": 3.0,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T10:28:10+08:00",
+            "source_time_raw": "2026-11-12 10:28:10",
+            "home": 2.12,
+            "draw": 3.15,
+            "away": 2.86,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T11:34:18+08:00",
+            "source_time_raw": "2026-11-12 11:34:18",
+            "home": 2.2,
+            "draw": 3.11,
+            "away": 2.75,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T12:46:06+08:00",
+            "source_time_raw": "2026-11-12 12:46:06",
+            "home": 2.3,
+            "draw": 3.05,
+            "away": 2.66,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T13:39:55+08:00",
+            "source_time_raw": "2026-11-12 13:39:55",
+            "home": 2.42,
+            "draw": 3.05,
+            "away": 2.51,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T13:57:16+08:00",
+            "source_time_raw": "2026-11-12 13:57:16",
+            "home": 2.49,
+            "draw": 2.95,
+            "away": 2.51,
+            "source_odds_flag": "1|-1|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T14:40:31+08:00",
+            "source_time_raw": "2026-11-12 14:40:31",
+            "home": 2.55,
+            "draw": 2.9,
+            "away": 2.49,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周四002",
+        "provider_home": "亚美尼亚",
+        "provider_away": "塞浦路斯",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 7,
+        "duplicate_timestamps": 0,
+        "history_count": 7,
+        "earliest_source_updated_at_bj": "2026-11-11T09:27:54+08:00",
+        "latest_source_updated_at_bj": "2026-11-12T14:40:31+08:00",
+        "verified_for_model_use": true
+      },
+      "data_quality": {
+        "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
+        "history_spf_valid": true,
+        "history_spf_quote_count": 7,
+        "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+        "history_as_of": "2026-11-12T14:40:31+08:00",
+        "source_sp_update_age_hours": 1.64,
+        "true_prematch_snapshot": true,
+        "current_sp_vs_latest_history": "MATCH",
+        "market_officially_verified": false,
+        "probability_model_calibrated": false
+      },
+      "model_features": {
+        "usable_as_third_party_research_inputs": {
+          "last": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 1,
+            "awayScoreRatio": "44",
+            "awayWinGoalMatchCnt": 1,
+            "homeDrawMatchCnt": 1,
+            "homeLossGoalMatchCnt": 1,
+            "homeScoreRatio": "44",
+            "homeWinGoalMatchCnt": 1,
+            "totalLegCnt": 3
+          },
+          "goalAvg": {
+            "awayGoalAvgCnt": "1.3",
+            "awayGoalAvgCntRatio": "61.9",
+            "homeGoalAvgCnt": "0.8",
+            "homeGoalAvgCntRatio": "38.1",
+            "totalLegCnt": 10
+          },
+          "lossGoalAvg": {
+            "awayLossGoalAvgCnt": "1.3",
+            "awayLossGoalAvgCntRatio": "39.4",
+            "homeLossGoalAvgCnt": "2.0",
+            "homeLossGoalAvgCntRatio": "60.6",
+            "totalLegCnt": 10
+          },
+          "eachHomeAway": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 4,
+            "awayScoreRatio": "47",
+            "awayWinGoalMatchCnt": 4,
+            "homeDrawMatchCnt": 3,
+            "homeLossGoalMatchCnt": 6,
+            "homeScoreRatio": "20",
+            "homeWinGoalMatchCnt": 1,
+            "totalLegCnt": 10
+          },
+          "sameHomeAway": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 1,
+            "awayScoreRatio": "17",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 1,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "67",
+            "homeWinGoalMatchCnt": 1,
+            "totalLegCnt": 2
+          },
+          "eachSameHomeAway": {
+            "awayDrawMatchCnt": 3,
+            "awayLossGoalMatchCnt": 5,
+            "awayScoreRatio": "30",
+            "awayWinGoalMatchCnt": 2,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 6,
+            "homeScoreRatio": "27",
+            "homeWinGoalMatchCnt": 2,
+            "totalLegCnt": 10
+          }
+        },
+        "prematch_independent_feature_validation": "NOT_COMPLETED",
+        "vendor_prediction_outputs_excluded": true,
+        "independent_1x2_prediction": null,
+        "independent_handicap_prediction": null,
+        "calibrated_ev": null
+      }
+    },
+    {
+      "match_id": "F20261112003",
+      "jc_number": "周四003",
+      "home": "阿尔巴尼",
+      "away": "芬兰",
+      "competition": "欧国联",
+      "kickoff_bj": "2026-11-13T03:45:00+08:00",
+      "snapshot_captured_at_bj": "2026-11-12T16:18:56.179749+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "source_market": {
+        "raw": {
+          "spfOdds": "1.95|2.90|3.55",
+          "rqspfOdds": "5.10|3.10|1.61",
+          "concedeNum": -1,
+          "bfOdds": "90.00|5.50|7.75|7.50|21.00|20.00|35.00|65.00|55.00|80.00|150.0|100.0|250.0|450.0|7.25|5.75|16.00|70.00|200.0|8.00|16.00|12.00|55.00|35.00|50.00|150.0|125.0|150.0|550.0|400.0|500.0",
+          "zjqOdds": "7.25|3.65|2.90|3.90|7.50|17.00|35.00|50.00",
+          "bqcOdds": "3.60|14.00|45.00|4.50|4.05|7.25|31.00|14.00|5.80"
+        },
+        "spf": {
+          "home": 1.95,
+          "draw": 2.9,
+          "away": 3.55
+        },
+        "integer_handicap": -1,
+        "handicap_sp": {
+          "home": 5.1,
+          "draw": 3.1,
+          "away": 1.61
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          7.25,
+          3.65,
+          2.9,
+          3.9,
+          7.5,
+          17.0,
+          35.0,
+          50.0
+        ]
+      },
+      "detail": {
+        "business_status": 200,
+        "retrieved_at_bj": "2026-11-12T16:18:56.895551+08:00",
+        "raw_football_fields": {
+          "last": {
+            "awayDrawMatchCnt": 0,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "100",
+            "awayWinGoalMatchCnt": 1,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 1,
+            "homeScoreRatio": "0",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 1
+          },
+          "goalAvg": {
+            "awayGoalAvgCnt": "1.7",
+            "awayGoalAvgCntRatio": "63.0",
+            "homeGoalAvgCnt": "1.0",
+            "homeGoalAvgCntRatio": "37.0",
+            "totalLegCnt": 10
+          },
+          "lossGoalAvg": {
+            "awayLossGoalAvgCnt": "1.0",
+            "awayLossGoalAvgCntRatio": "50.0",
+            "homeLossGoalAvgCnt": "1.0",
+            "homeLossGoalAvgCntRatio": "50.0",
+            "totalLegCnt": 10
+          },
+          "eachHomeAway": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 4,
+            "awayScoreRatio": "47",
+            "awayWinGoalMatchCnt": 4,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 6,
+            "homeScoreRatio": "40",
+            "homeWinGoalMatchCnt": 4,
+            "totalLegCnt": 10
+          },
+          "sameHomeAway": {
+            "awayDrawMatchCnt": 0,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 0
+          },
+          "eachSameHomeAway": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 6,
+            "awayScoreRatio": "27",
+            "awayWinGoalMatchCnt": 2,
+            "homeDrawMatchCnt": 1,
+            "homeLossGoalMatchCnt": 4,
+            "homeScoreRatio": "53",
+            "homeWinGoalMatchCnt": 5,
+            "totalLegCnt": 10
+          }
+        },
+        "third_party_prediction_fields_excluded": [
+          "bqcyc",
+          "dxyc",
+          "matchAnalysis",
+          "poissonDistributionStr",
+          "sfyc",
+          "spfyc",
+          "zjqyc"
+        ],
+        "feature_coverage": {
+          "historyDataStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "matchList",
+              "statistics"
+            ],
+            "history_match_count": 1
+          },
+          "matchFeatureStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 16,
+            "keys": [
+              "awayTeamId",
+              "awayTeamShortName",
+              "eachHomeAway",
+              "eachSameHomeAway",
+              "goalAvg",
+              "homeTeamId",
+              "homeTeamShortName",
+              "last",
+              "lossGoalAvg",
+              "matchId",
+              "sameHomeAway",
+              "sportteryAwayTeamId",
+              "sportteryHomeTeamId",
+              "sportteryMatchId",
+              "uniformAwayTeamId",
+              "uniformHomeTeamId"
+            ],
+            "numeric_leaves": {
+              "awayTeamId": 0,
+              "homeTeamId": 0,
+              "matchId": 2500499,
+              "sportteryAwayTeamId": 374,
+              "sportteryHomeTeamId": 357,
+              "sportteryMatchId": 2042694,
+              "uniformAwayTeamId": 38,
+              "uniformHomeTeamId": 458
+            },
+            "metric_shapes": {
+              "eachHomeAway": {
+                "type": "dict",
+                "length": 9
+              },
+              "goalAvg": {
+                "type": "dict",
+                "length": 5
+              },
+              "last": {
+                "type": "dict",
+                "length": 9
+              },
+              "lossGoalAvg": {
+                "type": "dict",
+                "length": 5
+              },
+              "sameHomeAway": {
+                "type": "dict",
+                "length": 9
+              }
+            }
+          },
+          "injurySuspensionStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "away",
+              "home"
+            ],
+            "injury_counts": {
+              "away": 5,
+              "home": 5
+            }
+          },
+          "matchTableStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 9,
+            "keys": [
+              "awayTables",
+              "gmLeagueId",
+              "homeTables",
+              "leagueShortName",
+              "phaseId",
+              "seasonId",
+              "seasonName",
+              "tournamentId",
+              "uniformLeagueId"
+            ]
+          },
+          "matchTableDetailStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 3,
+            "keys": [
+              "awayTables",
+              "homeTables",
+              "totalTables"
+            ]
+          }
+        },
+        "status": "SOURCE_DETAIL_AVAILABLE",
+        "provider_update_time_raw": "2026-11-12 16:09:39",
+        "raw_features_are_provider_reported_not_independently_verified": true,
+        "h2h_record_count": 1,
+        "injury_data_presence_only_not_absence_verification": true,
+        "independent_model_1x2_probability": null
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261112003",
+        "match_number": "周四003",
+        "fixture_home": "阿尔巴尼",
+        "fixture_away": "芬兰",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-11-11T09:27:54+08:00",
+            "source_time_raw": "2026-11-11 09:27:54",
+            "home": 1.8,
+            "draw": 3.13,
+            "away": 3.78,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T10:29:48+08:00",
+            "source_time_raw": "2026-11-12 10:29:48",
+            "home": 1.78,
+            "draw": 3.08,
+            "away": 3.95,
+            "source_odds_flag": "-1|-1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T12:49:39+08:00",
+            "source_time_raw": "2026-11-12 12:49:39",
+            "home": 1.83,
+            "draw": 3.02,
+            "away": 3.82,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T13:13:02+08:00",
+            "source_time_raw": "2026-11-12 13:13:02",
+            "home": 1.87,
+            "draw": 2.98,
+            "away": 3.71,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T13:50:18+08:00",
+            "source_time_raw": "2026-11-12 13:50:18",
+            "home": 1.89,
+            "draw": 2.95,
+            "away": 3.68,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T14:00:03+08:00",
+            "source_time_raw": "2026-11-12 14:00:03",
+            "home": 1.91,
+            "draw": 2.93,
+            "away": 3.64,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T14:27:58+08:00",
+            "source_time_raw": "2026-11-12 14:27:58",
+            "home": 1.95,
+            "draw": 2.9,
+            "away": 3.55,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T14:56:37+08:00",
+            "source_time_raw": "2026-11-12 14:56:37",
+            "home": 2.03,
+            "draw": 2.8,
+            "away": 3.45,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T15:59:54+08:00",
+            "source_time_raw": "2026-11-12 15:59:54",
+            "home": 1.95,
+            "draw": 2.9,
+            "away": 3.55,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周四003",
+        "provider_home": "阿尔巴尼",
+        "provider_away": "芬兰",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 9,
+        "duplicate_timestamps": 0,
+        "history_count": 9,
+        "earliest_source_updated_at_bj": "2026-11-11T09:27:54+08:00",
+        "latest_source_updated_at_bj": "2026-11-12T15:59:54+08:00",
+        "verified_for_model_use": true
+      },
+      "data_quality": {
+        "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
+        "history_spf_valid": true,
+        "history_spf_quote_count": 9,
+        "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+        "history_as_of": "2026-11-12T15:59:54+08:00",
+        "source_sp_update_age_hours": 0.32,
+        "true_prematch_snapshot": true,
+        "current_sp_vs_latest_history": "MATCH",
+        "market_officially_verified": false,
+        "probability_model_calibrated": false
+      },
+      "model_features": {
+        "usable_as_third_party_research_inputs": {
+          "last": {
+            "awayDrawMatchCnt": 0,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "100",
+            "awayWinGoalMatchCnt": 1,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 1,
+            "homeScoreRatio": "0",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 1
+          },
+          "goalAvg": {
+            "awayGoalAvgCnt": "1.7",
+            "awayGoalAvgCntRatio": "63.0",
+            "homeGoalAvgCnt": "1.0",
+            "homeGoalAvgCntRatio": "37.0",
+            "totalLegCnt": 10
+          },
+          "lossGoalAvg": {
+            "awayLossGoalAvgCnt": "1.0",
+            "awayLossGoalAvgCntRatio": "50.0",
+            "homeLossGoalAvgCnt": "1.0",
+            "homeLossGoalAvgCntRatio": "50.0",
+            "totalLegCnt": 10
+          },
+          "eachHomeAway": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 4,
+            "awayScoreRatio": "47",
+            "awayWinGoalMatchCnt": 4,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 6,
+            "homeScoreRatio": "40",
+            "homeWinGoalMatchCnt": 4,
+            "totalLegCnt": 10
+          },
+          "sameHomeAway": {
+            "awayDrawMatchCnt": 0,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 0
+          },
+          "eachSameHomeAway": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 6,
+            "awayScoreRatio": "27",
+            "awayWinGoalMatchCnt": 2,
+            "homeDrawMatchCnt": 1,
+            "homeLossGoalMatchCnt": 4,
+            "homeScoreRatio": "53",
+            "homeWinGoalMatchCnt": 5,
+            "totalLegCnt": 10
+          }
+        },
+        "prematch_independent_feature_validation": "NOT_COMPLETED",
+        "vendor_prediction_outputs_excluded": true,
+        "independent_1x2_prediction": null,
+        "independent_handicap_prediction": null,
+        "calibrated_ev": null
+      }
+    },
+    {
+      "match_id": "F20261112004",
+      "jc_number": "周四004",
+      "home": "黑山",
+      "away": "拉脱维亚",
+      "competition": "欧国联",
+      "kickoff_bj": "2026-11-13T03:45:00+08:00",
+      "snapshot_captured_at_bj": "2026-11-12T16:18:57.521837+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "source_market": {
+        "raw": {
+          "spfOdds": "1.14|5.75|11.30",
+          "rqspfOdds": "1.66|3.52|3.95",
+          "concedeNum": -1,
+          "bfOdds": "22.00|6.25|5.05|6.75|7.25|9.75|27.00|12.00|18.00|55.00|25.00|35.00|90.00|650.0|15.00|9.50|26.00|100.0|450.0|26.00|75.00|30.00|250.0|100.0|90.00|650.0|450.0|450.0|1000|1000|1000",
+          "zjqOdds": "15.00|5.40|3.30|3.35|4.90|9.00|19.00|30.00",
+          "bqcOdds": "1.61|24.00|80.00|3.65|8.25|22.00|24.00|24.00|18.00"
+        },
+        "spf": {
+          "home": 1.14,
+          "draw": 5.75,
+          "away": 11.3
+        },
+        "integer_handicap": -1,
+        "handicap_sp": {
+          "home": 1.66,
+          "draw": 3.52,
+          "away": 3.95
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          15.0,
+          5.4,
+          3.3,
+          3.35,
+          4.9,
+          9.0,
+          19.0,
+          30.0
+        ]
+      },
+      "detail": {
+        "business_status": 200,
+        "retrieved_at_bj": "2026-11-12T16:18:58.480346+08:00",
+        "raw_football_fields": {
+          "last": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 2,
+            "awayScoreRatio": "17",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "67",
+            "homeWinGoalMatchCnt": 2,
+            "totalLegCnt": 4
+          },
+          "goalAvg": {
+            "awayGoalAvgCnt": "0.6",
+            "awayGoalAvgCntRatio": "25.0",
+            "homeGoalAvgCnt": "1.8",
+            "homeGoalAvgCntRatio": "75.0",
+            "totalLegCnt": 10
+          },
+          "lossGoalAvg": {
+            "awayLossGoalAvgCnt": "1.0",
+            "awayLossGoalAvgCntRatio": "43.5",
+            "homeLossGoalAvgCnt": "1.3",
+            "homeLossGoalAvgCntRatio": "56.5",
+            "totalLegCnt": 10
+          },
+          "eachHomeAway": {
+            "awayDrawMatchCnt": 3,
+            "awayLossGoalMatchCnt": 5,
+            "awayScoreRatio": "30",
+            "awayWinGoalMatchCnt": 2,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 2,
+            "homeScoreRatio": "67",
+            "homeWinGoalMatchCnt": 6,
+            "totalLegCnt": 10
+          },
+          "sameHomeAway": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "33",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "33",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 2
+          },
+          "eachSameHomeAway": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 6,
+            "awayScoreRatio": "27",
+            "awayWinGoalMatchCnt": 2,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 3,
+            "homeScoreRatio": "57",
+            "homeWinGoalMatchCnt": 5,
+            "totalLegCnt": 10
+          }
+        },
+        "third_party_prediction_fields_excluded": [
+          "bqcyc",
+          "dxyc",
+          "matchAnalysis",
+          "poissonDistributionStr",
+          "sfyc",
+          "spfyc",
+          "zjqyc"
+        ],
+        "feature_coverage": {
+          "historyDataStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "matchList",
+              "statistics"
+            ],
+            "history_match_count": 4
+          },
+          "matchFeatureStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 16,
+            "keys": [
+              "awayTeamId",
+              "awayTeamShortName",
+              "eachHomeAway",
+              "eachSameHomeAway",
+              "goalAvg",
+              "homeTeamId",
+              "homeTeamShortName",
+              "last",
+              "lossGoalAvg",
+              "matchId",
+              "sameHomeAway",
+              "sportteryAwayTeamId",
+              "sportteryHomeTeamId",
+              "sportteryMatchId",
+              "uniformAwayTeamId",
+              "uniformHomeTeamId"
+            ],
+            "numeric_leaves": {
+              "awayTeamId": 0,
+              "homeTeamId": 0,
+              "matchId": 2500497,
+              "sportteryAwayTeamId": 383,
+              "sportteryHomeTeamId": 885,
+              "sportteryMatchId": 2042695,
+              "uniformAwayTeamId": 694,
+              "uniformHomeTeamId": 1728
+            },
+            "metric_shapes": {
+              "eachHomeAway": {
+                "type": "dict",
+                "length": 9
+              },
+              "goalAvg": {
+                "type": "dict",
+                "length": 5
+              },
+              "last": {
+                "type": "dict",
+                "length": 9
+              },
+              "lossGoalAvg": {
+                "type": "dict",
+                "length": 5
+              },
+              "sameHomeAway": {
+                "type": "dict",
+                "length": 9
+              }
+            }
+          },
+          "injurySuspensionStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "away",
+              "home"
+            ],
+            "injury_counts": {
+              "away": 5,
+              "home": 5
+            }
+          },
+          "matchTableStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 9,
+            "keys": [
+              "awayTables",
+              "gmLeagueId",
+              "homeTables",
+              "leagueShortName",
+              "phaseId",
+              "seasonId",
+              "seasonName",
+              "tournamentId",
+              "uniformLeagueId"
+            ]
+          },
+          "matchTableDetailStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 3,
+            "keys": [
+              "awayTables",
+              "homeTables",
+              "totalTables"
+            ]
+          }
+        },
+        "status": "SOURCE_DETAIL_AVAILABLE",
+        "provider_update_time_raw": "2026-11-12 16:09:41",
+        "raw_features_are_provider_reported_not_independently_verified": true,
+        "h2h_record_count": 4,
+        "injury_data_presence_only_not_absence_verification": true,
+        "independent_model_1x2_probability": null
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261112004",
+        "match_number": "周四004",
+        "fixture_home": "黑山",
+        "fixture_away": "拉脱维亚",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-11-11T09:27:54+08:00",
+            "source_time_raw": "2026-11-11 09:27:54",
+            "home": 1.2,
+            "draw": 4.95,
+            "away": 9.6,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T10:34:38+08:00",
+            "source_time_raw": "2026-11-12 10:34:38",
+            "home": 1.17,
+            "draw": 5.3,
+            "away": 10.5,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T13:06:09+08:00",
+            "source_time_raw": "2026-11-12 13:06:09",
+            "home": 1.15,
+            "draw": 5.6,
+            "away": 11.0,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T15:30:10+08:00",
+            "source_time_raw": "2026-11-12 15:30:10",
+            "home": 1.14,
+            "draw": 5.75,
+            "away": 11.3,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周四004",
+        "provider_home": "黑山",
+        "provider_away": "拉脱维亚",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 4,
+        "duplicate_timestamps": 0,
+        "history_count": 4,
+        "earliest_source_updated_at_bj": "2026-11-11T09:27:54+08:00",
+        "latest_source_updated_at_bj": "2026-11-12T15:30:10+08:00",
+        "verified_for_model_use": true
+      },
+      "data_quality": {
+        "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
+        "history_spf_valid": true,
+        "history_spf_quote_count": 4,
+        "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+        "history_as_of": "2026-11-12T15:30:10+08:00",
+        "source_sp_update_age_hours": 0.81,
+        "true_prematch_snapshot": true,
+        "current_sp_vs_latest_history": "MATCH",
+        "market_officially_verified": false,
+        "probability_model_calibrated": false
+      },
+      "model_features": {
+        "usable_as_third_party_research_inputs": {
+          "last": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 2,
+            "awayScoreRatio": "17",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "67",
+            "homeWinGoalMatchCnt": 2,
+            "totalLegCnt": 4
+          },
+          "goalAvg": {
+            "awayGoalAvgCnt": "0.6",
+            "awayGoalAvgCntRatio": "25.0",
+            "homeGoalAvgCnt": "1.8",
+            "homeGoalAvgCntRatio": "75.0",
+            "totalLegCnt": 10
+          },
+          "lossGoalAvg": {
+            "awayLossGoalAvgCnt": "1.0",
+            "awayLossGoalAvgCntRatio": "43.5",
+            "homeLossGoalAvgCnt": "1.3",
+            "homeLossGoalAvgCntRatio": "56.5",
+            "totalLegCnt": 10
+          },
+          "eachHomeAway": {
+            "awayDrawMatchCnt": 3,
+            "awayLossGoalMatchCnt": 5,
+            "awayScoreRatio": "30",
+            "awayWinGoalMatchCnt": 2,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 2,
+            "homeScoreRatio": "67",
+            "homeWinGoalMatchCnt": 6,
+            "totalLegCnt": 10
+          },
+          "sameHomeAway": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "33",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "33",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 2
+          },
+          "eachSameHomeAway": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 6,
+            "awayScoreRatio": "27",
+            "awayWinGoalMatchCnt": 2,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 3,
+            "homeScoreRatio": "57",
+            "homeWinGoalMatchCnt": 5,
+            "totalLegCnt": 10
+          }
+        },
+        "prematch_independent_feature_validation": "NOT_COMPLETED",
+        "vendor_prediction_outputs_excluded": true,
+        "independent_1x2_prediction": null,
+        "independent_handicap_prediction": null,
+        "calibrated_ev": null
+      }
+    },
+    {
+      "match_id": "F20261112005",
+      "jc_number": "周四005",
+      "home": "英格兰",
+      "away": "克罗地亚",
+      "competition": "欧国联",
+      "kickoff_bj": "2026-11-13T03:45:00+08:00",
+      "snapshot_captured_at_bj": "2026-11-12T16:18:59.329760+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "source_market": {
+        "raw": {
+          "spfOdds": "1.12|6.25|11.50",
+          "rqspfOdds": "2.30|4.10|2.17",
+          "concedeNum": -2,
+          "bfOdds": "13.50|8.25|6.25|8.00|7.25|8.00|22.00|12.00|13.50|29.00|21.00|26.00|65.00|350.0|26.00|11.50|19.00|65.00|250.0|30.00|75.00|28.00|200.0|85.00|65.00|550.0|300.0|300.0|1000|850.0|750.0",
+          "zjqOdds": "26.00|7.50|4.50|3.65|4.25|6.20|9.75|11.50",
+          "bqcOdds": "1.47|25.00|100.0|3.90|11.00|27.00|20.00|25.00|20.00"
+        },
+        "spf": {
+          "home": 1.12,
+          "draw": 6.25,
+          "away": 11.5
+        },
+        "integer_handicap": -2,
+        "handicap_sp": {
+          "home": 2.3,
+          "draw": 4.1,
+          "away": 2.17
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          26.0,
+          7.5,
+          4.5,
+          3.65,
+          4.25,
+          6.2,
+          9.75,
+          11.5
+        ]
+      },
+      "detail": {
+        "business_status": 200,
+        "retrieved_at_bj": "2026-11-12T16:18:59.996714+08:00",
+        "raw_football_fields": {
+          "last": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 4,
+            "awayScoreRatio": "11",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "78",
+            "homeWinGoalMatchCnt": 4,
+            "totalLegCnt": 6
+          },
+          "goalAvg": {
+            "awayGoalAvgCnt": "1.2",
+            "awayGoalAvgCntRatio": "29.3",
+            "homeGoalAvgCnt": "2.9",
+            "homeGoalAvgCntRatio": "70.7",
+            "totalLegCnt": 10
+          },
+          "lossGoalAvg": {
+            "awayLossGoalAvgCnt": "2.4",
+            "awayLossGoalAvgCntRatio": "64.9",
+            "homeLossGoalAvgCnt": "1.3",
+            "homeLossGoalAvgCntRatio": "35.1",
+            "totalLegCnt": 10
+          },
+          "eachHomeAway": {
+            "awayDrawMatchCnt": 0,
+            "awayLossGoalMatchCnt": 6,
+            "awayScoreRatio": "40",
+            "awayWinGoalMatchCnt": 4,
+            "homeDrawMatchCnt": 1,
+            "homeLossGoalMatchCnt": 2,
+            "homeScoreRatio": "73",
+            "homeWinGoalMatchCnt": 7,
+            "totalLegCnt": 10
+          },
+          "sameHomeAway": {
+            "awayDrawMatchCnt": 0,
+            "awayLossGoalMatchCnt": 3,
+            "awayScoreRatio": "0",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "100",
+            "homeWinGoalMatchCnt": 3,
+            "totalLegCnt": 3
+          },
+          "eachSameHomeAway": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 4,
+            "awayScoreRatio": "53",
+            "awayWinGoalMatchCnt": 5,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 3,
+            "homeScoreRatio": "57",
+            "homeWinGoalMatchCnt": 5,
+            "totalLegCnt": 10
+          }
+        },
+        "third_party_prediction_fields_excluded": [
+          "bqcyc",
+          "dxyc",
+          "matchAnalysis",
+          "poissonDistributionStr",
+          "sfyc",
+          "spfyc",
+          "zjqyc"
+        ],
+        "feature_coverage": {
+          "historyDataStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "matchList",
+              "statistics"
+            ],
+            "history_match_count": 6
+          },
+          "matchFeatureStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 16,
+            "keys": [
+              "awayTeamId",
+              "awayTeamShortName",
+              "eachHomeAway",
+              "eachSameHomeAway",
+              "goalAvg",
+              "homeTeamId",
+              "homeTeamShortName",
+              "last",
+              "lossGoalAvg",
+              "matchId",
+              "sameHomeAway",
+              "sportteryAwayTeamId",
+              "sportteryHomeTeamId",
+              "sportteryMatchId",
+              "uniformAwayTeamId",
+              "uniformHomeTeamId"
+            ],
+            "numeric_leaves": {
+              "awayTeamId": 0,
+              "homeTeamId": 0,
+              "matchId": 2500423,
+              "sportteryAwayTeamId": 366,
+              "sportteryHomeTeamId": 370,
+              "sportteryMatchId": 2042696,
+              "uniformAwayTeamId": 1731,
+              "uniformHomeTeamId": 1730
+            },
+            "metric_shapes": {
+              "eachHomeAway": {
+                "type": "dict",
+                "length": 9
+              },
+              "goalAvg": {
+                "type": "dict",
+                "length": 5
+              },
+              "last": {
+                "type": "dict",
+                "length": 9
+              },
+              "lossGoalAvg": {
+                "type": "dict",
+                "length": 5
+              },
+              "sameHomeAway": {
+                "type": "dict",
+                "length": 9
+              }
+            }
+          },
+          "injurySuspensionStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "away",
+              "home"
+            ],
+            "injury_counts": {
+              "away": 5,
+              "home": 5
+            }
+          },
+          "matchTableStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 9,
+            "keys": [
+              "awayTables",
+              "gmLeagueId",
+              "homeTables",
+              "leagueShortName",
+              "phaseId",
+              "seasonId",
+              "seasonName",
+              "tournamentId",
+              "uniformLeagueId"
+            ]
+          },
+          "matchTableDetailStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 3,
+            "keys": [
+              "awayTables",
+              "homeTables",
+              "totalTables"
+            ]
+          }
+        },
+        "status": "SOURCE_DETAIL_AVAILABLE",
+        "provider_update_time_raw": "2026-11-12 16:09:43",
+        "raw_features_are_provider_reported_not_independently_verified": true,
+        "h2h_record_count": 6,
+        "injury_data_presence_only_not_absence_verification": true,
+        "independent_model_1x2_probability": null
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261112005",
+        "match_number": "周四005",
+        "fixture_home": "英格兰",
+        "fixture_away": "克罗地亚",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-11-11T09:27:54+08:00",
+            "source_time_raw": "2026-11-11 09:27:54",
+            "home": 1.17,
+            "draw": 5.55,
+            "away": 9.6,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-11T20:13:31+08:00",
+            "source_time_raw": "2026-11-11 20:13:31",
+            "home": 1.17,
+            "draw": 5.55,
+            "away": 9.6,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-11T20:16:35+08:00",
+            "source_time_raw": "2026-11-11 20:16:35",
+            "home": 1.15,
+            "draw": 5.75,
+            "away": 10.5,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T10:35:10+08:00",
+            "source_time_raw": "2026-11-12 10:35:10",
+            "home": 1.12,
+            "draw": 6.0,
+            "away": 12.5,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T13:06:09+08:00",
+            "source_time_raw": "2026-11-12 13:06:09",
+            "home": 1.11,
+            "draw": 6.3,
+            "away": 12.5,
+            "source_odds_flag": "-1|1|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-12T15:07:23+08:00",
+            "source_time_raw": "2026-11-12 15:07:23",
+            "home": 1.12,
+            "draw": 6.25,
+            "away": 11.5,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周四005",
+        "provider_home": "英格兰",
+        "provider_away": "克罗地亚",
+        "integer_handicap": "-2",
+        "source_identity_alias_used": false,
+        "source_history_count": 6,
+        "duplicate_timestamps": 0,
+        "history_count": 6,
+        "earliest_source_updated_at_bj": "2026-11-11T09:27:54+08:00",
+        "latest_source_updated_at_bj": "2026-11-12T15:07:23+08:00",
+        "verified_for_model_use": true
+      },
+      "data_quality": {
+        "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
+        "history_spf_valid": true,
+        "history_spf_quote_count": 6,
+        "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+        "history_as_of": "2026-11-12T15:07:23+08:00",
+        "source_sp_update_age_hours": 1.19,
+        "true_prematch_snapshot": true,
+        "current_sp_vs_latest_history": "MATCH",
+        "market_officially_verified": false,
+        "probability_model_calibrated": false
+      },
+      "model_features": {
+        "usable_as_third_party_research_inputs": {
+          "last": {
+            "awayDrawMatchCnt": 2,
+            "awayLossGoalMatchCnt": 4,
+            "awayScoreRatio": "11",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "78",
+            "homeWinGoalMatchCnt": 4,
+            "totalLegCnt": 6
+          },
+          "goalAvg": {
+            "awayGoalAvgCnt": "1.2",
+            "awayGoalAvgCntRatio": "29.3",
+            "homeGoalAvgCnt": "2.9",
+            "homeGoalAvgCntRatio": "70.7",
+            "totalLegCnt": 10
+          },
+          "lossGoalAvg": {
+            "awayLossGoalAvgCnt": "2.4",
+            "awayLossGoalAvgCntRatio": "64.9",
+            "homeLossGoalAvgCnt": "1.3",
+            "homeLossGoalAvgCntRatio": "35.1",
+            "totalLegCnt": 10
+          },
+          "eachHomeAway": {
+            "awayDrawMatchCnt": 0,
+            "awayLossGoalMatchCnt": 6,
+            "awayScoreRatio": "40",
+            "awayWinGoalMatchCnt": 4,
+            "homeDrawMatchCnt": 1,
+            "homeLossGoalMatchCnt": 2,
+            "homeScoreRatio": "73",
+            "homeWinGoalMatchCnt": 7,
+            "totalLegCnt": 10
+          },
+          "sameHomeAway": {
+            "awayDrawMatchCnt": 0,
+            "awayLossGoalMatchCnt": 3,
+            "awayScoreRatio": "0",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 0,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "100",
+            "homeWinGoalMatchCnt": 3,
+            "totalLegCnt": 3
+          },
+          "eachSameHomeAway": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 4,
+            "awayScoreRatio": "53",
+            "awayWinGoalMatchCnt": 5,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 3,
+            "homeScoreRatio": "57",
+            "homeWinGoalMatchCnt": 5,
+            "totalLegCnt": 10
+          }
+        },
+        "prematch_independent_feature_validation": "NOT_COMPLETED",
+        "vendor_prediction_outputs_excluded": true,
+        "independent_1x2_prediction": null,
+        "independent_handicap_prediction": null,
+        "calibrated_ev": null
+      }
+    },
+    {
+      "match_id": "F20261112006",
+      "jc_number": "周四006",
+      "home": "捷克",
+      "away": "西班牙",
+      "competition": "欧国联",
+      "kickoff_bj": "2026-11-13T03:45:00+08:00",
+      "snapshot_captured_at_bj": "2026-11-12T16:19:00.871464+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "source_market": {
+        "raw": {
+          "spfOdds": "||",
+          "rqspfOdds": "2.20|3.75|2.39",
+          "concedeNum": 2,
+          "bfOdds": "300.0|34.00|80.00|36.00|250.0|90.00|85.00|750.0|350.0|350.0|900.0|900.0|900.0|400.0|26.00|13.50|24.00|85.00|9.50|8.75|5.80|8.75|7.00|8.25|28.00|10.00|12.50|36.00|18.00|23.00|55.00",
+          "zjqOdds": "26.00|8.00|4.65|3.65|4.20|6.10|9.55|10.50",
+          "bqcOdds": "21.00|25.00|21.00|28.00|11.50|4.00|80.00|25.00|1.44"
+        },
+        "spf": null,
+        "integer_handicap": 2,
+        "handicap_sp": {
+          "home": 2.2,
+          "draw": 3.75,
+          "away": 2.39
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          26.0,
+          8.0,
+          4.65,
+          3.65,
+          4.2,
+          6.1,
+          9.55,
+          10.5
+        ]
+      },
+      "detail": {
+        "business_status": 200,
+        "retrieved_at_bj": "2026-11-12T16:19:01.558076+08:00",
+        "raw_football_fields": {
+          "last": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "83",
+            "awayWinGoalMatchCnt": 3,
+            "homeDrawMatchCnt": 1,
+            "homeLossGoalMatchCnt": 3,
+            "homeScoreRatio": "8",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 4
+          },
+          "goalAvg": {
+            "awayGoalAvgCnt": "2.1",
+            "awayGoalAvgCntRatio": "67.7",
+            "homeGoalAvgCnt": "1.0",
+            "homeGoalAvgCntRatio": "32.3",
+            "totalLegCnt": 10
+          },
+          "lossGoalAvg": {
+            "awayLossGoalAvgCnt": "0.6",
+            "awayLossGoalAvgCntRatio": "24.0",
+            "homeLossGoalAvgCnt": "1.9",
+            "homeLossGoalAvgCntRatio": "76.0",
+            "totalLegCnt": 10
+          },
+          "eachHomeAway": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "93",
+            "awayWinGoalMatchCnt": 9,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 6,
+            "homeScoreRatio": "27",
+            "homeWinGoalMatchCnt": 2,
+            "totalLegCnt": 10
+          },
+          "sameHomeAway": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "33",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 1,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "33",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 1
+          },
+          "eachSameHomeAway": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "93",
+            "awayWinGoalMatchCnt": 9,
+            "homeDrawMatchCnt": 3,
+            "homeLossGoalMatchCnt": 3,
+            "homeScoreRatio": "50",
+            "homeWinGoalMatchCnt": 4,
+            "totalLegCnt": 10
+          }
+        },
+        "third_party_prediction_fields_excluded": [
+          "bqcyc",
+          "dxyc",
+          "matchAnalysis",
+          "poissonDistributionStr",
+          "sfyc",
+          "spfyc",
+          "zjqyc"
+        ],
+        "feature_coverage": {
+          "historyDataStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "matchList",
+              "statistics"
+            ],
+            "history_match_count": 4
+          },
+          "matchFeatureStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 16,
+            "keys": [
+              "awayTeamId",
+              "awayTeamShortName",
+              "eachHomeAway",
+              "eachSameHomeAway",
+              "goalAvg",
+              "homeTeamId",
+              "homeTeamShortName",
+              "last",
+              "lossGoalAvg",
+              "matchId",
+              "sameHomeAway",
+              "sportteryAwayTeamId",
+              "sportteryHomeTeamId",
+              "sportteryMatchId",
+              "uniformAwayTeamId",
+              "uniformHomeTeamId"
+            ],
+            "numeric_leaves": {
+              "awayTeamId": 0,
+              "homeTeamId": 0,
+              "matchId": 2500424,
+              "sportteryAwayTeamId": 23,
+              "sportteryHomeTeamId": 368,
+              "sportteryMatchId": 2042697,
+              "uniformAwayTeamId": 77,
+              "uniformHomeTeamId": 75
+            },
+            "metric_shapes": {
+              "eachHomeAway": {
+                "type": "dict",
+                "length": 9
+              },
+              "goalAvg": {
+                "type": "dict",
+                "length": 5
+              },
+              "last": {
+                "type": "dict",
+                "length": 9
+              },
+              "lossGoalAvg": {
+                "type": "dict",
+                "length": 5
+              },
+              "sameHomeAway": {
+                "type": "dict",
+                "length": 9
+              }
+            }
+          },
+          "injurySuspensionStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 2,
+            "keys": [
+              "away",
+              "home"
+            ],
+            "injury_counts": {
+              "away": 5,
+              "home": 5
+            }
+          },
+          "matchTableStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 9,
+            "keys": [
+              "awayTables",
+              "gmLeagueId",
+              "homeTables",
+              "leagueShortName",
+              "phaseId",
+              "seasonId",
+              "seasonName",
+              "tournamentId",
+              "uniformLeagueId"
+            ]
+          },
+          "matchTableDetailStr": {
+            "present": true,
+            "type": "str",
+            "parsed_type": "dict",
+            "item_count": 3,
+            "keys": [
+              "awayTables",
+              "homeTables",
+              "totalTables"
+            ]
+          }
+        },
+        "status": "SOURCE_DETAIL_AVAILABLE",
+        "provider_update_time_raw": "2026-11-12 16:09:44",
+        "raw_features_are_provider_reported_not_independently_verified": true,
+        "h2h_record_count": 4,
+        "injury_data_presence_only_not_absence_verification": true,
+        "independent_model_1x2_probability": null
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261112006",
+        "match_number": "周四006",
+        "fixture_home": "捷克",
+        "fixture_away": "西班牙",
+        "source_identity_verified": true,
+        "market": "",
+        "history": [],
+        "invalid_records": 0,
+        "provider_match_number": "周四006",
+        "provider_home": "捷克",
+        "provider_away": "西班牙",
+        "integer_handicap": "+2",
+        "source_identity_alias_used": false,
+        "source_history_count": 0,
+        "duplicate_timestamps": 0,
+        "history_count": 0,
+        "verified_for_model_use": false,
+        "reason": "INCOMPLETE_OR_UNVERIFIED_SOURCE_SP_HISTORY"
+      },
+      "data_quality": {
+        "identity": "DATE_BOUND_ID_WITH_PROVIDER_TEAMS",
+        "history_spf_valid": false,
+        "history_spf_quote_count": 0,
+        "spf_history_trend_status": "UNVERIFIED_OR_MISSING",
+        "history_as_of": null,
+        "source_sp_update_age_hours": null,
+        "true_prematch_snapshot": false,
+        "current_sp_vs_latest_history": "UNTESTED",
+        "market_officially_verified": false,
+        "probability_model_calibrated": false
+      },
+      "model_features": {
+        "usable_as_third_party_research_inputs": {
+          "last": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "83",
+            "awayWinGoalMatchCnt": 3,
+            "homeDrawMatchCnt": 1,
+            "homeLossGoalMatchCnt": 3,
+            "homeScoreRatio": "8",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 4
+          },
+          "goalAvg": {
+            "awayGoalAvgCnt": "2.1",
+            "awayGoalAvgCntRatio": "67.7",
+            "homeGoalAvgCnt": "1.0",
+            "homeGoalAvgCntRatio": "32.3",
+            "totalLegCnt": 10
+          },
+          "lossGoalAvg": {
+            "awayLossGoalAvgCnt": "0.6",
+            "awayLossGoalAvgCntRatio": "24.0",
+            "homeLossGoalAvgCnt": "1.9",
+            "homeLossGoalAvgCntRatio": "76.0",
+            "totalLegCnt": 10
+          },
+          "eachHomeAway": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "93",
+            "awayWinGoalMatchCnt": 9,
+            "homeDrawMatchCnt": 2,
+            "homeLossGoalMatchCnt": 6,
+            "homeScoreRatio": "27",
+            "homeWinGoalMatchCnt": 2,
+            "totalLegCnt": 10
+          },
+          "sameHomeAway": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "33",
+            "awayWinGoalMatchCnt": 0,
+            "homeDrawMatchCnt": 1,
+            "homeLossGoalMatchCnt": 0,
+            "homeScoreRatio": "33",
+            "homeWinGoalMatchCnt": 0,
+            "totalLegCnt": 1
+          },
+          "eachSameHomeAway": {
+            "awayDrawMatchCnt": 1,
+            "awayLossGoalMatchCnt": 0,
+            "awayScoreRatio": "93",
+            "awayWinGoalMatchCnt": 9,
+            "homeDrawMatchCnt": 3,
+            "homeLossGoalMatchCnt": 3,
+            "homeScoreRatio": "50",
+            "homeWinGoalMatchCnt": 4,
+            "totalLegCnt": 10
+          }
+        },
+        "prematch_independent_feature_validation": "NOT_COMPLETED",
+        "vendor_prediction_outputs_excluded": true,
+        "independent_1x2_prediction": null,
+        "independent_handicap_prediction": null,
+        "calibrated_ev": null
+      }
+    }
+  ],
+  "coverage": {
+    "fixture_ids": 6,
+    "matches_evaluated": 6,
+    "current_spf_prices": 5,
+    "current_handicap_prices": 6,
+    "reported_handicap_numbers": 6,
+    "detail_objects": 6,
+    "historical_spf_matches_verified": 5,
+    "historical_spf_rows": 41,
+    "historical_spf_single_snapshot_matches": 0,
+    "historical_spf_multi_snapshot_matches": 5,
+    "historical_spf_price_change_matches": 5,
+    "current_spf_matches_latest_history": 5,
+    "current_spf_divergence_or_lag": 0,
+    "source_sp_timestamp_missing": 1,
+    "source_sp_without_update_over_12h": 0,
+    "source_sp_without_update_over_24h": 0,
+    "captured_before_kickoff": 6,
+    "captured_after_kickoff": 0,
+    "prematch_verified_history_snapshots": 5,
+    "third_party_handicap_historical_rows": 0,
+    "verified_official_jc_sp_matches": 0
+  },
+  "quality_gate": "PARTIAL_RESEARCH_DATA",
+  "fixture_pool_integrity": "COMPLETE",
+  "collection_finished_at_bj": "2026-11-12T16:19:02.451616+08:00",
+  "odds_trend_gate": "PARTIAL_MULTI_SNAPSHOT_COVERAGE",
+  "betting_gate": "BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV",
+  "known_gaps": [
+    "Caidao third-party quotes have not been directly matched to official JC feed",
+    "Fixture team identities and kickoffs are not independently verified against primary schedules",
+    "No verified time-series for official integer-handicap H-HAD odds",
+    "A single SPF quote does not prove historical odds movement; check odds_trend_gate and price-change coverage",
+    "Provider form/lineups/injuries not individually verified against original team/league sources",
+    "No calibrated evidence-only 1X2/draw/score/handicap model run",
+    "Provider probabilities and prose excluded to preserve independent model firewall",
+    "GitHub schedule timestamps and provider update timestamps are not guaranteed simultaneous"
+  ]
+}
