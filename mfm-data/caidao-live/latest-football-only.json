@@ -1,7 +1,7 @@
 {
   "sale_date_bj": "2026-11-14",
   "source": "Caidao third-party reported football form; independent validation incomplete",
-  "created_at_bj": "2026-11-14T01:24:40.689292+08:00",
+  "created_at_bj": "2026-11-14T15:36:30.314719+08:00",
   "contains_odds_or_vendor_probabilities": false,
   "calibrated_prediction_generated": false,
   "matches": [
@@ -11,7 +11,7 @@
       "home": "湘南海洋",
       "away": "横滨FC",
       "kickoff_bj": "2026-11-14T13:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "form_data": {
         "last": {
           "awayDrawMatchCnt": 2,
@@ -82,7 +82,7 @@
       "home": "大宫松鼠",
       "away": "山形山神",
       "kickoff_bj": "2026-11-14T13:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "form_data": {
         "last": {
           "awayDrawMatchCnt": 5,
@@ -145,6 +145,148 @@
       },
       "historical_head_to_head_count": 10,
       "injury_information_present_unverified": true,
+      "missing_primary_source_verification": true
+    },
+    {
+      "match_id": "F20261114003",
+      "jc_number": "周六003",
+      "home": "日本",
+      "away": "巴西",
+      "kickoff_bj": "2026-11-14T18:15:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "form_data": {
+        "last": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 1,
+          "awayScoreRatio": "80",
+          "awayWinGoalMatchCnt": 4,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 4,
+          "homeScoreRatio": "20",
+          "homeWinGoalMatchCnt": 1,
+          "totalLegCnt": 5
+        },
+        "goalAvg": {
+          "awayGoalAvgCnt": "2.7",
+          "awayGoalAvgCntRatio": "61.4",
+          "homeGoalAvgCnt": "1.7",
+          "homeGoalAvgCntRatio": "38.6",
+          "totalLegCnt": 10
+        },
+        "lossGoalAvg": {
+          "awayLossGoalAvgCnt": "1.0",
+          "awayLossGoalAvgCntRatio": "55.6",
+          "homeLossGoalAvgCnt": "0.8",
+          "homeLossGoalAvgCntRatio": "44.4",
+          "totalLegCnt": 10
+        },
+        "eachHomeAway": {
+          "awayDrawMatchCnt": 2,
+          "awayLossGoalMatchCnt": 1,
+          "awayScoreRatio": "77",
+          "awayWinGoalMatchCnt": 7,
+          "homeDrawMatchCnt": 3,
+          "homeLossGoalMatchCnt": 1,
+          "homeScoreRatio": "70",
+          "homeWinGoalMatchCnt": 6,
+          "totalLegCnt": 10
+        },
+        "sameHomeAway": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 1,
+          "awayScoreRatio": "67",
+          "awayWinGoalMatchCnt": 2,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 2,
+          "homeScoreRatio": "33",
+          "homeWinGoalMatchCnt": 1,
+          "totalLegCnt": 3
+        },
+        "eachSameHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 3,
+          "awayScoreRatio": "50",
+          "awayWinGoalMatchCnt": 4,
+          "homeDrawMatchCnt": 3,
+          "homeLossGoalMatchCnt": 0,
+          "homeScoreRatio": "80",
+          "homeWinGoalMatchCnt": 7,
+          "totalLegCnt": 10
+        }
+      },
+      "historical_head_to_head_count": 5,
+      "injury_information_present_unverified": true,
+      "missing_primary_source_verification": true
+    },
+    {
+      "match_id": "F20261114004",
+      "jc_number": "周六004",
+      "home": "中国",
+      "away": "马来西亚",
+      "kickoff_bj": "2026-11-14T20:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "form_data": {
+        "last": {
+          "awayDrawMatchCnt": 1,
+          "awayLossGoalMatchCnt": 0,
+          "awayScoreRatio": "33",
+          "awayWinGoalMatchCnt": 0,
+          "homeDrawMatchCnt": 1,
+          "homeLossGoalMatchCnt": 0,
+          "homeScoreRatio": "33",
+          "homeWinGoalMatchCnt": 0,
+          "totalLegCnt": 1
+        },
+        "goalAvg": {
+          "awayGoalAvgCnt": "1.7",
+          "awayGoalAvgCntRatio": "68.0",
+          "homeGoalAvgCnt": "0.8",
+          "homeGoalAvgCntRatio": "32.0",
+          "totalLegCnt": 10
+        },
+        "lossGoalAvg": {
+          "awayLossGoalAvgCnt": "1.1",
+          "awayLossGoalAvgCntRatio": "44.0",
+          "homeLossGoalAvgCnt": "1.4",
+          "homeLossGoalAvgCntRatio": "56.0",
+          "totalLegCnt": 10
+        },
+        "eachHomeAway": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 4,
+          "awayScoreRatio": "60",
+          "awayWinGoalMatchCnt": 6,
+          "homeDrawMatchCnt": 1,
+          "homeLossGoalMatchCnt": 5,
+          "homeScoreRatio": "43",
+          "homeWinGoalMatchCnt": 4,
+          "totalLegCnt": 10
+        },
+        "sameHomeAway": {
+          "awayDrawMatchCnt": 1,
+          "awayLossGoalMatchCnt": 0,
+          "awayScoreRatio": "33",
+          "awayWinGoalMatchCnt": 0,
+          "homeDrawMatchCnt": 1,
+          "homeLossGoalMatchCnt": 0,
+          "homeScoreRatio": "33",
+          "homeWinGoalMatchCnt": 0,
+          "totalLegCnt": 1
+        },
+        "eachSameHomeAway": {
+          "awayDrawMatchCnt": 2,
+          "awayLossGoalMatchCnt": 4,
+          "awayScoreRatio": "47",
+          "awayWinGoalMatchCnt": 4,
+          "homeDrawMatchCnt": 1,
+          "homeLossGoalMatchCnt": 5,
+          "homeScoreRatio": "43",
+          "homeWinGoalMatchCnt": 4,
+          "totalLegCnt": 10
+        }
+      },
+      "historical_head_to_head_count": 1,
+      "injury_information_present_unverified": false,
       "missing_primary_source_verification": true
     },
     {
@@ -215,6 +357,148 @@
         }
       },
       "historical_head_to_head_count": 10,
+      "injury_information_present_unverified": true,
+      "missing_primary_source_verification": true
+    },
+    {
+      "match_id": "F20261114006",
+      "jc_number": "周六006",
+      "home": "格鲁吉亚",
+      "away": "匈牙利",
+      "kickoff_bj": "2026-11-15T01:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "form_data": {
+        "last": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 0,
+          "awayScoreRatio": "100",
+          "awayWinGoalMatchCnt": 1,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 1,
+          "homeScoreRatio": "0",
+          "homeWinGoalMatchCnt": 0,
+          "totalLegCnt": 1
+        },
+        "goalAvg": {
+          "awayGoalAvgCnt": "1.2",
+          "awayGoalAvgCntRatio": "60.0",
+          "homeGoalAvgCnt": "0.8",
+          "homeGoalAvgCntRatio": "40.0",
+          "totalLegCnt": 10
+        },
+        "lossGoalAvg": {
+          "awayLossGoalAvgCnt": "0.7",
+          "awayLossGoalAvgCntRatio": "38.9",
+          "homeLossGoalAvgCnt": "1.1",
+          "homeLossGoalAvgCntRatio": "61.1",
+          "totalLegCnt": 10
+        },
+        "eachHomeAway": {
+          "awayDrawMatchCnt": 2,
+          "awayLossGoalMatchCnt": 2,
+          "awayScoreRatio": "67",
+          "awayWinGoalMatchCnt": 6,
+          "homeDrawMatchCnt": 4,
+          "homeLossGoalMatchCnt": 4,
+          "homeScoreRatio": "33",
+          "homeWinGoalMatchCnt": 2,
+          "totalLegCnt": 10
+        },
+        "sameHomeAway": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 0,
+          "awayScoreRatio": "",
+          "awayWinGoalMatchCnt": 0,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 0,
+          "homeScoreRatio": "",
+          "homeWinGoalMatchCnt": 0,
+          "totalLegCnt": 0
+        },
+        "eachSameHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 3,
+          "awayScoreRatio": "50",
+          "awayWinGoalMatchCnt": 4,
+          "homeDrawMatchCnt": 4,
+          "homeLossGoalMatchCnt": 3,
+          "homeScoreRatio": "43",
+          "homeWinGoalMatchCnt": 3,
+          "totalLegCnt": 10
+        }
+      },
+      "historical_head_to_head_count": 1,
+      "injury_information_present_unverified": false,
+      "missing_primary_source_verification": true
+    },
+    {
+      "match_id": "F20261114007",
+      "jc_number": "周六007",
+      "home": "挪威",
+      "away": "威尔士",
+      "kickoff_bj": "2026-11-15T01:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "form_data": {
+        "last": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 0,
+          "awayScoreRatio": "100",
+          "awayWinGoalMatchCnt": 1,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 1,
+          "homeScoreRatio": "0",
+          "homeWinGoalMatchCnt": 0,
+          "totalLegCnt": 1
+        },
+        "goalAvg": {
+          "awayGoalAvgCnt": "1.4",
+          "awayGoalAvgCntRatio": "42.4",
+          "homeGoalAvgCnt": "1.9",
+          "homeGoalAvgCntRatio": "57.6",
+          "totalLegCnt": 10
+        },
+        "lossGoalAvg": {
+          "awayLossGoalAvgCnt": "1.1",
+          "awayLossGoalAvgCntRatio": "37.9",
+          "homeLossGoalAvgCnt": "1.8",
+          "homeLossGoalAvgCntRatio": "62.1",
+          "totalLegCnt": 10
+        },
+        "eachHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 4,
+          "awayScoreRatio": "40",
+          "awayWinGoalMatchCnt": 3,
+          "homeDrawMatchCnt": 1,
+          "homeLossGoalMatchCnt": 4,
+          "homeScoreRatio": "53",
+          "homeWinGoalMatchCnt": 5,
+          "totalLegCnt": 10
+        },
+        "sameHomeAway": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 0,
+          "awayScoreRatio": "",
+          "awayWinGoalMatchCnt": 0,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 0,
+          "homeScoreRatio": "",
+          "homeWinGoalMatchCnt": 0,
+          "totalLegCnt": 0
+        },
+        "eachSameHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 5,
+          "awayScoreRatio": "30",
+          "awayWinGoalMatchCnt": 2,
+          "homeDrawMatchCnt": 3,
+          "homeLossGoalMatchCnt": 2,
+          "homeScoreRatio": "60",
+          "homeWinGoalMatchCnt": 5,
+          "totalLegCnt": 10
+        }
+      },
+      "historical_head_to_head_count": null,
       "injury_information_present_unverified": true,
       "missing_primary_source_verification": true
     },
@@ -424,6 +708,432 @@
           "homeLossGoalMatchCnt": 3,
           "homeScoreRatio": "70",
           "homeWinGoalMatchCnt": 7,
+          "totalLegCnt": 10
+        }
+      },
+      "historical_head_to_head_count": 10,
+      "injury_information_present_unverified": true,
+      "missing_primary_source_verification": true
+    },
+    {
+      "match_id": "F20261114011",
+      "jc_number": "周六011",
+      "home": "奥地利",
+      "away": "爱尔兰",
+      "kickoff_bj": "2026-11-15T03:45:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "form_data": {
+        "last": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 1,
+          "awayScoreRatio": "40",
+          "awayWinGoalMatchCnt": 1,
+          "homeDrawMatchCnt": 3,
+          "homeLossGoalMatchCnt": 1,
+          "homeScoreRatio": "40",
+          "homeWinGoalMatchCnt": 1,
+          "totalLegCnt": 5
+        },
+        "goalAvg": {
+          "awayGoalAvgCnt": "1.8",
+          "awayGoalAvgCntRatio": "51.4",
+          "homeGoalAvgCnt": "1.7",
+          "homeGoalAvgCntRatio": "48.6",
+          "totalLegCnt": 10
+        },
+        "lossGoalAvg": {
+          "awayLossGoalAvgCnt": "0.9",
+          "awayLossGoalAvgCntRatio": "39.1",
+          "homeLossGoalAvgCnt": "1.4",
+          "homeLossGoalAvgCntRatio": "60.9",
+          "totalLegCnt": 10
+        },
+        "eachHomeAway": {
+          "awayDrawMatchCnt": 5,
+          "awayLossGoalMatchCnt": 1,
+          "awayScoreRatio": "57",
+          "awayWinGoalMatchCnt": 4,
+          "homeDrawMatchCnt": 3,
+          "homeLossGoalMatchCnt": 2,
+          "homeScoreRatio": "60",
+          "homeWinGoalMatchCnt": 5,
+          "totalLegCnt": 10
+        },
+        "sameHomeAway": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 1,
+          "awayScoreRatio": "50",
+          "awayWinGoalMatchCnt": 1,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 1,
+          "homeScoreRatio": "50",
+          "homeWinGoalMatchCnt": 1,
+          "totalLegCnt": 2
+        },
+        "eachSameHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 4,
+          "awayScoreRatio": "40",
+          "awayWinGoalMatchCnt": 3,
+          "homeDrawMatchCnt": 1,
+          "homeLossGoalMatchCnt": 0,
+          "homeScoreRatio": "93",
+          "homeWinGoalMatchCnt": 9,
+          "totalLegCnt": 10
+        }
+      },
+      "historical_head_to_head_count": 5,
+      "injury_information_present_unverified": true,
+      "missing_primary_source_verification": true
+    },
+    {
+      "match_id": "F20261114012",
+      "jc_number": "周六012",
+      "home": "瑞典",
+      "away": "波黑",
+      "kickoff_bj": "2026-11-15T03:45:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "form_data": {
+        "last": {
+          "awayDrawMatchCnt": 1,
+          "awayLossGoalMatchCnt": 0,
+          "awayScoreRatio": "33",
+          "awayWinGoalMatchCnt": 0,
+          "homeDrawMatchCnt": 1,
+          "homeLossGoalMatchCnt": 0,
+          "homeScoreRatio": "33",
+          "homeWinGoalMatchCnt": 0,
+          "totalLegCnt": 1
+        },
+        "goalAvg": {
+          "awayGoalAvgCnt": "1.2",
+          "awayGoalAvgCntRatio": "41.4",
+          "homeGoalAvgCnt": "1.7",
+          "homeGoalAvgCntRatio": "58.6",
+          "totalLegCnt": 10
+        },
+        "lossGoalAvg": {
+          "awayLossGoalAvgCnt": "1.2",
+          "awayLossGoalAvgCntRatio": "40.0",
+          "homeLossGoalAvgCnt": "1.8",
+          "homeLossGoalAvgCntRatio": "60.0",
+          "totalLegCnt": 10
+        },
+        "eachHomeAway": {
+          "awayDrawMatchCnt": 5,
+          "awayLossGoalMatchCnt": 2,
+          "awayScoreRatio": "47",
+          "awayWinGoalMatchCnt": 3,
+          "homeDrawMatchCnt": 3,
+          "homeLossGoalMatchCnt": 3,
+          "homeScoreRatio": "50",
+          "homeWinGoalMatchCnt": 4,
+          "totalLegCnt": 10
+        },
+        "sameHomeAway": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 0,
+          "awayScoreRatio": "",
+          "awayWinGoalMatchCnt": 0,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 0,
+          "homeScoreRatio": "",
+          "homeWinGoalMatchCnt": 0,
+          "totalLegCnt": 0
+        },
+        "eachSameHomeAway": {
+          "awayDrawMatchCnt": 6,
+          "awayLossGoalMatchCnt": 2,
+          "awayScoreRatio": "40",
+          "awayWinGoalMatchCnt": 2,
+          "homeDrawMatchCnt": 2,
+          "homeLossGoalMatchCnt": 2,
+          "homeScoreRatio": "67",
+          "homeWinGoalMatchCnt": 6,
+          "totalLegCnt": 10
+        }
+      },
+      "historical_head_to_head_count": null,
+      "injury_information_present_unverified": true,
+      "missing_primary_source_verification": true
+    },
+    {
+      "match_id": "F20261114013",
+      "jc_number": "周六013",
+      "home": "罗马尼亚",
+      "away": "波兰",
+      "kickoff_bj": "2026-11-15T03:45:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "form_data": {
+        "last": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 0,
+          "awayScoreRatio": "100",
+          "awayWinGoalMatchCnt": 3,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 3,
+          "homeScoreRatio": "0",
+          "homeWinGoalMatchCnt": 0,
+          "totalLegCnt": 3
+        },
+        "goalAvg": {
+          "awayGoalAvgCnt": "1.7",
+          "awayGoalAvgCntRatio": "54.8",
+          "homeGoalAvgCnt": "1.4",
+          "homeGoalAvgCntRatio": "45.2",
+          "totalLegCnt": 10
+        },
+        "lossGoalAvg": {
+          "awayLossGoalAvgCnt": "1.5",
+          "awayLossGoalAvgCntRatio": "40.5",
+          "homeLossGoalAvgCnt": "2.2",
+          "homeLossGoalAvgCntRatio": "59.5",
+          "totalLegCnt": 10
+        },
+        "eachHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 4,
+          "awayScoreRatio": "40",
+          "awayWinGoalMatchCnt": 3,
+          "homeDrawMatchCnt": 1,
+          "homeLossGoalMatchCnt": 7,
+          "homeScoreRatio": "23",
+          "homeWinGoalMatchCnt": 2,
+          "totalLegCnt": 10
+        },
+        "sameHomeAway": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 0,
+          "awayScoreRatio": "100",
+          "awayWinGoalMatchCnt": 1,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 1,
+          "homeScoreRatio": "0",
+          "homeWinGoalMatchCnt": 0,
+          "totalLegCnt": 1
+        },
+        "eachSameHomeAway": {
+          "awayDrawMatchCnt": 1,
+          "awayLossGoalMatchCnt": 6,
+          "awayScoreRatio": "33",
+          "awayWinGoalMatchCnt": 3,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 4,
+          "homeScoreRatio": "60",
+          "homeWinGoalMatchCnt": 6,
+          "totalLegCnt": 10
+        }
+      },
+      "historical_head_to_head_count": 3,
+      "injury_information_present_unverified": true,
+      "missing_primary_source_verification": true
+    },
+    {
+      "match_id": "F20261114014",
+      "jc_number": "周六014",
+      "home": "葡萄牙",
+      "away": "丹麦",
+      "kickoff_bj": "2026-11-15T03:45:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "form_data": {
+        "last": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 5,
+          "awayScoreRatio": "17",
+          "awayWinGoalMatchCnt": 1,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 1,
+          "homeScoreRatio": "83",
+          "homeWinGoalMatchCnt": 5,
+          "totalLegCnt": 6
+        },
+        "goalAvg": {
+          "awayGoalAvgCnt": "1.8",
+          "awayGoalAvgCntRatio": "48.6",
+          "homeGoalAvgCnt": "1.9",
+          "homeGoalAvgCntRatio": "51.4",
+          "totalLegCnt": 10
+        },
+        "lossGoalAvg": {
+          "awayLossGoalAvgCnt": "1.5",
+          "awayLossGoalAvgCntRatio": "65.2",
+          "homeLossGoalAvgCnt": "0.8",
+          "homeLossGoalAvgCntRatio": "34.8",
+          "totalLegCnt": 10
+        },
+        "eachHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 3,
+          "awayScoreRatio": "50",
+          "awayWinGoalMatchCnt": 4,
+          "homeDrawMatchCnt": 2,
+          "homeLossGoalMatchCnt": 1,
+          "homeScoreRatio": "77",
+          "homeWinGoalMatchCnt": 7,
+          "totalLegCnt": 10
+        },
+        "sameHomeAway": {
+          "awayDrawMatchCnt": 0,
+          "awayLossGoalMatchCnt": 2,
+          "awayScoreRatio": "0",
+          "awayWinGoalMatchCnt": 0,
+          "homeDrawMatchCnt": 0,
+          "homeLossGoalMatchCnt": 0,
+          "homeScoreRatio": "100",
+          "homeWinGoalMatchCnt": 2,
+          "totalLegCnt": 2
+        },
+        "eachSameHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 4,
+          "awayScoreRatio": "40",
+          "awayWinGoalMatchCnt": 3,
+          "homeDrawMatchCnt": 2,
+          "homeLossGoalMatchCnt": 1,
+          "homeScoreRatio": "77",
+          "homeWinGoalMatchCnt": 7,
+          "totalLegCnt": 10
+        }
+      },
+      "historical_head_to_head_count": 6,
+      "injury_information_present_unverified": true,
+      "missing_primary_source_verification": true
+    },
+    {
+      "match_id": "F20261114015",
+      "jc_number": "周六015",
+      "home": "米拉索尔",
+      "away": "米竞技",
+      "kickoff_bj": "2026-11-15T05:30:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "form_data": {
+        "last": {
+          "awayDrawMatchCnt": 1,
+          "awayLossGoalMatchCnt": 0,
+          "awayScoreRatio": "78",
+          "awayWinGoalMatchCnt": 2,
+          "homeDrawMatchCnt": 1,
+          "homeLossGoalMatchCnt": 2,
+          "homeScoreRatio": "11",
+          "homeWinGoalMatchCnt": 0,
+          "totalLegCnt": 3
+        },
+        "goalAvg": {
+          "awayGoalAvgCnt": "1.1",
+          "awayGoalAvgCntRatio": "47.8",
+          "homeGoalAvgCnt": "1.2",
+          "homeGoalAvgCntRatio": "52.2",
+          "totalLegCnt": 10
+        },
+        "lossGoalAvg": {
+          "awayLossGoalAvgCnt": "1.3",
+          "awayLossGoalAvgCntRatio": "54.2",
+          "homeLossGoalAvgCnt": "1.1",
+          "homeLossGoalAvgCntRatio": "45.8",
+          "totalLegCnt": 10
+        },
+        "eachHomeAway": {
+          "awayDrawMatchCnt": 2,
+          "awayLossGoalMatchCnt": 5,
+          "awayScoreRatio": "37",
+          "awayWinGoalMatchCnt": 3,
+          "homeDrawMatchCnt": 3,
+          "homeLossGoalMatchCnt": 3,
+          "homeScoreRatio": "50",
+          "homeWinGoalMatchCnt": 4,
+          "totalLegCnt": 10
+        },
+        "sameHomeAway": {
+          "awayDrawMatchCnt": 1,
+          "awayLossGoalMatchCnt": 0,
+          "awayScoreRatio": "33",
+          "awayWinGoalMatchCnt": 0,
+          "homeDrawMatchCnt": 1,
+          "homeLossGoalMatchCnt": 0,
+          "homeScoreRatio": "33",
+          "homeWinGoalMatchCnt": 0,
+          "totalLegCnt": 1
+        },
+        "eachSameHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 6,
+          "awayScoreRatio": "20",
+          "awayWinGoalMatchCnt": 1,
+          "homeDrawMatchCnt": 5,
+          "homeLossGoalMatchCnt": 1,
+          "homeScoreRatio": "57",
+          "homeWinGoalMatchCnt": 4,
+          "totalLegCnt": 10
+        }
+      },
+      "historical_head_to_head_count": 3,
+      "injury_information_present_unverified": false,
+      "missing_primary_source_verification": true
+    },
+    {
+      "match_id": "F20261114016",
+      "jc_number": "周六016",
+      "home": "沙佩科",
+      "away": "达伽马",
+      "kickoff_bj": "2026-11-15T07:30:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "form_data": {
+        "last": {
+          "awayDrawMatchCnt": 7,
+          "awayLossGoalMatchCnt": 1,
+          "awayScoreRatio": "43",
+          "awayWinGoalMatchCnt": 2,
+          "homeDrawMatchCnt": 7,
+          "homeLossGoalMatchCnt": 2,
+          "homeScoreRatio": "33",
+          "homeWinGoalMatchCnt": 1,
+          "totalLegCnt": 10
+        },
+        "goalAvg": {
+          "awayGoalAvgCnt": "1.3",
+          "awayGoalAvgCntRatio": "59.1",
+          "homeGoalAvgCnt": "0.9",
+          "homeGoalAvgCntRatio": "40.9",
+          "totalLegCnt": 10
+        },
+        "lossGoalAvg": {
+          "awayLossGoalAvgCnt": "1.4",
+          "awayLossGoalAvgCntRatio": "38.9",
+          "homeLossGoalAvgCnt": "2.2",
+          "homeLossGoalAvgCntRatio": "61.1",
+          "totalLegCnt": 10
+        },
+        "eachHomeAway": {
+          "awayDrawMatchCnt": 1,
+          "awayLossGoalMatchCnt": 4,
+          "awayScoreRatio": "53",
+          "awayWinGoalMatchCnt": 5,
+          "homeDrawMatchCnt": 1,
+          "homeLossGoalMatchCnt": 7,
+          "homeScoreRatio": "23",
+          "homeWinGoalMatchCnt": 2,
+          "totalLegCnt": 10
+        },
+        "sameHomeAway": {
+          "awayDrawMatchCnt": 2,
+          "awayLossGoalMatchCnt": 2,
+          "awayScoreRatio": "33",
+          "awayWinGoalMatchCnt": 1,
+          "homeDrawMatchCnt": 2,
+          "homeLossGoalMatchCnt": 1,
+          "homeScoreRatio": "53",
+          "homeWinGoalMatchCnt": 2,
+          "totalLegCnt": 5
+        },
+        "eachSameHomeAway": {
+          "awayDrawMatchCnt": 1,
+          "awayLossGoalMatchCnt": 4,
+          "awayScoreRatio": "53",
+          "awayWinGoalMatchCnt": 5,
+          "homeDrawMatchCnt": 2,
+          "homeLossGoalMatchCnt": 5,
+          "homeScoreRatio": "37",
+          "homeWinGoalMatchCnt": 3,
           "totalLegCnt": 10
         }
       },
