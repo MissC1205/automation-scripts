@@ -1,6 +1,6 @@
 {
   "sale_date_bj": "2026-11-14",
-  "collected_at_bj": "2026-11-14T15:36:30.314719+08:00",
+  "collected_at_bj": "2026-11-14T16:06:41.956210+08:00",
   "source": "Caidao THIRD_PARTY_NOT_OFFICIAL",
   "to_be_read_after_freezing_independent_forecast": true,
   "matches": [
@@ -260,22 +260,22 @@
       "collection_phase": "PRE_KICKOFF",
       "market": {
         "raw": {
-          "spfOdds": "3.75|3.70|1.66",
-          "rqspfOdds": "1.88|3.35|3.24",
+          "spfOdds": "3.65|3.65|1.69",
+          "rqspfOdds": "1.85|3.45|3.24",
           "concedeNum": 1,
-          "bfOdds": "100.0|13.00|23.00|11.00|60.00|29.00|30.00|175.0|90.00|90.00|450.0|350.0|350.0|200.0|16.00|8.00|11.50|45.00|36.00|8.00|8.50|6.75|15.00|12.00|19.00|29.00|24.00|40.00|60.00|60.00|120.0",
+          "bfOdds": "70.00|16.00|26.00|11.00|60.00|28.00|25.00|150.0|80.00|70.00|400.0|250.0|250.0|150.0|18.00|8.25|10.00|35.00|32.00|9.25|10.00|6.75|15.00|11.50|17.00|29.00|23.00|32.00|60.00|55.00|90.00",
           "zjqOdds": "18.00|6.50|3.95|3.60|4.50|7.00|12.00|15.50",
-          "bqcOdds": "6.80|15.00|21.00|9.00|6.00|4.40|34.00|15.00|2.55"
+          "bqcOdds": "6.65|15.00|20.00|9.00|6.00|4.40|32.00|15.00|2.60"
         },
         "spf": {
-          "home": 3.75,
-          "draw": 3.7,
-          "away": 1.66
+          "home": 3.65,
+          "draw": 3.65,
+          "away": 1.69
         },
         "integer_handicap": 1,
         "handicap_sp": {
-          "home": 1.88,
-          "draw": 3.35,
+          "home": 1.85,
+          "draw": 3.45,
           "away": 3.24
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
@@ -317,6 +317,15 @@
             "away": 1.66,
             "source_odds_flag": "-1|1|0",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-14T15:36:58+08:00",
+            "source_time_raw": "2026-11-14 15:36:58",
+            "home": 3.65,
+            "draw": 3.65,
+            "away": 1.69,
+            "source_odds_flag": "-1|-1|1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -325,11 +334,11 @@
         "provider_away": "巴西",
         "integer_handicap": "+1",
         "source_identity_alias_used": false,
-        "source_history_count": 2,
+        "source_history_count": 3,
         "duplicate_timestamps": 0,
-        "history_count": 2,
+        "history_count": 3,
         "earliest_source_updated_at_bj": "2026-11-14T09:40:59+08:00",
-        "latest_source_updated_at_bj": "2026-11-14T11:15:37+08:00",
+        "latest_source_updated_at_bj": "2026-11-14T15:36:58+08:00",
         "verified_for_model_use": true
       },
       "sp_current_vs_history": "MATCH"
@@ -629,7 +638,7 @@
           "rqspfOdds": "2.44|3.78|2.15",
           "concedeNum": -2,
           "bfOdds": "10.00|9.50|6.50|7.75|7.75|9.25|21.00|12.00|13.00|32.00|20.00|25.00|60.00|300.0|29.00|11.00|18.00|60.00|250.0|28.00|75.00|26.00|200.0|85.00|60.00|550.0|300.0|300.0|1000|850.0|750.0",
-          "zjqOdds": "29.00|8.50|5.05|3.60|4.00|5.90|9.00|10.50",
+          "zjqOdds": "29.00|8.50|5.05|3.50|3.90|6.15|9.20|11.00",
           "bqcOdds": "1.50|23.00|80.00|3.95|11.00|23.00|23.00|23.00|18.00"
         },
         "spf": {
@@ -648,11 +657,11 @@
           29.0,
           8.5,
           5.05,
-          3.6,
-          4.0,
-          5.9,
-          9.0,
-          10.5
+          3.5,
+          3.9,
+          6.15,
+          9.2,
+          11.0
         ]
       },
       "spf_history": {
@@ -982,7 +991,7 @@
       "market": {
         "raw": {
           "spfOdds": "1.40|4.00|5.70",
-          "rqspfOdds": "2.52|3.10|2.38",
+          "rqspfOdds": "2.59|3.00|2.38",
           "concedeNum": -1,
           "bfOdds": "37.00|6.50|6.50|6.75|11.00|11.00|22.00|24.00|23.00|45.00|55.00|65.00|90.00|300.0|13.00|7.50|15.00|60.00|175.0|15.00|30.00|15.00|90.00|45.00|50.00|300.0|150.0|150.0|600.0|400.0|400.0",
           "zjqOdds": "13.00|5.15|3.35|3.40|5.25|9.00|18.50|29.00",
@@ -995,8 +1004,8 @@
         },
         "integer_handicap": -1,
         "handicap_sp": {
-          "home": 2.52,
-          "draw": 3.1,
+          "home": 2.59,
+          "draw": 3.0,
           "away": 2.38
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
