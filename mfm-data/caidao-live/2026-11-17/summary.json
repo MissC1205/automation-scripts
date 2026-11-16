@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-17",
+  "collected_at_bj": "2026-11-17T02:30:24.191005+08:00",
+  "last_snapshot_path": "mfm-data/caidao-live/2026-11-17/20261117T023024191147+0800.json",
+  "quality_gate": "NO_DATA",
+  "odds_trend_gate": "NO_MULTI_SNAPSHOT_TREND",
+  "fixture_pool_integrity": "EMPTY_SALE_DATE",
+  "fixture_identity_conflicts": [],
+  "fixture_identity_independently_verified": false,
+  "fixture_sources": {
+    "0": {
+      "status": "SUCCESS",
+      "raw_rows": 6,
+      "date_rows": 0,
+      "provider_id_date_counts": {
+        "20261116": 6
+      },
+      "provider_id_unrecognized_rows": 0
+    },
+    "1": {
+      "status": "SUCCESS",
+      "raw_rows": 415,
+      "date_rows": 0,
+      "provider_id_date_counts": {
+        "20261116": 2,
+        "20261115": 11,
+        "20261114": 16,
+        "20261113": 11,
+        "20261112": 6,
+        "20261111": 6,
+        "20261110": 2,
+        "20261108": 30,
+        "20261107": 29,
+        "20261106": 14,
+        "20261105": 13,
+        "20261104": 12,
+        "20261103": 11,
+        "20261102": 9,
+        "20261101": 25
+      },
+      "provider_id_unrecognized_rows": 0
+    }
+  },
+  "betting_gate": "BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV",
+  "coverage": {
+    "fixture_ids": 0,
+    "matches_evaluated": 0,
+    "current_spf_prices": 0,
+    "current_handicap_prices": 0,
+    "reported_handicap_numbers": 0,
+    "detail_objects": 0,
+    "historical_spf_matches_verified": 0,
+    "historical_spf_rows": 0,
+    "historical_spf_single_snapshot_matches": 0,
+    "historical_spf_multi_snapshot_matches": 0,
+    "historical_spf_price_change_matches": 0,
+    "current_spf_matches_latest_history": 0,
+    "current_spf_divergence_or_lag": 0,
+    "source_sp_timestamp_missing": 0,
+    "source_sp_without_update_over_12h": 0,
+    "source_sp_without_update_over_24h": 0,
+    "captured_before_kickoff": 0,
+    "captured_after_kickoff": 0,
+    "prematch_verified_history_snapshots": 0,
+    "third_party_handicap_historical_rows": 0,
+    "verified_official_jc_sp_matches": 0
+  },
+  "match_summary": []
+}
