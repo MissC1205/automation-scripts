@@ -1,17 +1,384 @@
 {
-  "generated_at_bj": "2026-11-17T03:00:19.238846+08:00",
+  "generated_at_bj": "2026-11-17T17:51:27.428636+08:00",
   "sale_date": "2026-11-17",
-  "source_snapshot_at_bj": "2026-11-17T02:57:22.386605+08:00",
-  "source_age_hours": 0.05,
-  "source_fixture_count": 0,
+  "source_snapshot_at_bj": "2026-11-17T17:45:32.154830+08:00",
+  "source_age_hours": 0.1,
+  "source_fixture_count": 10,
   "full_jc_pool_verified": false,
   "coverage_status": "UNVERIFIED_DO_NOT_CLAIM_COMPLETE",
   "warnings": [
-    "NO_MATCHES",
     "OFFICIAL_SP_UNAVAILABLE",
-    "FIXTURE_IDENTITY_NOT_INDEPENDENTLY_VERIFIED"
+    "FIXTURE_IDENTITY_NOT_INDEPENDENTLY_VERIFIED",
+    "SOURCE_ODDS_STALE"
   ],
-  "matches_to_analyze": [],
+  "matches_to_analyze": [
+    {
+      "id": "F20261117001",
+      "number": "周二001",
+      "home": "新加坡",
+      "away": "巴西",
+      "kickoff_bj": "2026-11-17T18:00:00+08:00",
+      "source_spf": null,
+      "source_handicap": 4,
+      "source_handicap_sp": {
+        "home": 3.52,
+        "draw": 5.45,
+        "away": 1.49
+      },
+      "source_odds_time": null,
+      "source_odds_age_hours": null,
+      "source_odds_stale": true,
+      "odds_history_rows": 0,
+      "research_status": "NEEDS_INDEPENDENT_TEAM_AND_FIXTURE_VERIFICATION",
+      "independent_probability": null,
+      "predictions": null,
+      "required_evidence": [
+        "recent_form",
+        "home_away",
+        "lineups_injuries",
+        "motivation_schedule",
+        "multi_source_market_history"
+      ],
+      "missing_evidence": [
+        "official_jc_sp",
+        "independent_probability",
+        "independent_fixture_verification"
+      ]
+    },
+    {
+      "id": "F20261117002",
+      "number": "周二002",
+      "home": "中国",
+      "away": "巴林",
+      "kickoff_bj": "2026-11-17T20:00:00+08:00",
+      "source_spf": {
+        "home": 1.69,
+        "draw": 3.25,
+        "away": 4.18
+      },
+      "source_handicap": -1,
+      "source_handicap_sp": {
+        "home": 3.7,
+        "draw": 3.05,
+        "away": 1.85
+      },
+      "source_odds_time": "2026-11-17T16:45:37+08:00",
+      "source_odds_age_hours": 1.1,
+      "source_odds_stale": false,
+      "odds_history_rows": 4,
+      "research_status": "NEEDS_INDEPENDENT_TEAM_AND_FIXTURE_VERIFICATION",
+      "independent_probability": null,
+      "predictions": null,
+      "required_evidence": [
+        "recent_form",
+        "home_away",
+        "lineups_injuries",
+        "motivation_schedule",
+        "multi_source_market_history"
+      ],
+      "missing_evidence": [
+        "official_jc_sp",
+        "independent_probability",
+        "independent_fixture_verification"
+      ]
+    },
+    {
+      "id": "F20261117003",
+      "number": "周二003",
+      "home": "日本",
+      "away": "巴拉圭",
+      "kickoff_bj": "2026-11-17T21:10:00+08:00",
+      "source_spf": {
+        "home": 1.41,
+        "draw": 4.2,
+        "away": 5.2
+      },
+      "source_handicap": -1,
+      "source_handicap_sp": {
+        "home": 2.44,
+        "draw": 3.27,
+        "away": 2.36
+      },
+      "source_odds_time": "2026-11-17T15:32:45+08:00",
+      "source_odds_age_hours": 2.31,
+      "source_odds_stale": false,
+      "odds_history_rows": 6,
+      "research_status": "NEEDS_INDEPENDENT_TEAM_AND_FIXTURE_VERIFICATION",
+      "independent_probability": null,
+      "predictions": null,
+      "required_evidence": [
+        "recent_form",
+        "home_away",
+        "lineups_injuries",
+        "motivation_schedule",
+        "multi_source_market_history"
+      ],
+      "missing_evidence": [
+        "official_jc_sp",
+        "independent_probability",
+        "independent_fixture_verification"
+      ]
+    },
+    {
+      "id": "F20261117004",
+      "number": "周二004",
+      "home": "波黑",
+      "away": "罗马尼亚",
+      "kickoff_bj": "2026-11-18T03:45:00+08:00",
+      "source_spf": {
+        "home": 1.66,
+        "draw": 3.6,
+        "away": 3.85
+      },
+      "source_handicap": -1,
+      "source_handicap_sp": {
+        "home": 3.03,
+        "draw": 3.6,
+        "away": 1.88
+      },
+      "source_odds_time": "2026-11-17T15:39:28+08:00",
+      "source_odds_age_hours": 2.2,
+      "source_odds_stale": false,
+      "odds_history_rows": 3,
+      "research_status": "NEEDS_INDEPENDENT_TEAM_AND_FIXTURE_VERIFICATION",
+      "independent_probability": null,
+      "predictions": null,
+      "required_evidence": [
+        "recent_form",
+        "home_away",
+        "lineups_injuries",
+        "motivation_schedule",
+        "multi_source_market_history"
+      ],
+      "missing_evidence": [
+        "official_jc_sp",
+        "independent_probability",
+        "independent_fixture_verification"
+      ]
+    },
+    {
+      "id": "F20261117005",
+      "number": "周二005",
+      "home": "波兰",
+      "away": "瑞典",
+      "kickoff_bj": "2026-11-18T03:45:00+08:00",
+      "source_spf": {
+        "home": 2.2,
+        "draw": 3.61,
+        "away": 2.45
+      },
+      "source_handicap": -1,
+      "source_handicap_sp": {
+        "home": 4.52,
+        "draw": 4.2,
+        "away": 1.47
+      },
+      "source_odds_time": "2026-11-17T16:35:53+08:00",
+      "source_odds_age_hours": 1.26,
+      "source_odds_stale": false,
+      "odds_history_rows": 7,
+      "research_status": "NEEDS_INDEPENDENT_TEAM_AND_FIXTURE_VERIFICATION",
+      "independent_probability": null,
+      "predictions": null,
+      "required_evidence": [
+        "recent_form",
+        "home_away",
+        "lineups_injuries",
+        "motivation_schedule",
+        "multi_source_market_history"
+      ],
+      "missing_evidence": [
+        "official_jc_sp",
+        "independent_probability",
+        "independent_fixture_verification"
+      ]
+    },
+    {
+      "id": "F20261117006",
+      "number": "周二006",
+      "home": "丹麦",
+      "away": "挪威",
+      "kickoff_bj": "2026-11-18T03:45:00+08:00",
+      "source_spf": {
+        "home": 2.38,
+        "draw": 3.78,
+        "away": 2.2
+      },
+      "source_handicap": 1,
+      "source_handicap_sp": {
+        "home": 1.47,
+        "draw": 4.23,
+        "away": 4.5
+      },
+      "source_odds_time": "2026-11-17T16:28:52+08:00",
+      "source_odds_age_hours": 1.38,
+      "source_odds_stale": false,
+      "odds_history_rows": 4,
+      "research_status": "NEEDS_INDEPENDENT_TEAM_AND_FIXTURE_VERIFICATION",
+      "independent_probability": null,
+      "predictions": null,
+      "required_evidence": [
+        "recent_form",
+        "home_away",
+        "lineups_injuries",
+        "motivation_schedule",
+        "multi_source_market_history"
+      ],
+      "missing_evidence": [
+        "official_jc_sp",
+        "independent_probability",
+        "independent_fixture_verification"
+      ]
+    },
+    {
+      "id": "F20261117007",
+      "number": "周二007",
+      "home": "威尔士",
+      "away": "葡萄牙",
+      "kickoff_bj": "2026-11-18T03:45:00+08:00",
+      "source_spf": {
+        "home": 7.15,
+        "draw": 5.17,
+        "away": 1.24
+      },
+      "source_handicap": 1,
+      "source_handicap_sp": {
+        "home": 3.11,
+        "draw": 3.6,
+        "away": 1.85
+      },
+      "source_odds_time": "2026-11-17T17:18:18+08:00",
+      "source_odds_age_hours": 0.55,
+      "source_odds_stale": false,
+      "odds_history_rows": 5,
+      "research_status": "NEEDS_INDEPENDENT_TEAM_AND_FIXTURE_VERIFICATION",
+      "independent_probability": null,
+      "predictions": null,
+      "required_evidence": [
+        "recent_form",
+        "home_away",
+        "lineups_injuries",
+        "motivation_schedule",
+        "multi_source_market_history"
+      ],
+      "missing_evidence": [
+        "official_jc_sp",
+        "independent_probability",
+        "independent_fixture_verification"
+      ]
+    },
+    {
+      "id": "F20261117008",
+      "number": "周二008",
+      "home": "匈牙利",
+      "away": "北爱尔兰",
+      "kickoff_bj": "2026-11-18T03:45:00+08:00",
+      "source_spf": {
+        "home": 1.65,
+        "draw": 3.1,
+        "away": 4.75
+      },
+      "source_handicap": -1,
+      "source_handicap_sp": {
+        "home": 3.7,
+        "draw": 2.92,
+        "away": 1.9
+      },
+      "source_odds_time": "2026-11-17T17:14:59+08:00",
+      "source_odds_age_hours": 0.61,
+      "source_odds_stale": false,
+      "odds_history_rows": 5,
+      "research_status": "NEEDS_INDEPENDENT_TEAM_AND_FIXTURE_VERIFICATION",
+      "independent_probability": null,
+      "predictions": null,
+      "required_evidence": [
+        "recent_form",
+        "home_away",
+        "lineups_injuries",
+        "motivation_schedule",
+        "multi_source_market_history"
+      ],
+      "missing_evidence": [
+        "official_jc_sp",
+        "independent_probability",
+        "independent_fixture_verification"
+      ]
+    },
+    {
+      "id": "F20261117009",
+      "number": "周二009",
+      "home": "爱尔兰",
+      "away": "科索沃",
+      "kickoff_bj": "2026-11-18T03:45:00+08:00",
+      "source_spf": {
+        "home": 1.74,
+        "draw": 3.06,
+        "away": 4.2
+      },
+      "source_handicap": -1,
+      "source_handicap_sp": {
+        "home": 3.6,
+        "draw": 3.2,
+        "away": 1.82
+      },
+      "source_odds_time": "2026-11-17T14:58:25+08:00",
+      "source_odds_age_hours": 2.88,
+      "source_odds_stale": false,
+      "odds_history_rows": 4,
+      "research_status": "NEEDS_INDEPENDENT_TEAM_AND_FIXTURE_VERIFICATION",
+      "independent_probability": null,
+      "predictions": null,
+      "required_evidence": [
+        "recent_form",
+        "home_away",
+        "lineups_injuries",
+        "motivation_schedule",
+        "multi_source_market_history"
+      ],
+      "missing_evidence": [
+        "official_jc_sp",
+        "independent_probability",
+        "independent_fixture_verification"
+      ]
+    },
+    {
+      "id": "F20261117010",
+      "number": "周二010",
+      "home": "智利",
+      "away": "哥伦比亚",
+      "kickoff_bj": "2026-11-18T07:00:00+08:00",
+      "source_spf": {
+        "home": 4.05,
+        "draw": 2.94,
+        "away": 1.81
+      },
+      "source_handicap": 1,
+      "source_handicap_sp": {
+        "home": 1.72,
+        "draw": 3.3,
+        "away": 3.92
+      },
+      "source_odds_time": "2026-11-17T14:54:26+08:00",
+      "source_odds_age_hours": 2.95,
+      "source_odds_stale": false,
+      "odds_history_rows": 5,
+      "research_status": "NEEDS_INDEPENDENT_TEAM_AND_FIXTURE_VERIFICATION",
+      "independent_probability": null,
+      "predictions": null,
+      "required_evidence": [
+        "recent_form",
+        "home_away",
+        "lineups_injuries",
+        "motivation_schedule",
+        "multi_source_market_history"
+      ],
+      "missing_evidence": [
+        "official_jc_sp",
+        "independent_probability",
+        "independent_fixture_verification"
+      ]
+    }
+  ],
   "workflow_rule": "External cross-check and independent modelling required; this handoff is not a prediction.",
   "best_parlay": null,
   "parlay_reason": "No independently validated probabilities and official prices"
