@@ -1,9 +1,9 @@
 {
   "date": "2026-11-18",
-  "collected_at_bj": "2026-11-18T16:31:57.263431+08:00",
-  "last_snapshot_path": "mfm-data/caidao-live/2026-11-18/20261118T163157263642+0800.json",
+  "collected_at_bj": "2026-11-18T17:15:14.462397+08:00",
+  "last_snapshot_path": "mfm-data/caidao-live/2026-11-18/20261118T171514462595+0800.json",
   "quality_gate": "RESEARCH_DATA_AVAILABLE",
-  "odds_trend_gate": "PARTIAL_MULTI_SNAPSHOT_COVERAGE",
+  "odds_trend_gate": "MULTI_SNAPSHOT_COVERAGE_NOT_OFFICIAL",
   "fixture_pool_integrity": "COMPLETE",
   "fixture_identity_conflicts": [],
   "fixture_identity_independently_verified": false,
@@ -51,10 +51,10 @@
     "reported_handicap_numbers": 4,
     "detail_objects": 4,
     "historical_spf_matches_verified": 4,
-    "historical_spf_rows": 10,
-    "historical_spf_single_snapshot_matches": 1,
-    "historical_spf_multi_snapshot_matches": 3,
-    "historical_spf_price_change_matches": 3,
+    "historical_spf_rows": 13,
+    "historical_spf_single_snapshot_matches": 0,
+    "historical_spf_multi_snapshot_matches": 4,
+    "historical_spf_price_change_matches": 4,
     "current_spf_matches_latest_history": 4,
     "current_spf_divergence_or_lag": 0,
     "source_sp_timestamp_missing": 0,
@@ -75,20 +75,20 @@
       "kickoff_bj": "2026-11-19T06:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 3.43,
-        "draw": 3.35,
-        "away": 1.82
+        "home": 3.5,
+        "draw": 3.42,
+        "away": 1.78
       },
       "hhad_line": 1,
       "hhad_sp": {
         "home": 1.75,
-        "draw": 3.32,
-        "away": 3.75
+        "draw": 3.2,
+        "away": 3.92
       },
-      "spf_history_rows": 4,
+      "spf_history_rows": 5,
       "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
-      "last_source_sp_updated_at_bj": "2026-11-18T13:46:27+08:00",
-      "source_sp_update_age_hours": 2.76,
+      "last_source_sp_updated_at_bj": "2026-11-18T16:30:40+08:00",
+      "source_sp_update_age_hours": 0.74,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -100,20 +100,20 @@
       "kickoff_bj": "2026-11-19T07:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.11,
-        "draw": 6.2,
-        "away": 13.0
+        "home": 1.1,
+        "draw": 6.3,
+        "away": 14.0
       },
       "hhad_line": -2,
       "hhad_sp": {
-        "home": 2.59,
-        "draw": 3.55,
-        "away": 2.12
+        "home": 2.57,
+        "draw": 3.4,
+        "away": 2.19
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-18T09:29:03+08:00",
-      "source_sp_update_age_hours": 7.05,
+      "spf_history_rows": 2,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-18T16:32:42+08:00",
+      "source_sp_update_age_hours": 0.71,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -138,7 +138,7 @@
       "spf_history_rows": 3,
       "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
       "last_source_sp_updated_at_bj": "2026-11-18T12:47:56+08:00",
-      "source_sp_update_age_hours": 3.73,
+      "source_sp_update_age_hours": 4.45,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -150,20 +150,20 @@
       "kickoff_bj": "2026-11-19T08:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 2.14,
-        "draw": 3.2,
-        "away": 2.78
+        "home": 2.18,
+        "draw": 3.1,
+        "away": 2.8
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 4.57,
+        "home": 4.75,
         "draw": 3.75,
-        "away": 1.53
+        "away": 1.51
       },
-      "spf_history_rows": 2,
+      "spf_history_rows": 3,
       "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
-      "last_source_sp_updated_at_bj": "2026-11-18T12:52:46+08:00",
-      "source_sp_update_age_hours": 3.65,
+      "last_source_sp_updated_at_bj": "2026-11-18T16:33:27+08:00",
+      "source_sp_update_age_hours": 0.7,
       "prematch_snapshot_verified": true,
       "detail_available": true
     }
