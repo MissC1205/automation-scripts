@@ -1,7 +1,7 @@
 {
   "sale_date_bj": "2026-11-21",
   "source": "Caidao third-party reported football form; independent validation incomplete",
-  "created_at_bj": "2026-11-21T02:02:49.729033+08:00",
+  "created_at_bj": "2026-11-21T16:17:04.316813+08:00",
   "contains_odds_or_vendor_probabilities": false,
   "calibrated_prediction_generated": false,
   "matches": [
@@ -11,7 +11,7 @@
       "home": "广岛三箭",
       "away": "横滨水手",
       "kickoff_bj": "2026-11-21T13:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "form_data": {
         "last": {
           "awayDrawMatchCnt": 1,
@@ -82,7 +82,7 @@
       "home": "磐田喜悦",
       "away": "大宫松鼠",
       "kickoff_bj": "2026-11-21T13:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "form_data": {
         "last": {
           "awayDrawMatchCnt": 2,
@@ -153,7 +153,7 @@
       "home": "大阪钢巴",
       "away": "冈山绿雉",
       "kickoff_bj": "2026-11-21T15:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "form_data": {
         "last": {
           "awayDrawMatchCnt": 2,
@@ -353,6 +353,77 @@
           "homeLossGoalMatchCnt": 2,
           "homeScoreRatio": "73",
           "homeWinGoalMatchCnt": 7,
+          "totalLegCnt": 10
+        }
+      },
+      "historical_head_to_head_count": 10,
+      "injury_information_present_unverified": true,
+      "missing_primary_source_verification": true
+    },
+    {
+      "match_id": "F20261121006",
+      "jc_number": "周六006",
+      "home": "米尔沃尔",
+      "away": "女王巡游",
+      "kickoff_bj": "2026-11-21T20:30:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "form_data": {
+        "last": {
+          "awayDrawMatchCnt": 2,
+          "awayLossGoalMatchCnt": 6,
+          "awayScoreRatio": "27",
+          "awayWinGoalMatchCnt": 2,
+          "homeDrawMatchCnt": 2,
+          "homeLossGoalMatchCnt": 2,
+          "homeScoreRatio": "67",
+          "homeWinGoalMatchCnt": 6,
+          "totalLegCnt": 10
+        },
+        "goalAvg": {
+          "awayGoalAvgCnt": "1.7",
+          "awayGoalAvgCntRatio": "56.7",
+          "homeGoalAvgCnt": "1.3",
+          "homeGoalAvgCntRatio": "43.3",
+          "totalLegCnt": 10
+        },
+        "lossGoalAvg": {
+          "awayLossGoalAvgCnt": "1.4",
+          "awayLossGoalAvgCntRatio": "42.4",
+          "homeLossGoalAvgCnt": "1.9",
+          "homeLossGoalAvgCntRatio": "57.6",
+          "totalLegCnt": 10
+        },
+        "eachHomeAway": {
+          "awayDrawMatchCnt": 5,
+          "awayLossGoalMatchCnt": 2,
+          "awayScoreRatio": "47",
+          "awayWinGoalMatchCnt": 3,
+          "homeDrawMatchCnt": 3,
+          "homeLossGoalMatchCnt": 5,
+          "homeScoreRatio": "30",
+          "homeWinGoalMatchCnt": 2,
+          "totalLegCnt": 10
+        },
+        "sameHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 5,
+          "awayScoreRatio": "30",
+          "awayWinGoalMatchCnt": 2,
+          "homeDrawMatchCnt": 3,
+          "homeLossGoalMatchCnt": 2,
+          "homeScoreRatio": "60",
+          "homeWinGoalMatchCnt": 5,
+          "totalLegCnt": 10
+        },
+        "eachSameHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 2,
+          "awayScoreRatio": "60",
+          "awayWinGoalMatchCnt": 5,
+          "homeDrawMatchCnt": 2,
+          "homeLossGoalMatchCnt": 4,
+          "homeScoreRatio": "47",
+          "homeWinGoalMatchCnt": 4,
           "totalLegCnt": 10
         }
       },
