@@ -1,0 +1,267 @@
+{
+  "date": "2026-11-23",
+  "collected_at_bj": "2026-11-23T00:15:39.747723+08:00",
+  "last_snapshot_path": "mfm-data/caidao-live/2026-11-23/20261123T001539747996+0800.json",
+  "quality_gate": "PARTIAL_RESEARCH_DATA",
+  "odds_trend_gate": "NO_MULTI_SNAPSHOT_TREND",
+  "fixture_pool_integrity": "COMPLETE",
+  "fixture_identity_conflicts": [],
+  "fixture_identity_independently_verified": false,
+  "fixture_sources": {
+    "0": {
+      "status": "SUCCESS",
+      "raw_rows": 17,
+      "date_rows": 8,
+      "provider_id_date_counts": {
+        "20261123": 8,
+        "20261122": 9
+      },
+      "provider_id_unrecognized_rows": 0
+    },
+    "1": {
+      "status": "SUCCESS",
+      "raw_rows": 397,
+      "date_rows": 0,
+      "provider_id_date_counts": {
+        "20261122": 9,
+        "20261121": 22,
+        "20261120": 8,
+        "20261119": 4,
+        "20261118": 4,
+        "20261117": 10,
+        "20261116": 8,
+        "20261115": 11,
+        "20261114": 16,
+        "20261113": 11,
+        "20261112": 6,
+        "20261111": 6,
+        "20261110": 2,
+        "20261108": 30,
+        "20261107": 29
+      },
+      "provider_id_unrecognized_rows": 0
+    }
+  },
+  "betting_gate": "BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV",
+  "coverage": {
+    "fixture_ids": 8,
+    "matches_evaluated": 8,
+    "current_spf_prices": 7,
+    "current_handicap_prices": 8,
+    "reported_handicap_numbers": 8,
+    "detail_objects": 8,
+    "historical_spf_matches_verified": 7,
+    "historical_spf_rows": 7,
+    "historical_spf_single_snapshot_matches": 7,
+    "historical_spf_multi_snapshot_matches": 0,
+    "historical_spf_price_change_matches": 0,
+    "current_spf_matches_latest_history": 7,
+    "current_spf_divergence_or_lag": 0,
+    "source_sp_timestamp_missing": 1,
+    "source_sp_without_update_over_12h": 7,
+    "source_sp_without_update_over_24h": 7,
+    "captured_before_kickoff": 8,
+    "captured_after_kickoff": 0,
+    "prematch_verified_history_snapshots": 7,
+    "third_party_handicap_historical_rows": 0,
+    "verified_official_jc_sp_matches": 0
+  },
+  "match_summary": [
+    {
+      "id": "F20261123001",
+      "number": "周一001",
+      "home": "厄格里特",
+      "away": "卡尔马",
+      "kickoff_bj": "2026-11-24T02:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 3.15,
+        "draw": 3.3,
+        "away": 1.93
+      },
+      "hhad_line": 1,
+      "hhad_sp": {
+        "home": 1.65,
+        "draw": 3.65,
+        "away": 3.85
+      },
+      "spf_history_rows": 1,
+      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
+      "last_source_sp_updated_at_bj": "2026-11-21T09:56:07+08:00",
+      "source_sp_update_age_hours": 38.32,
+      "prematch_snapshot_verified": true,
+      "detail_available": true
+    },
+    {
+      "id": "F20261123002",
+      "number": "周一002",
+      "home": "哈马比",
+      "away": "哥德堡",
+      "kickoff_bj": "2026-11-24T02:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": null,
+      "hhad_line": -2,
+      "hhad_sp": {
+        "home": 2.25,
+        "draw": 3.9,
+        "away": 2.28
+      },
+      "spf_history_rows": 0,
+      "spf_history_trend_status": "UNVERIFIED_OR_MISSING",
+      "last_source_sp_updated_at_bj": null,
+      "source_sp_update_age_hours": null,
+      "prematch_snapshot_verified": false,
+      "detail_available": true
+    },
+    {
+      "id": "F20261123003",
+      "number": "周一003",
+      "home": "蒙扎",
+      "away": "佛罗伦萨",
+      "kickoff_bj": "2026-11-24T03:45:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 3.35,
+        "draw": 3.65,
+        "away": 1.77
+      },
+      "hhad_line": 1,
+      "hhad_sp": {
+        "home": 1.77,
+        "draw": 3.75,
+        "away": 3.25
+      },
+      "spf_history_rows": 1,
+      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
+      "last_source_sp_updated_at_bj": "2026-11-21T09:56:07+08:00",
+      "source_sp_update_age_hours": 38.32,
+      "prematch_snapshot_verified": true,
+      "detail_available": true
+    },
+    {
+      "id": "F20261123004",
+      "number": "周一004",
+      "home": "索肖",
+      "away": "敦刻尔克",
+      "kickoff_bj": "2026-11-24T03:45:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 2.2,
+        "draw": 3.1,
+        "away": 2.76
+      },
+      "hhad_line": -1,
+      "hhad_sp": {
+        "home": 4.7,
+        "draw": 3.92,
+        "away": 1.49
+      },
+      "spf_history_rows": 1,
+      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
+      "last_source_sp_updated_at_bj": "2026-11-21T09:56:07+08:00",
+      "source_sp_update_age_hours": 38.32,
+      "prematch_snapshot_verified": true,
+      "detail_available": true
+    },
+    {
+      "id": "F20261123005",
+      "number": "周一005",
+      "home": "布伦特",
+      "away": "埃弗顿",
+      "kickoff_bj": "2026-11-24T04:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 1.95,
+        "draw": 3.3,
+        "away": 3.1
+      },
+      "hhad_line": -1,
+      "hhad_sp": {
+        "home": 3.92,
+        "draw": 3.7,
+        "away": 1.63
+      },
+      "spf_history_rows": 1,
+      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
+      "last_source_sp_updated_at_bj": "2026-11-21T09:56:07+08:00",
+      "source_sp_update_age_hours": 38.32,
+      "prematch_snapshot_verified": true,
+      "detail_available": true
+    },
+    {
+      "id": "F20261123006",
+      "number": "周一006",
+      "home": "莱万特",
+      "away": "埃尔切",
+      "kickoff_bj": "2026-11-24T04:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 1.97,
+        "draw": 3.35,
+        "away": 3.0
+      },
+      "hhad_line": -1,
+      "hhad_sp": {
+        "home": 3.92,
+        "draw": 3.74,
+        "away": 1.62
+      },
+      "spf_history_rows": 1,
+      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
+      "last_source_sp_updated_at_bj": "2026-11-21T09:56:07+08:00",
+      "source_sp_update_age_hours": 38.32,
+      "prematch_snapshot_verified": true,
+      "detail_available": true
+    },
+    {
+      "id": "F20261123007",
+      "number": "周一007",
+      "home": "博塔弗戈",
+      "away": "圣保罗",
+      "kickoff_bj": "2026-11-24T07:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 2.1,
+        "draw": 3.12,
+        "away": 2.92
+      },
+      "hhad_line": -1,
+      "hhad_sp": {
+        "home": 4.55,
+        "draw": 3.65,
+        "away": 1.55
+      },
+      "spf_history_rows": 1,
+      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
+      "last_source_sp_updated_at_bj": "2026-11-21T09:56:07+08:00",
+      "source_sp_update_age_hours": 38.32,
+      "prematch_snapshot_verified": true,
+      "detail_available": true
+    },
+    {
+      "id": "F20261123008",
+      "number": "周一008",
+      "home": "圣路易城",
+      "away": "洛杉矶FC",
+      "kickoff_bj": "2026-11-24T09:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 2.25,
+        "draw": 3.25,
+        "away": 2.58
+      },
+      "hhad_line": -1,
+      "hhad_sp": {
+        "home": 4.95,
+        "draw": 4.05,
+        "away": 1.45
+      },
+      "spf_history_rows": 1,
+      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
+      "last_source_sp_updated_at_bj": "2026-11-21T09:56:07+08:00",
+      "source_sp_update_age_hours": 38.33,
+      "prematch_snapshot_verified": true,
+      "detail_available": true
+    }
+  ]
+}
