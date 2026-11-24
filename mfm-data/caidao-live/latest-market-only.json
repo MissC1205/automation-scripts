@@ -1,43 +1,418 @@
 {
   "sale_date_bj": "2026-11-24",
-  "collected_at_bj": "2026-11-24T06:16:10.420665+08:00",
+  "collected_at_bj": "2026-11-24T18:54:39.713325+08:00",
   "source": "Caidao THIRD_PARTY_NOT_OFFICIAL",
   "to_be_read_after_freezing_independent_forecast": true,
   "matches": [
+    {
+      "match_id": "F20261124001",
+      "jc_number": "周二001",
+      "collection_phase": "POST_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "9.00|7.40|1.12",
+          "rqspfOdds": "4.25|4.90|1.43",
+          "concedeNum": 1,
+          "bfOdds": "90.00|50.00|80.00|30.00|150.0|65.00|45.00|300.0|150.0|100.0|500.0|450.0|350.0|100.0|50.00|15.00|15.00|30.00|6.50|16.00|9.00|8.50|10.50|8.25|14.00|13.00|11.00|17.00|20.00|15.00|27.00",
+          "zjqOdds": "50.00|14.50|6.70|4.60|4.10|4.75|6.50|5.25",
+          "bqcOdds": "18.00|22.00|14.00|25.00|14.50|4.15|50.00|22.00|1.50"
+        },
+        "spf": {
+          "home": 9.0,
+          "draw": 7.4,
+          "away": 1.12
+        },
+        "integer_handicap": 1,
+        "handicap_sp": {
+          "home": 4.25,
+          "draw": 4.9,
+          "away": 1.43
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          50.0,
+          14.5,
+          6.7,
+          4.6,
+          4.1,
+          4.75,
+          6.5,
+          5.25
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261124001",
+        "match_number": "周二001",
+        "fixture_home": "纽喷气机",
+        "fixture_away": "柏太阳神",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-11-24T09:49:48+08:00",
+            "source_time_raw": "2026-11-24 09:49:48",
+            "home": 6.15,
+            "draw": 5.3,
+            "away": 1.27,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T11:31:45+08:00",
+            "source_time_raw": "2026-11-24 11:31:45",
+            "home": 6.5,
+            "draw": 5.6,
+            "away": 1.24,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T11:53:35+08:00",
+            "source_time_raw": "2026-11-24 11:53:35",
+            "home": 7.0,
+            "draw": 5.9,
+            "away": 1.21,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T12:34:30+08:00",
+            "source_time_raw": "2026-11-24 12:34:30",
+            "home": 7.45,
+            "draw": 6.1,
+            "away": 1.19,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T12:47:24+08:00",
+            "source_time_raw": "2026-11-24 12:47:24",
+            "home": 7.55,
+            "draw": 6.3,
+            "away": 1.18,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T13:07:22+08:00",
+            "source_time_raw": "2026-11-24 13:07:22",
+            "home": 7.7,
+            "draw": 6.45,
+            "away": 1.17,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T14:10:42+08:00",
+            "source_time_raw": "2026-11-24 14:10:42",
+            "home": 8.0,
+            "draw": 6.6,
+            "away": 1.16,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T14:51:46+08:00",
+            "source_time_raw": "2026-11-24 14:51:46",
+            "home": 8.5,
+            "draw": 6.9,
+            "away": 1.14,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T14:57:38+08:00",
+            "source_time_raw": "2026-11-24 14:57:38",
+            "home": 8.8,
+            "draw": 7.1,
+            "away": 1.13,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T15:09:03+08:00",
+            "source_time_raw": "2026-11-24 15:09:03",
+            "home": 9.0,
+            "draw": 7.4,
+            "away": 1.12,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二001",
+        "provider_home": "纽喷气机",
+        "provider_away": "柏太阳神",
+        "integer_handicap": "+1",
+        "source_identity_alias_used": false,
+        "source_history_count": 10,
+        "duplicate_timestamps": 0,
+        "history_count": 10,
+        "earliest_source_updated_at_bj": "2026-11-24T09:49:48+08:00",
+        "latest_source_updated_at_bj": "2026-11-24T15:09:03+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    },
+    {
+      "match_id": "F20261124002",
+      "jc_number": "周二002",
+      "collection_phase": "POST_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "1.27|4.80|7.00",
+          "rqspfOdds": "1.97|3.40|2.96",
+          "concedeNum": -1,
+          "bfOdds": "22.00|7.25|6.75|6.40|9.50|9.25|16.00|19.00|18.00|30.00|45.00|34.00|60.00|150.0|19.00|8.50|13.50|60.00|120.0|20.00|40.00|19.00|100.0|45.00|45.00|300.0|120.0|120.0|500.0|350.0|350.0",
+          "zjqOdds": "19.00|6.75|4.30|3.80|4.50|7.00|9.25|12.00",
+          "bqcOdds": "1.90|18.00|42.00|4.00|6.65|16.00|20.00|18.00|12.50"
+        },
+        "spf": {
+          "home": 1.27,
+          "draw": 4.8,
+          "away": 7.0
+        },
+        "integer_handicap": -1,
+        "handicap_sp": {
+          "home": 1.97,
+          "draw": 3.4,
+          "away": 2.96
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          19.0,
+          6.75,
+          4.3,
+          3.8,
+          4.5,
+          7.0,
+          9.25,
+          12.0
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261124002",
+        "match_number": "周二002",
+        "fixture_home": "大田市民",
+        "fixture_away": "北京国安",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-11-24T09:49:48+08:00",
+            "source_time_raw": "2026-11-24 09:49:48",
+            "home": 1.48,
+            "draw": 4.1,
+            "away": 4.6,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T11:33:35+08:00",
+            "source_time_raw": "2026-11-24 11:33:35",
+            "home": 1.43,
+            "draw": 4.2,
+            "away": 4.95,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T12:47:13+08:00",
+            "source_time_raw": "2026-11-24 12:47:13",
+            "home": 1.4,
+            "draw": 4.3,
+            "away": 5.2,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T14:58:46+08:00",
+            "source_time_raw": "2026-11-24 14:58:46",
+            "home": 1.38,
+            "draw": 4.4,
+            "away": 5.35,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T15:29:37+08:00",
+            "source_time_raw": "2026-11-24 15:29:37",
+            "home": 1.36,
+            "draw": 4.4,
+            "away": 5.65,
+            "source_odds_flag": "-1|0|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T15:47:13+08:00",
+            "source_time_raw": "2026-11-24 15:47:13",
+            "home": 1.34,
+            "draw": 4.5,
+            "away": 5.85,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T15:59:36+08:00",
+            "source_time_raw": "2026-11-24 15:59:36",
+            "home": 1.31,
+            "draw": 4.5,
+            "away": 6.5,
+            "source_odds_flag": "-1|0|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T16:43:02+08:00",
+            "source_time_raw": "2026-11-24 16:43:02",
+            "home": 1.29,
+            "draw": 4.6,
+            "away": 6.8,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T17:10:54+08:00",
+            "source_time_raw": "2026-11-24 17:10:54",
+            "home": 1.27,
+            "draw": 4.8,
+            "away": 7.0,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二002",
+        "provider_home": "大田市民",
+        "provider_away": "北京国安",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 9,
+        "duplicate_timestamps": 0,
+        "history_count": 9,
+        "earliest_source_updated_at_bj": "2026-11-24T09:49:48+08:00",
+        "latest_source_updated_at_bj": "2026-11-24T17:10:54+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    },
+    {
+      "match_id": "F20261124003",
+      "jc_number": "周二003",
+      "collection_phase": "PRE_KICKOFF",
+      "market": {
+        "raw": {
+          "spfOdds": "1.59|4.00|3.85",
+          "rqspfOdds": "2.85|3.50|1.99",
+          "concedeNum": -1,
+          "bfOdds": "26.00|9.50|9.50|6.00|16.00|9.50|14.00|32.00|23.00|32.00|60.00|45.00|75.00|150.0|20.00|8.00|11.00|35.00|75.00|15.00|25.00|11.50|55.00|28.00|26.00|120.0|80.00|70.00|400.0|250.0|250.0",
+          "zjqOdds": "20.00|7.00|4.20|3.50|4.40|6.80|11.00|14.00",
+          "bqcOdds": "2.42|15.00|34.00|4.50|6.50|9.75|20.00|15.00|6.70"
+        },
+        "spf": {
+          "home": 1.59,
+          "draw": 4.0,
+          "away": 3.85
+        },
+        "integer_handicap": -1,
+        "handicap_sp": {
+          "home": 2.85,
+          "draw": 3.5,
+          "away": 1.99
+        },
+        "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
+        "goal_totals": [
+          20.0,
+          7.0,
+          4.2,
+          3.5,
+          4.4,
+          6.8,
+          11.0,
+          14.0
+        ]
+      },
+      "spf_history": {
+        "source_status": 200,
+        "source_business_message": "成功",
+        "match_id": "F20261124003",
+        "match_number": "周二003",
+        "fixture_home": "上海海港",
+        "fixture_away": "布里兰",
+        "source_identity_verified": true,
+        "market": "spf",
+        "history": [
+          {
+            "source_updated_at_bj": "2026-11-24T09:49:48+08:00",
+            "source_time_raw": "2026-11-24 09:49:48",
+            "home": 1.65,
+            "draw": 3.85,
+            "away": 3.65,
+            "source_odds_flag": "0|0|0",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T12:24:10+08:00",
+            "source_time_raw": "2026-11-24 12:24:10",
+            "home": 1.59,
+            "draw": 4.0,
+            "away": 3.85,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          }
+        ],
+        "invalid_records": 0,
+        "provider_match_number": "周二003",
+        "provider_home": "上海海港",
+        "provider_away": "布里兰",
+        "integer_handicap": "-1",
+        "source_identity_alias_used": false,
+        "source_history_count": 2,
+        "duplicate_timestamps": 0,
+        "history_count": 2,
+        "earliest_source_updated_at_bj": "2026-11-24T09:49:48+08:00",
+        "latest_source_updated_at_bj": "2026-11-24T12:24:10+08:00",
+        "verified_for_model_use": true
+      },
+      "sp_current_vs_history": "MATCH"
+    },
     {
       "match_id": "F20261124004",
       "jc_number": "周二004",
       "collection_phase": "PRE_KICKOFF",
       "market": {
         "raw": {
-          "spfOdds": "2.58|3.75|2.06",
-          "rqspfOdds": "1.54|4.25|3.92",
+          "spfOdds": "2.88|3.85|1.88",
+          "rqspfOdds": "1.66|3.80|3.65",
           "concedeNum": 1,
-          "bfOdds": "29.00|16.00|19.00|9.00|33.00|17.00|17.00|75.00|35.00|40.00|200.0|100.0|100.0|90.00|27.00|7.75|9.00|23.00|23.00|14.00|15.00|7.75|23.00|13.00|14.00|50.00|28.00|30.00|100.0|75.00|90.00",
-          "zjqOdds": "27.00|9.50|4.85|3.65|4.10|5.70|9.00|10.00",
-          "bqcOdds": "4.20|13.00|18.00|7.00|7.00|5.85|20.00|13.00|3.35"
+          "bfOdds": "36.00|17.00|19.00|9.00|36.00|18.00|19.00|90.00|42.00|45.00|200.0|125.0|125.0|90.00|24.00|7.50|9.50|23.00|22.00|12.00|13.00|7.75|22.00|13.00|14.00|45.00|27.00|30.00|90.00|65.00|80.00",
+          "zjqOdds": "24.00|8.50|4.20|3.40|4.25|6.50|10.50|13.00",
+          "bqcOdds": "4.50|15.00|19.00|7.75|7.50|4.45|24.00|15.00|3.15"
         },
         "spf": {
-          "home": 2.58,
-          "draw": 3.75,
-          "away": 2.06
+          "home": 2.88,
+          "draw": 3.85,
+          "away": 1.88
         },
         "integer_handicap": 1,
         "handicap_sp": {
-          "home": 1.54,
-          "draw": 4.25,
-          "away": 3.92
+          "home": 1.66,
+          "draw": 3.8,
+          "away": 3.65
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
-          27.0,
-          9.5,
-          4.85,
-          3.65,
-          4.1,
-          5.7,
-          9.0,
-          10.0
+          24.0,
+          8.5,
+          4.2,
+          3.4,
+          4.25,
+          6.5,
+          10.5,
+          13.0
         ]
       },
       "spf_history": {
@@ -67,6 +442,60 @@
             "away": 2.06,
             "source_odds_flag": "1|0|-1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T11:16:11+08:00",
+            "source_time_raw": "2026-11-24 11:16:11",
+            "home": 2.68,
+            "draw": 3.75,
+            "away": 2.0,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T12:28:26+08:00",
+            "source_time_raw": "2026-11-24 12:28:26",
+            "home": 2.75,
+            "draw": 3.8,
+            "away": 1.95,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T15:32:58+08:00",
+            "source_time_raw": "2026-11-24 15:32:58",
+            "home": 2.81,
+            "draw": 3.8,
+            "away": 1.92,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T17:12:41+08:00",
+            "source_time_raw": "2026-11-24 17:12:41",
+            "home": 2.88,
+            "draw": 3.85,
+            "away": 1.88,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T18:20:28+08:00",
+            "source_time_raw": "2026-11-24 18:20:28",
+            "home": 2.81,
+            "draw": 3.8,
+            "away": 1.92,
+            "source_odds_flag": "-1|-1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T18:40:13+08:00",
+            "source_time_raw": "2026-11-24 18:40:13",
+            "home": 2.88,
+            "draw": 3.85,
+            "away": 1.88,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -75,11 +504,11 @@
         "provider_away": "维拉",
         "integer_handicap": "+1",
         "source_identity_alias_used": false,
-        "source_history_count": 2,
+        "source_history_count": 8,
         "duplicate_timestamps": 0,
-        "history_count": 2,
+        "history_count": 8,
         "earliest_source_updated_at_bj": "2026-11-23T13:34:18+08:00",
-        "latest_source_updated_at_bj": "2026-11-23T19:29:57+08:00",
+        "latest_source_updated_at_bj": "2026-11-24T18:40:13+08:00",
         "verified_for_model_use": true
       },
       "sp_current_vs_history": "MATCH"
@@ -90,33 +519,33 @@
       "collection_phase": "PRE_KICKOFF",
       "market": {
         "raw": {
-          "spfOdds": "1.37|4.80|4.98",
-          "rqspfOdds": "2.05|3.95|2.51",
+          "spfOdds": "1.27|5.45|5.95",
+          "rqspfOdds": "1.85|3.97|2.88",
           "concedeNum": -1,
-          "bfOdds": "10.00|14.00|11.00|7.50|12.00|9.50|12.00|19.00|14.00|20.00|35.00|28.00|45.00|100.0|37.00|10.00|11.00|28.00|50.00|27.00|41.00|15.00|90.00|35.00|25.00|200.0|100.0|75.00|400.0|300.0|250.0",
-          "zjqOdds": "37.00|11.00|5.75|3.90|4.00|5.20|7.75|7.50",
-          "bqcOdds": "1.95|16.00|32.00|4.55|9.20|13.00|17.00|16.00|8.25"
+          "bfOdds": "9.50|13.00|11.00|7.50|11.00|9.00|12.00|18.00|14.00|20.00|32.00|26.00|40.00|100.0|37.00|10.50|12.00|28.00|55.00|30.00|46.00|16.00|90.00|38.00|30.00|200.0|100.0|75.00|400.0|300.0|250.0",
+          "zjqOdds": "37.00|12.00|6.15|3.80|3.80|5.20|7.70|7.50",
+          "bqcOdds": "1.80|17.00|35.00|4.40|10.00|15.50|17.00|17.00|9.80"
         },
         "spf": {
-          "home": 1.37,
-          "draw": 4.8,
-          "away": 4.98
+          "home": 1.27,
+          "draw": 5.45,
+          "away": 5.95
         },
         "integer_handicap": -1,
         "handicap_sp": {
-          "home": 2.05,
-          "draw": 3.95,
-          "away": 2.51
+          "home": 1.85,
+          "draw": 3.97,
+          "away": 2.88
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
           37.0,
-          11.0,
-          5.75,
-          3.9,
-          4.0,
+          12.0,
+          6.15,
+          3.8,
+          3.8,
           5.2,
-          7.75,
+          7.7,
           7.5
         ]
       },
@@ -138,6 +567,42 @@
             "away": 4.98,
             "source_odds_flag": "0|0|0",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T10:27:05+08:00",
+            "source_time_raw": "2026-11-24 10:27:05",
+            "home": 1.34,
+            "draw": 5.0,
+            "away": 5.2,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T11:36:50+08:00",
+            "source_time_raw": "2026-11-24 11:36:50",
+            "home": 1.31,
+            "draw": 5.2,
+            "away": 5.5,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T12:57:01+08:00",
+            "source_time_raw": "2026-11-24 12:57:01",
+            "home": 1.29,
+            "draw": 5.3,
+            "away": 5.7,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T16:09:19+08:00",
+            "source_time_raw": "2026-11-24 16:09:19",
+            "home": 1.27,
+            "draw": 5.45,
+            "away": 5.95,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -146,11 +611,11 @@
         "provider_away": "LASK林茨",
         "integer_handicap": "-1",
         "source_identity_alias_used": false,
-        "source_history_count": 1,
+        "source_history_count": 5,
         "duplicate_timestamps": 0,
-        "history_count": 1,
+        "history_count": 5,
         "earliest_source_updated_at_bj": "2026-11-23T13:34:18+08:00",
-        "latest_source_updated_at_bj": "2026-11-23T13:34:18+08:00",
+        "latest_source_updated_at_bj": "2026-11-24T16:09:19+08:00",
         "verified_for_model_use": true
       },
       "sp_current_vs_history": "MATCH"
@@ -161,34 +626,34 @@
       "collection_phase": "PRE_KICKOFF",
       "market": {
         "raw": {
-          "spfOdds": "1.17|5.95|8.60",
-          "rqspfOdds": "2.48|4.20|2.01",
+          "spfOdds": "1.12|6.70|10.25",
+          "rqspfOdds": "2.12|4.30|2.30",
           "concedeNum": -2,
-          "bfOdds": "8.75|11.00|8.00|7.75|8.50|8.75|15.00|12.00|12.00|25.00|20.00|20.00|45.00|200.0|32.00|11.00|15.00|45.00|150.0|31.00|65.00|24.00|200.0|60.00|50.00|400.0|300.0|150.0|700.0|600.0|500.0",
-          "zjqOdds": "32.00|9.50|5.30|3.85|4.05|5.50|8.35|8.35",
-          "bqcOdds": "1.57|20.00|60.00|4.15|11.00|21.00|19.00|20.00|15.00"
+          "bfOdds": "8.00|11.00|8.00|8.25|8.00|8.75|15.00|11.00|12.00|25.00|17.00|20.00|45.00|200.0|32.00|12.00|17.00|50.00|150.0|35.00|70.00|26.00|200.0|60.00|50.00|400.0|300.0|150.0|700.0|600.0|500.0",
+          "zjqOdds": "32.00|9.80|5.60|3.85|4.05|5.40|8.00|8.00",
+          "bqcOdds": "1.37|27.00|60.00|4.50|12.50|28.00|22.00|27.00|20.50"
         },
         "spf": {
-          "home": 1.17,
-          "draw": 5.95,
-          "away": 8.6
+          "home": 1.12,
+          "draw": 6.7,
+          "away": 10.25
         },
         "integer_handicap": -2,
         "handicap_sp": {
-          "home": 2.48,
-          "draw": 4.2,
-          "away": 2.01
+          "home": 2.12,
+          "draw": 4.3,
+          "away": 2.3
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
           32.0,
-          9.5,
-          5.3,
+          9.8,
+          5.6,
           3.85,
           4.05,
-          5.5,
-          8.35,
-          8.35
+          5.4,
+          8.0,
+          8.0
         ]
       },
       "spf_history": {
@@ -218,6 +683,42 @@
             "away": 8.6,
             "source_odds_flag": "-1|1|1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T10:29:03+08:00",
+            "source_time_raw": "2026-11-24 10:29:03",
+            "home": 1.15,
+            "draw": 6.3,
+            "away": 9.0,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T11:23:34+08:00",
+            "source_time_raw": "2026-11-24 11:23:34",
+            "home": 1.14,
+            "draw": 6.4,
+            "away": 9.4,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T11:57:22+08:00",
+            "source_time_raw": "2026-11-24 11:57:22",
+            "home": 1.13,
+            "draw": 6.5,
+            "away": 9.9,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T16:10:49+08:00",
+            "source_time_raw": "2026-11-24 16:10:49",
+            "home": 1.12,
+            "draw": 6.7,
+            "away": 10.25,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -226,11 +727,11 @@
         "provider_away": "雅典AEK",
         "integer_handicap": "-2",
         "source_identity_alias_used": false,
-        "source_history_count": 2,
+        "source_history_count": 6,
         "duplicate_timestamps": 0,
-        "history_count": 2,
+        "history_count": 6,
         "earliest_source_updated_at_bj": "2026-11-23T13:34:18+08:00",
-        "latest_source_updated_at_bj": "2026-11-23T20:08:14+08:00",
+        "latest_source_updated_at_bj": "2026-11-24T16:10:49+08:00",
         "verified_for_model_use": true
       },
       "sp_current_vs_history": "MATCH"
@@ -241,34 +742,34 @@
       "collection_phase": "PRE_KICKOFF",
       "market": {
         "raw": {
-          "spfOdds": "1.26|5.40|6.25",
-          "rqspfOdds": "1.77|4.05|3.05",
+          "spfOdds": "1.20|6.05|7.10",
+          "rqspfOdds": "1.63|4.35|3.38",
           "concedeNum": -1,
-          "bfOdds": "8.50|13.00|10.00|7.50|11.00|9.00|13.00|15.00|13.00|20.00|29.00|24.00|35.00|125.0|40.00|11.00|12.00|30.00|75.00|30.00|50.00|18.00|120.0|50.00|30.00|300.0|150.0|100.0|600.0|400.0|300.0",
-          "zjqOdds": "40.00|11.50|5.90|3.95|4.00|5.10|7.50|7.25",
-          "bqcOdds": "1.76|17.00|40.00|4.40|10.00|16.00|17.00|17.00|10.50"
+          "bfOdds": "7.80|13.00|10.00|7.50|10.00|8.50|13.00|14.00|12.00|20.00|26.00|22.00|35.00|125.0|40.00|12.00|13.00|34.00|75.00|40.00|60.00|20.00|120.0|50.00|40.00|300.0|150.0|100.0|600.0|400.0|300.0",
+          "zjqOdds": "40.00|12.00|6.10|3.80|3.85|5.20|7.60|7.40",
+          "bqcOdds": "1.63|18.00|40.00|4.40|11.50|19.50|17.00|18.00|12.50"
         },
         "spf": {
-          "home": 1.26,
-          "draw": 5.4,
-          "away": 6.25
+          "home": 1.2,
+          "draw": 6.05,
+          "away": 7.1
         },
         "integer_handicap": -1,
         "handicap_sp": {
-          "home": 1.77,
-          "draw": 4.05,
-          "away": 3.05
+          "home": 1.63,
+          "draw": 4.35,
+          "away": 3.38
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
           40.0,
-          11.5,
-          5.9,
-          3.95,
-          4.0,
-          5.1,
-          7.5,
-          7.25
+          12.0,
+          6.1,
+          3.8,
+          3.85,
+          5.2,
+          7.6,
+          7.4
         ]
       },
       "spf_history": {
@@ -298,6 +799,42 @@
             "away": 6.25,
             "source_odds_flag": "-1|1|1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T10:31:25+08:00",
+            "source_time_raw": "2026-11-24 10:31:25",
+            "home": 1.23,
+            "draw": 5.7,
+            "away": 6.7,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T11:39:32+08:00",
+            "source_time_raw": "2026-11-24 11:39:32",
+            "home": 1.21,
+            "draw": 5.9,
+            "away": 7.0,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T14:31:09+08:00",
+            "source_time_raw": "2026-11-24 14:31:09",
+            "home": 1.2,
+            "draw": 6.05,
+            "away": 7.1,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T18:48:35+08:00",
+            "source_time_raw": "2026-11-24 18:48:35",
+            "home": 1.18,
+            "draw": 6.3,
+            "away": 7.5,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -306,14 +843,14 @@
         "provider_away": "朗斯",
         "integer_handicap": "-1",
         "source_identity_alias_used": false,
-        "source_history_count": 2,
+        "source_history_count": 6,
         "duplicate_timestamps": 0,
-        "history_count": 2,
+        "history_count": 6,
         "earliest_source_updated_at_bj": "2026-11-23T13:34:18+08:00",
-        "latest_source_updated_at_bj": "2026-11-23T20:08:36+08:00",
+        "latest_source_updated_at_bj": "2026-11-24T18:48:35+08:00",
         "verified_for_model_use": true
       },
-      "sp_current_vs_history": "MATCH"
+      "sp_current_vs_history": "DIFFERENT_SNAPSHOT_OR_PROVIDER_LAG"
     },
     {
       "match_id": "F20261124008",
@@ -321,34 +858,34 @@
       "collection_phase": "PRE_KICKOFF",
       "market": {
         "raw": {
-          "spfOdds": "1.25|4.80|7.60",
-          "rqspfOdds": "1.90|3.50|3.05",
+          "spfOdds": "1.27|4.70|7.20",
+          "rqspfOdds": "2.09|3.09|2.96",
           "concedeNum": -1,
-          "bfOdds": "18.00|7.00|6.30|6.80|8.00|9.50|21.00|13.00|15.00|35.00|30.00|35.00|90.00|400.0|18.00|8.00|16.50|70.00|300.0|20.00|50.00|20.00|175.0|75.00|60.00|400.0|300.0|300.0|800.0|600.0|500.0",
-          "zjqOdds": "18.00|6.25|3.90|3.40|4.60|7.25|13.00|18.00",
-          "bqcOdds": "1.78|20.00|55.00|3.85|7.50|17.00|23.00|20.00|13.00"
+          "bfOdds": "21.00|6.75|6.30|6.50|8.50|9.50|19.00|14.00|16.00|35.00|34.00|38.00|90.00|250.0|16.00|8.75|16.50|60.00|200.0|19.00|45.00|20.00|175.0|75.00|45.00|400.0|200.0|200.0|800.0|600.0|500.0",
+          "zjqOdds": "16.00|6.00|3.55|3.20|4.80|8.50|16.00|24.00",
+          "bqcOdds": "1.83|19.00|50.00|3.85|7.50|16.00|23.00|19.00|12.00"
         },
         "spf": {
-          "home": 1.25,
-          "draw": 4.8,
-          "away": 7.6
+          "home": 1.27,
+          "draw": 4.7,
+          "away": 7.2
         },
         "integer_handicap": -1,
         "handicap_sp": {
-          "home": 1.9,
-          "draw": 3.5,
-          "away": 3.05
+          "home": 2.09,
+          "draw": 3.09,
+          "away": 2.96
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
-          18.0,
-          6.25,
-          3.9,
-          3.4,
-          4.6,
-          7.25,
-          13.0,
-          18.0
+          16.0,
+          6.0,
+          3.55,
+          3.2,
+          4.8,
+          8.5,
+          16.0,
+          24.0
         ]
       },
       "spf_history": {
@@ -369,6 +906,33 @@
             "away": 7.6,
             "source_odds_flag": "0|0|0",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T11:57:33+08:00",
+            "source_time_raw": "2026-11-24 11:57:33",
+            "home": 1.23,
+            "draw": 5.0,
+            "away": 7.9,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T13:32:02+08:00",
+            "source_time_raw": "2026-11-24 13:32:02",
+            "home": 1.25,
+            "draw": 4.8,
+            "away": 7.6,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T14:32:37+08:00",
+            "source_time_raw": "2026-11-24 14:32:37",
+            "home": 1.27,
+            "draw": 4.7,
+            "away": 7.2,
+            "source_odds_flag": "1|-1|-1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -377,11 +941,11 @@
         "provider_away": "多特蒙德",
         "integer_handicap": "-1",
         "source_identity_alias_used": false,
-        "source_history_count": 1,
+        "source_history_count": 4,
         "duplicate_timestamps": 0,
-        "history_count": 1,
+        "history_count": 4,
         "earliest_source_updated_at_bj": "2026-11-23T13:34:18+08:00",
-        "latest_source_updated_at_bj": "2026-11-23T13:34:18+08:00",
+        "latest_source_updated_at_bj": "2026-11-24T14:32:37+08:00",
         "verified_for_model_use": true
       },
       "sp_current_vs_history": "MATCH"
@@ -392,34 +956,34 @@
       "collection_phase": "PRE_KICKOFF",
       "market": {
         "raw": {
-          "spfOdds": "1.18|5.75|8.50",
-          "rqspfOdds": "2.60|4.20|1.94",
+          "spfOdds": "1.14|6.35|9.50",
+          "rqspfOdds": "2.38|3.93|2.15",
           "concedeNum": -2,
-          "bfOdds": "9.25|10.50|7.75|7.50|8.50|8.75|15.00|12.00|12.50|25.00|20.00|23.00|45.00|250.0|30.00|10.50|15.00|45.00|150.0|30.00|65.00|25.00|175.0|60.00|50.00|400.0|300.0|200.0|700.0|600.0|500.0",
-          "zjqOdds": "30.00|9.25|5.20|3.70|4.10|5.55|8.75|9.00",
-          "bqcOdds": "1.57|20.00|60.00|4.10|10.50|22.50|19.00|20.00|15.50"
+          "bfOdds": "8.50|11.50|8.50|7.50|8.50|8.25|15.00|11.00|12.00|21.00|20.00|21.00|38.00|150.0|35.00|12.50|16.00|45.00|100.0|34.00|80.00|27.00|175.0|60.00|50.00|300.0|200.0|150.0|500.0|500.0|400.0",
+          "zjqOdds": "35.00|11.00|6.00|3.65|3.90|5.25|8.25|8.00",
+          "bqcOdds": "1.53|22.00|65.00|4.10|10.50|23.00|19.00|22.00|17.00"
         },
         "spf": {
-          "home": 1.18,
-          "draw": 5.75,
-          "away": 8.5
+          "home": 1.14,
+          "draw": 6.35,
+          "away": 9.5
         },
         "integer_handicap": -2,
         "handicap_sp": {
-          "home": 2.6,
-          "draw": 4.2,
-          "away": 1.94
+          "home": 2.38,
+          "draw": 3.93,
+          "away": 2.15
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
-          30.0,
-          9.25,
-          5.2,
-          3.7,
-          4.1,
-          5.55,
-          8.75,
-          9.0
+          35.0,
+          11.0,
+          6.0,
+          3.65,
+          3.9,
+          5.25,
+          8.25,
+          8.0
         ]
       },
       "spf_history": {
@@ -449,6 +1013,24 @@
             "away": 8.5,
             "source_odds_flag": "-1|1|1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T10:33:01+08:00",
+            "source_time_raw": "2026-11-24 10:33:01",
+            "home": 1.16,
+            "draw": 6.0,
+            "away": 9.0,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T11:44:12+08:00",
+            "source_time_raw": "2026-11-24 11:44:12",
+            "home": 1.14,
+            "draw": 6.35,
+            "away": 9.5,
+            "source_odds_flag": "-1|1|1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -457,11 +1039,11 @@
         "provider_away": "那不勒斯",
         "integer_handicap": "-2",
         "source_identity_alias_used": false,
-        "source_history_count": 2,
+        "source_history_count": 4,
         "duplicate_timestamps": 0,
-        "history_count": 2,
+        "history_count": 4,
         "earliest_source_updated_at_bj": "2026-11-23T13:34:18+08:00",
-        "latest_source_updated_at_bj": "2026-11-23T19:02:36+08:00",
+        "latest_source_updated_at_bj": "2026-11-24T11:44:12+08:00",
         "verified_for_model_use": true
       },
       "sp_current_vs_history": "MATCH"
@@ -472,33 +1054,33 @@
       "collection_phase": "PRE_KICKOFF",
       "market": {
         "raw": {
-          "spfOdds": "9.90|6.20|1.14",
-          "rqspfOdds": "2.10|4.15|2.37",
+          "spfOdds": "11.00|6.50|1.12",
+          "rqspfOdds": "2.21|4.15|2.25",
           "concedeNum": 2,
           "bfOdds": "150.0|33.00|70.00|25.00|200.0|80.00|50.00|400.0|300.0|200.0|800.0|600.0|600.0|300.0|30.00|11.00|17.00|50.00|8.75|10.00|7.50|8.00|7.75|8.75|17.00|11.00|12.00|25.00|19.00|21.00|50.00",
-          "zjqOdds": "30.00|9.50|5.20|3.70|4.10|5.60|8.50|9.00",
-          "bqcOdds": "18.50|22.00|21.00|25.00|11.50|4.10|65.00|22.00|1.48"
+          "zjqOdds": "30.00|9.50|5.40|3.60|4.00|5.65|8.70|9.00",
+          "bqcOdds": "18.50|25.00|21.00|26.00|12.00|3.70|75.00|25.00|1.50"
         },
         "spf": {
-          "home": 9.9,
-          "draw": 6.2,
-          "away": 1.14
+          "home": 11.0,
+          "draw": 6.5,
+          "away": 1.12
         },
         "integer_handicap": 2,
         "handicap_sp": {
-          "home": 2.1,
+          "home": 2.21,
           "draw": 4.15,
-          "away": 2.37
+          "away": 2.25
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
           30.0,
           9.5,
-          5.2,
-          3.7,
-          4.1,
-          5.6,
-          8.5,
+          5.4,
+          3.6,
+          4.0,
+          5.65,
+          8.7,
           9.0
         ]
       },
@@ -529,6 +1111,24 @@
             "away": 1.14,
             "source_odds_flag": "1|1|-1",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T10:34:26+08:00",
+            "source_time_raw": "2026-11-24 10:34:26",
+            "home": 10.5,
+            "draw": 6.35,
+            "away": 1.13,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T12:00:19+08:00",
+            "source_time_raw": "2026-11-24 12:00:19",
+            "home": 11.0,
+            "draw": 6.5,
+            "away": 1.12,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -537,11 +1137,11 @@
         "provider_away": "贝蒂斯",
         "integer_handicap": "+2",
         "source_identity_alias_used": false,
-        "source_history_count": 2,
+        "source_history_count": 4,
         "duplicate_timestamps": 0,
-        "history_count": 2,
+        "history_count": 4,
         "earliest_source_updated_at_bj": "2026-11-23T13:34:18+08:00",
-        "latest_source_updated_at_bj": "2026-11-23T19:04:42+08:00",
+        "latest_source_updated_at_bj": "2026-11-24T12:00:19+08:00",
         "verified_for_model_use": true
       },
       "sp_current_vs_history": "MATCH"
@@ -552,34 +1152,34 @@
       "collection_phase": "PRE_KICKOFF",
       "market": {
         "raw": {
-          "spfOdds": "2.72|3.50|2.06",
-          "rqspfOdds": "1.56|4.00|4.05",
+          "spfOdds": "3.20|3.60|1.82",
+          "rqspfOdds": "1.72|3.57|3.60",
           "concedeNum": 1,
-          "bfOdds": "50.00|12.00|17.00|9.00|30.00|20.00|20.00|90.00|50.00|60.00|300.0|175.0|175.0|200.0|18.00|6.50|9.50|35.00|40.00|10.00|12.00|7.00|20.00|14.00|16.00|50.00|30.00|40.00|150.0|90.00|100.0",
-          "zjqOdds": "18.00|6.50|3.90|3.50|4.45|7.15|12.50|17.00",
-          "bqcOdds": "4.40|14.00|20.00|6.75|6.10|5.40|22.00|14.00|3.45"
+          "bfOdds": "50.00|13.00|19.00|9.50|33.00|21.00|20.00|90.00|50.00|60.00|300.0|175.0|175.0|200.0|18.00|6.50|9.50|35.00|40.00|10.00|12.00|6.75|19.00|13.00|15.00|45.00|30.00|40.00|100.0|80.00|100.0",
+          "zjqOdds": "18.00|6.70|4.00|3.15|4.45|7.50|13.50|20.00",
+          "bqcOdds": "5.00|15.50|22.00|8.00|6.10|4.30|24.00|15.50|3.16"
         },
         "spf": {
-          "home": 2.72,
-          "draw": 3.5,
-          "away": 2.06
+          "home": 3.2,
+          "draw": 3.6,
+          "away": 1.82
         },
         "integer_handicap": 1,
         "handicap_sp": {
-          "home": 1.56,
-          "draw": 4.0,
-          "away": 4.05
+          "home": 1.72,
+          "draw": 3.57,
+          "away": 3.6
         },
         "handicap_status": "THIRD_PARTY_REPORTED_NEEDS_OFFICIAL_CONFIRMATION",
         "goal_totals": [
           18.0,
-          6.5,
-          3.9,
-          3.5,
+          6.7,
+          4.0,
+          3.15,
           4.45,
-          7.15,
-          12.5,
-          17.0
+          7.5,
+          13.5,
+          20.0
         ]
       },
       "spf_history": {
@@ -600,6 +1200,42 @@
             "away": 2.06,
             "source_odds_flag": "0|0|0",
             "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T10:35:24+08:00",
+            "source_time_raw": "2026-11-24 10:35:24",
+            "home": 2.92,
+            "draw": 3.5,
+            "away": 1.96,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T12:00:53+08:00",
+            "source_time_raw": "2026-11-24 12:00:53",
+            "home": 3.0,
+            "draw": 3.5,
+            "away": 1.92,
+            "source_odds_flag": "1|0|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T16:22:26+08:00",
+            "source_time_raw": "2026-11-24 16:22:26",
+            "home": 3.1,
+            "draw": 3.55,
+            "away": 1.87,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
+          },
+          {
+            "source_updated_at_bj": "2026-11-24T18:35:29+08:00",
+            "source_time_raw": "2026-11-24 18:35:29",
+            "home": 3.2,
+            "draw": 3.6,
+            "away": 1.82,
+            "source_odds_flag": "1|1|-1",
+            "provider_num": ""
           }
         ],
         "invalid_records": 0,
@@ -608,11 +1244,11 @@
         "provider_away": "波尔图",
         "integer_handicap": "+1",
         "source_identity_alias_used": false,
-        "source_history_count": 1,
+        "source_history_count": 5,
         "duplicate_timestamps": 0,
-        "history_count": 1,
+        "history_count": 5,
         "earliest_source_updated_at_bj": "2026-11-23T13:34:18+08:00",
-        "latest_source_updated_at_bj": "2026-11-23T13:34:18+08:00",
+        "latest_source_updated_at_bj": "2026-11-24T18:35:29+08:00",
         "verified_for_model_use": true
       },
       "sp_current_vs_history": "MATCH"
