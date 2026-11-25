@@ -1,7 +1,7 @@
 {
   "sale_date_bj": "2026-11-25",
   "source": "Caidao third-party reported football form; independent validation incomplete",
-  "created_at_bj": "2026-11-25T05:34:05.262074+08:00",
+  "created_at_bj": "2026-11-25T17:51:05.399851+08:00",
   "contains_odds_or_vendor_probabilities": false,
   "calibrated_prediction_generated": false,
   "matches": [
@@ -712,6 +712,77 @@
         }
       },
       "historical_head_to_head_count": 2,
+      "injury_information_present_unverified": true,
+      "missing_primary_source_verification": true
+    },
+    {
+      "match_id": "F20261125011",
+      "jc_number": "周三011",
+      "home": "斯托克城",
+      "away": "米尔沃尔",
+      "kickoff_bj": "2026-11-26T04:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "form_data": {
+        "last": {
+          "awayDrawMatchCnt": 2,
+          "awayLossGoalMatchCnt": 1,
+          "awayScoreRatio": "77",
+          "awayWinGoalMatchCnt": 7,
+          "homeDrawMatchCnt": 2,
+          "homeLossGoalMatchCnt": 7,
+          "homeScoreRatio": "17",
+          "homeWinGoalMatchCnt": 1,
+          "totalLegCnt": 10
+        },
+        "goalAvg": {
+          "awayGoalAvgCnt": "1.2",
+          "awayGoalAvgCntRatio": "42.9",
+          "homeGoalAvgCnt": "1.6",
+          "homeGoalAvgCntRatio": "57.1",
+          "totalLegCnt": 10
+        },
+        "lossGoalAvg": {
+          "awayLossGoalAvgCnt": "1.7",
+          "awayLossGoalAvgCntRatio": "68.0",
+          "homeLossGoalAvgCnt": "0.8",
+          "homeLossGoalAvgCntRatio": "32.0",
+          "totalLegCnt": 10
+        },
+        "eachHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 5,
+          "awayScoreRatio": "30",
+          "awayWinGoalMatchCnt": 2,
+          "homeDrawMatchCnt": 1,
+          "homeLossGoalMatchCnt": 1,
+          "homeScoreRatio": "83",
+          "homeWinGoalMatchCnt": 8,
+          "totalLegCnt": 10
+        },
+        "sameHomeAway": {
+          "awayDrawMatchCnt": 3,
+          "awayLossGoalMatchCnt": 2,
+          "awayScoreRatio": "50",
+          "awayWinGoalMatchCnt": 3,
+          "homeDrawMatchCnt": 3,
+          "homeLossGoalMatchCnt": 3,
+          "homeScoreRatio": "38",
+          "homeWinGoalMatchCnt": 2,
+          "totalLegCnt": 8
+        },
+        "eachSameHomeAway": {
+          "awayDrawMatchCnt": 2,
+          "awayLossGoalMatchCnt": 5,
+          "awayScoreRatio": "37",
+          "awayWinGoalMatchCnt": 3,
+          "homeDrawMatchCnt": 2,
+          "homeLossGoalMatchCnt": 2,
+          "homeScoreRatio": "67",
+          "homeWinGoalMatchCnt": 6,
+          "totalLegCnt": 10
+        }
+      },
+      "historical_head_to_head_count": 10,
       "injury_information_present_unverified": true,
       "missing_primary_source_verification": true
     }
