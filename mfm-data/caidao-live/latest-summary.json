@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
-  "collected_at_bj": "2026-11-28T03:40:39.319776+08:00",
-  "last_snapshot_path": "mfm-data/caidao-live/2026-11-28/20261128T034039320057+0800.json",
+  "collected_at_bj": "2026-11-28T16:54:46.624748+08:00",
+  "last_snapshot_path": "mfm-data/caidao-live/2026-11-28/20261128T165446625067+0800.json",
   "quality_gate": "RESEARCH_DATA_AVAILABLE",
   "odds_trend_gate": "PARTIAL_MULTI_SNAPSHOT_COVERAGE",
   "fixture_pool_integrity": "COMPLETE",
@@ -10,21 +10,22 @@
   "fixture_sources": {
     "0": {
       "status": "SUCCESS",
-      "raw_rows": 36,
-      "date_rows": 19,
+      "raw_rows": 51,
+      "date_rows": 22,
       "provider_id_date_counts": {
-        "20261129": 9,
-        "20261128": 19,
-        "20261127": 8
+        "20261130": 6,
+        "20261129": 23,
+        "20261128": 22
       },
       "provider_id_unrecognized_rows": 0
     },
     "1": {
       "status": "SUCCESS",
-      "raw_rows": 360,
-      "date_rows": 0,
+      "raw_rows": 369,
+      "date_rows": 1,
       "provider_id_date_counts": {
-        "20261127": 2,
+        "20261128": 1,
+        "20261127": 10,
         "20261126": 12,
         "20261125": 11,
         "20261124": 11,
@@ -37,33 +38,32 @@
         "20261117": 10,
         "20261116": 8,
         "20261115": 11,
-        "20261114": 16,
-        "20261113": 11
+        "20261114": 16
       },
       "provider_id_unrecognized_rows": 0
     }
   },
   "betting_gate": "BLOCKED_REQUIRES_OFFICIAL_SP_INDEPENDENT_PROBABILITIES_AND_EV",
   "coverage": {
-    "fixture_ids": 19,
-    "matches_evaluated": 19,
-    "current_spf_prices": 19,
-    "current_handicap_prices": 19,
-    "reported_handicap_numbers": 19,
-    "detail_objects": 19,
-    "historical_spf_matches_verified": 19,
-    "historical_spf_rows": 23,
-    "historical_spf_single_snapshot_matches": 16,
-    "historical_spf_multi_snapshot_matches": 3,
-    "historical_spf_price_change_matches": 3,
-    "current_spf_matches_latest_history": 19,
-    "current_spf_divergence_or_lag": 0,
+    "fixture_ids": 23,
+    "matches_evaluated": 23,
+    "current_spf_prices": 23,
+    "current_handicap_prices": 23,
+    "reported_handicap_numbers": 23,
+    "detail_objects": 23,
+    "historical_spf_matches_verified": 23,
+    "historical_spf_rows": 92,
+    "historical_spf_single_snapshot_matches": 2,
+    "historical_spf_multi_snapshot_matches": 21,
+    "historical_spf_price_change_matches": 21,
+    "current_spf_matches_latest_history": 22,
+    "current_spf_divergence_or_lag": 1,
     "source_sp_timestamp_missing": 0,
-    "source_sp_without_update_over_12h": 16,
+    "source_sp_without_update_over_12h": 0,
     "source_sp_without_update_over_24h": 0,
-    "captured_before_kickoff": 19,
-    "captured_after_kickoff": 0,
-    "prematch_verified_history_snapshots": 19,
+    "captured_before_kickoff": 20,
+    "captured_after_kickoff": 3,
+    "prematch_verified_history_snapshots": 20,
     "third_party_handicap_historical_rows": 0,
     "verified_official_jc_sp_matches": 0
   },
@@ -74,11 +74,11 @@
       "home": "京都",
       "away": "大阪樱花",
       "kickoff_bj": "2026-11-28T13:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 2.19,
+        "home": 2.16,
         "draw": 3.35,
-        "away": 2.6
+        "away": 2.65
       },
       "hhad_line": -1,
       "hhad_sp": {
@@ -86,11 +86,11 @@
         "draw": 3.9,
         "away": 1.49
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.85,
-      "prematch_snapshot_verified": true,
+      "spf_history_rows": 4,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T11:50:13+08:00",
+      "source_sp_update_age_hours": 5.07,
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -99,23 +99,23 @@
       "home": "柏太阳神",
       "away": "广岛三箭",
       "kickoff_bj": "2026-11-28T15:00:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 2.45,
-        "draw": 3.45,
-        "away": 2.27
+        "home": 2.08,
+        "draw": 3.23,
+        "away": 2.87
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.45,
-        "draw": 4.1,
-        "away": 4.85
+        "home": 1.29,
+        "draw": 4.5,
+        "away": 7.05
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.85,
-      "prematch_snapshot_verified": true,
+      "spf_history_rows": 15,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T14:54:33+08:00",
+      "source_sp_update_age_hours": 1.99,
+      "prematch_snapshot_verified": false,
       "detail_available": true
     },
     {
@@ -124,22 +124,47 @@
       "home": "中央海岸",
       "away": "奥克兰FC",
       "kickoff_bj": "2026-11-28T16:40:00+08:00",
-      "collection_phase": "PRE_KICKOFF",
+      "collection_phase": "POST_KICKOFF",
       "spf": {
-        "home": 3.5,
-        "draw": 3.42,
-        "away": 1.78
+        "home": 3.1,
+        "draw": 3.45,
+        "away": 1.9
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.78,
-        "draw": 3.6,
-        "away": 3.33
+        "home": 1.65,
+        "draw": 3.7,
+        "away": 3.8
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.85,
+      "spf_history_rows": 6,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T16:24:43+08:00",
+      "source_sp_update_age_hours": 0.49,
+      "prematch_snapshot_verified": false,
+      "detail_available": true
+    },
+    {
+      "id": "F20261128004",
+      "number": "周六004",
+      "home": "布莱克本",
+      "away": "查尔顿",
+      "kickoff_bj": "2026-11-28T20:30:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 1.78,
+        "draw": 3.2,
+        "away": 3.78
+      },
+      "hhad_line": -1,
+      "hhad_sp": {
+        "home": 3.65,
+        "draw": 3.3,
+        "away": 1.78
+      },
+      "spf_history_rows": 4,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T16:15:09+08:00",
+      "source_sp_update_age_hours": 0.65,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -151,20 +176,20 @@
       "kickoff_bj": "2026-11-28T21:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.43,
-        "draw": 4.15,
-        "away": 5.05
+        "home": 1.39,
+        "draw": 4.3,
+        "away": 5.35
       },
       "hhad_line": -1,
       "hhad_sp": {
         "home": 2.4,
-        "draw": 3.45,
-        "away": 2.31
+        "draw": 3.25,
+        "away": 2.42
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.85,
+      "spf_history_rows": 3,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T13:56:20+08:00",
+      "source_sp_update_age_hours": 2.97,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -176,20 +201,20 @@
       "kickoff_bj": "2026-11-28T22:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.38,
-        "draw": 4.55,
-        "away": 5.15
+        "home": 1.28,
+        "draw": 5.1,
+        "away": 6.15
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 2.07,
-        "draw": 3.85,
-        "away": 2.52
+        "home": 1.9,
+        "draw": 3.7,
+        "away": 2.92
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.86,
+      "spf_history_rows": 5,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T15:07:30+08:00",
+      "source_sp_update_age_hours": 1.78,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -202,19 +227,19 @@
       "collection_phase": "PRE_KICKOFF",
       "spf": {
         "home": 2.38,
-        "draw": 3.21,
-        "away": 2.45
+        "draw": 3.1,
+        "away": 2.52
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 5.4,
-        "draw": 4.16,
-        "away": 1.4
+        "home": 5.25,
+        "draw": 4.08,
+        "away": 1.42
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.86,
+      "spf_history_rows": 2,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T13:40:21+08:00",
+      "source_sp_update_age_hours": 3.23,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -226,20 +251,45 @@
       "kickoff_bj": "2026-11-28T22:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.81,
+        "home": 1.78,
         "draw": 3.58,
-        "away": 3.25
+        "away": 3.35
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 3.43,
-        "draw": 3.7,
-        "away": 1.73
+        "home": 3.45,
+        "draw": 3.52,
+        "away": 1.77
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.86,
+      "spf_history_rows": 2,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T14:54:52+08:00",
+      "source_sp_update_age_hours": 1.99,
+      "prematch_snapshot_verified": true,
+      "detail_available": true
+    },
+    {
+      "id": "F20261128009",
+      "number": "周六009",
+      "home": "汉堡",
+      "away": "拜仁",
+      "kickoff_bj": "2026-11-28T22:30:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 8.0,
+        "draw": 6.0,
+        "away": 1.18
+      },
+      "hhad_line": 2,
+      "hhad_sp": {
+        "home": 1.9,
+        "draw": 4.2,
+        "away": 2.67
+      },
+      "spf_history_rows": 3,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T14:00:16+08:00",
+      "source_sp_update_age_hours": 2.9,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -251,9 +301,9 @@
       "kickoff_bj": "2026-11-28T22:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.32,
+        "home": 1.33,
         "draw": 4.58,
-        "away": 6.1
+        "away": 5.9
       },
       "hhad_line": -1,
       "hhad_sp": {
@@ -261,10 +311,10 @@
         "draw": 3.65,
         "away": 2.65
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.86,
+      "spf_history_rows": 2,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T13:49:04+08:00",
+      "source_sp_update_age_hours": 3.09,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -276,20 +326,20 @@
       "kickoff_bj": "2026-11-28T23:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.87,
-        "draw": 3.55,
-        "away": 3.1
+        "home": 1.96,
+        "draw": 3.5,
+        "away": 2.92
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 3.55,
-        "draw": 3.77,
-        "away": 1.69
+        "home": 3.82,
+        "draw": 3.85,
+        "away": 1.62
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.86,
+      "spf_history_rows": 3,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T14:52:41+08:00",
+      "source_sp_update_age_hours": 2.03,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -301,20 +351,45 @@
       "kickoff_bj": "2026-11-28T23:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.37,
-        "draw": 4.15,
-        "away": 5.95
+        "home": 1.31,
+        "draw": 4.5,
+        "away": 6.5
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 2.21,
+        "home": 2.04,
+        "draw": 3.45,
+        "away": 2.78
+      },
+      "spf_history_rows": 4,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T16:14:10+08:00",
+      "source_sp_update_age_hours": 0.67,
+      "prematch_snapshot_verified": true,
+      "detail_available": true
+    },
+    {
+      "id": "F20261128013",
+      "number": "周六013",
+      "home": "女王巡游",
+      "away": "谢菲联",
+      "kickoff_bj": "2026-11-28T23:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 1.85,
         "draw": 3.4,
-        "away": 2.55
+        "away": 3.28
+      },
+      "hhad_line": -1,
+      "hhad_sp": {
+        "home": 3.6,
+        "draw": 3.66,
+        "away": 1.7
       },
       "spf_history_rows": 1,
       "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.86,
+      "last_source_sp_updated_at_bj": "2026-11-28T09:37:27+08:00",
+      "source_sp_update_age_hours": 7.28,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -326,20 +401,20 @@
       "kickoff_bj": "2026-11-28T23:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 3.0,
-        "draw": 2.95,
-        "away": 2.14
+        "home": 2.95,
+        "draw": 2.8,
+        "away": 2.26
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.5,
-        "draw": 3.65,
-        "away": 5.05
+        "home": 1.47,
+        "draw": 3.75,
+        "away": 5.2
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.86,
+      "spf_history_rows": 3,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T14:27:50+08:00",
+      "source_sp_update_age_hours": 2.44,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -351,20 +426,45 @@
       "kickoff_bj": "2026-11-29T01:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 3.36,
-        "draw": 3.42,
-        "away": 1.82
+        "home": 3.62,
+        "draw": 3.55,
+        "away": 1.72
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.71,
-        "draw": 3.6,
-        "away": 3.61
+        "home": 1.81,
+        "draw": 3.47,
+        "away": 3.35
       },
-      "spf_history_rows": 3,
+      "spf_history_rows": 6,
       "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
-      "last_source_sp_updated_at_bj": "2026-11-27T19:43:00+08:00",
-      "source_sp_update_age_hours": 7.96,
+      "last_source_sp_updated_at_bj": "2026-11-28T14:59:33+08:00",
+      "source_sp_update_age_hours": 1.92,
+      "prematch_snapshot_verified": true,
+      "detail_available": true
+    },
+    {
+      "id": "F20261128016",
+      "number": "周六016",
+      "home": "罗森博格",
+      "away": "莫尔德",
+      "kickoff_bj": "2026-11-29T01:00:00+08:00",
+      "collection_phase": "PRE_KICKOFF",
+      "spf": {
+        "home": 1.67,
+        "draw": 4.3,
+        "away": 3.25
+      },
+      "hhad_line": -1,
+      "hhad_sp": {
+        "home": 2.85,
+        "draw": 3.77,
+        "away": 1.91
+      },
+      "spf_history_rows": 1,
+      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
+      "last_source_sp_updated_at_bj": "2026-11-28T09:37:27+08:00",
+      "source_sp_update_age_hours": 7.29,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -376,20 +476,20 @@
       "kickoff_bj": "2026-11-29T01:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 3.15,
-        "draw": 3.65,
-        "away": 1.83
+        "home": 3.5,
+        "draw": 3.6,
+        "away": 1.74
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.72,
-        "draw": 3.8,
-        "away": 3.4
+        "home": 1.82,
+        "draw": 3.46,
+        "away": 3.32
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.86,
+      "spf_history_rows": 3,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T15:57:16+08:00",
+      "source_sp_update_age_hours": 0.96,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -401,20 +501,20 @@
       "kickoff_bj": "2026-11-29T01:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.56,
-        "draw": 4.3,
-        "away": 3.76
+        "home": 1.6,
+        "draw": 4.25,
+        "away": 3.58
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 2.6,
-        "draw": 3.78,
-        "away": 2.04
+        "home": 2.77,
+        "draw": 3.7,
+        "away": 1.97
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.86,
+      "spf_history_rows": 2,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T11:13:04+08:00",
+      "source_sp_update_age_hours": 5.69,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -426,20 +526,20 @@
       "kickoff_bj": "2026-11-29T01:30:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 6.4,
-        "draw": 4.8,
-        "away": 1.29
+        "home": 6.6,
+        "draw": 5.0,
+        "away": 1.27
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 2.78,
-        "draw": 3.65,
-        "away": 1.98
+        "home": 2.88,
+        "draw": 3.6,
+        "away": 1.95
       },
-      "spf_history_rows": 2,
+      "spf_history_rows": 3,
       "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
-      "last_source_sp_updated_at_bj": "2026-11-27T21:29:13+08:00",
-      "source_sp_update_age_hours": 6.19,
+      "last_source_sp_updated_at_bj": "2026-11-28T14:05:32+08:00",
+      "source_sp_update_age_hours": 2.82,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -451,20 +551,20 @@
       "kickoff_bj": "2026-11-29T03:45:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.15,
-        "draw": 5.95,
-        "away": 9.8
+        "home": 1.13,
+        "draw": 6.3,
+        "away": 10.5
       },
       "hhad_line": -2,
       "hhad_sp": {
-        "home": 2.82,
-        "draw": 3.95,
-        "away": 1.88
+        "home": 2.76,
+        "draw": 3.55,
+        "away": 2.02
       },
-      "spf_history_rows": 2,
+      "spf_history_rows": 4,
       "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
-      "last_source_sp_updated_at_bj": "2026-11-27T21:54:03+08:00",
-      "source_sp_update_age_hours": 5.78,
+      "last_source_sp_updated_at_bj": "2026-11-28T16:39:19+08:00",
+      "source_sp_update_age_hours": 0.26,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -476,20 +576,20 @@
       "kickoff_bj": "2026-11-29T03:45:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 3.65,
-        "draw": 3.13,
-        "away": 1.83
+        "home": 3.95,
+        "draw": 3.4,
+        "away": 1.69
       },
       "hhad_line": 1,
       "hhad_sp": {
-        "home": 1.72,
-        "draw": 3.4,
-        "away": 3.8
+        "home": 1.85,
+        "draw": 3.25,
+        "away": 3.45
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.86,
+      "spf_history_rows": 4,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T16:46:14+08:00",
+      "source_sp_update_age_hours": 0.14,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -501,20 +601,20 @@
       "kickoff_bj": "2026-11-29T04:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.95,
-        "draw": 3.72,
-        "away": 2.8
+        "home": 1.69,
+        "draw": 4.0,
+        "away": 3.36
       },
       "hhad_line": -1,
       "hhad_sp": {
-        "home": 3.7,
-        "draw": 4.05,
-        "away": 1.61
+        "home": 3.05,
+        "draw": 3.65,
+        "away": 1.86
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.86,
+      "spf_history_rows": 7,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T16:52:02+08:00",
+      "source_sp_update_age_hours": 0.04,
       "prematch_snapshot_verified": true,
       "detail_available": true
     },
@@ -526,20 +626,20 @@
       "kickoff_bj": "2026-11-29T04:00:00+08:00",
       "collection_phase": "PRE_KICKOFF",
       "spf": {
-        "home": 1.95,
-        "draw": 2.55,
-        "away": 4.28
+        "home": 2.01,
+        "draw": 2.38,
+        "away": 4.5
       },
       "hhad_line": -1,
       "hhad_sp": {
         "home": 4.45,
-        "draw": 3.3,
-        "away": 1.64
+        "draw": 3.45,
+        "away": 1.6
       },
-      "spf_history_rows": 1,
-      "spf_history_trend_status": "SINGLE_SNAPSHOT_NO_TREND",
-      "last_source_sp_updated_at_bj": "2026-11-27T09:49:00+08:00",
-      "source_sp_update_age_hours": 17.86,
+      "spf_history_rows": 5,
+      "spf_history_trend_status": "MULTI_SNAPSHOT_PRICE_CHANGE",
+      "last_source_sp_updated_at_bj": "2026-11-28T15:38:23+08:00",
+      "source_sp_update_age_hours": 1.27,
       "prematch_snapshot_verified": true,
       "detail_available": true
     }
